@@ -1,0 +1,64 @@
+{% extends "base.html" %}
+{% set depth = "../" %}
+{% set page = "radar" %}
+
+{% set flagged = records | selectattr('has_conflicts') | sort(attribute='conflict_count', reverse=True) | list %}
+
+{% block title %}Conflict Radar — Oireachtas Interests{% endblock %}
+{% block description %}TDs where declared interests overlap with committee memberships and voting record.{% endblock %}
+
+{% block content %}
+
+<div class="page-header">
+  <h1>Conflict Radar</h1>
+  <p class="sub">
+    {{ flagged | length }} TD{% if flagged | length != 1 %}s{% endif %} where declared interests
+    overlap with committee memberships or voting record.
+  </p>
+</div>
+
+<div class="method-note">
+  <strong>What this shows:</strong> A "conflict" here means a TD holds declared interests in a sector
+  and also sits on a relevant committee or voted on legislation in that sector.
+  This is an observation of overlap, not an allegation of wrongdoing.
+  TDs may have legitimate reasons for voting on matters related to their background.
+  <a href="../about/index.html">Full methodology →</a>
+</div>
+
+{% if flagged %}
+<div style="overflow-x:auto;">
+<table class="data-table" style="margin-top:1.5rem;">
+  <thead>
+    <tr>
+      <th>TD</th>
+      <th>Party</th>
+      <th>Conflict sectors</th>
+      <th>Committee overlaps</th>
+      <th>Vote overlaps</th>
+      <th>Total</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for td in flagged %}
+    {% set all_sectors = (td.committee_conflicts + td.vote_conflicts) | map(attribute='sector') | unique | list %}
+    <tr>
+      <td><a href="../tds/{{ td.slug }}/index.html">{{ td.display_name }}</a></td>
+      <td><span class="party-tag">{{ td.party }}</span></td>
+      <td>
+        {% for s in all_sectors %}
+        <span class="sector-pill">{{ s.replace('_', ' ') }}</span>
+        {% endfor %}
+      </td>
+      <td>{{ td.committee_conflicts | length }}</td>
+      <td>{{ td.vote_conflicts | length }}</td>
+      <td><strong>{{ td.conflict_count }}</strong></td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+</div>
+{% else %}
+<p class="no-data" style="margin-top:1.5rem;">No conflict overlaps detected in the current data.</p>
+{% endif %}
+
+{% endblock %}

@@ -1,0 +1,2216 @@
+[
+  {
+    "name": "ARDAGH, Catherine (Dublin South-Central)",
+    "declared_directorships": [
+      {
+        "role": "Director",
+        "company_name_declared": "Crumlin Centre for Musical Arts",
+        "cro_number_declared": null,
+        "voluntary": false,
+        "cro_result": {
+          "found": null,
+          "company_num": null,
+          "company_name_cro": null,
+          "status": null,
+          "match_confidence": null,
+          "cro_url": "https://core.cro.ie/search/company?q=Crumlin%20Centre%20for%20Musical%20Arts",
+          "td_listed_as_officer": null
+        },
+        "flags": []
+      }
+    ],
+    "undeclared_cro_directorships": [],
+    "flags": []
+  },
+  {
+    "name": "BOLAND, Grace (Dublin Fingal West)",
+    "declared_directorships": [
+      {
+        "role": "Trustee/Director",
+        "company_name_declared": "Teen-Turn CLG",
+        "cro_number_declared": null,
+        "voluntary": false,
+        "cro_result": {
+          "found": null,
+          "company_num": null,
+          "company_name_cro": null,
+          "status": null,
+          "match_confidence": null,
+          "cro_url": "https://core.cro.ie/search/company?q=Teen-Turn%20CLG",
+          "td_listed_as_officer": null
+        },
+        "flags": []
+      }
+    ],
+    "undeclared_cro_directorships": [],
+    "flags": []
+  },
+  {
+    "name": "BRABAZON, Tom (Dublin Bay North)",
+    "declared_directorships": [
+      {
+        "role": "Director Of",
+        "company_name_declared": "Clongriffin Business Administration Limited",
+        "cro_number_declared": null,
+        "voluntary": false,
+        "cro_result": {
+          "found": null,
+          "company_num": null,
+          "company_name_cro": null,
+          "status": null,
+          "match_confidence": null,
+          "cro_url": "https://core.cro.ie/search/company?q=Clongriffin%20Business%20Administration%20Limited",
+          "td_listed_as_officer": null
+        },
+        "flags": []
+      }
+    ],
+    "undeclared_cro_directorships": [],
+    "flags": []
+  },
+  {
+    "name": "BRENNAN, Brian (Wicklow-Wexford)",
+    "declared_directorships": [
+      {
+        "role": "Director",
+        "company_name_declared": "BB International Hotel Consultant Ltd.",
+        "cro_number_declared": null,
+        "voluntary": false,
+        "cro_result": {
+          "found": null,
+          "company_num": null,
+          "company_name_cro": null,
+          "status": null,
+          "match_confidence": null,
+          "cro_url": "https://core.cro.ie/search/company?q=BB%20International%20Hotel%20Consultant%20Ltd.",
+          "td_listed_as_officer": null
+        },
+        "flags": []
+      }
+    ],
+    "undeclared_cro_directorships": [],
+    "flags": []
+  },
+  {
+    "name": "BROPHY, Colm (Dublin South-West)",
+    "declared_directorships": [
+      {
+        "role": "Director",
+        "company_name_declared": "Azak",
+        "cro_number_declared": null,
+        "voluntary": false,
+        "cro_result": {
+          "found": null,
+          "company_num": null,
+          "company_name_cro": null,
+          "status": null,
+          "match_confidence": null,
+          "cro_url": "https://core.cro.ie/search/company?q=Azak",
+          "td_listed_as_officer": null
+        },
+        "flags": []
+      }
+    ],
+    "undeclared_cro_directorships": [],
+    "flags": []
+  },
+  {
+    "name": "BURKE, Peter (Longford-Westmeath)",
+    "declared_directorships": [
+      {
+        "role": "Voluntary Director",
+        "company_name_declared": "Mullingar Homecare Services",
+        "cro_number_declared": null,
+        "voluntary": true,
+        "cro_result": {
+          "found": null,
+          "company_num": null,
+          "company_name_cro": null,
+          "status": null,
+          "match_confidence": null,
+          "cro_url": "https://core.cro.ie/search/company?q=Mullingar%20Homecare%20Services",
+          "td_listed_as_officer": null
+        },
+        "flags": []
+      }
+    ],
+    "undeclared_cro_directorships": [],
+    "flags": []
+  },
+  {
+    "name": "BYRNE, Joanna (Louth)",
+    "declared_directorships": [
+      {
+        "role": "Non-Executive Director",
+        "company_name_declared": "Drogheda United FC",
+        "cro_number_declared": null,
+        "voluntary": false,
+        "cro_result": {
+          "found": null,
+          "company_num": null,
+          "company_name_cro": null,
+          "status": null,
+          "match_confidence": null,
+          "cro_url": "https://core.cro.ie/search/company?q=Drogheda%20United%20FC",
+          "td_listed_as_officer": null
+        },
+        "flags": []
+      }
+    ],
+    "undeclared_cro_directorships": [],
+    "flags": []
+  },
+  {
+    "name": "BYRNE, Malcolm (Wicklow-Wexford)",
+    "declared_directorships": [
+      {
+        "role": "Trustee & Director",
+        "company_name_declared": "Gorey Little Theatre",
+        "cro_number_declared": null,
+        "voluntary": false,
+        "cro_result": {
+          "found": null,
+          "company_num": null,
+          "company_name_cro": null,
+          "status": null,
+          "match_confidence": null,
+          "cro_url": "https://core.cro.ie/search/company?q=Gorey%20Little%20Theatre",
+          "td_listed_as_officer": null
+        },
+        "flags": []
+      },
+      {
+        "role": "Trustee/Director",
+        "company_name_declared": "Gorey School of Art",
+        "cro_number_declared": null,
+        "voluntary": false,
+        "cro_result": {
+          "found": null,
+          "company_num": null,
+          "company_name_cro": null,
+          "status": null,
+          "match_confidence": null,
+          "cro_url": "https://core.cro.ie/search/company?q=Gorey%20School%20of%20Art",
+          "td_listed_as_officer": null
+        },
+        "flags": []
+      },
+      {
+        "role": "Trustee/Director",
+        "company_name_declared": "St. Patrick's Hall",
+        "cro_number_declared": null,
+        "voluntary": true,
+        "cro_result": {
+          "found": null,
+          "company_num": null,
+          "company_name_cro": null,
+          "status": null,
+          "match_confidence": null,
+          "cro_url": "https://core.cro.ie/search/company?q=St.%20Patrick%27s%20Hall",
+          "td_listed_as_officer": null
+        },
+        "flags": []
+      }
+    ],
+    "undeclared_cro_directorships": [],
+    "flags": []
+  },
+  {
+    "name": "CAHILL, Michael (Kerry)",
+    "declared_directorships": [
+      {
+        "role": "Director",
+        "company_name_declared": "Glenbeigh Community Council company limited",
+        "cro_number_declared": "333668",
+        "voluntary": false,
+        "cro_result": {
+          "found": null,
+          "company_num": "333668",
+          "company_name_cro": null,
+          "status": null,
+          "match_confidence": null,
+          "cro_url": "https://core.cro.ie/search/company?q=Glenbeigh%20Community%20Council%20company%20limited",
+          "td_listed_as_officer": null
+        },
+        "flags": []
+      },
+      {
+        "role": "Director",
+        "company_name_declared": "Killorglin Community Childcare Centre company limited",
+        "cro_number_declared": "333495",
+        "voluntary": false,
+        "cro_result": {
+          "found": null,
+          "company_num": "333495",
+          "company_name_cro": null,
+          "status": null,
+          "match_confidence": null,
+          "cro_url": "https://core.cro.ie/search/company?q=Killorglin%20Community%20Childcare%20Centre%20company%20limited",
+          "td_listed_as_officer": null
+        },
+        "flags": []
+      }
+    ],
+    "undeclared_cro_directorships": [],
+    "flags": []
+  },
+  {
+    "name": "CAIRNS, Holly (Cork South-West)",
+    "declared_directorships": [
+      {
+        "role": "Non-Executive Director",
+        "company_name_declared": "West Cork Music Company CLG.",
+        "cro_number_declared": null,
+        "voluntary": false,
+        "cro_result": {
+          "found": null,
+          "company_num": null,
+          "company_name_cro": null,
+          "status": null,
+          "match_confidence": null,
+          "cro_url": "https://core.cro.ie/search/company?q=West%20Cork%20Music%20Company%20CLG.",
+          "td_listed_as_officer": null
+        },
+        "flags": []
+      }
+    ],
+    "undeclared_cro_directorships": [],
+    "flags": []
+  },
+  {
+    "name": "CANNEY, Seán (Galway East)",
+    "declared_directorships": [
+      {
+        "role": "Partnership",
+        "company_name_declared": "The Galway Partnership",
+        "cro_number_declared": null,
+        "voluntary": false,
+        "cro_result": {
+          "found": null,
+          "company_num": null,
+          "company_name_cro": null,
+          "status": null,
+          "match_confidence": null,
+          "cro_url": "https://core.cro.ie/search/company?q=The%20Galway%20Partnership",
+          "td_listed_as_officer": null
+        },
+        "flags": []
+      }
+    ],
+    "undeclared_cro_directorships": [],
+    "flags": []
+  },
+  {
+    "name": "CARRIGY, Micheál (Longford-Westmeath)",
+    "declared_directorships": [
+      {
+        "role": "Director",
+        "company_name_declared": "Co. Longford Tourism Ltd",
+        "cro_number_declared": null,
+        "voluntary": true,
+        "cro_result": {
+          "found": null,
+          "company_num": null,
+          "company_name_cro": null,
+          "status": null,
+          "match_confidence": null,
+          "cro_url": "https://core.cro.ie/search/company?q=Co.%20Longford%20Tourism%20Ltd",
+          "td_listed_as_officer": null
+        },
+        "flags": []
+      }
+    ],
+    "undeclared_cro_directorships": [],
+    "flags": []
+  },
+  {
+    "name": "CARTHY, Matt (Cavan-Monaghan)",
+    "declared_directorships": [
+      {
+        "role": "Director",
+        "company_name_declared": "Farney Community Creche",
+        "cro_number_declared": null,
+        "voluntary": true,
+        "cro_result": {
+          "found": null,
+          "company_num": null,
+          "company_name_cro": null,
+          "status": null,
+          "match_confidence": null,
+          "cro_url": "https://core.cro.ie/search/company?q=Farney%20Community%20Creche",
+          "td_listed_as_officer": null
+        },
+        "flags": []
+      }
+    ],
+    "undeclared_cro_directorships": [],
+    "flags": []
+  },
+  {
+    "name": "CLENDENNEN, John (Offaly)",
+    "declared_directorships": [
+      {
+        "role": "Director",
+        "company_name_declared": "Applied Concepts Ltd",
+        "cro_number_declared": null,
+        "voluntary": false,
+        "cro_result": {
+          "found": null,
+          "company_num": null,
+          "company_name_cro": null,
+          "status": null,
+          "match_confidence": null,
+          "cro_url": "https://core.cro.ie/search/company?q=Applied%20Concepts%20Ltd",
+          "td_listed_as_officer": null
+        },
+        "flags": []
+      },
+      {
+        "role": "Director",
+        "company_name_declared": "Delpool Ltd",
+        "cro_number_declared": null,
+        "voluntary": false,
+        "cro_result": {
+          "found": null,
+          "company_num": null,
+          "company_name_cro": null,
+          "status": null,
+          "match_confidence": null,
+          "cro_url": "https://core.cro.ie/search/company?q=Delpool%20Ltd",
+          "td_listed_as_officer": null
+        },
+        "flags": []
+      },
+      {
+        "role": "Director",
+        "company_name_declared": "Vintners Federations of Ireland",
+        "cro_number_declared": null,
+        "voluntary": false,
+        "cro_result": {
+          "found": null,
+          "company_num": null,
+          "company_name_cro": null,
+          "status": null,
+          "match_confidence": null,
+          "cro_url": "https://core.cro.ie/search/company?q=Vintners%20Federations%20of%20Ireland",
+          "td_listed_as_officer": null
+        },
+        "flags": []
+      },
+      {
+        "role": "Director",
+        "company_name_declared": "Vintners Federation Welfare/Support Scheme",
+        "cro_number_declared": null,
+        "voluntary": false,
+        "cro_result": {
+          "found": null,
+          "company_num": null,
+          "company_name_cro": null,
+          "status": null,
+          "match_confidence": null,
+          "cro_url": "https://core.cro.ie/search/company?q=Vintners%20Federation%20Welfare/Support%20Scheme",
+          "td_listed_as_officer": null
+        },
+        "flags": []
+      }
+    ],
+    "undeclared_cro_directorships": [],
+    "flags": []
+  },
+  {
+    "name": "COLLINS, Michael (Cork South-West)",
+    "declared_directorships": [
+      {
+        "role": "Director Of",
+        "company_name_declared": "Goleen District Community Council",
+        "cro_number_declared": null,
+        "voluntary": true,
+        "cro_result": {
+          "found": null,
+          "company_num": null,
+          "company_name_cro": null,
+          "status": null,
+          "match_confidence": null,
+          "cro_url": "https://core.cro.ie/search/company?q=Goleen%20District%20Community%20Council",
+          "td_listed_as_officer": null
+        },
+        "flags": []
+      },
+      {
+        "role": "Director",
+        "company_name_declared": "Local Link",
+        "cro_number_declared": null,
+        "voluntary": false,
+        "cro_result": {
+          "found": null,
+          "company_num": null,
+          "company_name_cro": null,
+          "status": null,
+          "match_confidence": null,
+          "cro_url": "https://core.cro.ie/search/company?q=Local%20Link",
+          "td_listed_as_officer": null
+        },
+        "flags": []
+      },
+      {
+        "role": "Director",
+        "company_name_declared": "community development",
+        "cro_number_declared": null,
+        "voluntary": false,
+        "cro_result": {
+          "found": null,
+          "company_num": null,
+          "company_name_cro": null,
+          "status": null,
+          "match_confidence": null,
+          "cro_url": "https://core.cro.ie/search/company?q=community%20development",
+          "td_listed_as_officer": null
+        },
+        "flags": []
+      },
+      {
+        "role": "Director",
+        "company_name_declared": "voluntary positions",
+        "cro_number_declared": null,
+        "voluntary": true,
+        "cro_result": {
+          "found": null,
+          "company_num": null,
+          "company_name_cro": null,
+          "status": null,
+          "match_confidence": null,
+          "cro_url": "https://core.cro.ie/search/company?q=voluntary%20positions",
+          "td_listed_as_officer": null
+        },
+        "flags": []
+      }
+    ],
+    "undeclared_cro_directorships": [],
+    "flags": []
+  },
+  {
+    "name": "CROWE, Seán (Dublin South-West)",
+    "declared_directorships": [
+      {
+        "role": "Director",
+        "company_name_declared": "St. Dominics Community Response Project Ltd.",
+        "cro_number_declared": null,
+        "voluntary": false,
+        "cro_result": {
+          "found": null,
+          "company_num": null,
+          "company_name_cro": null,
+          "status": null,
+          "match_confidence": null,
+          "cro_url": "https://core.cro.ie/search/company?q=St.%20Dominics%20Community%20Response%20Project%20Ltd.",
+          "td_listed_as_officer": null
+        },
+        "flags": []
+      },
+      {
+        "role": "Director",
+        "company_name_declared": "Fettercairn Community Enterprise Company Ltd.",
+        "cro_number_declared": null,
+        "voluntary": false,
+        "cro_result": {
+          "found": null,
+          "company_num": null,
+          "company_name_cro": null,
+          "status": null,
+          "match_confidence": null,
+          "cro_url": "https://core.cro.ie/search/company?q=Fettercairn%20Community%20Enterprise%20Company%20Ltd.",
+          "td_listed_as_officer": null
+        },
+        "flags": []
+      }
+    ],
+    "undeclared_cro_directorships": [],
+    "flags": []
+  },
+  {
+    "name": "CUMMINS, Jen (Dublin South-Central)",
+    "declared_directorships": [
+      {
+        "role": "Member Of Board",
+        "company_name_declared": "of Management",
+        "cro_number_declared": null,
+        "voluntary": false,
+        "cro_result": {
+          "found": null,
+          "company_num": null,
+          "company_name_cro": null,
+          "status": null,
+          "match_confidence": null,
+          "cro_url": "https://core.cro.ie/search/company?q=of%20Management",
+          "td_listed_as_officer": null
+        },
+        "flags": []
+      }
+    ],
+    "undeclared_cro_directorships": [],
+    "flags": []
+  },
+  {
+    "name": "DEVLIN, Cormac (Dún Laoghaire)",
+    "declared_directorships": [
+      {
+        "role": "Chairperson",
+        "company_name_declared": "Beaufort Day Care Centre CLG",
+        "cro_number_declared": null,
+        "voluntary": true,
+        "cro_result": {
+          "found": null,
+          "company_num": null,
+          "company_name_cro": null,
+          "status": null,
+          "match_confidence": null,
+          "cro_url": "https://core.cro.ie/search/company?q=Beaufort%20Day%20Care%20Centre%20CLG",
+          "td_listed_as_officer": null
+        },
+        "flags": []
+      }
+    ],
+    "undeclared_cro_directorships": [],
+    "flags": []
+  },
+  {
+    "name": "DILLON, Alan (Mayo)",
+    "declared_directorships": [
+      {
+        "role": "Director",
+        "company_name_declared": "Dillon Validation Engineering Limited",
+        "cro_number_declared": null,
+        "voluntary": false,
+        "cro_result": {
+          "found": null,
+          "company_num": null,
+          "company_name_cro": null,
+          "status": null,
+          "match_confidence": null,
+          "cro_url": "https://core.cro.ie/search/company?q=Dillon%20Validation%20Engineering%20Limited",
+          "td_listed_as_officer": null
+        },
+        "flags": []
+      }
+    ],
+    "undeclared_cro_directorships": [],
+    "flags": []
+  },
+  {
+    "name": "DOHERTY, Pearse (Donegal)",
+    "declared_directorships": [
+      {
+        "role": "Chairperson Of",
+        "company_name_declared": "the board",
+        "cro_number_declared": null,
+        "voluntary": true,
+        "cro_result": {
+          "found": null,
+          "company_num": null,
+          "company_name_cro": null,
+          "status": null,
+          "match_confidence": null,
+          "cro_url": "https://core.cro.ie/search/company?q=the%20board",
+          "td_listed_as_officer": null
+        },
+        "flags": []
+      }
+    ],
+    "undeclared_cro_directorships": [],
+    "flags": []
+  },
+  {
+    "name": "DONNELLY, Paul (Dublin West)",
+    "declared_directorships": [
+      {
+        "role": "Director",
+        "company_name_declared": "Dublin 15 Community Drugs Team",
+        "cro_number_declared": null,
+        "voluntary": false,
+        "cro_result": {
+          "found": null,
+          "company_num": null,
+          "company_name_cro": null,
+          "status": null,
+          "match_confidence": null,
+          "cro_url": "https://core.cro.ie/search/company?q=Dublin%2015%20Community%20Drugs%20Team",
+          "td_listed_as_officer": null
+        },
+        "flags": []
+      }
+    ],
+    "undeclared_cro_directorships": [],
+    "flags": []
+  },
+  {
+    "name": "FITZMAURICE, Michael (Roscommon-Galway)",
+    "declared_directorships": [
+      {
+        "role": "Chairperson Of",
+        "company_name_declared": "Kilcolumb GWS",
+        "cro_number_declared": null,
+        "voluntary": false,
+        "cro_result": {
+          "found": null,
+          "company_num": null,
+          "company_name_cro": null,
+          "status": null,
+          "match_confidence": null,
+          "cro_url": "https://core.cro.ie/search/company?q=Kilcolumb%20GWS",
+          "td_listed_as_officer": null
+        },
+        "flags": []
+      },
+      {
+        "role": "Chairperson Of",
+        "company_name_declared": "TCCA - Turfcutters and Contractors Association. This is a voluntary representative group representing turfcutters and contractors",
+        "cro_number_declared": null,
+        "voluntary": true,
+        "cro_result": {
+          "found": null,
+          "company_num": null,
+          "company_name_cro": null,
+          "status": null,
+          "match_confidence": null,
+          "cro_url": "https://core.cro.ie/search/company?q=TCCA%20-%20Turfcutters%20and%20Contractors%20Association.%20This%20is%20a%20voluntary%20representative%20group%20representing%20turfcutters%20and%20contractors",
+          "td_listed_as_officer": null
+        },
+        "flags": []
+      },
+      {
+        "role": "Director",
+        "company_name_declared": "are non- remunerative. I receive no payment for these positions. I hold no other directorships - only voluntary positions",
+        "cro_number_declared": null,
+        "voluntary": true,
+        "cro_result": {
+          "found": null,
+          "company_num": null,
+          "company_name_cro": null,
+          "status": null,
+          "match_confidence": null,
+          "cro_url": "https://core.cro.ie/search/company?q=are%20non-%20remunerative.%20I%20receive%20no%20payment%20for%20these%20positions.%20I%20hold%20no%20other%20directorships%20-%20only%20voluntary%20positions",
+          "td_listed_as_officer": null
+        },
+        "flags": []
+      }
+    ],
+    "undeclared_cro_directorships": [],
+    "flags": []
+  },
+  {
+    "name": "FOLEY, Norma (Kerry)",
+    "declared_directorships": [
+      {
+        "role": "Director",
+        "company_name_declared": "Non-executive",
+        "cro_number_declared": null,
+        "voluntary": false,
+        "cro_result": {
+          "found": null,
+          "company_num": null,
+          "company_name_cro": null,
+          "status": null,
+          "match_confidence": null,
+          "cro_url": "https://core.cro.ie/search/company?q=Non-executive",
+          "td_listed_as_officer": null
+        },
+        "flags": []
+      }
+    ],
+    "undeclared_cro_directorships": [],
+    "flags": []
+  },
+  {
+    "name": "HEALY, Seamus (Tipperary South)",
+    "declared_directorships": [
+      {
+        "role": "Director",
+        "company_name_declared": "Elm Park Area Childcare (voluntary",
+        "cro_number_declared": null,
+        "voluntary": true,
+        "cro_result": {
+          "found": null,
+          "company_num": null,
+          "company_name_cro": null,
+          "status": null,
+          "match_confidence": null,
+          "cro_url": "https://core.cro.ie/search/company?q=Elm%20Park%20Area%20Childcare%20%28voluntary",
+          "td_listed_as_officer": null
+        },
+        "flags": []
+      },
+      {
+        "role": "Director",
+        "company_name_declared": "Save our Acute Hospital Services Committee (voluntary",
+        "cro_number_declared": null,
+        "voluntary": true,
+        "cro_result": {
+          "found": null,
+          "company_num": null,
+          "company_name_cro": null,
+          "status": null,
+          "match_confidence": null,
+          "cro_url": "https://core.cro.ie/search/company?q=Save%20our%20Acute%20Hospital%20Services%20Committee%20%28voluntary",
+          "td_listed_as_officer": null
+        },
+        "flags": []
+      },
+      {
+        "role": "Director",
+        "company_name_declared": "Friends of Tipperary University Hospital (voluntary",
+        "cro_number_declared": null,
+        "voluntary": true,
+        "cro_result": {
+          "found": null,
+          "company_num": null,
+          "company_name_cro": null,
+          "status": null,
+          "match_confidence": null,
+          "cro_url": "https://core.cro.ie/search/company?q=Friends%20of%20Tipperary%20University%20Hospital%20%28voluntary",
+          "td_listed_as_officer": null
+        },
+        "flags": []
+      },
+      {
+        "role": "Director",
+        "company_name_declared": "Cuan Saor (voluntary",
+        "cro_number_declared": null,
+        "voluntary": true,
+        "cro_result": {
+          "found": null,
+          "company_num": null,
+          "company_name_cro": null,
+          "status": null,
+          "match_confidence": null,
+          "cro_url": "https://core.cro.ie/search/company?q=Cuan%20Saor%20%28voluntary",
+          "td_listed_as_officer": null
+        },
+        "flags": []
+      },
+      {
+        "role": "Director",
+        "company_name_declared": "Clonmel Boxing Club (voluntary",
+        "cro_number_declared": null,
+        "voluntary": true,
+        "cro_result": {
+          "found": null,
+          "company_num": null,
+          "company_name_cro": null,
+          "status": null,
+          "match_confidence": null,
+          "cro_url": "https://core.cro.ie/search/company?q=Clonmel%20Boxing%20Club%20%28voluntary",
+          "td_listed_as_officer": null
+        },
+        "flags": []
+      }
+    ],
+    "undeclared_cro_directorships": [],
+    "flags": []
+  },
+  {
+    "name": "HEALY-RAE, Michael (Kerry)",
+    "declared_directorships": [
+      {
+        "role": "Director",
+        "company_name_declared": "Roughty Plant Hire Ltd.",
+        "cro_number_declared": null,
+        "voluntary": false,
+        "cro_result": {
+          "found": null,
+          "company_num": null,
+          "company_name_cro": null,
+          "status": null,
+          "match_confidence": null,
+          "cro_url": "https://core.cro.ie/search/company?q=Roughty%20Plant%20Hire%20Ltd.",
+          "td_listed_as_officer": null
+        },
+        "flags": []
+      },
+      {
+        "role": "Director",
+        "company_name_declared": "Black Cap & Co. Ltd.",
+        "cro_number_declared": null,
+        "voluntary": false,
+        "cro_result": {
+          "found": null,
+          "company_num": null,
+          "company_name_cro": null,
+          "status": null,
+          "match_confidence": null,
+          "cro_url": "https://core.cro.ie/search/company?q=Black%20Cap%20%26%20Co.%20Ltd.",
+          "td_listed_as_officer": null
+        },
+        "flags": []
+      },
+      {
+        "role": "Director",
+        "company_name_declared": "Michael Healy-Rae Properties Ltd",
+        "cro_number_declared": null,
+        "voluntary": false,
+        "cro_result": {
+          "found": null,
+          "company_num": null,
+          "company_name_cro": null,
+          "status": null,
+          "match_confidence": null,
+          "cro_url": "https://core.cro.ie/search/company?q=Michael%20Healy-Rae%20Properties%20Ltd",
+          "td_listed_as_officer": null
+        },
+        "flags": []
+      },
+      {
+        "role": "Director",
+        "company_name_declared": "Rougthy Properties Ltd.",
+        "cro_number_declared": null,
+        "voluntary": false,
+        "cro_result": {
+          "found": null,
+          "company_num": null,
+          "company_name_cro": null,
+          "status": null,
+          "match_confidence": null,
+          "cro_url": "https://core.cro.ie/search/company?q=Rougthy%20Properties%20Ltd.",
+          "td_listed_as_officer": null
+        },
+        "flags": []
+      }
+    ],
+    "undeclared_cro_directorships": [],
+    "flags": []
+  },
+  {
+    "name": "KENNY, Martin (Sligo-Leitrim)",
+    "declared_directorships": [
+      {
+        "role": "Board Member",
+        "company_name_declared": "Aughavas Parish Improvement Scheme Ltd.",
+        "cro_number_declared": null,
+        "voluntary": false,
+        "cro_result": {
+          "found": null,
+          "company_num": null,
+          "company_name_cro": null,
+          "status": null,
+          "match_confidence": null,
+          "cro_url": "https://core.cro.ie/search/company?q=Aughavas%20Parish%20Improvement%20Scheme%20Ltd.",
+          "td_listed_as_officer": null
+        },
+        "flags": []
+      }
+    ],
+    "undeclared_cro_directorships": [],
+    "flags": []
+  },
+  {
+    "name": "LAHART, John (Dublin South-West)",
+    "declared_directorships": [
+      {
+        "role": "Board Member",
+        "company_name_declared": "PARTAS (Get Tallaght Working",
+        "cro_number_declared": null,
+        "voluntary": false,
+        "cro_result": {
+          "found": null,
+          "company_num": null,
+          "company_name_cro": null,
+          "status": null,
+          "match_confidence": null,
+          "cro_url": "https://core.cro.ie/search/company?q=PARTAS%20%28Get%20Tallaght%20Working",
+          "td_listed_as_officer": null
+        },
+        "flags": []
+      },
+      {
+        "role": "Partnership",
+        "company_name_declared": "County Hall",
+        "cro_number_declared": null,
+        "voluntary": false,
+        "cro_result": {
+          "found": null,
+          "company_num": null,
+          "company_name_cro": null,
+          "status": null,
+          "match_confidence": null,
+          "cro_url": "https://core.cro.ie/search/company?q=County%20Hall",
+          "td_listed_as_officer": null
+        },
+        "flags": []
+      },
+      {
+        "role": "Director",
+        "company_name_declared": "unremunerated position",
+        "cro_number_declared": null,
+        "voluntary": false,
+        "cro_result": {
+          "found": null,
+          "company_num": null,
+          "company_name_cro": null,
+          "status": null,
+          "match_confidence": null,
+          "cro_url": "https://core.cro.ie/search/company?q=unremunerated%20position",
+          "td_listed_as_officer": null
+        },
+        "flags": []
+      }
+    ],
+    "undeclared_cro_directorships": [],
+    "flags": []
+  },
+  {
+    "name": "LAWLOR, George (Wexford)",
+    "declared_directorships": [
+      {
+        "role": "Director",
+        "company_name_declared": "Wexford Women's Refuge",
+        "cro_number_declared": null,
+        "voluntary": false,
+        "cro_result": {
+          "found": null,
+          "company_num": null,
+          "company_name_cro": null,
+          "status": null,
+          "match_confidence": null,
+          "cro_url": "https://core.cro.ie/search/company?q=Wexford%20Women%27s%20Refuge",
+          "td_listed_as_officer": null
+        },
+        "flags": []
+      },
+      {
+        "role": "Director",
+        "company_name_declared": "Wexford Marinewatch",
+        "cro_number_declared": null,
+        "voluntary": false,
+        "cro_result": {
+          "found": null,
+          "company_num": null,
+          "company_name_cro": null,
+          "status": null,
+          "match_confidence": null,
+          "cro_url": "https://core.cro.ie/search/company?q=Wexford%20Marinewatch",
+          "td_listed_as_officer": null
+        },
+        "flags": []
+      },
+      {
+        "role": "Director",
+        "company_name_declared": "The Collective Sensory Group",
+        "cro_number_declared": null,
+        "voluntary": false,
+        "cro_result": {
+          "found": null,
+          "company_num": null,
+          "company_name_cro": null,
+          "status": null,
+          "match_confidence": null,
+          "cro_url": "https://core.cro.ie/search/company?q=The%20Collective%20Sensory%20Group",
+          "td_listed_as_officer": null
+        },
+        "flags": []
+      }
+    ],
+    "undeclared_cro_directorships": [],
+    "flags": []
+  },
+  {
+    "name": "LOWRY, Michael (Tipperary North)",
+    "declared_directorships": [
+      {
+        "role": "Director",
+        "company_name_declared": "Garuda T/A Streamline Enterprises",
+        "cro_number_declared": null,
+        "voluntary": false,
+        "cro_result": {
+          "found": null,
+          "company_num": null,
+          "company_name_cro": null,
+          "status": null,
+          "match_confidence": null,
+          "cro_url": "https://core.cro.ie/search/company?q=Garuda%20T/A%20Streamline%20Enterprises",
+          "td_listed_as_officer": null
+        },
+        "flags": []
+      },
+      {
+        "role": "Director",
+        "company_name_declared": "Streamline Refrigeration",
+        "cro_number_declared": null,
+        "voluntary": false,
+        "cro_result": {
+          "found": null,
+          "company_num": null,
+          "company_name_cro": null,
+          "status": null,
+          "match_confidence": null,
+          "cro_url": "https://core.cro.ie/search/company?q=Streamline%20Refrigeration",
+          "td_listed_as_officer": null
+        },
+        "flags": []
+      }
+    ],
+    "undeclared_cro_directorships": [],
+    "flags": []
+  },
+  {
+    "name": "MCAULIFFE, Paul (Dublin North-West)",
+    "declared_directorships": [
+      {
+        "role": "Board Member",
+        "company_name_declared": "Innovate Dublin",
+        "cro_number_declared": null,
+        "voluntary": false,
+        "cro_result": {
+          "found": null,
+          "company_num": null,
+          "company_name_cro": null,
+          "status": null,
+          "match_confidence": null,
+          "cro_url": "https://core.cro.ie/search/company?q=Innovate%20Dublin",
+          "td_listed_as_officer": null
+        },
+        "flags": []
+      }
+    ],
+    "undeclared_cro_directorships": [],
+    "flags": []
+  },
+  {
+    "name": "MCCARTHY, Noel (Cork East)",
+    "declared_directorships": [
+      {
+        "role": "Director",
+        "company_name_declared": "Carryout Off Licence",
+        "cro_number_declared": null,
+        "voluntary": false,
+        "cro_result": {
+          "found": null,
+          "company_num": null,
+          "company_name_cro": null,
+          "status": null,
+          "match_confidence": null,
+          "cro_url": "https://core.cro.ie/search/company?q=Carryout%20Off%20Licence",
+          "td_listed_as_officer": null
+        },
+        "flags": []
+      }
+    ],
+    "undeclared_cro_directorships": [],
+    "flags": []
+  },
+  {
+    "name": "MCGRATH, Mattie (Tipperary South)",
+    "declared_directorships": [
+      {
+        "role": "Director",
+        "company_name_declared": "Edmond & M McGrath Plant Hire Ltd.",
+        "cro_number_declared": null,
+        "voluntary": false,
+        "cro_result": {
+          "found": null,
+          "company_num": null,
+          "company_name_cro": null,
+          "status": null,
+          "match_confidence": null,
+          "cro_url": "https://core.cro.ie/search/company?q=Edmond%20%26%20M%20McGrath%20Plant%20Hire%20Ltd.",
+          "td_listed_as_officer": null
+        },
+        "flags": []
+      },
+      {
+        "role": "Non-Executive Director",
+        "company_name_declared": "Ring a Link",
+        "cro_number_declared": null,
+        "voluntary": false,
+        "cro_result": {
+          "found": null,
+          "company_num": null,
+          "company_name_cro": null,
+          "status": null,
+          "match_confidence": null,
+          "cro_url": "https://core.cro.ie/search/company?q=Ring%20a%20Link",
+          "td_listed_as_officer": null
+        },
+        "flags": []
+      },
+      {
+        "role": "Chairperson",
+        "company_name_declared": "Caislean Nua Voluntary Housing Association CLG",
+        "cro_number_declared": null,
+        "voluntary": true,
+        "cro_result": {
+          "found": null,
+          "company_num": null,
+          "company_name_cro": null,
+          "status": null,
+          "match_confidence": null,
+          "cro_url": "https://core.cro.ie/search/company?q=Caislean%20Nua%20Voluntary%20Housing%20Association%20CLG",
+          "td_listed_as_officer": null
+        },
+        "flags": []
+      },
+      {
+        "role": "Chairperson",
+        "company_name_declared": "Ballybacon",
+        "cro_number_declared": null,
+        "voluntary": false,
+        "cro_result": {
+          "found": null,
+          "company_num": null,
+          "company_name_cro": null,
+          "status": null,
+          "match_confidence": null,
+          "cro_url": "https://core.cro.ie/search/company?q=Ballybacon",
+          "td_listed_as_officer": null
+        },
+        "flags": []
+      }
+    ],
+    "undeclared_cro_directorships": [],
+    "flags": []
+  },
+  {
+    "name": "MCGRATH, Seamus (Cork South-Central)",
+    "declared_directorships": [
+      {
+        "role": "Director",
+        "company_name_declared": "Carrigaline Community Association Ltd",
+        "cro_number_declared": null,
+        "voluntary": true,
+        "cro_result": {
+          "found": null,
+          "company_num": null,
+          "company_name_cro": null,
+          "status": null,
+          "match_confidence": null,
+          "cro_url": "https://core.cro.ie/search/company?q=Carrigaline%20Community%20Association%20Ltd",
+          "td_listed_as_officer": null
+        },
+        "flags": []
+      }
+    ],
+    "undeclared_cro_directorships": [],
+    "flags": []
+  },
+  {
+    "name": "MCGREEHAN, Erin (Louth)",
+    "declared_directorships": [
+      {
+        "role": "Director",
+        "company_name_declared": "Women's Aid",
+        "cro_number_declared": null,
+        "voluntary": false,
+        "cro_result": {
+          "found": null,
+          "company_num": null,
+          "company_name_cro": null,
+          "status": null,
+          "match_confidence": null,
+          "cro_url": "https://core.cro.ie/search/company?q=Women%27s%20Aid",
+          "td_listed_as_officer": null
+        },
+        "flags": []
+      },
+      {
+        "role": "Director",
+        "company_name_declared": "Omeath District Development CLG",
+        "cro_number_declared": null,
+        "voluntary": false,
+        "cro_result": {
+          "found": null,
+          "company_num": null,
+          "company_name_cro": null,
+          "status": null,
+          "match_confidence": null,
+          "cro_url": "https://core.cro.ie/search/company?q=Omeath%20District%20Development%20CLG",
+          "td_listed_as_officer": null
+        },
+        "flags": []
+      },
+      {
+        "role": "Director",
+        "company_name_declared": "An Tain Arts Centre",
+        "cro_number_declared": null,
+        "voluntary": false,
+        "cro_result": {
+          "found": null,
+          "company_num": null,
+          "company_name_cro": null,
+          "status": null,
+          "match_confidence": null,
+          "cro_url": "https://core.cro.ie/search/company?q=An%20Tain%20Arts%20Centre",
+          "td_listed_as_officer": null
+        },
+        "flags": []
+      },
+      {
+        "role": "Director",
+        "company_name_declared": "this directorship ended in 2025",
+        "cro_number_declared": null,
+        "voluntary": false,
+        "cro_result": {
+          "found": null,
+          "company_num": null,
+          "company_name_cro": null,
+          "status": null,
+          "match_confidence": null,
+          "cro_url": "https://core.cro.ie/search/company?q=this%20directorship%20ended%20in%202025",
+          "td_listed_as_officer": null
+        },
+        "flags": []
+      }
+    ],
+    "undeclared_cro_directorships": [],
+    "flags": []
+  },
+  {
+    "name": "MOYNIHAN, Aindrias (Cork North-West)",
+    "declared_directorships": [
+      {
+        "role": "Non-Executive Director",
+        "company_name_declared": "Macroom community leisure complex",
+        "cro_number_declared": null,
+        "voluntary": true,
+        "cro_result": {
+          "found": null,
+          "company_num": null,
+          "company_name_cro": null,
+          "status": null,
+          "match_confidence": null,
+          "cro_url": "https://core.cro.ie/search/company?q=Macroom%20community%20leisure%20complex",
+          "td_listed_as_officer": null
+        },
+        "flags": []
+      }
+    ],
+    "undeclared_cro_directorships": [],
+    "flags": []
+  },
+  {
+    "name": "MOYNIHAN, Shane (Dublin Mid-West)",
+    "declared_directorships": [
+      {
+        "role": "Director",
+        "company_name_declared": "Board of Directors",
+        "cro_number_declared": null,
+        "voluntary": false,
+        "cro_result": {
+          "found": null,
+          "company_num": null,
+          "company_name_cro": null,
+          "status": null,
+          "match_confidence": null,
+          "cro_url": "https://core.cro.ie/search/company?q=Board%20of%20Directors",
+          "td_listed_as_officer": null
+        },
+        "flags": []
+      },
+      {
+        "role": "Director",
+        "company_name_declared": "Action and Community Enterprise",
+        "cro_number_declared": null,
+        "voluntary": false,
+        "cro_result": {
+          "found": null,
+          "company_num": null,
+          "company_name_cro": null,
+          "status": null,
+          "match_confidence": null,
+          "cro_url": "https://core.cro.ie/search/company?q=Action%20and%20Community%20Enterprise",
+          "td_listed_as_officer": null
+        },
+        "flags": []
+      },
+      {
+        "role": "Director",
+        "company_name_declared": "Finding Charlie’s Voice",
+        "cro_number_declared": null,
+        "voluntary": false,
+        "cro_result": {
+          "found": null,
+          "company_num": null,
+          "company_name_cro": null,
+          "status": null,
+          "match_confidence": null,
+          "cro_url": "https://core.cro.ie/search/company?q=Finding%20Charlie%E2%80%99s%20Voice",
+          "td_listed_as_officer": null
+        },
+        "flags": []
+      },
+      {
+        "role": "Director",
+        "company_name_declared": "Board of Management",
+        "cro_number_declared": null,
+        "voluntary": false,
+        "cro_result": {
+          "found": null,
+          "company_num": null,
+          "company_name_cro": null,
+          "status": null,
+          "match_confidence": null,
+          "cro_url": "https://core.cro.ie/search/company?q=Board%20of%20Management",
+          "td_listed_as_officer": null
+        },
+        "flags": []
+      },
+      {
+        "role": "Director",
+        "company_name_declared": "Bord Bainistíochta",
+        "cro_number_declared": null,
+        "voluntary": false,
+        "cro_result": {
+          "found": null,
+          "company_num": null,
+          "company_name_cro": null,
+          "status": null,
+          "match_confidence": null,
+          "cro_url": "https://core.cro.ie/search/company?q=Bord%20Bainist%C3%ADochta",
+          "td_listed_as_officer": null
+        },
+        "flags": []
+      },
+      {
+        "role": "Director",
+        "company_name_declared": "Coláiste Cois Life",
+        "cro_number_declared": null,
+        "voluntary": false,
+        "cro_result": {
+          "found": null,
+          "company_num": null,
+          "company_name_cro": null,
+          "status": null,
+          "match_confidence": null,
+          "cro_url": "https://core.cro.ie/search/company?q=Col%C3%A1iste%20Cois%20Life",
+          "td_listed_as_officer": null
+        },
+        "flags": []
+      },
+      {
+        "role": "Director",
+        "company_name_declared": "Gaelscoil Lír",
+        "cro_number_declared": null,
+        "voluntary": false,
+        "cro_result": {
+          "found": null,
+          "company_num": null,
+          "company_name_cro": null,
+          "status": null,
+          "match_confidence": null,
+          "cro_url": "https://core.cro.ie/search/company?q=Gaelscoil%20L%C3%ADr",
+          "td_listed_as_officer": null
+        },
+        "flags": []
+      },
+      {
+        "role": "Director",
+        "company_name_declared": "Beacon of Light Counselling",
+        "cro_number_declared": null,
+        "voluntary": false,
+        "cro_result": {
+          "found": null,
+          "company_num": null,
+          "company_name_cro": null,
+          "status": null,
+          "match_confidence": null,
+          "cro_url": "https://core.cro.ie/search/company?q=Beacon%20of%20Light%20Counselling",
+          "td_listed_as_officer": null
+        },
+        "flags": []
+      },
+      {
+        "role": "Director",
+        "company_name_declared": "The Tower Programme",
+        "cro_number_declared": null,
+        "voluntary": false,
+        "cro_result": {
+          "found": null,
+          "company_num": null,
+          "company_name_cro": null,
+          "status": null,
+          "match_confidence": null,
+          "cro_url": "https://core.cro.ie/search/company?q=The%20Tower%20Programme",
+          "td_listed_as_officer": null
+        },
+        "flags": []
+      }
+    ],
+    "undeclared_cro_directorships": [],
+    "flags": []
+  },
+  {
+    "name": "NEVILLE, Joe (Kildare North)",
+    "declared_directorships": [
+      {
+        "role": "Director",
+        "company_name_declared": "Leixlip Youth and Community Centre",
+        "cro_number_declared": null,
+        "voluntary": false,
+        "cro_result": {
+          "found": null,
+          "company_num": null,
+          "company_name_cro": null,
+          "status": null,
+          "match_confidence": null,
+          "cro_url": "https://core.cro.ie/search/company?q=Leixlip%20Youth%20and%20Community%20Centre",
+          "td_listed_as_officer": null
+        },
+        "flags": []
+      }
+    ],
+    "undeclared_cro_directorships": [],
+    "flags": []
+  },
+  {
+    "name": "Ó BROIN, Eoin (Dublin Mid-West)",
+    "declared_directorships": [
+      {
+        "role": "Director",
+        "company_name_declared": "I do not hold any directorships",
+        "cro_number_declared": null,
+        "voluntary": false,
+        "cro_result": {
+          "found": null,
+          "company_num": null,
+          "company_name_cro": null,
+          "status": null,
+          "match_confidence": null,
+          "cro_url": "https://core.cro.ie/search/company?q=I%20do%20not%20hold%20any%20directorships",
+          "td_listed_as_officer": null
+        },
+        "flags": []
+      }
+    ],
+    "undeclared_cro_directorships": [],
+    "flags": []
+  },
+  {
+    "name": "Ó CEARÚIL, Naoise (Kildare North)",
+    "declared_directorships": [
+      {
+        "role": "Chairperson Of",
+        "company_name_declared": "the Committee",
+        "cro_number_declared": null,
+        "voluntary": true,
+        "cro_result": {
+          "found": null,
+          "company_num": null,
+          "company_name_cro": null,
+          "status": null,
+          "match_confidence": null,
+          "cro_url": "https://core.cro.ie/search/company?q=the%20Committee",
+          "td_listed_as_officer": null
+        },
+        "flags": []
+      }
+    ],
+    "undeclared_cro_directorships": [],
+    "flags": []
+  },
+  {
+    "name": "O'CONNELL, Maeve (Dublin Rathdown)",
+    "declared_directorships": [
+      {
+        "role": "Director",
+        "company_name_declared": "Brigus",
+        "cro_number_declared": null,
+        "voluntary": false,
+        "cro_result": {
+          "found": null,
+          "company_num": null,
+          "company_name_cro": null,
+          "status": null,
+          "match_confidence": null,
+          "cro_url": "https://core.cro.ie/search/company?q=Brigus",
+          "td_listed_as_officer": null
+        },
+        "flags": []
+      }
+    ],
+    "undeclared_cro_directorships": [],
+    "flags": []
+  },
+  {
+    "name": "O'DONOGHUE, Richard (Limerick County)",
+    "declared_directorships": [
+      {
+        "role": "Director Of",
+        "company_name_declared": "Kilatal",
+        "cro_number_declared": null,
+        "voluntary": false,
+        "cro_result": {
+          "found": null,
+          "company_num": null,
+          "company_name_cro": null,
+          "status": null,
+          "match_confidence": null,
+          "cro_url": "https://core.cro.ie/search/company?q=Kilatal",
+          "td_listed_as_officer": null
+        },
+        "flags": []
+      }
+    ],
+    "undeclared_cro_directorships": [],
+    "flags": []
+  },
+  {
+    "name": "Ó FEARGHAÍL, Seán (Kildare South)",
+    "declared_directorships": [
+      {
+        "role": "Chair",
+        "company_name_declared": "Bd. Mgmt",
+        "cro_number_declared": null,
+        "voluntary": false,
+        "cro_result": {
+          "found": null,
+          "company_num": null,
+          "company_name_cro": null,
+          "status": null,
+          "match_confidence": null,
+          "cro_url": "https://core.cro.ie/search/company?q=Bd.%20Mgmt",
+          "td_listed_as_officer": null
+        },
+        "flags": []
+      }
+    ],
+    "undeclared_cro_directorships": [],
+    "flags": []
+  },
+  {
+    "name": "Ó LAOGHAIRE, Donnchadh (Cork South-Central)",
+    "declared_directorships": [
+      {
+        "role": "Voluntary Director",
+        "company_name_declared": "Togher Community Association",
+        "cro_number_declared": null,
+        "voluntary": true,
+        "cro_result": {
+          "found": null,
+          "company_num": null,
+          "company_name_cro": null,
+          "status": null,
+          "match_confidence": null,
+          "cro_url": "https://core.cro.ie/search/company?q=Togher%20Community%20Association",
+          "td_listed_as_officer": null
+        },
+        "flags": []
+      }
+    ],
+    "undeclared_cro_directorships": [],
+    "flags": []
+  },
+  {
+    "name": "O'MEARA, Ryan (Tipperary North)",
+    "declared_directorships": [
+      {
+        "role": "Director",
+        "company_name_declared": "Nenagh Choral Society Ltd.",
+        "cro_number_declared": null,
+        "voluntary": true,
+        "cro_result": {
+          "found": null,
+          "company_num": null,
+          "company_name_cro": null,
+          "status": null,
+          "match_confidence": null,
+          "cro_url": "https://core.cro.ie/search/company?q=Nenagh%20Choral%20Society%20Ltd.",
+          "td_listed_as_officer": null
+        },
+        "flags": []
+      }
+    ],
+    "undeclared_cro_directorships": [],
+    "flags": []
+  },
+  {
+    "name": "Ó MUIRÍ, Naoise (Dublin Bay North)",
+    "declared_directorships": [
+      {
+        "role": "Director",
+        "company_name_declared": "Zing Technology",
+        "cro_number_declared": null,
+        "voluntary": false,
+        "cro_result": {
+          "found": null,
+          "company_num": null,
+          "company_name_cro": null,
+          "status": null,
+          "match_confidence": null,
+          "cro_url": "https://core.cro.ie/search/company?q=Zing%20Technology",
+          "td_listed_as_officer": null
+        },
+        "flags": []
+      },
+      {
+        "role": "Director",
+        "company_name_declared": "Governor",
+        "cro_number_declared": null,
+        "voluntary": false,
+        "cro_result": {
+          "found": null,
+          "company_num": null,
+          "company_name_cro": null,
+          "status": null,
+          "match_confidence": null,
+          "cro_url": "https://core.cro.ie/search/company?q=Governor",
+          "td_listed_as_officer": null
+        },
+        "flags": []
+      }
+    ],
+    "undeclared_cro_directorships": [],
+    "flags": []
+  },
+  {
+    "name": "Ó SNODAIGH, Aengus (Baile Átha Cliath Lár-Theas)",
+    "declared_directorships": [
+      {
+        "role": "Director",
+        "company_name_declared": "Liberties Recycling Training and Development",
+        "cro_number_declared": null,
+        "voluntary": false,
+        "cro_result": {
+          "found": null,
+          "company_num": null,
+          "company_name_cro": null,
+          "status": null,
+          "match_confidence": null,
+          "cro_url": "https://core.cro.ie/search/company?q=Liberties%20Recycling%20Training%20and%20Development",
+          "td_listed_as_officer": null
+        },
+        "flags": []
+      },
+      {
+        "role": "Director",
+        "company_name_declared": "Liberties Recycling CE Scheme Project",
+        "cro_number_declared": null,
+        "voluntary": false,
+        "cro_result": {
+          "found": null,
+          "company_num": null,
+          "company_name_cro": null,
+          "status": null,
+          "match_confidence": null,
+          "cro_url": "https://core.cro.ie/search/company?q=Liberties%20Recycling%20CE%20Scheme%20Project",
+          "td_listed_as_officer": null
+        },
+        "flags": []
+      },
+      {
+        "role": "Director",
+        "company_name_declared": "Liberties Global Exports",
+        "cro_number_declared": null,
+        "voluntary": false,
+        "cro_result": {
+          "found": null,
+          "company_num": null,
+          "company_name_cro": null,
+          "status": null,
+          "match_confidence": null,
+          "cro_url": "https://core.cro.ie/search/company?q=Liberties%20Global%20Exports",
+          "td_listed_as_officer": null
+        },
+        "flags": []
+      },
+      {
+        "role": "Director",
+        "company_name_declared": "Stiúrthóir: Cosanic Teo",
+        "cro_number_declared": null,
+        "voluntary": false,
+        "cro_result": {
+          "found": null,
+          "company_num": null,
+          "company_name_cro": null,
+          "status": null,
+          "match_confidence": null,
+          "cro_url": "https://core.cro.ie/search/company?q=Sti%C3%BArth%C3%B3ir%3A%20Cosanic%20Teo",
+          "td_listed_as_officer": null
+        },
+        "flags": []
+      },
+      {
+        "role": "Director",
+        "company_name_declared": "Stiúrthóir neamh-fheidhmiúchán",
+        "cro_number_declared": null,
+        "voluntary": false,
+        "cro_result": {
+          "found": null,
+          "company_num": null,
+          "company_name_cro": null,
+          "status": null,
+          "match_confidence": null,
+          "cro_url": "https://core.cro.ie/search/company?q=Sti%C3%BArth%C3%B3ir%20neamh-fheidhmi%C3%BAch%C3%A1n",
+          "td_listed_as_officer": null
+        },
+        "flags": []
+      }
+    ],
+    "undeclared_cro_directorships": [],
+    "flags": []
+  },
+  {
+    "name": "O'SULLIVAN, Christopher (Cork South-West)",
+    "declared_directorships": [
+      {
+        "role": "Director",
+        "company_name_declared": "Clonakilty Community Hall Association Company",
+        "cro_number_declared": null,
+        "voluntary": true,
+        "cro_result": {
+          "found": null,
+          "company_num": null,
+          "company_name_cro": null,
+          "status": null,
+          "match_confidence": null,
+          "cro_url": "https://core.cro.ie/search/company?q=Clonakilty%20Community%20Hall%20Association%20Company",
+          "td_listed_as_officer": null
+        },
+        "flags": []
+      }
+    ],
+    "undeclared_cro_directorships": [],
+    "flags": []
+  },
+  {
+    "name": "O'SULLIVAN, Pádraig (Cork North-Central)",
+    "declared_directorships": [
+      {
+        "role": "Director",
+        "company_name_declared": "Little Island Community Association",
+        "cro_number_declared": null,
+        "voluntary": true,
+        "cro_result": {
+          "found": null,
+          "company_num": null,
+          "company_name_cro": null,
+          "status": null,
+          "match_confidence": null,
+          "cro_url": "https://core.cro.ie/search/company?q=Little%20Island%20Community%20Association",
+          "td_listed_as_officer": null
+        },
+        "flags": []
+      },
+      {
+        "role": "Director",
+        "company_name_declared": "Glanmire Area Community Association",
+        "cro_number_declared": null,
+        "voluntary": true,
+        "cro_result": {
+          "found": null,
+          "company_num": null,
+          "company_name_cro": null,
+          "status": null,
+          "match_confidence": null,
+          "cro_url": "https://core.cro.ie/search/company?q=Glanmire%20Area%20Community%20Association",
+          "td_listed_as_officer": null
+        },
+        "flags": []
+      },
+      {
+        "role": "Director",
+        "company_name_declared": "Oireachtas Commission",
+        "cro_number_declared": null,
+        "voluntary": false,
+        "cro_result": {
+          "found": null,
+          "company_num": null,
+          "company_name_cro": null,
+          "status": null,
+          "match_confidence": null,
+          "cro_url": "https://core.cro.ie/search/company?q=Oireachtas%20Commission",
+          "td_listed_as_officer": null
+        },
+        "flags": []
+      },
+      {
+        "role": "Chairman Of",
+        "company_name_declared": "Little Island Comm. Assoc",
+        "cro_number_declared": null,
+        "voluntary": false,
+        "cro_result": {
+          "found": null,
+          "company_num": null,
+          "company_name_cro": null,
+          "status": null,
+          "match_confidence": null,
+          "cro_url": "https://core.cro.ie/search/company?q=Little%20Island%20Comm.%20Assoc",
+          "td_listed_as_officer": null
+        },
+        "flags": []
+      }
+    ],
+    "undeclared_cro_directorships": [],
+    "flags": []
+  },
+  {
+    "name": "QUINLIVAN, Maurice (Limerick City)",
+    "declared_directorships": [
+      {
+        "role": "Director",
+        "company_name_declared": "non-paid voluntary",
+        "cro_number_declared": null,
+        "voluntary": true,
+        "cro_result": {
+          "found": null,
+          "company_num": null,
+          "company_name_cro": null,
+          "status": null,
+          "match_confidence": null,
+          "cro_url": "https://core.cro.ie/search/company?q=non-paid%20voluntary",
+          "td_listed_as_officer": null
+        },
+        "flags": []
+      }
+    ],
+    "undeclared_cro_directorships": [],
+    "flags": []
+  },
+  {
+    "name": "RICE, Pádraig (Cork South-Central)",
+    "declared_directorships": [
+      {
+        "role": "Board Member",
+        "company_name_declared": "Ballyphehane Community Association Ltd.",
+        "cro_number_declared": null,
+        "voluntary": false,
+        "cro_result": {
+          "found": null,
+          "company_num": null,
+          "company_name_cro": null,
+          "status": null,
+          "match_confidence": null,
+          "cro_url": "https://core.cro.ie/search/company?q=Ballyphehane%20Community%20Association%20Ltd.",
+          "td_listed_as_officer": null
+        },
+        "flags": []
+      }
+    ],
+    "undeclared_cro_directorships": [],
+    "flags": []
+  },
+  {
+    "name": "SCANLON, Eamon (Sligo-Leitrim)",
+    "declared_directorships": [
+      {
+        "role": "Director",
+        "company_name_declared": "E & M Scanlon Auctioneers & Estate Agents Limited",
+        "cro_number_declared": null,
+        "voluntary": true,
+        "cro_result": {
+          "found": null,
+          "company_num": null,
+          "company_name_cro": null,
+          "status": null,
+          "match_confidence": null,
+          "cro_url": "https://core.cro.ie/search/company?q=E%20%26%20M%20Scanlon%20Auctioneers%20%26%20Estate%20Agents%20Limited",
+          "td_listed_as_officer": null
+        },
+        "flags": []
+      }
+    ],
+    "undeclared_cro_directorships": [],
+    "flags": []
+  },
+  {
+    "name": "SMYTH, Niamh (Cavan-Monaghan)",
+    "declared_directorships": [
+      {
+        "role": "Director",
+        "company_name_declared": "Wesleyan Contemporary Productions Ltd",
+        "cro_number_declared": null,
+        "voluntary": false,
+        "cro_result": {
+          "found": null,
+          "company_num": null,
+          "company_name_cro": null,
+          "status": null,
+          "match_confidence": null,
+          "cro_url": "https://core.cro.ie/search/company?q=Wesleyan%20Contemporary%20Productions%20Ltd",
+          "td_listed_as_officer": null
+        },
+        "flags": []
+      }
+    ],
+    "undeclared_cro_directorships": [],
+    "flags": []
+  },
+  {
+    "name": "TOOLE, Gillian (Meath-East)",
+    "declared_directorships": [
+      {
+        "role": "Director",
+        "company_name_declared": "Executive: Ely Hill Ltd.",
+        "cro_number_declared": null,
+        "voluntary": false,
+        "cro_result": {
+          "found": null,
+          "company_num": null,
+          "company_name_cro": null,
+          "status": null,
+          "match_confidence": null,
+          "cro_url": "https://core.cro.ie/search/company?q=Executive%3A%20Ely%20Hill%20Ltd.",
+          "td_listed_as_officer": null
+        },
+        "flags": []
+      },
+      {
+        "role": "Director",
+        "company_name_declared": "Wholefoods/Executive",
+        "cro_number_declared": null,
+        "voluntary": false,
+        "cro_result": {
+          "found": null,
+          "company_num": null,
+          "company_name_cro": null,
+          "status": null,
+          "match_confidence": null,
+          "cro_url": "https://core.cro.ie/search/company?q=Wholefoods/Executive",
+          "td_listed_as_officer": null
+        },
+        "flags": []
+      },
+      {
+        "role": "Director",
+        "company_name_declared": "EGG Pt. Ltd.",
+        "cro_number_declared": null,
+        "voluntary": false,
+        "cro_result": {
+          "found": null,
+          "company_num": null,
+          "company_name_cro": null,
+          "status": null,
+          "match_confidence": null,
+          "cro_url": "https://core.cro.ie/search/company?q=EGG%20Pt.%20Ltd.",
+          "td_listed_as_officer": null
+        },
+        "flags": []
+      },
+      {
+        "role": "Director",
+        "company_name_declared": "non-executive",
+        "cro_number_declared": null,
+        "voluntary": false,
+        "cro_result": {
+          "found": null,
+          "company_num": null,
+          "company_name_cro": null,
+          "status": null,
+          "match_confidence": null,
+          "cro_url": "https://core.cro.ie/search/company?q=non-executive",
+          "td_listed_as_officer": null
+        },
+        "flags": []
+      },
+      {
+        "role": "Director",
+        "company_name_declared": "to be completed 2026 & will update record appropriately",
+        "cro_number_declared": null,
+        "voluntary": false,
+        "cro_result": {
+          "found": null,
+          "company_num": null,
+          "company_name_cro": null,
+          "status": null,
+          "match_confidence": null,
+          "cro_url": "https://core.cro.ie/search/company?q=to%20be%20completed%202026%20%26%20will%20update%20record%20appropriately",
+          "td_listed_as_officer": null
+        },
+        "flags": []
+      },
+      {
+        "role": "Director",
+        "company_name_declared": "voluntary role",
+        "cro_number_declared": null,
+        "voluntary": true,
+        "cro_result": {
+          "found": null,
+          "company_num": null,
+          "company_name_cro": null,
+          "status": null,
+          "match_confidence": null,
+          "cro_url": "https://core.cro.ie/search/company?q=voluntary%20role",
+          "td_listed_as_officer": null
+        },
+        "flags": []
+      }
+    ],
+    "undeclared_cro_directorships": [],
+    "flags": []
+  },
+  {
+    "name": "TROY, Robert (Longford-Westmeath)",
+    "declared_directorships": [
+      {
+        "role": "Director",
+        "company_name_declared": "Priorfilia Ltd.",
+        "cro_number_declared": null,
+        "voluntary": false,
+        "cro_result": {
+          "found": null,
+          "company_num": null,
+          "company_name_cro": null,
+          "status": null,
+          "match_confidence": null,
+          "cro_url": "https://core.cro.ie/search/company?q=Priorfilia%20Ltd.",
+          "td_listed_as_officer": null
+        },
+        "flags": []
+      }
+    ],
+    "undeclared_cro_directorships": [],
+    "flags": []
+  },
+  {
+    "name": "WALL, Mark (Kildare South)",
+    "declared_directorships": [
+      {
+        "role": "Director",
+        "company_name_declared": "Kildare Centre for the Unemployed",
+        "cro_number_declared": null,
+        "voluntary": false,
+        "cro_result": {
+          "found": null,
+          "company_num": null,
+          "company_name_cro": null,
+          "status": null,
+          "match_confidence": null,
+          "cro_url": "https://core.cro.ie/search/company?q=Kildare%20Centre%20for%20the%20Unemployed",
+          "td_listed_as_officer": null
+        },
+        "flags": []
+      },
+      {
+        "role": "Director",
+        "company_name_declared": "Willow Community Counselling",
+        "cro_number_declared": null,
+        "voluntary": false,
+        "cro_result": {
+          "found": null,
+          "company_num": null,
+          "company_name_cro": null,
+          "status": null,
+          "match_confidence": null,
+          "cro_url": "https://core.cro.ie/search/company?q=Willow%20Community%20Counselling",
+          "td_listed_as_officer": null
+        },
+        "flags": []
+      },
+      {
+        "role": "Director",
+        "company_name_declared": "CCCDA",
+        "cro_number_declared": null,
+        "voluntary": false,
+        "cro_result": {
+          "found": null,
+          "company_num": null,
+          "company_name_cro": null,
+          "status": null,
+          "match_confidence": null,
+          "cro_url": "https://core.cro.ie/search/company?q=CCCDA",
+          "td_listed_as_officer": null
+        },
+        "flags": []
+      },
+      {
+        "role": "Director",
+        "company_name_declared": "Ballitore Tanyard Community Company Ltd.",
+        "cro_number_declared": null,
+        "voluntary": false,
+        "cro_result": {
+          "found": null,
+          "company_num": null,
+          "company_name_cro": null,
+          "status": null,
+          "match_confidence": null,
+          "cro_url": "https://core.cro.ie/search/company?q=Ballitore%20Tanyard%20Community%20Company%20Ltd.",
+          "td_listed_as_officer": null
+        },
+        "flags": []
+      },
+      {
+        "role": "Director",
+        "company_name_declared": "Griese Youth Theatre CLG",
+        "cro_number_declared": null,
+        "voluntary": false,
+        "cro_result": {
+          "found": null,
+          "company_num": null,
+          "company_name_cro": null,
+          "status": null,
+          "match_confidence": null,
+          "cro_url": "https://core.cro.ie/search/company?q=Griese%20Youth%20Theatre%20CLG",
+          "td_listed_as_officer": null
+        },
+        "flags": []
+      }
+    ],
+    "undeclared_cro_directorships": [],
+    "flags": []
+  },
+  {
+    "name": "WARD, Barry (Dún Laoghaire)",
+    "declared_directorships": [
+      {
+        "role": "Director",
+        "company_name_declared": "Ceann ar bith",
+        "cro_number_declared": null,
+        "voluntary": false,
+        "cro_result": {
+          "found": null,
+          "company_num": null,
+          "company_name_cro": null,
+          "status": null,
+          "match_confidence": null,
+          "cro_url": "https://core.cro.ie/search/company?q=Ceann%20ar%20bith",
+          "td_listed_as_officer": null
+        },
+        "flags": []
+      }
+    ],
+    "undeclared_cro_directorships": [],
+    "flags": []
+  },
+  {
+    "name": "WARD, Mark (Dublin Mid-West)",
+    "declared_directorships": [
+      {
+        "role": "Director",
+        "company_name_declared": "Clondalkin Addiction Support Programme",
+        "cro_number_declared": null,
+        "voluntary": false,
+        "cro_result": {
+          "found": null,
+          "company_num": null,
+          "company_name_cro": null,
+          "status": null,
+          "match_confidence": null,
+          "cro_url": "https://core.cro.ie/search/company?q=Clondalkin%20Addiction%20Support%20Programme",
+          "td_listed_as_officer": null
+        },
+        "flags": []
+      }
+    ],
+    "undeclared_cro_directorships": [],
+    "flags": []
+  },
+  {
+    "name": "WHITMORE, Jennifer (Wicklow)",
+    "declared_directorships": [
+      {
+        "role": "Member Of",
+        "company_name_declared": "Oireachtas Commission",
+        "cro_number_declared": null,
+        "voluntary": false,
+        "cro_result": {
+          "found": null,
+          "company_num": null,
+          "company_name_cro": null,
+          "status": null,
+          "match_confidence": null,
+          "cro_url": "https://core.cro.ie/search/company?q=Oireachtas%20Commission",
+          "td_listed_as_officer": null
+        },
+        "flags": []
+      }
+    ],
+    "undeclared_cro_directorships": [],
+    "flags": []
+  }
+]

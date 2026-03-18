@@ -1,0 +1,1016 @@
+{
+  "Bertie": {
+    "fullName": "Bertie Ahern",
+    "start": "1982-12-14",
+    "end": "1987-01-21",
+    "dail_no": "24"
+  },
+  "MichaelAhern": {
+    "fullName": "Michael Ahern",
+    "start": "1982-12-14",
+    "end": "1987-01-21",
+    "dail_no": "24"
+  },
+  "BernardAllen": {
+    "fullName": "Bernard Allen",
+    "start": "1982-12-14",
+    "end": "1987-01-21",
+    "dail_no": "24"
+  },
+  "DavidAndrews": {
+    "fullName": "David Andrews",
+    "start": "1982-12-14",
+    "end": "1987-01-21",
+    "dail_no": "24"
+  },
+  "NiallAndrews": {
+    "fullName": "Niall Andrews",
+    "start": "1982-12-14",
+    "end": "1987-01-21",
+    "dail_no": "24"
+  },
+  "LiamAylward": {
+    "fullName": "Liam Aylward",
+    "start": "1982-12-14",
+    "end": "1987-01-21",
+    "dail_no": "24"
+  },
+  "MonicaBarnes": {
+    "fullName": "Monica Barnes",
+    "start": "1982-12-14",
+    "end": "1987-01-21",
+    "dail_no": "24"
+  },
+  "MichaelBarrett": {
+    "fullName": "Michael Barrett",
+    "start": "1982-12-14",
+    "end": "1987-01-21",
+    "dail_no": "24"
+  },
+  "SeanBarrett": {
+    "fullName": "Seán Barrett",
+    "start": "1982-12-14",
+    "end": "1987-01-21",
+    "dail_no": "24"
+  },
+  "SylvesterBarrett": {
+    "fullName": "Sylvester Barrett",
+    "start": "1982-12-14",
+    "end": "1987-01-21",
+    "dail_no": "24"
+  },
+  "MyraBarry": {
+    "fullName": "Myra Barry",
+    "start": "1982-12-14",
+    "end": "1987-01-21",
+    "dail_no": "24"
+  },
+  "PeterBarry": {
+    "fullName": "Peter Barry",
+    "start": "1982-12-14",
+    "end": "1987-01-21",
+    "dail_no": "24"
+  },
+  "MichaelBegley": {
+    "fullName": "Michael Begley",
+    "start": "1982-12-14",
+    "end": "1987-01-21",
+    "dail_no": "24"
+  },
+  "MichaelBell": {
+    "fullName": "Michael Bell",
+    "start": "1982-12-14",
+    "end": "1987-01-21",
+    "dail_no": "24"
+  },
+  "JosephBermingham": {
+    "fullName": "Joseph Bermingham",
+    "start": "1982-12-14",
+    "end": "1987-01-21",
+    "dail_no": "24"
+  },
+  "GeorgeMBirmingham": {
+    "fullName": "George. M. Birmingham",
+    "start": "1982-12-14",
+    "end": "1987-01-21",
+    "dail_no": "24"
+  },
+  "NeilTCBlaney": {
+    "fullName": "Neil T.C. Blaney",
+    "start": "1982-12-14",
+    "end": "1987-01-21",
+    "dail_no": "24"
+  },
+  "JohnBoland": {
+    "fullName": "John Boland",
+    "start": "1982-12-14",
+    "end": "1987-01-21",
+    "dail_no": "24"
+  },
+  "GerardBrady-DUB": {
+    "fullName": "Gerard Brady",
+    "start": "1982-12-14",
+    "end": "1987-01-21",
+    "dail_no": "24"
+  },
+  "VincentBrady": {
+    "fullName": "Vincent Brady",
+    "start": "1982-12-14",
+    "end": "1987-01-21",
+    "dail_no": "24"
+  },
+  "MattBrennan": {
+    "fullName": "Matt Brennan",
+    "start": "1982-12-14",
+    "end": "1987-01-21",
+    "dail_no": "24"
+  },
+  "PaugeBrennan": {
+    "fullName": "Patrick Brennan",
+    "start": "1982-12-14",
+    "end": "1987-01-21",
+    "dail_no": "24"
+  },
+  "SeamusBrennan": {
+    "fullName": "Seamus Brennan",
+    "start": "1982-12-14",
+    "end": "1987-01-21",
+    "dail_no": "24"
+  },
+  "BenBriscoe": {
+    "fullName": "Ben Briscoe",
+    "start": "1982-12-14",
+    "end": "1987-01-21",
+    "dail_no": "24"
+  },
+  "JohnBrowne2": {
+    "fullName": "John Browne",
+    "start": "1982-12-14",
+    "end": "1987-01-21",
+    "dail_no": "24"
+  },
+  "JohnBruton": {
+    "fullName": "John Bruton",
+    "start": "1982-12-14",
+    "end": "1987-01-21",
+    "dail_no": "24"
+  },
+  "RichardBruton": {
+    "fullName": "Richard Bruton",
+    "start": "1982-12-14",
+    "end": "1987-01-21",
+    "dail_no": "24"
+  },
+  "LiamBurke": {
+    "fullName": "Liam Burke",
+    "start": "1982-12-14",
+    "end": "1987-01-21",
+    "dail_no": "24"
+  },
+  "RayBurke": {
+    "fullName": "Ray Burke",
+    "start": "1982-12-14",
+    "end": "1987-01-21",
+    "dail_no": "24"
+  },
+  "HughByrne": {
+    "fullName": "Hugh Byrne",
+    "start": "1982-12-14",
+    "end": "1987-01-21",
+    "dail_no": "24"
+  },
+  "SeanByrne": {
+    "fullName": "Seán Byrne",
+    "start": "1982-12-14",
+    "end": "1987-01-21",
+    "dail_no": "24"
+  },
+  "SeanCalleary": {
+    "fullName": "Seán Calleary",
+    "start": "1982-12-14",
+    "end": "1987-01-21",
+    "dail_no": "24"
+  },
+  "DonalCarey": {
+    "fullName": "Donal Carey",
+    "start": "1982-12-14",
+    "end": "1987-01-21",
+    "dail_no": "24"
+  },
+  "FrankCluskey": {
+    "fullName": "Frank Cluskey",
+    "start": "1982-12-14",
+    "end": "1987-01-21",
+    "dail_no": "24"
+  },
+  "GeorgeColley": {
+    "fullName": "George Colley",
+    "start": "1982-12-14",
+    "end": "1983-09-17",
+    "dail_no": "24"
+  },
+  "EdwardCollins": {
+    "fullName": "Edward Collins",
+    "start": "1982-12-14",
+    "end": "1987-01-21",
+    "dail_no": "24"
+  },
+  "GerardCollins": {
+    "fullName": "Gerard Collins",
+    "start": "1982-12-14",
+    "end": "1987-01-21",
+    "dail_no": "24"
+  },
+  "HughConaghan": {
+    "fullName": "Hugh Conaghan",
+    "start": "1982-12-14",
+    "end": "1987-01-21",
+    "dail_no": "24"
+  },
+  "JohnFConlon": {
+    "fullName": "John F. Conlan",
+    "start": "1982-12-14",
+    "end": "1987-01-21",
+    "dail_no": "24"
+  },
+  "PaulConnaughton": {
+    "fullName": "Paul Connaughton",
+    "start": "1982-12-14",
+    "end": "1987-01-21",
+    "dail_no": "24"
+  },
+  "GerardCConnelly": {
+    "fullName": "Gerard C. Connolly",
+    "start": "1982-12-14",
+    "end": "1987-01-21",
+    "dail_no": "24"
+  },
+  "FintanACoogan": {
+    "fullName": "Fintan A. Coogan",
+    "start": "1982-12-14",
+    "end": "1987-01-21",
+    "dail_no": "24"
+  },
+  "PatrickMarkCooney": {
+    "fullName": "Patrick Mark Cooney",
+    "start": "1982-12-14",
+    "end": "1987-01-21",
+    "dail_no": "24"
+  },
+  "LiamTCosgrave": {
+    "fullName": "Liam T. Cosgrave",
+    "start": "1982-12-14",
+    "end": "1987-01-21",
+    "dail_no": "24"
+  },
+  "MichaelJoeCosgrave": {
+    "fullName": "Michael Joe Cosgrave",
+    "start": "1982-12-14",
+    "end": "1987-01-21",
+    "dail_no": "24"
+  },
+  "CathalCoughlan": {
+    "fullName": "Cathal Coughlan",
+    "start": "1983-05-13",
+    "end": "1986-06-21",
+    "dail_no": "24"
+  },
+  "ClementCoughlan": {
+    "fullName": "Clement Coughlan",
+    "start": "1982-12-14",
+    "end": "1983-02-01",
+    "dail_no": "24"
+  },
+  "HughCoveney": {
+    "fullName": "Hugh Coveney",
+    "start": "1982-12-14",
+    "end": "1987-01-21",
+    "dail_no": "24"
+  },
+  "BernardCowen": {
+    "fullName": "Bernard Cowen",
+    "start": "1982-12-14",
+    "end": "1984-01-24",
+    "dail_no": "24"
+  },
+  "BrianCowen": {
+    "fullName": "Brian Cowen",
+    "start": "1984-06-14",
+    "end": "1987-01-21",
+    "dail_no": "24"
+  },
+  "DonalCreed": {
+    "fullName": "Donal Creed",
+    "start": "1982-12-14",
+    "end": "1987-01-21",
+    "dail_no": "24"
+  },
+  "KiearanCrotty": {
+    "fullName": "Kieran Crotty",
+    "start": "1982-12-14",
+    "end": "1987-01-21",
+    "dail_no": "24"
+  },
+  "FrankCrowley": {
+    "fullName": "Frank Crowley",
+    "start": "1982-12-14",
+    "end": "1987-01-21",
+    "dail_no": "24"
+  },
+  "MichaelDarcy": {
+    "fullName": "Michael D'Arcy",
+    "start": "1982-12-14",
+    "end": "1987-01-21",
+    "dail_no": "24"
+  },
+  "BrendanDaly": {
+    "fullName": "Brendan Daly",
+    "start": "1982-12-14",
+    "end": "1987-01-21",
+    "dail_no": "24"
+  },
+  "PrionsiasDeRossa": {
+    "fullName": "Proinsias De Rossa",
+    "start": "1982-12-14",
+    "end": "1987-01-21",
+    "dail_no": "24"
+  },
+  "AustinDeasy": {
+    "fullName": "Austin Deasy",
+    "start": "1982-12-14",
+    "end": "1987-01-21",
+    "dail_no": "24"
+  },
+  "BarryDesmond": {
+    "fullName": "Barry Desmond",
+    "start": "1982-12-14",
+    "end": "1987-01-21",
+    "dail_no": "24"
+  },
+  "EileenDesmond": {
+    "fullName": "Eileen Desmond",
+    "start": "1982-12-14",
+    "end": "1987-01-21",
+    "dail_no": "24"
+  },
+  "SeanDoherty": {
+    "fullName": "Seán Doherty",
+    "start": "1982-12-14",
+    "end": "1987-01-21",
+    "dail_no": "24"
+  },
+  "JohnFDonnellan": {
+    "fullName": "John F. Donnellan",
+    "start": "1982-12-14",
+    "end": "1987-01-21",
+    "dail_no": "24"
+  },
+  "DickDowling": {
+    "fullName": "Richard Dowling",
+    "start": "1982-12-14",
+    "end": "1987-01-21",
+    "dail_no": "24"
+  },
+  "AvrilDoyle": {
+    "fullName": "Avril Doyle",
+    "start": "1982-12-14",
+    "end": "1987-01-21",
+    "dail_no": "24"
+  },
+  "JosephDoyle": {
+    "fullName": "Joseph Doyle",
+    "start": "1982-12-14",
+    "end": "1987-01-21",
+    "dail_no": "24"
+  },
+  "AlanMDukes": {
+    "fullName": "Alan M. Dukes",
+    "start": "1982-12-14",
+    "end": "1987-01-21",
+    "dail_no": "24"
+  },
+  "BernardJDurkan": {
+    "fullName": "Bernard Durkan",
+    "start": "1982-12-14",
+    "end": "1987-01-21",
+    "dail_no": "24"
+  },
+  "TomEnright": {
+    "fullName": "Tom Enright",
+    "start": "1982-12-14",
+    "end": "1987-01-21",
+    "dail_no": "24"
+  },
+  "FrankFahey": {
+    "fullName": "Frank Fahey",
+    "start": "1982-12-14",
+    "end": "1987-01-21",
+    "dail_no": "24"
+  },
+  "JackieFahey": {
+    "fullName": "John Fahey",
+    "start": "1982-12-14",
+    "end": "1987-01-21",
+    "dail_no": "24"
+  },
+  "JohnVFarrelly": {
+    "fullName": "John V. Farrelly",
+    "start": "1982-12-14",
+    "end": "1987-01-21",
+    "dail_no": "24"
+  },
+  "PadraigFaulkner": {
+    "fullName": "Padraig Faulkner",
+    "start": "1982-12-14",
+    "end": "1987-01-21",
+    "dail_no": "24"
+  },
+  "NualaFennell": {
+    "fullName": "Nuala Fennell",
+    "start": "1982-12-14",
+    "end": "1987-01-21",
+    "dail_no": "24"
+  },
+  "GarrettFitzgerald": {
+    "fullName": "Garrett Fitzgerald",
+    "start": "1982-12-14",
+    "end": "1987-01-21",
+    "dail_no": "24"
+  },
+  "GeneFitzgerald": {
+    "fullName": "Gene Fitzgerald",
+    "start": "1982-12-14",
+    "end": "1987-01-21",
+    "dail_no": "24"
+  },
+  "LiamFitzgerald": {
+    "fullName": "Liam Fitzgerald",
+    "start": "1982-12-14",
+    "end": "1987-01-21",
+    "dail_no": "24"
+  },
+  "ThomasJFitzpatrick": {
+    "fullName": "Thomas J. Fitzpatrick",
+    "start": "1982-12-14",
+    "end": "1987-01-21",
+    "dail_no": "24"
+  },
+  "JamesNFitzsimons": {
+    "fullName": "James N. Fitzsimons",
+    "start": "1982-12-14",
+    "end": "1987-01-21",
+    "dail_no": "24"
+  },
+  "MaryFlaherty": {
+    "fullName": "Mary Flaherty",
+    "start": "1982-12-14",
+    "end": "1987-01-21",
+    "dail_no": "24"
+  },
+  "OliverJFlanagan": {
+    "fullName": "Oliver J. Flanagan",
+    "start": "1982-12-14",
+    "end": "1987-01-21",
+    "dail_no": "24"
+  },
+  "PadraidFlynn": {
+    "fullName": "Pádraig Flynn",
+    "start": "1982-12-14",
+    "end": "1987-01-21",
+    "dail_no": "24"
+  },
+  "DenisFoley": {
+    "fullName": "Denis Foley",
+    "start": "1982-12-14",
+    "end": "1987-01-21",
+    "dail_no": "24"
+  },
+  "DenisGallagher": {
+    "fullName": "Denis Gallagher",
+    "start": "1982-12-14",
+    "end": "1987-01-21",
+    "dail_no": "24"
+  },
+  "PatTheCopeGallagher": {
+    "fullName": "Pat the Cope Gallagher",
+    "start": "1982-12-14",
+    "end": "1987-01-21",
+    "dail_no": "24"
+  },
+  "MaireGeoghehanQuinn": {
+    "fullName": "Máire Geoghegan-Quinn",
+    "start": "1982-12-14",
+    "end": "1987-01-21",
+    "dail_no": "24"
+  },
+  "AliceGlenn": {
+    "fullName": "Alice Glenn",
+    "start": "1982-12-14",
+    "end": "1987-01-21",
+    "dail_no": "24"
+  },
+  "TonyGregory": {
+    "fullName": "Tony Gregory",
+    "start": "1982-12-14",
+    "end": "1987-01-21",
+    "dail_no": "24"
+  },
+  "BrendanGriffin": {
+    "fullName": "Brendan Griffin",
+    "start": "1982-12-14",
+    "end": "1987-01-21",
+    "dail_no": "24"
+  },
+  "MaryHarney": {
+    "fullName": "Mary Harney",
+    "start": "1982-12-14",
+    "end": "1987-01-21",
+    "dail_no": "24"
+  },
+  "PatrickDHarte": {
+    "fullName": "Patrick D. Harte",
+    "start": "1982-12-14",
+    "end": "1987-01-21",
+    "dail_no": "24"
+  },
+  "CharlesJHaughey": {
+    "fullName": "Charles J. Haughey",
+    "start": "1982-12-14",
+    "end": "1987-01-21",
+    "dail_no": "24"
+  },
+  "PatrickHegarty": {
+    "fullName": "Patrick Hegarty",
+    "start": "1982-12-14",
+    "end": "1987-01-21",
+    "dail_no": "24"
+  },
+  "ColmMHilliard": {
+    "fullName": "Colm M. Hilliard",
+    "start": "1982-12-14",
+    "end": "1987-01-21",
+    "dail_no": "24"
+  },
+  "GemmaHussey": {
+    "fullName": "Gemma Hussey",
+    "start": "1982-12-14",
+    "end": "1987-01-21",
+    "dail_no": "24"
+  },
+  "LiamHyland": {
+    "fullName": "Liam Hyland",
+    "start": "1982-12-14",
+    "end": "1987-01-21",
+    "dail_no": "24"
+  },
+  "LiamKavanagh": {
+    "fullName": "Liam Kavanagh",
+    "start": "1982-12-14",
+    "end": "1987-01-21",
+    "dail_no": "24"
+  },
+  "MichaelKeating": {
+    "fullName": "Michael Keating",
+    "start": "1982-12-14",
+    "end": "1987-01-21",
+    "dail_no": "24"
+  },
+  "JohnMKelly": {
+    "fullName": "John M. Kelly",
+    "start": "1982-12-14",
+    "end": "1987-01-21",
+    "dail_no": "24"
+  },
+  "EndaKenny": {
+    "fullName": "Enda Kenny",
+    "start": "1982-12-14",
+    "end": "1987-01-21",
+    "dail_no": "24"
+  },
+  "SeamusKirk": {
+    "fullName": "Seamus Kirk",
+    "start": "1982-12-14",
+    "end": "1987-01-21",
+    "dail_no": "24"
+  },
+  "MichaelPKitt": {
+    "fullName": "Michael P. Kitt",
+    "start": "1982-12-14",
+    "end": "1987-01-21",
+    "dail_no": "24"
+  },
+  "GeraldLEstrange": {
+    "fullName": "Gerald L'Estrange",
+    "start": "1982-12-14",
+    "end": "1987-01-21",
+    "dail_no": "24"
+  },
+  "EileenLemass": {
+    "fullName": "Eileen Lemass",
+    "start": "1982-12-14",
+    "end": "1987-01-21",
+    "dail_no": "24"
+  },
+  "BrianLenihanSnr": {
+    "fullName": "Brian Lenihan Snr.",
+    "start": "1982-12-14",
+    "end": "1987-01-21",
+    "dail_no": "24"
+  },
+  "JamesLeonard": {
+    "fullName": "James Leonard",
+    "start": "1982-12-14",
+    "end": "1987-01-21",
+    "dail_no": "24"
+  },
+  "ThomasLeonard": {
+    "fullName": "Thomas Leonard",
+    "start": "1983-11-23",
+    "end": "1987-01-21",
+    "dail_no": "24"
+  },
+  "TerryLeyden": {
+    "fullName": "Terry Leyden",
+    "start": "1982-12-14",
+    "end": "1987-01-21",
+    "dail_no": "24"
+  },
+  "DenisLyons": {
+    "fullName": "Denis Lyons",
+    "start": "1982-12-14",
+    "end": "1987-01-21",
+    "dail_no": "24"
+  },
+  "TomasMacGiolla": {
+    "fullName": "Tomás MacGiolla",
+    "start": "1982-12-14",
+    "end": "1987-01-21",
+    "dail_no": "24"
+  },
+  "RaymondMacSharry": {
+    "fullName": "Raymond MacSharry",
+    "start": "1982-12-14",
+    "end": "1987-01-21",
+    "dail_no": "24"
+  },
+  "MauriceManning": {
+    "fullName": "Maurice Manning",
+    "start": "1982-12-14",
+    "end": "1987-01-21",
+    "dail_no": "24"
+  },
+  "SeanMcCarthy": {
+    "fullName": "Seán McCarthy",
+    "start": "1982-12-14",
+    "end": "1987-01-21",
+    "dail_no": "24"
+  },
+  "JoeJMcCartin": {
+    "fullName": "Joe J. McCartin",
+    "start": "1982-12-14",
+    "end": "1987-01-21",
+    "dail_no": "24"
+  },
+  "CharlieMcCreevy": {
+    "fullName": "Charlie McCreevy",
+    "start": "1982-12-14",
+    "end": "1987-01-21",
+    "dail_no": "24"
+  },
+  "ThomasMcEllistrimJnr": {
+    "fullName": "Thomas McEllistrim Jnr.",
+    "start": "1982-12-14",
+    "end": "1987-01-21",
+    "dail_no": "24"
+  },
+  "BrendanMcGahon": {
+    "fullName": "Brendan McGahon",
+    "start": "1982-12-14",
+    "end": "1987-01-21",
+    "dail_no": "24"
+  },
+  "DinnyMcGinley": {
+    "fullName": "Dinny McGinley",
+    "start": "1982-12-14",
+    "end": "1987-01-21",
+    "dail_no": "24"
+  },
+  "FrankMcLoughlin": {
+    "fullName": "Frank McLoughlin",
+    "start": "1982-12-14",
+    "end": "1987-01-21",
+    "dail_no": "24"
+  },
+  "GayMitchell": {
+    "fullName": "Gay Mitchell",
+    "start": "1982-12-14",
+    "end": "1987-01-21",
+    "dail_no": "24"
+  },
+  "JimMitchell": {
+    "fullName": "Jim Mitchell",
+    "start": "1982-12-14",
+    "end": "1987-01-21",
+    "dail_no": "24"
+  },
+  "RobertMolloy": {
+    "fullName": "Robert Molloy",
+    "start": "1982-12-14",
+    "end": "1987-01-21",
+    "dail_no": "24"
+  },
+  "DavidMolony": {
+    "fullName": "David Molony",
+    "start": "1982-12-14",
+    "end": "1987-01-21",
+    "dail_no": "24"
+  },
+  "PatrickJMorley": {
+    "fullName": "Patrick J. Morley",
+    "start": "1982-12-14",
+    "end": "1987-01-21",
+    "dail_no": "24"
+  },
+  "DonalMoynihan": {
+    "fullName": "Donal Moynihan",
+    "start": "1982-12-14",
+    "end": "1987-01-21",
+    "dail_no": "24"
+  },
+  "MichaelMoynihanKerry": {
+    "fullName": "Michael Moynihan",
+    "start": "1982-12-14",
+    "end": "1987-01-21",
+    "dail_no": "24"
+  },
+  "LiamNaughten": {
+    "fullName": "Liam Naughten",
+    "start": "1982-12-14",
+    "end": "1987-01-21",
+    "dail_no": "24"
+  },
+  "TedNealon": {
+    "fullName": "Edward Nealon",
+    "start": "1982-12-14",
+    "end": "1987-01-21",
+    "dail_no": "24"
+  },
+  "MJNolan": {
+    "fullName": "M. J. Nolan",
+    "start": "1982-12-14",
+    "end": "1987-01-21",
+    "dail_no": "24"
+  },
+  "MichaelNoonan": {
+    "fullName": "Michael Noonan",
+    "start": "1982-12-14",
+    "end": "1987-01-21",
+    "dail_no": "24"
+  },
+  "MichaelJNoonan": {
+    "fullName": "Michael J. Noonan",
+    "start": "1982-12-14",
+    "end": "1987-01-21",
+    "dail_no": "24"
+  },
+  "FergusOBrien": {
+    "fullName": "Fergus O'Brien",
+    "start": "1982-12-14",
+    "end": "1987-01-21",
+    "dail_no": "24"
+  },
+  "WilliamOBrien1977": {
+    "fullName": "William O'Brien",
+    "start": "1982-12-14",
+    "end": "1987-01-21",
+    "dail_no": "24"
+  },
+  "JohnFOConnell": {
+    "fullName": "John F. O'Connell",
+    "start": "1982-12-14",
+    "end": "1987-01-21",
+    "dail_no": "24"
+  },
+  "WillieODea": {
+    "fullName": "Willie O'Dea",
+    "start": "1982-12-14",
+    "end": "1987-01-21",
+    "dail_no": "24"
+  },
+  "ThomasGODonnell": {
+    "fullName": "Thomas G. O'Donnell",
+    "start": "1982-12-14",
+    "end": "1987-01-21",
+    "dail_no": "24"
+  },
+  "RoryOHanlon": {
+    "fullName": "Rory O'Hanlon",
+    "start": "1982-12-14",
+    "end": "1987-01-21",
+    "dail_no": "24"
+  },
+  "JimOKeeffe": {
+    "fullName": "Jim O'Keeffe",
+    "start": "1982-12-14",
+    "end": "1987-01-21",
+    "dail_no": "24"
+  },
+  "NedOKeeffe": {
+    "fullName": "Ned O'Keeffe",
+    "start": "1982-12-14",
+    "end": "1987-01-21",
+    "dail_no": "24"
+  },
+  "MichaelOKennedy": {
+    "fullName": "Michael O'Kennedy",
+    "start": "1982-12-14",
+    "end": "1987-01-21",
+    "dail_no": "24"
+  },
+  "JohnOLeary1965": {
+    "fullName": "John O'Leary",
+    "start": "1982-12-14",
+    "end": "1987-01-21",
+    "dail_no": "24"
+  },
+  "MichaelOLeary": {
+    "fullName": "Michael O'Leary",
+    "start": "1982-12-14",
+    "end": "1987-01-21",
+    "dail_no": "24"
+  },
+  "DesOMalley": {
+    "fullName": "Desmond J. O'Malley",
+    "start": "1982-12-14",
+    "end": "1987-01-21",
+    "dail_no": "24"
+  },
+  "MaryORourke": {
+    "fullName": "Mary O'Rourke",
+    "start": "1982-12-14",
+    "end": "1987-01-21",
+    "dail_no": "24"
+  },
+  "ToddyOSullivan": {
+    "fullName": "Toddy O'Sullivan",
+    "start": "1982-12-14",
+    "end": "1987-01-21",
+    "dail_no": "24"
+  },
+  "PatrickOToole": {
+    "fullName": "Patrick O'Toole",
+    "start": "1982-12-14",
+    "end": "1987-01-21",
+    "dail_no": "24"
+  },
+  "DonalOrmonde": {
+    "fullName": "Donal Ormonde",
+    "start": "1982-12-14",
+    "end": "1987-01-21",
+    "dail_no": "24"
+  },
+  "NoraOwen": {
+    "fullName": "Nora Owen",
+    "start": "1982-12-14",
+    "end": "1987-01-21",
+    "dail_no": "24"
+  },
+  "SeamusPattison": {
+    "fullName": "Séamus Pattison",
+    "start": "1982-12-14",
+    "end": "1987-01-21",
+    "dail_no": "24"
+  },
+  "PatrickPower": {
+    "fullName": "Patrick Power",
+    "start": "1982-12-14",
+    "end": "1987-01-21",
+    "dail_no": "24"
+  },
+  "FrankPrendergast": {
+    "fullName": "Frank Prendergast",
+    "start": "1982-12-14",
+    "end": "1987-01-21",
+    "dail_no": "24"
+  },
+  "RuairiQuinn": {
+    "fullName": "Ruairí Quinn",
+    "start": "1982-12-14",
+    "end": "1987-01-21",
+    "dail_no": "24"
+  },
+  "AlbertReynolds": {
+    "fullName": "Albert Reynolds",
+    "start": "1982-12-14",
+    "end": "1987-01-21",
+    "dail_no": "24"
+  },
+  "JohnJRyan": {
+    "fullName": "John J. Ryan",
+    "start": "1982-12-14",
+    "end": "1987-01-21",
+    "dail_no": "24"
+  },
+  "AlanShatter": {
+    "fullName": "Alan Shatter",
+    "start": "1982-12-14",
+    "end": "1987-01-21",
+    "dail_no": "24"
+  },
+  "PJSheenan": {
+    "fullName": "P. J. Sheehan",
+    "start": "1982-12-14",
+    "end": "1987-01-21",
+    "dail_no": "24"
+  },
+  "LiamSkelly": {
+    "fullName": "Liam Skelly",
+    "start": "1982-12-14",
+    "end": "1987-01-21",
+    "dail_no": "24"
+  },
+  "DickSpring": {
+    "fullName": "Dick Spring",
+    "start": "1982-12-14",
+    "end": "1987-01-21",
+    "dail_no": "24"
+  },
+  "MervynTaylor": {
+    "fullName": "Mervyn Taylor",
+    "start": "1982-12-14",
+    "end": "1987-01-21",
+    "dail_no": "24"
+  },
+  "MadeleineTaylorQuinn": {
+    "fullName": "Madeleine Taylor-Quinn",
+    "start": "1982-12-14",
+    "end": "1987-01-21",
+    "dail_no": "24"
+  },
+  "GodfreyTimmins": {
+    "fullName": "Godfrey Timmins",
+    "start": "1982-12-14",
+    "end": "1987-01-21",
+    "dail_no": "24"
+  },
+  "NoelTracey": {
+    "fullName": "Noel Treacy",
+    "start": "1982-12-14",
+    "end": "1987-01-21",
+    "dail_no": "24"
+  },
+  "SeanTreacy": {
+    "fullName": "Seán Treacy",
+    "start": "1982-12-14",
+    "end": "1987-01-21",
+    "dail_no": "24"
+  },
+  "JamesCTunney": {
+    "fullName": "James C. Tunney",
+    "start": "1982-12-14",
+    "end": "1987-01-21",
+    "dail_no": "24"
+  },
+  "DanWallace": {
+    "fullName": "Dan Wallace",
+    "start": "1982-12-14",
+    "end": "1987-01-21",
+    "dail_no": "24"
+  },
+  "JoeWalsh": {
+    "fullName": "Joe Walsh",
+    "start": "1982-12-14",
+    "end": "1987-01-21",
+    "dail_no": "24"
+  },
+  "SeanWalsh": {
+    "fullName": "Seán Walsh",
+    "start": "1982-12-14",
+    "end": "1987-01-21",
+    "dail_no": "24"
+  },
+  "JohnPWilson": {
+    "fullName": "John P. Wilson",
+    "start": "1982-12-14",
+    "end": "1987-01-21",
+    "dail_no": "24"
+  },
+  "MichaelJWoods": {
+    "fullName": "Michael Woods",
+    "start": "1982-12-14",
+    "end": "1987-01-21",
+    "dail_no": "24"
+  },
+  "PearseWyse": {
+    "fullName": "Pearse Wyse",
+    "start": "1982-12-14",
+    "end": "1987-01-21",
+    "dail_no": "24"
+  },
+  "IvanYates": {
+    "fullName": "Ivan Yates",
+    "start": "1982-12-14",
+    "end": "1987-01-21",
+    "dail_no": "24"
+  }
+}

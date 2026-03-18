@@ -1,0 +1,102 @@
+{% extends "base.html" %}
+{% set depth = "../" %}
+{% set page = "cro" %}
+
+{% block title %}CRO Cross-Check — Oireachtas Interests{% endblock %}
+{% block description %}Declared company directorships compared against Companies Registration Office records.{% endblock %}
+
+{% block content %}
+
+<div class="page-header">
+  <h1>CRO Cross-Check</h1>
+  <p class="sub">
+    {{ cro_records | length }} TD{% if cro_records | length != 1 %}s{% endif %} with declared company
+    directorships, compared against the Companies Registration Office.
+  </p>
+</div>
+
+<div class="method-note">
+  <p>
+    This table shows declared directorships from the Register of Members' Interests alongside
+    Companies Registration Office (CRO) records. Where a company is found in both, any
+    discrepancies (dissolved company, TD not listed as officer) are flagged.
+  </p>
+  <p style="margin-top:0.5rem;">
+    <strong>Note:</strong> CRO verification is currently in parse-only mode — search links are
+    provided but automated officer checks have not been run. Full verification will be available
+    once the CRO API key is active.
+    Discrepancies, when shown, are factual differences between public records.
+    They do not imply wrongdoing.
+  </p>
+</div>
+
+{% if cro_records %}
+{% for td in cro_records %}
+<div class="section" style="margin-top:1.5rem;">
+  <h2>
+    <a href="../tds/{{ td.slug }}/index.html">{{ td.display_name }}</a>
+    {% if td.constituency or td.party %}
+    <span class="party-tag" style="font-weight:400;margin-left:0.5rem;">
+      {% if td.party %}{{ td.party }}{% endif %}{% if td.party and td.constituency %}, {% endif %}{% if td.constituency %}{{ td.constituency }}{% endif %}
+    </span>
+    {% endif %}
+  </h2>
+
+  <table class="data-table" style="margin-top:0.5rem;">
+    <thead>
+      <tr>
+        <th>Role</th>
+        <th>Company (declared)</th>
+        <th>CRO search</th>
+        <th>CRO status</th>
+        <th>Flags</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for d in td.declared_directorships %}
+      <tr>
+        <td>{{ d.role or '—' }}{% if d.voluntary %} <span class="meta">(voluntary)</span>{% endif %}</td>
+        <td>
+          {{ d.company_name_declared or '—' }}
+          {% if d.cro_number_declared %}<br><span class="meta">CRO# {{ d.cro_number_declared }}</span>{% endif %}
+        </td>
+        <td>
+          {% if d.cro_result and d.cro_result.cro_url %}
+          <a class="cro-url" href="{{ d.cro_result.cro_url }}" target="_blank" rel="noopener">Search ↗</a>
+          {% elif d.cro_result and d.cro_result.company_num %}
+          <a class="cro-url" href="https://core.cro.ie/company/{{ d.cro_result.company_num }}" target="_blank" rel="noopener">CRO {{ d.cro_result.company_num }} ↗</a>
+          {% else %}—{% endif %}
+        </td>
+        <td>
+          {% if d.cro_result and d.cro_result.status %}
+          {{ d.cro_result.status }}
+          {% elif d.cro_result and d.cro_result.found == none %}
+          <span class="meta">Not verified</span>
+          {% elif d.cro_result and d.cro_result.found == false %}
+          <span class="flag">Not found</span>
+          {% else %}—{% endif %}
+        </td>
+        <td>
+          {% for flag in d.flags %}
+          <span class="flag">{{ flag.replace('_', ' ') }}</span>
+          {% else %}
+          <span class="meta">—</span>
+          {% endfor %}
+        </td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+
+  {% if td.undeclared_cro_directorships %}
+  <p style="margin-top:0.5rem;font-weight:700;font-size:0.875rem;">
+    ⚑ CRO also shows {{ td.undeclared_cro_directorships | length }} directorship(s) not in the register.
+  </p>
+  {% endif %}
+</div>
+{% endfor %}
+{% else %}
+<p class="no-data" style="margin-top:1.5rem;">No directorship data found.</p>
+{% endif %}
+
+{% endblock %}

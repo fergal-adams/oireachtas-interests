@@ -1,0 +1,109 @@
+{% extends "base.html" %}
+{% set depth = "../" %}
+{% set page = "explorer" %}
+
+{% block title %}Interest Explorer — Oireachtas Interests{% endblock %}
+{% block description %}Browse and filter all Dáil TDs by declared interest sector, party, and interest type.{% endblock %}
+
+{% block extra_head %}
+<style>
+  /* Hide rows via JS filtering */
+  #explorer-table tbody tr.hidden { display: none; }
+</style>
+{% endblock %}
+
+{% block content %}
+
+<div class="page-header">
+  <h1>Interest Explorer</h1>
+  <p class="sub">Browse all {{ records | length }} TDs by declared interests, sector, and party.</p>
+</div>
+
+<!-- Filters (progressively enhanced via explorer.js) -->
+<div class="explorer-controls">
+  <div class="control-group">
+    <label for="filter-search">Search</label>
+    <input type="text" id="filter-search" placeholder="Name or interest text…" />
+  </div>
+  <div class="control-group">
+    <label for="filter-sector">Sector</label>
+    <select id="filter-sector">
+      <option value="">All sectors</option>
+      <option value="agriculture">Agriculture</option>
+      <option value="property">Property</option>
+      <option value="finance">Finance</option>
+      <option value="legal">Legal</option>
+      <option value="tourism_hospitality">Tourism &amp; Hospitality</option>
+      <option value="transport">Transport</option>
+      <option value="construction">Construction</option>
+      <option value="energy">Energy</option>
+      <option value="health">Health</option>
+      <option value="media">Media</option>
+    </select>
+  </div>
+  <div class="control-group">
+    <label for="filter-party">Party</label>
+    <select id="filter-party">
+      <option value="">All parties</option>
+      {% set parties = records | map(attribute='party') | unique | sort %}
+      {% for p in parties %}{% if p %}
+      <option value="{{ p }}">{{ p }}</option>
+      {% endif %}{% endfor %}
+    </select>
+  </div>
+  <label class="filter-toggle">
+    <input type="checkbox" id="filter-conflicts" />
+    Conflicts only
+  </label>
+</div>
+
+<p id="explorer-count" class="meta">Showing {{ records | length }} TDs</p>
+
+<div style="overflow-x:auto;">
+<table class="data-table" id="explorer-table">
+  <thead>
+    <tr>
+      <th>TD</th>
+      <th>Party</th>
+      <th>Constituency</th>
+      <th>Interest sectors</th>
+      <th>Conflicts</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for td in records %}
+    <tr
+      data-name="{{ td.display_name | lower }}"
+      data-party="{{ td.party }}"
+      data-sectors="{{ td.interest_sectors | join(' ') }}"
+      data-conflicts="{{ 'yes' if td.has_conflicts else 'no' }}"
+      data-text="{{ td.interests_by_cat.values() | join(' ') | lower }}"
+    >
+      <td><a href="{{ depth }}tds/{{ td.slug }}/index.html">{{ td.display_name }}</a></td>
+      <td><span class="party-tag">{{ td.party }}</span></td>
+      <td>{{ td.constituency }}</td>
+      <td>
+        {% for s in td.interest_sectors %}
+        <span class="sector-pill">{{ s.replace('_', ' ') }}</span>
+        {% else %}
+        <span class="meta">—</span>
+        {% endfor %}
+      </td>
+      <td>
+        {% if td.has_conflicts %}
+        {{ td.conflict_count }} overlap{% if td.conflict_count != 1 %}s{% endif %}
+        {% else %}
+        <span class="meta">—</span>
+        {% endif %}
+      </td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+</div>
+
+{% endblock %}
+
+{% block extra_scripts %}
+<script src="../static/explorer.js" defer></script>
+{% endblock %}

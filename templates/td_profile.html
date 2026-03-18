@@ -1,0 +1,312 @@
+{% extends "base.html" %}
+{% set depth = "../../" %}
+{% set page = "td" %}
+
+{% block title %}{{ td.display_name }} — Oireachtas Interests{% endblock %}
+{% block description %}Declared interests, company directorships, and conflict analysis for {{ td.display_name }} ({{ td.party }}, {{ td.constituency }}).{% endblock %}
+
+{% block content %}
+
+<!-- TD Header -->
+<div class="td-header page-header">
+  <div class="td-name">{{ td.display_name }}</div>
+  <div class="td-meta">
+    {{ td.party }}{% if td.constituency %} · {{ td.constituency }}{% endif %}
+    {% if td.memberCode %}
+    · <a href="https://www.oireachtas.ie/en/members/member/{{ td.memberCode }}/"
+         target="_blank" rel="noopener">Oireachtas profile ↗</a>
+    {% endif %}
+  </div>
+</div>
+
+<!-- ── Declared Interests ────────────────────────────────── -->
+<div class="section">
+  <div class="section-title">Declared interests ({{ year }} register)</div>
+
+  {% if td.interests_by_cat %}
+  <ul class="interest-list">
+    {% for cat, text in td.interests_by_cat.items() %}
+    <li>
+      <span class="interest-cat-label">{{ {
+        'occupations':           'Occupations',
+        'shares':                'Shares',
+        'directorships':         'Directorships',
+        'land_property':         'Land & Property',
+        'gifts':                 'Gifts',
+        'property_supplied':     'Property / Services Supplied',
+        'travel':                'Travel',
+        'remunerated_positions': 'Remunerated Positions',
+        'contracts':             'Contracts',
+        'other_information':     'Other',
+      }.get(cat, cat) }}</span>
+      {{ text }}
+    </li>
+    {% endfor %}
+  </ul>
+  <p class="meta" style="margin-top:0.75rem;">
+    Note: only interests matched to a recognised sector are shown here.
+    Full register available at
+    <a href="https://data.oireachtas.ie/ie/oireachtas/members/registerOfMembersInterests/" target="_blank" rel="noopener">data.oireachtas.ie ↗</a>.
+  </p>
+  {% else %}
+  <p class="no-data">No sector-tagged interests found in the register for this TD.</p>
+  {% endif %}
+</div>
+
+<!-- ── Property Valuations ────────────────────────────────── -->
+{% if td.property_valuation and td.property_valuation.any_estimated %}
+{% set pv = td.property_valuation %}
+<div class="section">
+  <div class="section-title">Land and property — estimated values</div>
+
+  <div class="method-note">
+    Estimates are based on county-level average prices (Daft.ie Q4 2024 for residential;
+    SCSI/Teagasc 2023 for agricultural land). They are regional averages, not site-specific
+    valuations. Agricultural figures in particular have been contested by TDs and should be
+    treated with caution.
+    <a href="{{ depth }}about/index.html#property">Methodology →</a>
+  </div>
+
+  <table class="data-table">
+    <thead>
+      <tr>
+        <th>Declared holding</th>
+        <th>Type</th>
+        <th>County</th>
+        <th>Est. value</th>
+        <th>Confidence</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for prop in pv.breakdown %}
+      {% if prop.type not in ('constituency_office',) %}
+      <tr>
+        <td style="font-size:0.82rem;">{{ prop.description[:120] }}{% if prop.description | length > 120 %}…{% endif %}</td>
+        <td>{{ prop.type.replace('_', ' ').title() if prop.type else '—' }}</td>
+        <td>{{ prop.county.title() if prop.county else '—' }}</td>
+        <td>
+          {% if prop.estimated_value %}
+          <strong>€{{ "{:,}".format(prop.estimated_value) }}</strong>
+          <span class="meta" style="display:block;font-size:0.75rem;">range: {{ prop.value_range }}</span>
+          {% elif prop.value_range %}
+          <span class="meta">{{ prop.value_range }}</span>
+          {% else %}—{% endif %}
+        </td>
+        <td>
+          {% if prop.confidence == 'HIGH' %}<strong>High</strong>
+          {% elif prop.confidence == 'MEDIUM' %}Medium
+          {% elif prop.confidence == 'LOW' %}<span class="meta">Low</span>
+          {% else %}<span class="meta">—</span>{% endif %}
+        </td>
+      </tr>
+      {% endif %}
+      {% endfor %}
+    </tbody>
+  </table>
+
+  {% if pv.total_estimated %}
+  <p style="font-weight:700;margin:0.5rem 0;">
+    Combined estimated value: €{{ "{:,}".format(pv.total_estimated) }}
+    <span class="meta">(sum of individual estimates; see confidence levels)</span>
+  </p>
+  {% endif %}
+
+  <p class="meta" style="margin-top:0.5rem;">
+    Source: Oireachtas Register of Members' Interests ({{ year }}); valuation data from
+    Daft.ie and SCSI/Teagasc. Only declared properties with identifiable county and type are
+    estimated. Full declarations available at
+    <a href="https://data.oireachtas.ie/ie/oireachtas/members/registerOfMembersInterests/" target="_blank" rel="noopener">data.oireachtas.ie ↗</a>.
+  </p>
+</div>
+{% endif %}
+
+<!-- ── CRO Directorships ─────────────────────────────────── -->
+{% if td.cro.declared_directorships %}
+<div class="section">
+  <div class="section-title">Declared company directorships</div>
+  <table class="data-table">
+    <thead>
+      <tr>
+        <th>Role</th>
+        <th>Company (declared)</th>
+        <th>CRO search</th>
+        <th>Flags</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for d in td.cro.declared_directorships %}
+      <tr>
+        <td>{{ d.role or '—' }}</td>
+        <td>
+          {{ d.company_name_declared or '—' }}
+          {% if d.voluntary %}<br><span class="meta">Voluntary / unpaid</span>{% endif %}
+          {% if d.cro_number_declared %}<br><span class="meta">CRO# {{ d.cro_number_declared }}</span>{% endif %}
+        </td>
+        <td>
+          {% if d.cro_result and d.cro_result.cro_url %}
+          <a class="cro-url" href="{{ d.cro_result.cro_url }}" target="_blank" rel="noopener">Search CRO ↗</a>
+          {% elif d.cro_result and d.cro_result.company_num %}
+          <a class="cro-url" href="https://core.cro.ie/company/{{ d.cro_result.company_num }}" target="_blank" rel="noopener">CRO {{ d.cro_result.company_num }} ↗</a>
+          {% else %}—{% endif %}
+        </td>
+        <td>
+          {% for flag in d.flags %}
+          <span class="flag">{{ flag.replace('_', ' ') }}</span>
+          {% else %}
+          <span class="meta">—</span>
+          {% endfor %}
+        </td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+
+  {% if td.cro.undeclared_cro_directorships %}
+  <p style="margin-top:0.75rem;font-weight:700;">
+    ⚑ CRO shows {{ td.cro.undeclared_cro_directorships | length }} directorship(s) not in the register:
+  </p>
+  <ul style="font-size:0.875rem;margin-left:1.5rem;">
+    {% for d in td.cro.undeclared_cro_directorships %}
+    <li>{{ d.company_name }} (CRO# {{ d.company_num }}, {{ d.role or 'Director' }})</li>
+    {% endfor %}
+  </ul>
+  {% endif %}
+</div>
+{% endif %}
+
+<!-- ── Pension Valuation ─────────────────────────────────── -->
+{% if td.pension %}
+{% set p = td.pension %}
+<div class="section">
+  <div class="section-title">Pension valuation estimate</div>
+
+  <div class="method-note">
+    Estimates are based on the Oireachtas Members' Superannuation Scheme — a defined benefit
+    public pension scheme whose rules are set in statute.
+    <strong>These are estimates only.</strong> Actual entitlements depend on commutation options,
+    early retirement, Seanad or ministerial service, and other factors not modelled here.
+    <a href="{{ depth }}about/index.html#pension">Methodology →</a>
+  </div>
+
+  <table class="data-table pension-table">
+    <tbody>
+      <tr>
+        <th>Scheme</th>
+        <td>{{ p.scheme_label or '—' }}</td>
+      </tr>
+      <tr>
+        <th>Dáil service</th>
+        <td>
+          {{ p.total_years }} years
+          {% if p.service_periods %}
+          <span class="meta">({{ p.service_periods | length }} Dáil
+          {%- if p.service_periods | length == 1 %}{% else %}s{% endif %}:
+          {% for sp in p.service_periods %}Dáil {{ sp.dail_no }}{% if not loop.last %}, {% endif %}{% endfor %})</span>
+          {% endif %}
+        </td>
+      </tr>
+      {% if p.eligible %}
+      <tr>
+        <th>Est. annual pension</th>
+        <td><strong>€{{ "{:,}".format(p.annual_pension_estimate) }}</strong></td>
+      </tr>
+      <tr>
+        <th>Est. lump sum</th>
+        <td>€{{ "{:,}".format(p.lump_sum_estimate) }}</td>
+      </tr>
+      <tr>
+        <th>Annuity equivalent</th>
+        <td>
+          <strong>€{{ "{:,}".format(p.annuity_equivalent) }}</strong>
+          <span class="meta">— the lump sum needed at {{ p.annuity_rate_pct }}% to generate this income indefinitely</span>
+        </td>
+      </tr>
+      <tr>
+        <th>Formula</th>
+        <td class="meta">{{ p.formula }}</td>
+      </tr>
+      {% else %}
+      <tr>
+        <th>Eligibility</th>
+        <td class="meta">
+          Not yet eligible —
+          {% if p.pension_scheme == 'spsps_2013' %}minimum 2 years' qualifying service required (SPSPS)
+          {% else %}minimum 3 years' qualifying service required (Legacy DB){% endif %}
+        </td>
+      </tr>
+      {% endif %}
+    </tbody>
+  </table>
+
+  <p class="meta" style="margin-top:0.75rem;">
+    Salary basis: €{{ "{:,}".format(p.td_salary) }} (current TD salary).
+    Dáil service only — excludes Seanad service and ministerial or junior-ministerial uplift.
+  </p>
+</div>
+{% endif %}
+
+<!-- ── Conflict Analysis ───────────────────────────────────── -->
+{% if td.committee_conflicts or td.vote_conflicts %}
+<div class="section">
+  <div class="section-title">Conflict analysis</div>
+
+  <div class="method-note">
+    This section shows where declared interests overlap with committee memberships and voting
+    record. Overlaps are factual observations drawn from public records.
+    <strong>They do not allege or imply wrongdoing.</strong>
+    <a href="{{ depth }}about/index.html">Methodology →</a>
+  </div>
+
+  <!-- Committee conflicts -->
+  {% if td.committee_conflicts %}
+  <h2>Committee membership overlaps</h2>
+  {% for c in td.committee_conflicts %}
+  <div class="conflict-block">
+    <div class="conflict-sector">{{ c.sector.replace('_', ' ').title() }}</div>
+    <div class="conflict-evidence">Declared interests: {{ c.interest_evidence }}</div>
+    <p style="font-size:0.875rem;"><strong>Committees:</strong>
+      {% for name in c.committees %}{{ name }}{% if not loop.last %}; {% endif %}{% endfor %}
+    </p>
+  </div>
+  {% endfor %}
+  {% endif %}
+
+  <!-- Vote conflicts -->
+  {% if td.vote_conflicts %}
+  <h2>Vote overlaps</h2>
+  {% for c in td.vote_conflicts %}
+  <div class="conflict-block">
+    <div class="conflict-sector">{{ c.sector.replace('_', ' ').title() }}</div>
+    <div class="conflict-evidence">Declared interests: {{ c.interest_evidence }}</div>
+    {% if c.votes %}
+    <ul class="vote-list">
+      {% for v in c.votes %}
+      <li>
+        <span class="vote-date">{{ v.date }}</span>
+        <span class="vote-dir">{{ v.voted }}</span>
+        <span class="vote-title">{{ v.title }}</span>
+        <span class="vote-out">({{ v.outcome }})</span>
+      </li>
+      {% endfor %}
+    </ul>
+    {% endif %}
+  </div>
+  {% endfor %}
+  {% endif %}
+
+</div>
+{% else %}
+<div class="section">
+  <div class="section-title">Conflict analysis</div>
+  <p class="no-data">No committee or vote overlaps detected for this TD in the {{ year }} data.</p>
+</div>
+{% endif %}
+
+<!-- ── Back link ──────────────────────────────────────────── -->
+<p style="margin-top:2rem;font-size:0.875rem;">
+  <a href="{{ depth }}index.html">← Home</a> &nbsp;|&nbsp;
+  <a href="{{ depth }}explorer/index.html">Interest Explorer</a> &nbsp;|&nbsp;
+  <a href="{{ depth }}radar/index.html">Conflict Radar</a>
+</p>
+
+{% endblock %}

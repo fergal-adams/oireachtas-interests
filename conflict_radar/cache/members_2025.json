@@ -1,0 +1,6140 @@
+[
+  {
+    "memberCode": "Ciarán-Ahern.D.2024-11-29",
+    "fullName": "Ciarán Ahern",
+    "firstName": "Ciarán",
+    "lastName": "Ahern",
+    "pId": "CiaranAhern",
+    "party": "Labour Party",
+    "committees": [
+      {
+        "committeeID": 283,
+        "committeeName": "Joint Committee on Climate, Environment and Energy",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 237,
+        "committeeName": "Committee on Members' Interests of Dáil Éireann",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 281,
+        "committeeName": "Select Committee on Climate, Environment and Energy",
+        "role": [],
+        "status": "Live"
+      }
+    ]
+  },
+  {
+    "memberCode": "William-Aird.D.2024-11-29",
+    "fullName": "William Aird",
+    "firstName": "William",
+    "lastName": "Aird",
+    "pId": "WilliamAird",
+    "party": "Fine Gael",
+    "committees": [
+      {
+        "committeeID": 262,
+        "committeeName": "Joint Committee on Agriculture and Food",
+        "role": {
+          "dateRange": {
+            "start": "2025-05-21 00:00:00+00:00",
+            "end": null
+          },
+          "title": "Leas-Chathaoirleach"
+        },
+        "status": "Live"
+      },
+      {
+        "committeeID": 307,
+        "committeeName": "Joint Committee on Social Protection, Rural and Community Development",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 260,
+        "committeeName": "Select Committee on Agriculture and Food",
+        "role": {
+          "dateRange": {
+            "start": "2025-05-21 00:00:00+00:00",
+            "end": null
+          },
+          "title": "Leas-Chathaoirleach"
+        },
+        "status": "Live"
+      },
+      {
+        "committeeID": 305,
+        "committeeName": "Select Committee on Social Protection, Rural and Community Development",
+        "role": [],
+        "status": "Live"
+      }
+    ]
+  },
+  {
+    "memberCode": "Catherine-Ardagh.S.2016-04-25",
+    "fullName": "Catherine Ardagh",
+    "firstName": "Catherine",
+    "lastName": "Ardagh",
+    "pId": "CatherineArdagh",
+    "party": "Fianna Fáil",
+    "committees": [
+      {
+        "committeeID": 307,
+        "committeeName": "Joint Committee on Social Protection, Rural and Community Development",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 236,
+        "committeeName": "Committee of Public Accounts",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 305,
+        "committeeName": "Select Committee on Social Protection, Rural and Community Development",
+        "role": [],
+        "status": "Live"
+      }
+    ]
+  },
+  {
+    "memberCode": "Ivana-Bacik.S.2007-07-23",
+    "fullName": "Ivana Bacik",
+    "firstName": "Ivana",
+    "lastName": "Bacik",
+    "pId": "IvanaBacik",
+    "party": "Labour Party",
+    "committees": []
+  },
+  {
+    "memberCode": "Cathy-Bennett.D.2024-11-29",
+    "fullName": "Cathy Bennett",
+    "firstName": "Cathy",
+    "lastName": "Bennett",
+    "pId": "CathyBennett",
+    "party": "Sinn Féin",
+    "committees": [
+      {
+        "committeeID": 292,
+        "committeeName": "Joint Committee on Foreign Affairs and Trade",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 290,
+        "committeeName": "Select Committee on Foreign Affairs and Trade",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 236,
+        "committeeName": "Committee of Public Accounts",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 241,
+        "committeeName": "Select Committee on Subsidiarity (European Union Legislative Scrutiny)",
+        "role": [],
+        "status": "Dissolved"
+      }
+    ]
+  },
+  {
+    "memberCode": "Grace-Boland.D.2024-11-29",
+    "fullName": "Grace Boland",
+    "firstName": "Grace",
+    "lastName": "Boland",
+    "pId": "GraceBoland",
+    "party": "Fine Gael",
+    "committees": [
+      {
+        "committeeID": 268,
+        "committeeName": "Joint Committee on Children and Equality",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 310,
+        "committeeName": "Joint Committee on Transport",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 236,
+        "committeeName": "Committee of Public Accounts",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 266,
+        "committeeName": "Select Committee on Children and Equality",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 308,
+        "committeeName": "Select Committee on Transport",
+        "role": [],
+        "status": "Live"
+      }
+    ]
+  },
+  {
+    "memberCode": "Richard-Boyd-Barrett.D.2011-03-09",
+    "fullName": "Richard Boyd Barrett",
+    "firstName": "Richard",
+    "lastName": "Boyd Barrett",
+    "pId": "RichardBoydBarrett",
+    "party": "People Before Profit-Solidarity",
+    "committees": [
+      {
+        "committeeID": 295,
+        "committeeName": "Joint Committee on Further and Higher Education, Research, Innovation and Science",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 301,
+        "committeeName": "Joint Committee on Housing, Local Government and Heritage",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 232,
+        "committeeName": "Business Committee (Dáil Éireann)",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 233,
+        "committeeName": "Committee on Standing Orders and Dáil Reform",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 235,
+        "committeeName": "Committee on Budgetary Oversight",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 293,
+        "committeeName": "Select Committee on Further and Higher Education, Research, Innovation and Science",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 238,
+        "committeeName": "Committee of Selection (Dáil Éireann)",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 299,
+        "committeeName": "Select Committee on Housing, Local Government and Heritage",
+        "role": [],
+        "status": "Live"
+      }
+    ]
+  },
+  {
+    "memberCode": "Tom-Brabazon.D.2024-11-29",
+    "fullName": "Tom Brabazon",
+    "firstName": "Tom",
+    "lastName": "Brabazon",
+    "pId": "TomBrabazon",
+    "party": "Fianna Fáil",
+    "committees": [
+      {
+        "committeeID": 271,
+        "committeeName": "Joint Committee on Defence and National Security",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 304,
+        "committeeName": "Joint Committee on Justice, Home Affairs and Migration",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 325,
+        "committeeName": "Joint Committee on Drugs Use",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 269,
+        "committeeName": "Select Committee on Defence and National Security",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 302,
+        "committeeName": "Select Committee on Justice, Home Affairs and Migration",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 323,
+        "committeeName": "Select Committee on Drugs Use",
+        "role": [],
+        "status": "Live"
+      }
+    ]
+  },
+  {
+    "memberCode": "John-Brady.D.2016-10-03",
+    "fullName": "John Brady",
+    "firstName": "John",
+    "lastName": "Brady",
+    "pId": "JohnBrady",
+    "party": "Sinn Féin",
+    "committees": [
+      {
+        "committeeID": 247,
+        "committeeName": "Working Group of Committee Cathaoirligh",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 236,
+        "committeeName": "Committee of Public Accounts",
+        "role": {
+          "dateRange": {
+            "start": "2025-05-07 00:00:00+00:00",
+            "end": null
+          },
+          "title": "Cathaoirleach"
+        },
+        "status": "Live"
+      }
+    ]
+  },
+  {
+    "memberCode": "Brian-Brennan.D.2024-11-29",
+    "fullName": "Brian Brennan",
+    "firstName": "Brian",
+    "lastName": "Brennan",
+    "pId": "BrianBrennan",
+    "party": "Fine Gael",
+    "committees": [
+      {
+        "committeeID": 292,
+        "committeeName": "Joint Committee on Foreign Affairs and Trade",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 258,
+        "committeeName": "Joint Committee on Remit Oversight",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 265,
+        "committeeName": "Joint Committee on Arts, Media, Communications, Culture and Sport",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 280,
+        "committeeName": "Joint Committee on Enterprise, Tourism and Employment",
+        "role": {
+          "dateRange": {
+            "start": "2025-05-28 00:00:00+00:00",
+            "end": null
+          },
+          "title": "Leas-Chathaoirleach"
+        },
+        "status": "Live"
+      },
+      {
+        "committeeID": 263,
+        "committeeName": "Select Committee on Arts, Media, Communications, Culture and Sport",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 290,
+        "committeeName": "Select Committee on Foreign Affairs and Trade",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 278,
+        "committeeName": "Select Committee on Enterprise, Tourism and Employment",
+        "role": {
+          "dateRange": {
+            "start": "2025-05-28 00:00:00+00:00",
+            "end": null
+          },
+          "title": "Leas-Chathaoirleach"
+        },
+        "status": "Live"
+      },
+      {
+        "committeeID": 234,
+        "committeeName": "Committee on Parliamentary Privileges and Oversight (Dáil Éireann)",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 256,
+        "committeeName": "Committee on Remit Oversight (Dáil Éireann)",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 233,
+        "committeeName": "Committee on Standing Orders and Dáil Reform",
+        "role": [],
+        "status": "Live"
+      }
+    ]
+  },
+  {
+    "memberCode": "Shay-Brennan.D.2024-11-29",
+    "fullName": "Shay Brennan",
+    "firstName": "Shay",
+    "lastName": "Brennan",
+    "pId": "ShayBrennan",
+    "party": "Fianna Fáil",
+    "committees": [
+      {
+        "committeeID": 292,
+        "committeeName": "Joint Committee on Foreign Affairs and Trade",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 322,
+        "committeeName": "Joint Committee on Infrastructure and National Development Plan Delivery",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 286,
+        "committeeName": "Joint Committee on Finance, Public Expenditure, Public Service Reform and Digitalisation, and Taoiseach",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 284,
+        "committeeName": "Select Committee on Finance, Public Expenditure, Public Service Reform and Digitalisation, and Taoiseach",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 320,
+        "committeeName": "Select Committee on Infrastructure and National Development Plan Delivery",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 290,
+        "committeeName": "Select Committee on Foreign Affairs and Trade",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 233,
+        "committeeName": "Committee on Standing Orders and Dáil Reform",
+        "role": [],
+        "status": "Live"
+      }
+    ]
+  },
+  {
+    "memberCode": "Colm-Brophy.D.2016-10-03",
+    "fullName": "Colm Brophy",
+    "firstName": "Colm",
+    "lastName": "Brophy",
+    "pId": "ColmBrophy",
+    "party": "Fine Gael",
+    "committees": []
+  },
+  {
+    "memberCode": "James-Browne.D.2016-10-03",
+    "fullName": "James Browne",
+    "firstName": "James",
+    "lastName": "Browne",
+    "pId": "JamesBrowne",
+    "party": "Fianna Fáil",
+    "committees": []
+  },
+  {
+    "memberCode": "Pat-Buckley.D.2016-10-03",
+    "fullName": "Pat Buckley",
+    "firstName": "Pat",
+    "lastName": "Buckley",
+    "pId": "PatBuckley",
+    "party": "Sinn Féin",
+    "committees": [
+      {
+        "committeeID": 245,
+        "committeeName": "Joint Committee on Public Petitions and the Ombudsmen",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 252,
+        "committeeName": "Select Committee on Public Petitions and the Ombudsmen",
+        "role": [],
+        "status": "Live"
+      }
+    ]
+  },
+  {
+    "memberCode": "Colm-Burke.S.2011-05-25",
+    "fullName": "Colm Burke",
+    "firstName": "Colm",
+    "lastName": "Burke",
+    "pId": "ColmBurke",
+    "party": "Fine Gael",
+    "committees": [
+      {
+        "committeeID": 286,
+        "committeeName": "Joint Committee on Finance, Public Expenditure, Public Service Reform and Digitalisation, and Taoiseach",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 298,
+        "committeeName": "Joint Committee on Health",
+        "role": {
+          "dateRange": {
+            "start": "2025-05-28 00:00:00+00:00",
+            "end": null
+          },
+          "title": "Leas-Chathaoirleach"
+        },
+        "status": "Live"
+      },
+      {
+        "committeeID": 325,
+        "committeeName": "Joint Committee on Drugs Use",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 296,
+        "committeeName": "Select Committee on Health",
+        "role": {
+          "dateRange": {
+            "start": "2025-05-28 00:00:00+00:00",
+            "end": null
+          },
+          "title": "Leas-Chathaoirleach"
+        },
+        "status": "Live"
+      },
+      {
+        "committeeID": 284,
+        "committeeName": "Select Committee on Finance, Public Expenditure, Public Service Reform and Digitalisation, and Taoiseach",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 323,
+        "committeeName": "Select Committee on Drugs Use",
+        "role": [],
+        "status": "Live"
+      }
+    ]
+  },
+  {
+    "memberCode": "Peter-Burke.D.2016-10-03",
+    "fullName": "Peter Burke",
+    "firstName": "Peter",
+    "lastName": "Burke",
+    "pId": "PeterBurke",
+    "party": "Fine Gael",
+    "committees": []
+  },
+  {
+    "memberCode": "Mary-Butler.D.2016-10-03",
+    "fullName": "Mary Butler",
+    "firstName": "Mary",
+    "lastName": "Butler",
+    "pId": "MaryButler",
+    "party": "Fianna Fáil",
+    "committees": [
+      {
+        "committeeID": 258,
+        "committeeName": "Joint Committee on Remit Oversight",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 232,
+        "committeeName": "Business Committee (Dáil Éireann)",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 233,
+        "committeeName": "Committee on Standing Orders and Dáil Reform",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 234,
+        "committeeName": "Committee on Parliamentary Privileges and Oversight (Dáil Éireann)",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 238,
+        "committeeName": "Committee of Selection (Dáil Éireann)",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 256,
+        "committeeName": "Committee on Remit Oversight (Dáil Éireann)",
+        "role": [],
+        "status": "Live"
+      }
+    ]
+  },
+  {
+    "memberCode": "Paula-Butterly.D.2024-11-29",
+    "fullName": "Paula Butterly",
+    "firstName": "Paula",
+    "lastName": "Butterly",
+    "pId": "PaulaButterly",
+    "party": "Fine Gael",
+    "committees": [
+      {
+        "committeeID": 313,
+        "committeeName": "Joint Committee on European Union Affairs",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 258,
+        "committeeName": "Joint Committee on Remit Oversight",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 301,
+        "committeeName": "Joint Committee on Housing, Local Government and Heritage",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 304,
+        "committeeName": "Joint Committee on Justice, Home Affairs and Migration",
+        "role": {
+          "dateRange": {
+            "start": "2025-05-27 00:00:00+00:00",
+            "end": null
+          },
+          "title": "Leas-Chathaoirleach"
+        },
+        "status": "Live"
+      },
+      {
+        "committeeID": 311,
+        "committeeName": "Select Committee on European Union Affairs",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 302,
+        "committeeName": "Select Committee on Justice, Home Affairs and Migration",
+        "role": {
+          "dateRange": {
+            "start": "2025-05-27 00:00:00+00:00",
+            "end": null
+          },
+          "title": "Leas-Chathaoirleach"
+        },
+        "status": "Live"
+      },
+      {
+        "committeeID": 256,
+        "committeeName": "Committee on Remit Oversight (Dáil Éireann)",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 234,
+        "committeeName": "Committee on Parliamentary Privileges and Oversight (Dáil Éireann)",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 299,
+        "committeeName": "Select Committee on Housing, Local Government and Heritage",
+        "role": [],
+        "status": "Live"
+      }
+    ]
+  },
+  {
+    "memberCode": "Jerry-Buttimer.S.2007-07-23",
+    "fullName": "Jerry Buttimer",
+    "firstName": "Jerry",
+    "lastName": "Buttimer",
+    "pId": "JerryButtimer",
+    "party": "Fine Gael",
+    "committees": []
+  },
+  {
+    "memberCode": "Joanna-Byrne.D.2024-11-29",
+    "fullName": "Joanna Byrne",
+    "firstName": "Joanna",
+    "lastName": "Byrne",
+    "pId": "JoannaByrne",
+    "party": "Sinn Féin",
+    "committees": [
+      {
+        "committeeID": 265,
+        "committeeName": "Joint Committee on Arts, Media, Communications, Culture and Sport",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 258,
+        "committeeName": "Joint Committee on Remit Oversight",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 263,
+        "committeeName": "Select Committee on Arts, Media, Communications, Culture and Sport",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 256,
+        "committeeName": "Committee on Remit Oversight (Dáil Éireann)",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 233,
+        "committeeName": "Committee on Standing Orders and Dáil Reform",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 234,
+        "committeeName": "Committee on Parliamentary Privileges and Oversight (Dáil Éireann)",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 236,
+        "committeeName": "Committee of Public Accounts",
+        "role": [],
+        "status": "Live"
+      }
+    ]
+  },
+  {
+    "memberCode": "Malcolm-Byrne.D.2019-11-29",
+    "fullName": "Malcolm Byrne",
+    "firstName": "Malcolm",
+    "lastName": "Byrne",
+    "pId": "MalcolmByrne",
+    "party": "Fianna Fáil",
+    "committees": [
+      {
+        "committeeID": 283,
+        "committeeName": "Joint Committee on Climate, Environment and Energy",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 247,
+        "committeeName": "Working Group of Committee Cathaoirligh",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 328,
+        "committeeName": "Joint Committee on Artificial Intelligence",
+        "role": {
+          "dateRange": {
+            "start": "2025-05-07 00:00:00+00:00",
+            "end": null
+          },
+          "title": "Cathaoirleach"
+        },
+        "status": "Live"
+      },
+      {
+        "committeeID": 265,
+        "committeeName": "Joint Committee on Arts, Media, Communications, Culture and Sport",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 241,
+        "committeeName": "Select Committee on Subsidiarity (European Union Legislative Scrutiny)",
+        "role": [],
+        "status": "Dissolved"
+      },
+      {
+        "committeeID": 326,
+        "committeeName": "Select Committee on Artificial Intelligence",
+        "role": {
+          "dateRange": {
+            "start": "2025-05-07 00:00:00+00:00",
+            "end": null
+          },
+          "title": "Cathaoirleach"
+        },
+        "status": "Live"
+      },
+      {
+        "committeeID": 281,
+        "committeeName": "Select Committee on Climate, Environment and Energy",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 263,
+        "committeeName": "Select Committee on Arts, Media, Communications, Culture and Sport",
+        "role": [],
+        "status": "Live"
+      }
+    ]
+  },
+  {
+    "memberCode": "Thomas-Byrne.D.2007-06-14",
+    "fullName": "Thomas Byrne",
+    "firstName": "Thomas",
+    "lastName": "Byrne",
+    "pId": "ThomasByrne",
+    "party": "Fianna Fáil",
+    "committees": []
+  },
+  {
+    "memberCode": "Michael-Cahill.D.2024-11-29",
+    "fullName": "Michael Cahill",
+    "firstName": "Michael",
+    "lastName": "Cahill",
+    "pId": "MichaelCahill",
+    "party": "Fianna Fáil",
+    "committees": [
+      {
+        "committeeID": 304,
+        "committeeName": "Joint Committee on Justice, Home Affairs and Migration",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 298,
+        "committeeName": "Joint Committee on Health",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 289,
+        "committeeName": "Joint Committee on Fisheries and Maritime Affairs",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 302,
+        "committeeName": "Select Committee on Justice, Home Affairs and Migration",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 296,
+        "committeeName": "Select Committee on Health",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 287,
+        "committeeName": "Select Committee on Fisheries and Maritime Affairs",
+        "role": [],
+        "status": "Live"
+      }
+    ]
+  },
+  {
+    "memberCode": "Holly-Cairns.D.2020-02-08",
+    "fullName": "Holly Cairns",
+    "firstName": "Holly",
+    "lastName": "Cairns",
+    "pId": "HollyCairns",
+    "party": "Social Democrats",
+    "committees": []
+  },
+  {
+    "memberCode": "Catherine-Callaghan.D.2024-11-29",
+    "fullName": "Catherine Callaghan",
+    "firstName": "Catherine",
+    "lastName": "Callaghan",
+    "pId": "CatherineCallaghan",
+    "party": "Fine Gael",
+    "committees": [
+      {
+        "committeeID": 304,
+        "committeeName": "Joint Committee on Justice, Home Affairs and Migration",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 247,
+        "committeeName": "Working Group of Committee Cathaoirligh",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 271,
+        "committeeName": "Joint Committee on Defence and National Security",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 302,
+        "committeeName": "Select Committee on Justice, Home Affairs and Migration",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 269,
+        "committeeName": "Select Committee on Defence and National Security",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 237,
+        "committeeName": "Committee on Members' Interests of Dáil Éireann",
+        "role": {
+          "dateRange": {
+            "start": "2025-05-07 00:00:00+00:00",
+            "end": null
+          },
+          "title": "Cathaoirleach"
+        },
+        "status": "Live"
+      }
+    ]
+  },
+  {
+    "memberCode": "Dara-Calleary.D.2007-06-14",
+    "fullName": "Dara Calleary",
+    "firstName": "Dara",
+    "lastName": "Calleary",
+    "pId": "DaraCalleary",
+    "party": "Fianna Fáil",
+    "committees": []
+  },
+  {
+    "memberCode": "Seán-Canney.D.2016-10-03",
+    "fullName": "Seán Canney",
+    "firstName": "Seán",
+    "lastName": "Canney",
+    "pId": "SeanCanney",
+    "party": "Independent",
+    "committees": []
+  },
+  {
+    "memberCode": "Micheál-Carrigy.S.2020-03-30",
+    "fullName": "Micheál Carrigy",
+    "firstName": "Micheál",
+    "lastName": "Carrigy",
+    "pId": "MichealCarrigy",
+    "party": "Fine Gael",
+    "committees": [
+      {
+        "committeeID": 265,
+        "committeeName": "Joint Committee on Arts, Media, Communications, Culture and Sport",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 301,
+        "committeeName": "Joint Committee on Housing, Local Government and Heritage",
+        "role": {
+          "dateRange": {
+            "start": "2025-05-07 00:00:00+00:00",
+            "end": null
+          },
+          "title": "Cathaoirleach"
+        },
+        "status": "Live"
+      },
+      {
+        "committeeID": 274,
+        "committeeName": "Joint Committee on Disability Matters",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 247,
+        "committeeName": "Working Group of Committee Cathaoirligh",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 299,
+        "committeeName": "Select Committee on Housing, Local Government and Heritage",
+        "role": {
+          "dateRange": {
+            "start": "2025-05-07 00:00:00+00:00",
+            "end": null
+          },
+          "title": "Cathaoirleach"
+        },
+        "status": "Live"
+      },
+      {
+        "committeeID": 263,
+        "committeeName": "Select Committee on Arts, Media, Communications, Culture and Sport",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 272,
+        "committeeName": "Select Committee on Disability Matters",
+        "role": [],
+        "status": "Live"
+      }
+    ]
+  },
+  {
+    "memberCode": "Jennifer-Carroll-MacNeill.D.2020-02-08",
+    "fullName": "Jennifer Carroll MacNeill",
+    "firstName": "Jennifer",
+    "lastName": "Carroll MacNeill",
+    "pId": "JenniferCarrollMacNeill",
+    "party": "Fine Gael",
+    "committees": []
+  },
+  {
+    "memberCode": "Matt-Carthy.D.2020-02-08",
+    "fullName": "Matt Carthy",
+    "firstName": "Matt",
+    "lastName": "Carthy",
+    "pId": "MattCarthy",
+    "party": "Sinn Féin",
+    "committees": [
+      {
+        "committeeID": 247,
+        "committeeName": "Working Group of Committee Cathaoirligh",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 304,
+        "committeeName": "Joint Committee on Justice, Home Affairs and Migration",
+        "role": {
+          "dateRange": {
+            "start": "2025-05-07 00:00:00+00:00",
+            "end": null
+          },
+          "title": "Cathaoirleach"
+        },
+        "status": "Live"
+      },
+      {
+        "committeeID": 302,
+        "committeeName": "Select Committee on Justice, Home Affairs and Migration",
+        "role": {
+          "dateRange": {
+            "start": "2025-05-07 00:00:00+00:00",
+            "end": null
+          },
+          "title": "Cathaoirleach"
+        },
+        "status": "Live"
+      }
+    ]
+  },
+  {
+    "memberCode": "Jack-Chambers.D.2016-10-03",
+    "fullName": "Jack Chambers",
+    "firstName": "Jack",
+    "lastName": "Chambers",
+    "pId": "JackChambers",
+    "party": "Fianna Fáil",
+    "committees": []
+  },
+  {
+    "memberCode": "Sorca-Clarke.D.2020-02-08",
+    "fullName": "Sorca Clarke",
+    "firstName": "Sorca",
+    "lastName": "Clarke",
+    "pId": "SorcaClarke",
+    "party": "Sinn Féin",
+    "committees": [
+      {
+        "committeeID": 298,
+        "committeeName": "Joint Committee on Health",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 296,
+        "committeeName": "Select Committee on Health",
+        "role": [],
+        "status": "Live"
+      }
+    ]
+  },
+  {
+    "memberCode": "Peter-'Chap'-Cleere.D.2024-11-29",
+    "fullName": "Peter 'Chap' Cleere",
+    "firstName": "Peter 'Chap'",
+    "lastName": "Cleere",
+    "pId": "PeterChapCleere",
+    "party": "Fianna Fáil",
+    "committees": [
+      {
+        "committeeID": 265,
+        "committeeName": "Joint Committee on Arts, Media, Communications, Culture and Sport",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 262,
+        "committeeName": "Joint Committee on Agriculture and Food",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 274,
+        "committeeName": "Joint Committee on Disability Matters",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 289,
+        "committeeName": "Joint Committee on Fisheries and Maritime Affairs",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 272,
+        "committeeName": "Select Committee on Disability Matters",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 260,
+        "committeeName": "Select Committee on Agriculture and Food",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 287,
+        "committeeName": "Select Committee on Fisheries and Maritime Affairs",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 263,
+        "committeeName": "Select Committee on Arts, Media, Communications, Culture and Sport",
+        "role": [],
+        "status": "Live"
+      }
+    ]
+  },
+  {
+    "memberCode": "John-Clendennen.D.2024-11-29",
+    "fullName": "John Clendennen",
+    "firstName": "John",
+    "lastName": "Clendennen",
+    "pId": "JohnClendennen",
+    "party": "Fine Gael",
+    "committees": [
+      {
+        "committeeID": 280,
+        "committeeName": "Joint Committee on Enterprise, Tourism and Employment",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 283,
+        "committeeName": "Joint Committee on Climate, Environment and Energy",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 258,
+        "committeeName": "Joint Committee on Remit Oversight",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 322,
+        "committeeName": "Joint Committee on Infrastructure and National Development Plan Delivery",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 320,
+        "committeeName": "Select Committee on Infrastructure and National Development Plan Delivery",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 278,
+        "committeeName": "Select Committee on Enterprise, Tourism and Employment",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 234,
+        "committeeName": "Committee on Parliamentary Privileges and Oversight (Dáil Éireann)",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 256,
+        "committeeName": "Committee on Remit Oversight (Dáil Éireann)",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 281,
+        "committeeName": "Select Committee on Climate, Environment and Energy",
+        "role": [],
+        "status": "Live"
+      }
+    ]
+  },
+  {
+    "memberCode": "Michael-Collins.D.2016-10-03",
+    "fullName": "Michael Collins",
+    "firstName": "Michael",
+    "lastName": "Collins",
+    "pId": "MichaelCollins2016",
+    "party": "Independent Ireland",
+    "committees": [
+      {
+        "committeeID": 310,
+        "committeeName": "Joint Committee on Transport",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 308,
+        "committeeName": "Select Committee on Transport",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 232,
+        "committeeName": "Business Committee (Dáil Éireann)",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 233,
+        "committeeName": "Committee on Standing Orders and Dáil Reform",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 238,
+        "committeeName": "Committee of Selection (Dáil Éireann)",
+        "role": [],
+        "status": "Live"
+      }
+    ]
+  },
+  {
+    "memberCode": "Niall-Collins.D.2007-06-14",
+    "fullName": "Niall Collins",
+    "firstName": "Niall",
+    "lastName": "Collins",
+    "pId": "NiallCollins",
+    "party": "Fianna Fáil",
+    "committees": []
+  },
+  {
+    "memberCode": "Catherine-Connolly.D.2016-10-03",
+    "fullName": "Catherine Connolly",
+    "firstName": "Catherine",
+    "lastName": "Connolly",
+    "pId": "CatherineConnolly",
+    "party": "Independent",
+    "committees": [
+      {
+        "committeeID": 247,
+        "committeeName": "Working Group of Committee Cathaoirligh",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 243,
+        "committeeName": "Comhchoiste na Gaeilge, na Gaeltachta agus Phobal Labhartha na Gaeilge",
+        "role": {
+          "dateRange": {
+            "start": "2025-05-07 00:00:00+00:00",
+            "end": "2025-10-25 00:00:00+00:00"
+          },
+          "title": "Cathaoirleach"
+        },
+        "status": "Live"
+      },
+      {
+        "committeeID": 236,
+        "committeeName": "Committee of Public Accounts",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 244,
+        "committeeName": "Roghchoiste na Gaeilge, na Gaeltachta agus Phobal Labhartha na Gaeilge",
+        "role": {
+          "dateRange": {
+            "start": "2025-05-07 00:00:00+00:00",
+            "end": "2025-10-25 00:00:00+00:00"
+          },
+          "title": "Cathaoirleach"
+        },
+        "status": "Live"
+      }
+    ]
+  },
+  {
+    "memberCode": "John-Connolly.D.2024-11-29",
+    "fullName": "John Connolly",
+    "firstName": "John",
+    "lastName": "Connolly",
+    "pId": "JohnConnolly",
+    "party": "Fianna Fáil",
+    "committees": [
+      {
+        "committeeID": 243,
+        "committeeName": "Comhchoiste na Gaeilge, na Gaeltachta agus Phobal Labhartha na Gaeilge",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 289,
+        "committeeName": "Joint Committee on Fisheries and Maritime Affairs",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 268,
+        "committeeName": "Joint Committee on Children and Equality",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 295,
+        "committeeName": "Joint Committee on Further and Higher Education, Research, Innovation and Science",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 319,
+        "committeeName": "Joint Committee on Key Issues Affecting the Traveller Community",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 317,
+        "committeeName": "Select Committee on Key Issues Affecting the Traveller Community",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 244,
+        "committeeName": "Roghchoiste na Gaeilge, na Gaeltachta agus Phobal Labhartha na Gaeilge",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 266,
+        "committeeName": "Select Committee on Children and Equality",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 287,
+        "committeeName": "Select Committee on Fisheries and Maritime Affairs",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 293,
+        "committeeName": "Select Committee on Further and Higher Education, Research, Innovation and Science",
+        "role": [],
+        "status": "Live"
+      }
+    ]
+  },
+  {
+    "memberCode": "Rose-Conway-Walsh.S.2016-04-25",
+    "fullName": "Rose Conway-Walsh",
+    "firstName": "Rose",
+    "lastName": "Conway-Walsh",
+    "pId": "RoseConwayWalsh",
+    "party": "Sinn Féin",
+    "committees": [
+      {
+        "committeeID": 316,
+        "committeeName": "Joint Committee on the Implementation of the Good Friday Agreement ",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 247,
+        "committeeName": "Working Group of Committee Cathaoirligh",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 271,
+        "committeeName": "Joint Committee on Defence and National Security",
+        "role": {
+          "dateRange": {
+            "start": "2025-05-07 00:00:00+00:00",
+            "end": null
+          },
+          "title": "Cathaoirleach"
+        },
+        "status": "Live"
+      },
+      {
+        "committeeID": 280,
+        "committeeName": "Joint Committee on Enterprise, Tourism and Employment",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 314,
+        "committeeName": "Select Committee on the Implementation of the Good Friday Agreement ",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 278,
+        "committeeName": "Select Committee on Enterprise, Tourism and Employment",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 269,
+        "committeeName": "Select Committee on Defence and National Security",
+        "role": {
+          "dateRange": {
+            "start": "2025-05-07 00:00:00+00:00",
+            "end": null
+          },
+          "title": "Cathaoirleach"
+        },
+        "status": "Live"
+      }
+    ]
+  },
+  {
+    "memberCode": "Joe-Cooney.D.2024-11-29",
+    "fullName": "Joe Cooney",
+    "firstName": "Joe",
+    "lastName": "Cooney",
+    "pId": "JoeCooney",
+    "party": "Fine Gael",
+    "committees": [
+      {
+        "committeeID": 262,
+        "committeeName": "Joint Committee on Agriculture and Food",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 289,
+        "committeeName": "Joint Committee on Fisheries and Maritime Affairs",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 301,
+        "committeeName": "Joint Committee on Housing, Local Government and Heritage",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 260,
+        "committeeName": "Select Committee on Agriculture and Food",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 287,
+        "committeeName": "Select Committee on Fisheries and Maritime Affairs",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 299,
+        "committeeName": "Select Committee on Housing, Local Government and Heritage",
+        "role": [],
+        "status": "Live"
+      }
+    ]
+  },
+  {
+    "memberCode": "Ruth-Coppinger.D.2014-05-23",
+    "fullName": "Ruth Coppinger",
+    "firstName": "Ruth",
+    "lastName": "Coppinger",
+    "pId": "RuthCoppinger",
+    "party": "People Before Profit-Solidarity",
+    "committees": [
+      {
+        "committeeID": 258,
+        "committeeName": "Joint Committee on Remit Oversight",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 277,
+        "committeeName": "Joint Committee on Education and Youth",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 234,
+        "committeeName": "Committee on Parliamentary Privileges and Oversight (Dáil Éireann)",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 256,
+        "committeeName": "Committee on Remit Oversight (Dáil Éireann)",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 275,
+        "committeeName": "Select Committee on Education and Youth",
+        "role": [],
+        "status": "Live"
+      }
+    ]
+  },
+  {
+    "memberCode": "Réada-Cronin.D.2020-02-08",
+    "fullName": "Réada Cronin",
+    "firstName": "Réada",
+    "lastName": "Cronin",
+    "pId": "ReadaCronin",
+    "party": "Sinn Féin",
+    "committees": [
+      {
+        "committeeID": 283,
+        "committeeName": "Joint Committee on Climate, Environment and Energy",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 322,
+        "committeeName": "Joint Committee on Infrastructure and National Development Plan Delivery",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 320,
+        "committeeName": "Select Committee on Infrastructure and National Development Plan Delivery",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 281,
+        "committeeName": "Select Committee on Climate, Environment and Energy",
+        "role": [],
+        "status": "Live"
+      }
+    ]
+  },
+  {
+    "memberCode": "Cathal-Crowe.D.2020-02-08",
+    "fullName": "Cathal Crowe",
+    "firstName": "Cathal",
+    "lastName": "Crowe",
+    "pId": "CathalCrowe",
+    "party": "Fianna Fáil",
+    "committees": [
+      {
+        "committeeID": 277,
+        "committeeName": "Joint Committee on Education and Youth",
+        "role": {
+          "dateRange": {
+            "start": "2025-05-07 00:00:00+00:00",
+            "end": null
+          },
+          "title": "Cathaoirleach"
+        },
+        "status": "Live"
+      },
+      {
+        "committeeID": 310,
+        "committeeName": "Joint Committee on Transport",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 247,
+        "committeeName": "Working Group of Committee Cathaoirligh",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 275,
+        "committeeName": "Select Committee on Education and Youth",
+        "role": {
+          "dateRange": {
+            "start": "2025-05-07 00:00:00+00:00",
+            "end": null
+          },
+          "title": "Cathaoirleach"
+        },
+        "status": "Live"
+      },
+      {
+        "committeeID": 308,
+        "committeeName": "Select Committee on Transport",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 235,
+        "committeeName": "Committee on Budgetary Oversight",
+        "role": [],
+        "status": "Live"
+      }
+    ]
+  },
+  {
+    "memberCode": "Seán-Crowe.D.2002-06-06",
+    "fullName": "Seán Crowe",
+    "firstName": "Seán",
+    "lastName": "Crowe",
+    "pId": "SeanCroweSF",
+    "party": "Sinn Féin",
+    "committees": [
+      {
+        "committeeID": 313,
+        "committeeName": "Joint Committee on European Union Affairs",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 316,
+        "committeeName": "Joint Committee on the Implementation of the Good Friday Agreement ",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 314,
+        "committeeName": "Select Committee on the Implementation of the Good Friday Agreement ",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 311,
+        "committeeName": "Select Committee on European Union Affairs",
+        "role": [],
+        "status": "Live"
+      }
+    ]
+  },
+  {
+    "memberCode": "David-Cullinane.S.2011-05-25",
+    "fullName": "David Cullinane",
+    "firstName": "David",
+    "lastName": "Cullinane",
+    "pId": "DavidCullinane",
+    "party": "Sinn Féin",
+    "committees": [
+      {
+        "committeeID": 298,
+        "committeeName": "Joint Committee on Health",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 296,
+        "committeeName": "Select Committee on Health",
+        "role": [],
+        "status": "Live"
+      }
+    ]
+  },
+  {
+    "memberCode": "Jen-Cummins.D.2024-11-29",
+    "fullName": "Jen Cummins",
+    "firstName": "Jen",
+    "lastName": "Cummins",
+    "pId": "JenCummins",
+    "party": "Social Democrats",
+    "committees": [
+      {
+        "committeeID": 258,
+        "committeeName": "Joint Committee on Remit Oversight",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 277,
+        "committeeName": "Joint Committee on Education and Youth",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 234,
+        "committeeName": "Committee on Parliamentary Privileges and Oversight (Dáil Éireann)",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 256,
+        "committeeName": "Committee on Remit Oversight (Dáil Éireann)",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 275,
+        "committeeName": "Select Committee on Education and Youth",
+        "role": [],
+        "status": "Live"
+      }
+    ]
+  },
+  {
+    "memberCode": "John-Cummins.S.2020-03-30",
+    "fullName": "John Cummins",
+    "firstName": "John",
+    "lastName": "Cummins",
+    "pId": "JohnCummins",
+    "party": "Fine Gael",
+    "committees": []
+  },
+  {
+    "memberCode": "Emer-Currie.S.2020-06-29",
+    "fullName": "Emer Currie",
+    "firstName": "Emer",
+    "lastName": "Currie",
+    "pId": "EmerCurrie",
+    "party": "Fine Gael",
+    "committees": [
+      {
+        "committeeID": 277,
+        "committeeName": "Joint Committee on Education and Youth",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 258,
+        "committeeName": "Joint Committee on Remit Oversight",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 310,
+        "committeeName": "Joint Committee on Transport",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 268,
+        "committeeName": "Joint Committee on Children and Equality",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 232,
+        "committeeName": "Business Committee (Dáil Éireann)",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 238,
+        "committeeName": "Committee of Selection (Dáil Éireann)",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 256,
+        "committeeName": "Committee on Remit Oversight (Dáil Éireann)",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 266,
+        "committeeName": "Select Committee on Children and Equality",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 234,
+        "committeeName": "Committee on Parliamentary Privileges and Oversight (Dáil Éireann)",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 233,
+        "committeeName": "Committee on Standing Orders and Dáil Reform",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 275,
+        "committeeName": "Select Committee on Education and Youth",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 308,
+        "committeeName": "Select Committee on Transport",
+        "role": [],
+        "status": "Live"
+      }
+    ]
+  },
+  {
+    "memberCode": "Martin-Daly.D.2024-11-29",
+    "fullName": "Martin Daly",
+    "firstName": "Martin",
+    "lastName": "Daly",
+    "pId": "MartinDaly",
+    "party": "Fianna Fáil",
+    "committees": [
+      {
+        "committeeID": 274,
+        "committeeName": "Joint Committee on Disability Matters",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 298,
+        "committeeName": "Joint Committee on Health",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 272,
+        "committeeName": "Select Committee on Disability Matters",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 296,
+        "committeeName": "Select Committee on Health",
+        "role": [],
+        "status": "Live"
+      }
+    ]
+  },
+  {
+    "memberCode": "Pa-Daly.D.2020-02-08",
+    "fullName": "Pa Daly",
+    "firstName": "Pa",
+    "lastName": "Daly",
+    "pId": "PaDaly",
+    "party": "Sinn Féin",
+    "committees": [
+      {
+        "committeeID": 310,
+        "committeeName": "Joint Committee on Transport",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 283,
+        "committeeName": "Joint Committee on Climate, Environment and Energy",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 308,
+        "committeeName": "Select Committee on Transport",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 281,
+        "committeeName": "Select Committee on Climate, Environment and Energy",
+        "role": [],
+        "status": "Live"
+      }
+    ]
+  },
+  {
+    "memberCode": "Aisling-Dempsey.D.2024-11-29",
+    "fullName": "Aisling Dempsey",
+    "firstName": "Aisling",
+    "lastName": "Dempsey",
+    "pId": "AislingDempsey",
+    "party": "Fianna Fáil",
+    "committees": [
+      {
+        "committeeID": 268,
+        "committeeName": "Joint Committee on Children and Equality",
+        "role": {
+          "dateRange": {
+            "start": "2025-06-19 00:00:00+00:00",
+            "end": null
+          },
+          "title": "Leas-Chathaoirleach"
+        },
+        "status": "Live"
+      },
+      {
+        "committeeID": 277,
+        "committeeName": "Joint Committee on Education and Youth",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 233,
+        "committeeName": "Committee on Standing Orders and Dáil Reform",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 266,
+        "committeeName": "Select Committee on Children and Equality",
+        "role": {
+          "dateRange": {
+            "start": "2025-06-19 00:00:00+00:00",
+            "end": null
+          },
+          "title": "Leas-Chathaoirleach"
+        },
+        "status": "Live"
+      },
+      {
+        "committeeID": 275,
+        "committeeName": "Select Committee on Education and Youth",
+        "role": [],
+        "status": "Live"
+      }
+    ]
+  },
+  {
+    "memberCode": "Máire-Devine.S.2016-04-25",
+    "fullName": "Máire Devine",
+    "firstName": "Máire",
+    "lastName": "Devine",
+    "pId": "MaireDevine",
+    "party": "Sinn Féin",
+    "committees": [
+      {
+        "committeeID": 325,
+        "committeeName": "Joint Committee on Drugs Use",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 235,
+        "committeeName": "Committee on Budgetary Oversight",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 323,
+        "committeeName": "Select Committee on Drugs Use",
+        "role": [],
+        "status": "Live"
+      }
+    ]
+  },
+  {
+    "memberCode": "Cormac-Devlin.D.2020-02-08",
+    "fullName": "Cormac Devlin",
+    "firstName": "Cormac",
+    "lastName": "Devlin",
+    "pId": "CormacDevlin",
+    "party": "Fianna Fáil",
+    "committees": [
+      {
+        "committeeID": 247,
+        "committeeName": "Working Group of Committee Cathaoirligh",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 316,
+        "committeeName": "Joint Committee on the Implementation of the Good Friday Agreement ",
+        "role": {
+          "dateRange": {
+            "start": "2025-05-07 00:00:00+00:00",
+            "end": null
+          },
+          "title": "Cathaoirleach"
+        },
+        "status": "Live"
+      },
+      {
+        "committeeID": 314,
+        "committeeName": "Select Committee on the Implementation of the Good Friday Agreement ",
+        "role": {
+          "dateRange": {
+            "start": "2025-05-07 00:00:00+00:00",
+            "end": null
+          },
+          "title": "Cathaoirleach"
+        },
+        "status": "Live"
+      },
+      {
+        "committeeID": 233,
+        "committeeName": "Committee on Standing Orders and Dáil Reform",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 235,
+        "committeeName": "Committee on Budgetary Oversight",
+        "role": [],
+        "status": "Live"
+      }
+    ]
+  },
+  {
+    "memberCode": "Alan-Dillon.D.2020-02-08",
+    "fullName": "Alan Dillon",
+    "firstName": "Alan",
+    "lastName": "Dillon",
+    "pId": "AlanDillon",
+    "party": "Fine Gael",
+    "committees": []
+  },
+  {
+    "memberCode": "Pearse-Doherty.S.2007-07-23",
+    "fullName": "Pearse Doherty",
+    "firstName": "Pearse",
+    "lastName": "Doherty",
+    "pId": "PearseDoherty",
+    "party": "Sinn Féin",
+    "committees": [
+      {
+        "committeeID": 286,
+        "committeeName": "Joint Committee on Finance, Public Expenditure, Public Service Reform and Digitalisation, and Taoiseach",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 284,
+        "committeeName": "Select Committee on Finance, Public Expenditure, Public Service Reform and Digitalisation, and Taoiseach",
+        "role": [],
+        "status": "Live"
+      }
+    ]
+  },
+  {
+    "memberCode": "Albert-Dolan.D.2024-11-29",
+    "fullName": "Albert Dolan",
+    "firstName": "Albert",
+    "lastName": "Dolan",
+    "pId": "AlbertDolan",
+    "party": "Fianna Fáil",
+    "committees": [
+      {
+        "committeeID": 280,
+        "committeeName": "Joint Committee on Enterprise, Tourism and Employment",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 245,
+        "committeeName": "Joint Committee on Public Petitions and the Ombudsmen",
+        "role": {
+          "dateRange": {
+            "start": "2025-05-27 00:00:00+00:00",
+            "end": null
+          },
+          "title": "Leas-Chathaoirleach"
+        },
+        "status": "Live"
+      },
+      {
+        "committeeID": 304,
+        "committeeName": "Joint Committee on Justice, Home Affairs and Migration",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 302,
+        "committeeName": "Select Committee on Justice, Home Affairs and Migration",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 278,
+        "committeeName": "Select Committee on Enterprise, Tourism and Employment",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 252,
+        "committeeName": "Select Committee on Public Petitions and the Ombudsmen",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 236,
+        "committeeName": "Committee of Public Accounts",
+        "role": [],
+        "status": "Live"
+      }
+    ]
+  },
+  {
+    "memberCode": "Paul-Donnelly.D.2020-02-08",
+    "fullName": "Paul Donnelly",
+    "firstName": "Paul",
+    "lastName": "Donnelly",
+    "pId": "PaulDonnelly",
+    "party": "Sinn Féin",
+    "committees": [
+      {
+        "committeeID": 280,
+        "committeeName": "Joint Committee on Enterprise, Tourism and Employment",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 278,
+        "committeeName": "Select Committee on Enterprise, Tourism and Employment",
+        "role": [],
+        "status": "Live"
+      }
+    ]
+  },
+  {
+    "memberCode": "Paschal-Donohoe.S.2007-07-23",
+    "fullName": "Paschal Donohoe",
+    "firstName": "Paschal",
+    "lastName": "Donohoe",
+    "pId": "PaschalDonohoe",
+    "party": "Fine Gael",
+    "committees": []
+  },
+  {
+    "memberCode": "Timmy-Dooley.S.2002-09-12",
+    "fullName": "Timmy Dooley",
+    "firstName": "Timmy",
+    "lastName": "Dooley",
+    "pId": "TimDooley",
+    "party": "Fianna Fáil",
+    "committees": []
+  },
+  {
+    "memberCode": "Dessie-Ellis.D.2011-03-09",
+    "fullName": "Dessie Ellis",
+    "firstName": "Dessie",
+    "lastName": "Ellis",
+    "pId": "DessieEllis",
+    "party": "Sinn Féin",
+    "committees": [
+      {
+        "committeeID": 319,
+        "committeeName": "Joint Committee on Key Issues Affecting the Traveller Community",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 317,
+        "committeeName": "Select Committee on Key Issues Affecting the Traveller Community",
+        "role": [],
+        "status": "Live"
+      }
+    ]
+  },
+  {
+    "memberCode": "Mairéad-Farrell.D.2020-02-08",
+    "fullName": "Mairéad Farrell",
+    "firstName": "Mairéad",
+    "lastName": "Farrell",
+    "pId": "MaireadFarrell",
+    "party": "Sinn Féin",
+    "committees": [
+      {
+        "committeeID": 247,
+        "committeeName": "Working Group of Committee Cathaoirligh",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 286,
+        "committeeName": "Joint Committee on Finance, Public Expenditure, Public Service Reform and Digitalisation, and Taoiseach",
+        "role": {
+          "dateRange": {
+            "start": "2025-05-07 00:00:00+00:00",
+            "end": null
+          },
+          "title": "Cathaoirleach"
+        },
+        "status": "Live"
+      },
+      {
+        "committeeID": 235,
+        "committeeName": "Committee on Budgetary Oversight",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 284,
+        "committeeName": "Select Committee on Finance, Public Expenditure, Public Service Reform and Digitalisation, and Taoiseach",
+        "role": {
+          "dateRange": {
+            "start": "2025-05-07 00:00:00+00:00",
+            "end": null
+          },
+          "title": "Cathaoirleach"
+        },
+        "status": "Live"
+      }
+    ]
+  },
+  {
+    "memberCode": "Aidan-Farrelly.D.2024-11-29",
+    "fullName": "Aidan Farrelly",
+    "firstName": "Aidan",
+    "lastName": "Farrelly",
+    "pId": "AidanFarrelly",
+    "party": "Social Democrats",
+    "committees": [
+      {
+        "committeeID": 268,
+        "committeeName": "Joint Committee on Children and Equality",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 236,
+        "committeeName": "Committee of Public Accounts",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 266,
+        "committeeName": "Select Committee on Children and Equality",
+        "role": [],
+        "status": "Live"
+      }
+    ]
+  },
+  {
+    "memberCode": "Frank-Feighan.S.2002-09-12",
+    "fullName": "Frankie Feighan",
+    "firstName": "Frankie",
+    "lastName": "Feighan",
+    "pId": "FrankFeighan",
+    "party": "Fine Gael",
+    "committees": [
+      {
+        "committeeID": 295,
+        "committeeName": "Joint Committee on Further and Higher Education, Research, Innovation and Science",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 258,
+        "committeeName": "Joint Committee on Remit Oversight",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 293,
+        "committeeName": "Select Committee on Further and Higher Education, Research, Innovation and Science",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 233,
+        "committeeName": "Committee on Standing Orders and Dáil Reform",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 234,
+        "committeeName": "Committee on Parliamentary Privileges and Oversight (Dáil Éireann)",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 256,
+        "committeeName": "Committee on Remit Oversight (Dáil Éireann)",
+        "role": [],
+        "status": "Live"
+      }
+    ]
+  },
+  {
+    "memberCode": "Michael-Fitzmaurice.D.2014-10-10",
+    "fullName": "Michael Fitzmaurice",
+    "firstName": "Michael",
+    "lastName": "Fitzmaurice",
+    "pId": "MichaelFitzmaurice",
+    "party": "Independent Ireland",
+    "committees": [
+      {
+        "committeeID": 262,
+        "committeeName": "Joint Committee on Agriculture and Food",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 260,
+        "committeeName": "Select Committee on Agriculture and Food",
+        "role": [],
+        "status": "Live"
+      }
+    ]
+  },
+  {
+    "memberCode": "Seán-Fleming.D.1997-06-26",
+    "fullName": "Sean Fleming",
+    "firstName": "Sean",
+    "lastName": "Fleming",
+    "pId": "SeanFleming",
+    "party": "Fianna Fáil",
+    "committees": [
+      {
+        "committeeID": 247,
+        "committeeName": "Working Group of Committee Cathaoirligh",
+        "role": {
+          "dateRange": {
+            "start": "2025-05-13 00:00:00+00:00",
+            "end": null
+          },
+          "title": "Cathaoirleach"
+        },
+        "status": "Live"
+      },
+      {
+        "committeeID": 322,
+        "committeeName": "Joint Committee on Infrastructure and National Development Plan Delivery",
+        "role": {
+          "dateRange": {
+            "start": "2025-05-07 00:00:00+00:00",
+            "end": null
+          },
+          "title": "Cathaoirleach"
+        },
+        "status": "Live"
+      },
+      {
+        "committeeID": 235,
+        "committeeName": "Committee on Budgetary Oversight",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 241,
+        "committeeName": "Select Committee on Subsidiarity (European Union Legislative Scrutiny)",
+        "role": {
+          "dateRange": {
+            "start": "2025-02-19 00:00:00+00:00",
+            "end": "2025-05-07 00:00:00+00:00"
+          },
+          "title": "Cathaoirleach"
+        },
+        "status": "Dissolved"
+      },
+      {
+        "committeeID": 320,
+        "committeeName": "Select Committee on Infrastructure and National Development Plan Delivery",
+        "role": {
+          "dateRange": {
+            "start": "2025-05-07 00:00:00+00:00",
+            "end": null
+          },
+          "title": "Cathaoirleach"
+        },
+        "status": "Live"
+      },
+      {
+        "committeeID": 238,
+        "committeeName": "Committee of Selection (Dáil Éireann)",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 232,
+        "committeeName": "Business Committee (Dáil Éireann)",
+        "role": [],
+        "status": "Live"
+      }
+    ]
+  },
+  {
+    "memberCode": "Norma-Foley.D.2020-02-08",
+    "fullName": "Norma Foley",
+    "firstName": "Norma",
+    "lastName": "Foley",
+    "pId": "NormaFoley",
+    "party": "Fianna Fáil",
+    "committees": []
+  },
+  {
+    "memberCode": "Pat-the-Cope-Gallagher.D.1981-06-30",
+    "fullName": "Pat the Cope Gallagher",
+    "firstName": "Pat the Cope",
+    "lastName": "Gallagher",
+    "pId": "PatTheCopeGallagher",
+    "party": "Fianna Fáil",
+    "committees": [
+      {
+        "committeeID": 307,
+        "committeeName": "Joint Committee on Social Protection, Rural and Community Development",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 289,
+        "committeeName": "Joint Committee on Fisheries and Maritime Affairs",
+        "role": {
+          "dateRange": {
+            "start": "2025-05-20 00:00:00+00:00",
+            "end": null
+          },
+          "title": "Leas-Chathaoirleach"
+        },
+        "status": "Live"
+      },
+      {
+        "committeeID": 287,
+        "committeeName": "Select Committee on Fisheries and Maritime Affairs",
+        "role": {
+          "dateRange": {
+            "start": "2025-05-20 00:00:00+00:00",
+            "end": null
+          },
+          "title": "Leas-Chathaoirleach"
+        },
+        "status": "Live"
+      },
+      {
+        "committeeID": 305,
+        "committeeName": "Select Committee on Social Protection, Rural and Community Development",
+        "role": [],
+        "status": "Live"
+      }
+    ]
+  },
+  {
+    "memberCode": "Gary-Gannon.D.2020-02-08",
+    "fullName": "Gary Gannon",
+    "firstName": "Gary",
+    "lastName": "Gannon",
+    "pId": "GaryGannon",
+    "party": "Social Democrats",
+    "committees": [
+      {
+        "committeeID": 325,
+        "committeeName": "Joint Committee on Drugs Use",
+        "role": {
+          "dateRange": {
+            "start": "2025-05-07 00:00:00+00:00",
+            "end": null
+          },
+          "title": "Cathaoirleach"
+        },
+        "status": "Live"
+      },
+      {
+        "committeeID": 247,
+        "committeeName": "Working Group of Committee Cathaoirligh",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 304,
+        "committeeName": "Joint Committee on Justice, Home Affairs and Migration",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 302,
+        "committeeName": "Select Committee on Justice, Home Affairs and Migration",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 323,
+        "committeeName": "Select Committee on Drugs Use",
+        "role": {
+          "dateRange": {
+            "start": "2025-05-07 00:00:00+00:00",
+            "end": null
+          },
+          "title": "Cathaoirleach"
+        },
+        "status": "Live"
+      }
+    ]
+  },
+  {
+    "memberCode": "James-Geoghegan.D.2024-11-29",
+    "fullName": "James Geoghegan",
+    "firstName": "James",
+    "lastName": "Geoghegan",
+    "pId": "JamesGeogheganFG",
+    "party": "Fine Gael",
+    "committees": [
+      {
+        "committeeID": 328,
+        "committeeName": "Joint Committee on Artificial Intelligence",
+        "role": {
+          "dateRange": {
+            "start": "2025-06-10 00:00:00+00:00",
+            "end": null
+          },
+          "title": "Leas-Chathaoirleach"
+        },
+        "status": "Live"
+      },
+      {
+        "committeeID": 326,
+        "committeeName": "Select Committee on Artificial Intelligence",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 236,
+        "committeeName": "Committee of Public Accounts",
+        "role": [],
+        "status": "Live"
+      }
+    ]
+  },
+  {
+    "memberCode": "Sinéad-Gibney.D.2024-11-29",
+    "fullName": "Sinéad Gibney",
+    "firstName": "Sinéad",
+    "lastName": "Gibney",
+    "pId": "SineadGibney",
+    "party": "Social Democrats",
+    "committees": [
+      {
+        "committeeID": 265,
+        "committeeName": "Joint Committee on Arts, Media, Communications, Culture and Sport",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 316,
+        "committeeName": "Joint Committee on the Implementation of the Good Friday Agreement ",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 328,
+        "committeeName": "Joint Committee on Artificial Intelligence",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 263,
+        "committeeName": "Select Committee on Arts, Media, Communications, Culture and Sport",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 314,
+        "committeeName": "Select Committee on the Implementation of the Good Friday Agreement ",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 326,
+        "committeeName": "Select Committee on Artificial Intelligence",
+        "role": [],
+        "status": "Live"
+      }
+    ]
+  },
+  {
+    "memberCode": "Paul-Nicholas-Gogarty.D.2002-06-06",
+    "fullName": "Paul Nicholas Gogarty",
+    "firstName": "Paul Nicholas",
+    "lastName": "Gogarty",
+    "pId": "PaulNicholasGogartyGP",
+    "party": "Independent",
+    "committees": [
+      {
+        "committeeID": 280,
+        "committeeName": "Joint Committee on Enterprise, Tourism and Employment",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 313,
+        "committeeName": "Joint Committee on European Union Affairs",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 278,
+        "committeeName": "Select Committee on Enterprise, Tourism and Employment",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 311,
+        "committeeName": "Select Committee on European Union Affairs",
+        "role": [],
+        "status": "Live"
+      }
+    ]
+  },
+  {
+    "memberCode": "Thomas-Gould.D.2020-02-08",
+    "fullName": "Thomas Gould",
+    "firstName": "Thomas",
+    "lastName": "Gould",
+    "pId": "ThomasGould",
+    "party": "Sinn Féin",
+    "committees": [
+      {
+        "committeeID": 301,
+        "committeeName": "Joint Committee on Housing, Local Government and Heritage",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 299,
+        "committeeName": "Select Committee on Housing, Local Government and Heritage",
+        "role": [],
+        "status": "Live"
+      }
+    ]
+  },
+  {
+    "memberCode": "Ann-Graves.D.2024-11-29",
+    "fullName": "Ann Graves",
+    "firstName": "Ann",
+    "lastName": "Graves",
+    "pId": "AnnGraves",
+    "party": "Sinn Féin",
+    "committees": [
+      {
+        "committeeID": 325,
+        "committeeName": "Joint Committee on Drugs Use",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 323,
+        "committeeName": "Select Committee on Drugs Use",
+        "role": [],
+        "status": "Live"
+      }
+    ]
+  },
+  {
+    "memberCode": "Noel-Grealish.D.2002-06-06",
+    "fullName": "Noel Grealish",
+    "firstName": "Noel",
+    "lastName": "Grealish",
+    "pId": "NoelGrealishPD",
+    "party": "Independent",
+    "committees": []
+  },
+  {
+    "memberCode": "Johnny-Guirke.D.2020-02-08",
+    "fullName": "Johnny Guirke",
+    "firstName": "Johnny",
+    "lastName": "Guirke",
+    "pId": "JohnnyGuirke",
+    "party": "Sinn Féin",
+    "committees": [
+      {
+        "committeeID": 307,
+        "committeeName": "Joint Committee on Social Protection, Rural and Community Development",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 235,
+        "committeeName": "Committee on Budgetary Oversight",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 305,
+        "committeeName": "Select Committee on Social Protection, Rural and Community Development",
+        "role": [],
+        "status": "Live"
+      }
+    ]
+  },
+  {
+    "memberCode": "Marian-Harkin.D.2002-06-06",
+    "fullName": "Marian Harkin",
+    "firstName": "Marian",
+    "lastName": "Harkin",
+    "pId": "MarianHarkinIND",
+    "party": "Independent",
+    "committees": []
+  },
+  {
+    "memberCode": "Simon-Harris.D.2011-03-09",
+    "fullName": "Simon Harris",
+    "firstName": "Simon",
+    "lastName": "Harris",
+    "pId": "SimonHarris",
+    "party": "Fine Gael",
+    "committees": []
+  },
+  {
+    "memberCode": "Eoin-Hayes.D.2024-11-29",
+    "fullName": "Eoin Hayes",
+    "firstName": "Eoin",
+    "lastName": "Hayes",
+    "pId": "EoinHayes",
+    "party": "Social Democrats",
+    "committees": [
+      {
+        "committeeID": 307,
+        "committeeName": "Joint Committee on Social Protection, Rural and Community Development",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 245,
+        "committeeName": "Joint Committee on Public Petitions and the Ombudsmen",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 305,
+        "committeeName": "Select Committee on Social Protection, Rural and Community Development",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 252,
+        "committeeName": "Select Committee on Public Petitions and the Ombudsmen",
+        "role": [],
+        "status": "Live"
+      }
+    ]
+  },
+  {
+    "memberCode": "Seamus-Healy.D.2000-06-22",
+    "fullName": "Seamus Healy",
+    "firstName": "Seamus",
+    "lastName": "Healy",
+    "pId": "SeamusHealy",
+    "party": "Independent",
+    "committees": [
+      {
+        "committeeID": 274,
+        "committeeName": "Joint Committee on Disability Matters",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 272,
+        "committeeName": "Select Committee on Disability Matters",
+        "role": [],
+        "status": "Live"
+      }
+    ]
+  },
+  {
+    "memberCode": "Danny-Healy-Rae.D.2016-10-03",
+    "fullName": "Danny Healy-Rae",
+    "firstName": "Danny",
+    "lastName": "Healy-Rae",
+    "pId": "DannyHealyRae",
+    "party": "Independent",
+    "committees": [
+      {
+        "committeeID": 262,
+        "committeeName": "Joint Committee on Agriculture and Food",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 260,
+        "committeeName": "Select Committee on Agriculture and Food",
+        "role": [],
+        "status": "Live"
+      }
+    ]
+  },
+  {
+    "memberCode": "Michael-Healy-Rae.D.2011-03-09",
+    "fullName": "Michael Healy-Rae",
+    "firstName": "Michael",
+    "lastName": "Healy-Rae",
+    "pId": "MichaelHealyRae",
+    "party": "Independent",
+    "committees": []
+  },
+  {
+    "memberCode": "Rory-Hearne.D.2024-11-29",
+    "fullName": "Rory Hearne",
+    "firstName": "Rory",
+    "lastName": "Hearne",
+    "pId": "RoryHearne",
+    "party": "Social Democrats",
+    "committees": [
+      {
+        "committeeID": 301,
+        "committeeName": "Joint Committee on Housing, Local Government and Heritage",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 245,
+        "committeeName": "Joint Committee on Public Petitions and the Ombudsmen",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 299,
+        "committeeName": "Select Committee on Housing, Local Government and Heritage",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 252,
+        "committeeName": "Select Committee on Public Petitions and the Ombudsmen",
+        "role": [],
+        "status": "Live"
+      }
+    ]
+  },
+  {
+    "memberCode": "Barry-Heneghan.D.2024-11-29",
+    "fullName": "Barry Heneghan",
+    "firstName": "Barry",
+    "lastName": "Heneghan",
+    "pId": "BarryHeneghan",
+    "party": "Independent",
+    "committees": [
+      {
+        "committeeID": 283,
+        "committeeName": "Joint Committee on Climate, Environment and Energy",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 281,
+        "committeeName": "Select Committee on Climate, Environment and Energy",
+        "role": [],
+        "status": "Live"
+      }
+    ]
+  },
+  {
+    "memberCode": "Martin-Heydon.D.2011-03-09",
+    "fullName": "Martin Heydon",
+    "firstName": "Martin",
+    "lastName": "Heydon",
+    "pId": "MartinHeydon",
+    "party": "Fine Gael",
+    "committees": []
+  },
+  {
+    "memberCode": "Emer-Higgins.D.2020-02-08",
+    "fullName": "Emer Higgins",
+    "firstName": "Emer",
+    "lastName": "Higgins",
+    "pId": "EmerHiggins",
+    "party": "Fine Gael",
+    "committees": []
+  },
+  {
+    "memberCode": "Alan-Kelly.S.2007-07-23",
+    "fullName": "Alan Kelly",
+    "firstName": "Alan",
+    "lastName": "Kelly",
+    "pId": "AlanKelly",
+    "party": "Labour Party",
+    "committees": [
+      {
+        "committeeID": 265,
+        "committeeName": "Joint Committee on Arts, Media, Communications, Culture and Sport",
+        "role": {
+          "dateRange": {
+            "start": "2025-05-07 00:00:00+00:00",
+            "end": null
+          },
+          "title": "Cathaoirleach"
+        },
+        "status": "Live"
+      },
+      {
+        "committeeID": 304,
+        "committeeName": "Joint Committee on Justice, Home Affairs and Migration",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 247,
+        "committeeName": "Working Group of Committee Cathaoirligh",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 302,
+        "committeeName": "Select Committee on Justice, Home Affairs and Migration",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 263,
+        "committeeName": "Select Committee on Arts, Media, Communications, Culture and Sport",
+        "role": {
+          "dateRange": {
+            "start": "2025-05-07 00:00:00+00:00",
+            "end": null
+          },
+          "title": "Cathaoirleach"
+        },
+        "status": "Live"
+      }
+    ]
+  },
+  {
+    "memberCode": "Eoghan-Kenny.D.2024-11-29",
+    "fullName": "Eoghan Kenny",
+    "firstName": "Eoghan",
+    "lastName": "Kenny",
+    "pId": "EoghanKenny",
+    "party": "Labour Party",
+    "committees": [
+      {
+        "committeeID": 295,
+        "committeeName": "Joint Committee on Further and Higher Education, Research, Innovation and Science",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 236,
+        "committeeName": "Committee of Public Accounts",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 293,
+        "committeeName": "Select Committee on Further and Higher Education, Research, Innovation and Science",
+        "role": [],
+        "status": "Live"
+      }
+    ]
+  },
+  {
+    "memberCode": "Martin-Kenny.D.2016-10-03",
+    "fullName": "Martin Kenny",
+    "firstName": "Martin",
+    "lastName": "Kenny",
+    "pId": "MartinKenny",
+    "party": "Sinn Féin",
+    "committees": [
+      {
+        "committeeID": 262,
+        "committeeName": "Joint Committee on Agriculture and Food",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 260,
+        "committeeName": "Select Committee on Agriculture and Food",
+        "role": [],
+        "status": "Live"
+      }
+    ]
+  },
+  {
+    "memberCode": "Keira-Keogh.D.2024-11-29",
+    "fullName": "Keira Keogh",
+    "firstName": "Keira",
+    "lastName": "Keogh",
+    "pId": "KeiraKeogh",
+    "party": "Fine Gael",
+    "committees": [
+      {
+        "committeeID": 247,
+        "committeeName": "Working Group of Committee Cathaoirligh",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 274,
+        "committeeName": "Joint Committee on Disability Matters",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 268,
+        "committeeName": "Joint Committee on Children and Equality",
+        "role": {
+          "dateRange": {
+            "start": "2025-05-07 00:00:00+00:00",
+            "end": null
+          },
+          "title": "Cathaoirleach"
+        },
+        "status": "Live"
+      },
+      {
+        "committeeID": 328,
+        "committeeName": "Joint Committee on Artificial Intelligence",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 272,
+        "committeeName": "Select Committee on Disability Matters",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 266,
+        "committeeName": "Select Committee on Children and Equality",
+        "role": {
+          "dateRange": {
+            "start": "2025-05-07 00:00:00+00:00",
+            "end": null
+          },
+          "title": "Cathaoirleach"
+        },
+        "status": "Live"
+      },
+      {
+        "committeeID": 233,
+        "committeeName": "Committee on Standing Orders and Dáil Reform",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 326,
+        "committeeName": "Select Committee on Artificial Intelligence",
+        "role": [],
+        "status": "Live"
+      }
+    ]
+  },
+  {
+    "memberCode": "Claire-Kerrane.D.2020-02-08",
+    "fullName": "Claire Kerrane",
+    "firstName": "Claire",
+    "lastName": "Kerrane",
+    "pId": "ClaireKerrane",
+    "party": "Sinn Féin",
+    "committees": [
+      {
+        "committeeID": 268,
+        "committeeName": "Joint Committee on Children and Equality",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 274,
+        "committeeName": "Joint Committee on Disability Matters",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 266,
+        "committeeName": "Select Committee on Children and Equality",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 272,
+        "committeeName": "Select Committee on Disability Matters",
+        "role": [],
+        "status": "Live"
+      }
+    ]
+  },
+  {
+    "memberCode": "John-Lahart.D.2016-10-03",
+    "fullName": "John Lahart",
+    "firstName": "John",
+    "lastName": "Lahart",
+    "pId": "JohnLahart",
+    "party": "Fianna Fáil",
+    "committees": [
+      {
+        "committeeID": 292,
+        "committeeName": "Joint Committee on Foreign Affairs and Trade",
+        "role": {
+          "dateRange": {
+            "start": "2025-05-07 00:00:00+00:00",
+            "end": null
+          },
+          "title": "Cathaoirleach"
+        },
+        "status": "Live"
+      },
+      {
+        "committeeID": 313,
+        "committeeName": "Joint Committee on European Union Affairs",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 247,
+        "committeeName": "Working Group of Committee Cathaoirligh",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 311,
+        "committeeName": "Select Committee on European Union Affairs",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 233,
+        "committeeName": "Committee on Standing Orders and Dáil Reform",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 237,
+        "committeeName": "Committee on Members' Interests of Dáil Éireann",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 290,
+        "committeeName": "Select Committee on Foreign Affairs and Trade",
+        "role": {
+          "dateRange": {
+            "start": "2025-05-07 00:00:00+00:00",
+            "end": null
+          },
+          "title": "Cathaoirleach"
+        },
+        "status": "Live"
+      }
+    ]
+  },
+  {
+    "memberCode": "James-Lawless.D.2016-10-03",
+    "fullName": "James Lawless",
+    "firstName": "James",
+    "lastName": "Lawless",
+    "pId": "JamesLawless",
+    "party": "Fianna Fáil",
+    "committees": []
+  },
+  {
+    "memberCode": "Paul-Lawless.D.2024-11-29",
+    "fullName": "Paul Lawless",
+    "firstName": "Paul",
+    "lastName": "Lawless",
+    "pId": "PaulLawless",
+    "party": "Aontú",
+    "committees": [
+      {
+        "committeeID": 262,
+        "committeeName": "Joint Committee on Agriculture and Food",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 260,
+        "committeeName": "Select Committee on Agriculture and Food",
+        "role": [],
+        "status": "Live"
+      }
+    ]
+  },
+  {
+    "memberCode": "George-Lawlor.D.2024-11-29",
+    "fullName": "George Lawlor",
+    "firstName": "George",
+    "lastName": "Lawlor",
+    "pId": "GeorgeLawlor",
+    "party": "Labour Party",
+    "committees": [
+      {
+        "committeeID": 247,
+        "committeeName": "Working Group of Committee Cathaoirligh",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 280,
+        "committeeName": "Joint Committee on Enterprise, Tourism and Employment",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 319,
+        "committeeName": "Joint Committee on Key Issues Affecting the Traveller Community",
+        "role": {
+          "dateRange": {
+            "start": "2025-05-07 00:00:00+00:00",
+            "end": null
+          },
+          "title": "Cathaoirleach"
+        },
+        "status": "Live"
+      },
+      {
+        "committeeID": 317,
+        "committeeName": "Select Committee on Key Issues Affecting the Traveller Community",
+        "role": {
+          "dateRange": {
+            "start": "2025-05-07 00:00:00+00:00",
+            "end": null
+          },
+          "title": "Cathaoirleach"
+        },
+        "status": "Live"
+      },
+      {
+        "committeeID": 278,
+        "committeeName": "Select Committee on Enterprise, Tourism and Employment",
+        "role": [],
+        "status": "Live"
+      }
+    ]
+  },
+  {
+    "memberCode": "Michael-Lowry.D.1987-03-10",
+    "fullName": "Michael Lowry",
+    "firstName": "Michael",
+    "lastName": "Lowry",
+    "pId": "MichaelLowry",
+    "party": "Independent",
+    "committees": []
+  },
+  {
+    "memberCode": "Pádraig-MacLochlainn.D.2011-03-09",
+    "fullName": "Pádraig Mac Lochlainn",
+    "firstName": "Pádraig",
+    "lastName": "Mac Lochlainn",
+    "pId": "PadraigMacLochlainn",
+    "party": "Sinn Féin",
+    "committees": [
+      {
+        "committeeID": 289,
+        "committeeName": "Joint Committee on Fisheries and Maritime Affairs",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 258,
+        "committeeName": "Joint Committee on Remit Oversight",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 287,
+        "committeeName": "Select Committee on Fisheries and Maritime Affairs",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 232,
+        "committeeName": "Business Committee (Dáil Éireann)",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 233,
+        "committeeName": "Committee on Standing Orders and Dáil Reform",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 238,
+        "committeeName": "Committee of Selection (Dáil Éireann)",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 234,
+        "committeeName": "Committee on Parliamentary Privileges and Oversight (Dáil Éireann)",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 256,
+        "committeeName": "Committee on Remit Oversight (Dáil Éireann)",
+        "role": [],
+        "status": "Live"
+      }
+    ]
+  },
+  {
+    "memberCode": "Micheál-Martin.D.1989-06-29",
+    "fullName": "Micheál Martin",
+    "firstName": "Micheál",
+    "lastName": "Martin",
+    "pId": "MichaelMartin",
+    "party": "Fianna Fáil",
+    "committees": []
+  },
+  {
+    "memberCode": "David-Maxwell.D.2024-11-29",
+    "fullName": "David Maxwell",
+    "firstName": "David",
+    "lastName": "Maxwell",
+    "pId": "DavidMaxwell",
+    "party": "Fine Gael",
+    "committees": [
+      {
+        "committeeID": 245,
+        "committeeName": "Joint Committee on Public Petitions and the Ombudsmen",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 289,
+        "committeeName": "Joint Committee on Fisheries and Maritime Affairs",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 316,
+        "committeeName": "Joint Committee on the Implementation of the Good Friday Agreement ",
+        "role": {
+          "dateRange": {
+            "start": "2025-06-10 00:00:00+00:00",
+            "end": null
+          },
+          "title": "Leas-Chathaoirleach"
+        },
+        "status": "Live"
+      },
+      {
+        "committeeID": 252,
+        "committeeName": "Select Committee on Public Petitions and the Ombudsmen",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 287,
+        "committeeName": "Select Committee on Fisheries and Maritime Affairs",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 314,
+        "committeeName": "Select Committee on the Implementation of the Good Friday Agreement ",
+        "role": [],
+        "status": "Live"
+      }
+    ]
+  },
+  {
+    "memberCode": "Paul-McAuliffe.D.2020-02-08",
+    "fullName": "Paul McAuliffe",
+    "firstName": "Paul",
+    "lastName": "McAuliffe",
+    "pId": "PaulMcAuliffe",
+    "party": "Fianna Fáil",
+    "committees": [
+      {
+        "committeeID": 258,
+        "committeeName": "Joint Committee on Remit Oversight",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 274,
+        "committeeName": "Joint Committee on Disability Matters",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 301,
+        "committeeName": "Joint Committee on Housing, Local Government and Heritage",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 272,
+        "committeeName": "Select Committee on Disability Matters",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 299,
+        "committeeName": "Select Committee on Housing, Local Government and Heritage",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 233,
+        "committeeName": "Committee on Standing Orders and Dáil Reform",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 234,
+        "committeeName": "Committee on Parliamentary Privileges and Oversight (Dáil Éireann)",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 236,
+        "committeeName": "Committee of Public Accounts",
+        "role": {
+          "dateRange": {
+            "start": "2025-05-22 00:00:00+00:00",
+            "end": null
+          },
+          "title": "Leas-Chathaoirleach"
+        },
+        "status": "Live"
+      },
+      {
+        "committeeID": 256,
+        "committeeName": "Committee on Remit Oversight (Dáil Éireann)",
+        "role": [],
+        "status": "Live"
+      }
+    ]
+  },
+  {
+    "memberCode": "Noel-McCarthy.D.2024-11-29",
+    "fullName": "Noel McCarthy",
+    "firstName": "Noel",
+    "lastName": "McCarthy",
+    "pId": "NoelMcCarthy",
+    "party": "Fine Gael",
+    "committees": [
+      {
+        "committeeID": 292,
+        "committeeName": "Joint Committee on Foreign Affairs and Trade",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 316,
+        "committeeName": "Joint Committee on the Implementation of the Good Friday Agreement ",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 290,
+        "committeeName": "Select Committee on Foreign Affairs and Trade",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 314,
+        "committeeName": "Select Committee on the Implementation of the Good Friday Agreement ",
+        "role": [],
+        "status": "Live"
+      }
+    ]
+  },
+  {
+    "memberCode": "Charlie-McConalogue.D.2011-03-09",
+    "fullName": "Charlie McConalogue",
+    "firstName": "Charlie",
+    "lastName": "McConalogue",
+    "pId": "CharlieMcConalogue",
+    "party": "Fianna Fáil",
+    "committees": []
+  },
+  {
+    "memberCode": "Tony-McCormack.D.2024-11-29",
+    "fullName": "Tony McCormack",
+    "firstName": "Tony",
+    "lastName": "McCormack",
+    "pId": "TonyMcCormack",
+    "party": "Fianna Fáil",
+    "committees": [
+      {
+        "committeeID": 280,
+        "committeeName": "Joint Committee on Enterprise, Tourism and Employment",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 319,
+        "committeeName": "Joint Committee on Key Issues Affecting the Traveller Community",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 322,
+        "committeeName": "Joint Committee on Infrastructure and National Development Plan Delivery",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 278,
+        "committeeName": "Select Committee on Enterprise, Tourism and Employment",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 317,
+        "committeeName": "Select Committee on Key Issues Affecting the Traveller Community",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 320,
+        "committeeName": "Select Committee on Infrastructure and National Development Plan Delivery",
+        "role": [],
+        "status": "Live"
+      }
+    ]
+  },
+  {
+    "memberCode": "Mary-Lou-McDonald.D.2011-03-09",
+    "fullName": "Mary Lou McDonald",
+    "firstName": "Mary Lou",
+    "lastName": "McDonald",
+    "pId": "MaryLouMcDonald",
+    "party": "Sinn Féin",
+    "committees": []
+  },
+  {
+    "memberCode": "Helen-McEntee.D.2013-03-27",
+    "fullName": "Helen McEntee",
+    "firstName": "Helen",
+    "lastName": "McEntee",
+    "pId": "HelenMcEntee",
+    "party": "Fine Gael",
+    "committees": []
+  },
+  {
+    "memberCode": "Donna-McGettigan.D.2024-11-29",
+    "fullName": "Donna McGettigan",
+    "firstName": "Donna",
+    "lastName": "McGettigan",
+    "pId": "DonnaMcGettigan",
+    "party": "Sinn Féin",
+    "committees": [
+      {
+        "committeeID": 295,
+        "committeeName": "Joint Committee on Further and Higher Education, Research, Innovation and Science",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 293,
+        "committeeName": "Select Committee on Further and Higher Education, Research, Innovation and Science",
+        "role": [],
+        "status": "Live"
+      }
+    ]
+  },
+  {
+    "memberCode": "Mattie-McGrath.D.2007-06-14",
+    "fullName": "Mattie McGrath",
+    "firstName": "Mattie",
+    "lastName": "McGrath",
+    "pId": "MattieMcGrath",
+    "party": "Independent",
+    "committees": [
+      {
+        "committeeID": 258,
+        "committeeName": "Joint Committee on Remit Oversight",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 234,
+        "committeeName": "Committee on Parliamentary Privileges and Oversight (Dáil Éireann)",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 235,
+        "committeeName": "Committee on Budgetary Oversight",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 256,
+        "committeeName": "Committee on Remit Oversight (Dáil Éireann)",
+        "role": [],
+        "status": "Live"
+      }
+    ]
+  },
+  {
+    "memberCode": "Séamus-McGrath.D.2024-11-29",
+    "fullName": "Séamus McGrath",
+    "firstName": "Séamus",
+    "lastName": "McGrath",
+    "pId": "SeamusMcGrath",
+    "party": "Fianna Fáil",
+    "committees": [
+      {
+        "committeeID": 301,
+        "committeeName": "Joint Committee on Housing, Local Government and Heritage",
+        "role": {
+          "dateRange": {
+            "start": "2025-05-20 00:00:00+00:00",
+            "end": null
+          },
+          "title": "Leas-Chathaoirleach"
+        },
+        "status": "Live"
+      },
+      {
+        "committeeID": 319,
+        "committeeName": "Joint Committee on Key Issues Affecting the Traveller Community",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 236,
+        "committeeName": "Committee of Public Accounts",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 299,
+        "committeeName": "Select Committee on Housing, Local Government and Heritage",
+        "role": {
+          "dateRange": {
+            "start": "2025-05-20 00:00:00+00:00",
+            "end": null
+          },
+          "title": "Leas-Chathaoirleach"
+        },
+        "status": "Live"
+      },
+      {
+        "committeeID": 317,
+        "committeeName": "Select Committee on Key Issues Affecting the Traveller Community",
+        "role": [],
+        "status": "Live"
+      }
+    ]
+  },
+  {
+    "memberCode": "Erin-McGreehan.S.2020-06-29",
+    "fullName": "Erin McGreehan",
+    "firstName": "Erin",
+    "lastName": "McGreehan",
+    "pId": "ErinMcGreehan",
+    "party": "Fianna Fáil",
+    "committees": [
+      {
+        "committeeID": 286,
+        "committeeName": "Joint Committee on Finance, Public Expenditure, Public Service Reform and Digitalisation, and Taoiseach",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 295,
+        "committeeName": "Joint Committee on Further and Higher Education, Research, Innovation and Science",
+        "role": {
+          "dateRange": {
+            "start": "2025-05-07 00:00:00+00:00",
+            "end": null
+          },
+          "title": "Cathaoirleach"
+        },
+        "status": "Live"
+      },
+      {
+        "committeeID": 247,
+        "committeeName": "Working Group of Committee Cathaoirligh",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 316,
+        "committeeName": "Joint Committee on the Implementation of the Good Friday Agreement ",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 284,
+        "committeeName": "Select Committee on Finance, Public Expenditure, Public Service Reform and Digitalisation, and Taoiseach",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 293,
+        "committeeName": "Select Committee on Further and Higher Education, Research, Innovation and Science",
+        "role": {
+          "dateRange": {
+            "start": "2025-05-07 00:00:00+00:00",
+            "end": null
+          },
+          "title": "Cathaoirleach"
+        },
+        "status": "Live"
+      },
+      {
+        "committeeID": 314,
+        "committeeName": "Select Committee on the Implementation of the Good Friday Agreement ",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 241,
+        "committeeName": "Select Committee on Subsidiarity (European Union Legislative Scrutiny)",
+        "role": [],
+        "status": "Dissolved"
+      }
+    ]
+  },
+  {
+    "memberCode": "Conor-D-McGuinness.D.2024-11-29",
+    "fullName": "Conor D McGuinness",
+    "firstName": "Conor D",
+    "lastName": "McGuinness",
+    "pId": "ConorDMcGuinness",
+    "party": "Sinn Féin",
+    "committees": [
+      {
+        "committeeID": 247,
+        "committeeName": "Working Group of Committee Cathaoirligh",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 289,
+        "committeeName": "Joint Committee on Fisheries and Maritime Affairs",
+        "role": {
+          "dateRange": {
+            "start": "2025-05-07 00:00:00+00:00",
+            "end": null
+          },
+          "title": "Cathaoirleach"
+        },
+        "status": "Live"
+      },
+      {
+        "committeeID": 241,
+        "committeeName": "Select Committee on Subsidiarity (European Union Legislative Scrutiny)",
+        "role": [],
+        "status": "Dissolved"
+      },
+      {
+        "committeeID": 287,
+        "committeeName": "Select Committee on Fisheries and Maritime Affairs",
+        "role": {
+          "dateRange": {
+            "start": "2025-05-07 00:00:00+00:00",
+            "end": null
+          },
+          "title": "Cathaoirleach"
+        },
+        "status": "Live"
+      }
+    ]
+  },
+  {
+    "memberCode": "John-McGuinness.D.1997-06-26",
+    "fullName": "John McGuinness",
+    "firstName": "John",
+    "lastName": "McGuinness",
+    "pId": "JohnMcGuinness",
+    "party": "Fianna Fáil",
+    "committees": [
+      {
+        "committeeID": 258,
+        "committeeName": "Joint Committee on Remit Oversight",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 234,
+        "committeeName": "Committee on Parliamentary Privileges and Oversight (Dáil Éireann)",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 256,
+        "committeeName": "Committee on Remit Oversight (Dáil Éireann)",
+        "role": [],
+        "status": "Live"
+      }
+    ]
+  },
+  {
+    "memberCode": "Denise-Mitchell.D.2016-10-03",
+    "fullName": "Denise Mitchell",
+    "firstName": "Denise",
+    "lastName": "Mitchell",
+    "pId": "DeniseMitchell",
+    "party": "Sinn Féin",
+    "committees": [
+      {
+        "committeeID": 258,
+        "committeeName": "Joint Committee on Remit Oversight",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 233,
+        "committeeName": "Committee on Standing Orders and Dáil Reform",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 234,
+        "committeeName": "Committee on Parliamentary Privileges and Oversight (Dáil Éireann)",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 256,
+        "committeeName": "Committee on Remit Oversight (Dáil Éireann)",
+        "role": [],
+        "status": "Live"
+      }
+    ]
+  },
+  {
+    "memberCode": "Kevin-Boxer-Moran.D.2016-10-03",
+    "fullName": "Kevin Boxer Moran",
+    "firstName": "Kevin Boxer",
+    "lastName": "Moran",
+    "pId": "KevinBoxerMoran",
+    "party": "Independent",
+    "committees": []
+  },
+  {
+    "memberCode": "Aindrias-Moynihan.D.2016-10-03",
+    "fullName": "Aindrias Moynihan",
+    "firstName": "Aindrias",
+    "lastName": "Moynihan",
+    "pId": "AindriasMoynihan",
+    "party": "Fianna Fáil",
+    "committees": [
+      {
+        "committeeID": 286,
+        "committeeName": "Joint Committee on Finance, Public Expenditure, Public Service Reform and Digitalisation, and Taoiseach",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 247,
+        "committeeName": "Working Group of Committee Cathaoirligh",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 262,
+        "committeeName": "Joint Committee on Agriculture and Food",
+        "role": {
+          "dateRange": {
+            "start": "2025-05-07 00:00:00+00:00",
+            "end": null
+          },
+          "title": "Cathaoirleach"
+        },
+        "status": "Live"
+      },
+      {
+        "committeeID": 260,
+        "committeeName": "Select Committee on Agriculture and Food",
+        "role": {
+          "dateRange": {
+            "start": "2025-05-07 00:00:00+00:00",
+            "end": null
+          },
+          "title": "Cathaoirleach"
+        },
+        "status": "Live"
+      },
+      {
+        "committeeID": 235,
+        "committeeName": "Committee on Budgetary Oversight",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 284,
+        "committeeName": "Select Committee on Finance, Public Expenditure, Public Service Reform and Digitalisation, and Taoiseach",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 241,
+        "committeeName": "Select Committee on Subsidiarity (European Union Legislative Scrutiny)",
+        "role": [],
+        "status": "Dissolved"
+      }
+    ]
+  },
+  {
+    "memberCode": "Michael-Moynihan.D.1997-06-26",
+    "fullName": "Michael Moynihan",
+    "firstName": "Michael",
+    "lastName": "Moynihan",
+    "pId": "MichaelMoynihan",
+    "party": "Fianna Fáil",
+    "committees": []
+  },
+  {
+    "memberCode": "Shane-Moynihan.D.2024-11-29",
+    "fullName": "Shane Moynihan",
+    "firstName": "Shane",
+    "lastName": "Moynihan",
+    "pId": "ShaneMoynihan",
+    "party": "Fianna Fáil",
+    "committees": [
+      {
+        "committeeID": 243,
+        "committeeName": "Comhchoiste na Gaeilge, na Gaeltachta agus Phobal Labhartha na Gaeilge",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 310,
+        "committeeName": "Joint Committee on Transport",
+        "role": {
+          "dateRange": {
+            "start": "2025-05-28 00:00:00+00:00",
+            "end": null
+          },
+          "title": "Leas-Chathaoirleach"
+        },
+        "status": "Live"
+      },
+      {
+        "committeeID": 316,
+        "committeeName": "Joint Committee on the Implementation of the Good Friday Agreement ",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 314,
+        "committeeName": "Select Committee on the Implementation of the Good Friday Agreement ",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 244,
+        "committeeName": "Roghchoiste na Gaeilge, na Gaeltachta agus Phobal Labhartha na Gaeilge",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 308,
+        "committeeName": "Select Committee on Transport",
+        "role": {
+          "dateRange": {
+            "start": "2025-05-28 00:00:00+00:00",
+            "end": null
+          },
+          "title": "Leas-Chathaoirleach"
+        },
+        "status": "Live"
+      }
+    ]
+  },
+  {
+    "memberCode": "Jennifer-Murnane-O'Connor.S.2016-04-25",
+    "fullName": "Jennifer Murnane O'Connor",
+    "firstName": "Jennifer",
+    "lastName": "Murnane O'Connor",
+    "pId": "JenniferMurnaneOConnor",
+    "party": "Fianna Fáil",
+    "committees": []
+  },
+  {
+    "memberCode": "Michael-Murphy.D.2024-11-29",
+    "fullName": "Michael Murphy",
+    "firstName": "Michael",
+    "lastName": "Murphy",
+    "pId": "MichaelMurphy",
+    "party": "Fine Gael",
+    "committees": [
+      {
+        "committeeID": 247,
+        "committeeName": "Working Group of Committee Cathaoirligh",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 310,
+        "committeeName": "Joint Committee on Transport",
+        "role": {
+          "dateRange": {
+            "start": "2025-05-07 00:00:00+00:00",
+            "end": null
+          },
+          "title": "Cathaoirleach"
+        },
+        "status": "Live"
+      },
+      {
+        "committeeID": 245,
+        "committeeName": "Joint Committee on Public Petitions and the Ombudsmen",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 313,
+        "committeeName": "Joint Committee on European Union Affairs",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 308,
+        "committeeName": "Select Committee on Transport",
+        "role": {
+          "dateRange": {
+            "start": "2025-05-07 00:00:00+00:00",
+            "end": null
+          },
+          "title": "Cathaoirleach"
+        },
+        "status": "Live"
+      },
+      {
+        "committeeID": 252,
+        "committeeName": "Select Committee on Public Petitions and the Ombudsmen",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 241,
+        "committeeName": "Select Committee on Subsidiarity (European Union Legislative Scrutiny)",
+        "role": [],
+        "status": "Dissolved"
+      },
+      {
+        "committeeID": 311,
+        "committeeName": "Select Committee on European Union Affairs",
+        "role": [],
+        "status": "Live"
+      }
+    ]
+  },
+  {
+    "memberCode": "Paul-Murphy.D.2014-10-10",
+    "fullName": "Paul Murphy",
+    "firstName": "Paul",
+    "lastName": "Murphy",
+    "pId": "PaulMurphy",
+    "party": "People Before Profit-Solidarity",
+    "committees": [
+      {
+        "committeeID": 295,
+        "committeeName": "Joint Committee on Further and Higher Education, Research, Innovation and Science",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 328,
+        "committeeName": "Joint Committee on Artificial Intelligence",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 293,
+        "committeeName": "Select Committee on Further and Higher Education, Research, Innovation and Science",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 241,
+        "committeeName": "Select Committee on Subsidiarity (European Union Legislative Scrutiny)",
+        "role": [],
+        "status": "Dissolved"
+      },
+      {
+        "committeeID": 233,
+        "committeeName": "Committee on Standing Orders and Dáil Reform",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 236,
+        "committeeName": "Committee of Public Accounts",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 326,
+        "committeeName": "Select Committee on Artificial Intelligence",
+        "role": [],
+        "status": "Live"
+      }
+    ]
+  },
+  {
+    "memberCode": "Verona-Murphy.D.2020-02-08",
+    "fullName": "Verona Murphy",
+    "firstName": "Verona",
+    "lastName": "Murphy",
+    "pId": "VeronaMurphy",
+    "party": "Independent",
+    "committees": [
+      {
+        "committeeID": 247,
+        "committeeName": "Working Group of Committee Cathaoirligh",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 258,
+        "committeeName": "Joint Committee on Remit Oversight",
+        "role": {
+          "dateRange": {
+            "start": "2024-12-18 00:00:00+00:00",
+            "end": null
+          },
+          "title": "Cathaoirleach"
+        },
+        "status": "Live"
+      },
+      {
+        "committeeID": 234,
+        "committeeName": "Committee on Parliamentary Privileges and Oversight (Dáil Éireann)",
+        "role": {
+          "dateRange": {
+            "start": "2024-12-18 00:00:00+00:00",
+            "end": null
+          },
+          "title": "Cathaoirleach"
+        },
+        "status": "Live"
+      },
+      {
+        "committeeID": 232,
+        "committeeName": "Business Committee (Dáil Éireann)",
+        "role": {
+          "dateRange": {
+            "start": "2024-12-18 00:00:00+00:00",
+            "end": null
+          },
+          "title": "Cathaoirleach"
+        },
+        "status": "Live"
+      },
+      {
+        "committeeID": 256,
+        "committeeName": "Committee on Remit Oversight (Dáil Éireann)",
+        "role": {
+          "dateRange": {
+            "start": "2024-12-18 00:00:00+00:00",
+            "end": null
+          },
+          "title": "Cathaoirleach"
+        },
+        "status": "Live"
+      },
+      {
+        "committeeID": 238,
+        "committeeName": "Committee of Selection (Dáil Éireann)",
+        "role": {
+          "dateRange": {
+            "start": "2024-12-18 00:00:00+00:00",
+            "end": null
+          },
+          "title": "Cathaoirleach"
+        },
+        "status": "Live"
+      },
+      {
+        "committeeID": 233,
+        "committeeName": "Committee on Standing Orders and Dáil Reform",
+        "role": {
+          "dateRange": {
+            "start": "2024-12-18 00:00:00+00:00",
+            "end": null
+          },
+          "title": "Cathaoirleach"
+        },
+        "status": "Live"
+      }
+    ]
+  },
+  {
+    "memberCode": "Johnny-Mythen.D.2020-02-08",
+    "fullName": "Johnny Mythen",
+    "firstName": "Johnny",
+    "lastName": "Mythen",
+    "pId": "JohnnyMythen",
+    "party": "Sinn Féin",
+    "committees": [
+      {
+        "committeeID": 328,
+        "committeeName": "Joint Committee on Artificial Intelligence",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 326,
+        "committeeName": "Select Committee on Artificial Intelligence",
+        "role": [],
+        "status": "Live"
+      }
+    ]
+  },
+  {
+    "memberCode": "Gerald-Nash.D.2011-03-09",
+    "fullName": "Ged Nash",
+    "firstName": "Ged",
+    "lastName": "Nash",
+    "pId": "GeraldNash",
+    "party": "Labour Party",
+    "committees": [
+      {
+        "committeeID": 286,
+        "committeeName": "Joint Committee on Finance, Public Expenditure, Public Service Reform and Digitalisation, and Taoiseach",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 258,
+        "committeeName": "Joint Committee on Remit Oversight",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 235,
+        "committeeName": "Committee on Budgetary Oversight",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 284,
+        "committeeName": "Select Committee on Finance, Public Expenditure, Public Service Reform and Digitalisation, and Taoiseach",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 234,
+        "committeeName": "Committee on Parliamentary Privileges and Oversight (Dáil Éireann)",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 256,
+        "committeeName": "Committee on Remit Oversight (Dáil Éireann)",
+        "role": [],
+        "status": "Live"
+      }
+    ]
+  },
+  {
+    "memberCode": "Hildegarde-Naughton.S.2013-07-19",
+    "fullName": "Hildegarde Naughton",
+    "firstName": "Hildegarde",
+    "lastName": "Naughton",
+    "pId": "HildegardeNaughton",
+    "party": "Fine Gael",
+    "committees": []
+  },
+  {
+    "memberCode": "Joe-Neville.D.2024-11-29",
+    "fullName": "Joe Neville",
+    "firstName": "Joe",
+    "lastName": "Neville",
+    "pId": "JoeNeville",
+    "party": "Fine Gael",
+    "committees": [
+      {
+        "committeeID": 322,
+        "committeeName": "Joint Committee on Infrastructure and National Development Plan Delivery",
+        "role": {
+          "dateRange": {
+            "start": "2025-05-28 00:00:00+00:00",
+            "end": null
+          },
+          "title": "Leas-Chathaoirleach"
+        },
+        "status": "Live"
+      },
+      {
+        "committeeID": 235,
+        "committeeName": "Committee on Budgetary Oversight",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 236,
+        "committeeName": "Committee of Public Accounts",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 320,
+        "committeeName": "Select Committee on Infrastructure and National Development Plan Delivery",
+        "role": {
+          "dateRange": {
+            "start": "2025-05-28 00:00:00+00:00",
+            "end": null
+          },
+          "title": "Leas-Chathaoirleach"
+        },
+        "status": "Live"
+      }
+    ]
+  },
+  {
+    "memberCode": "Natasha-Newsome-Drennan.D.2024-11-29",
+    "fullName": "Natasha Newsome Drennan",
+    "firstName": "Natasha",
+    "lastName": "Newsome Drennan",
+    "pId": "NatashaNewsomeDrennan",
+    "party": "Sinn Féin",
+    "committees": [
+      {
+        "committeeID": 262,
+        "committeeName": "Joint Committee on Agriculture and Food",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 260,
+        "committeeName": "Select Committee on Agriculture and Food",
+        "role": [],
+        "status": "Live"
+      }
+    ]
+  },
+  {
+    "memberCode": "Carol-Nolan.D.2016-10-03",
+    "fullName": "Carol Nolan",
+    "firstName": "Carol",
+    "lastName": "Nolan",
+    "pId": "CarolNolan",
+    "party": "Independent",
+    "committees": []
+  },
+  {
+    "memberCode": "Shónagh-Ní-Raghallaigh.D.2024-11-29",
+    "fullName": "Shónagh Ní Raghallaigh",
+    "firstName": "Shónagh",
+    "lastName": "Ní Raghallaigh",
+    "pId": "ShonaghNiRaghallaigh",
+    "party": "Sinn Féin",
+    "committees": [
+      {
+        "committeeID": 243,
+        "committeeName": "Comhchoiste na Gaeilge, na Gaeltachta agus Phobal Labhartha na Gaeilge",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 277,
+        "committeeName": "Joint Committee on Education and Youth",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 244,
+        "committeeName": "Roghchoiste na Gaeilge, na Gaeltachta agus Phobal Labhartha na Gaeilge",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 275,
+        "committeeName": "Select Committee on Education and Youth",
+        "role": [],
+        "status": "Live"
+      }
+    ]
+  },
+  {
+    "memberCode": "Darragh-O'Brien.D.2007-06-14",
+    "fullName": "Darragh O'Brien",
+    "firstName": "Darragh",
+    "lastName": "O'Brien",
+    "pId": "DarraghOBrien",
+    "party": "Fianna Fáil",
+    "committees": []
+  },
+  {
+    "memberCode": "Cian-O'Callaghan.D.2020-02-08",
+    "fullName": "Cian O'Callaghan",
+    "firstName": "Cian",
+    "lastName": "O'Callaghan",
+    "pId": "CianOCallaghan",
+    "party": "Social Democrats",
+    "committees": [
+      {
+        "committeeID": 286,
+        "committeeName": "Joint Committee on Finance, Public Expenditure, Public Service Reform and Digitalisation, and Taoiseach",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 232,
+        "committeeName": "Business Committee (Dáil Éireann)",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 233,
+        "committeeName": "Committee on Standing Orders and Dáil Reform",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 235,
+        "committeeName": "Committee on Budgetary Oversight",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 238,
+        "committeeName": "Committee of Selection (Dáil Éireann)",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 284,
+        "committeeName": "Select Committee on Finance, Public Expenditure, Public Service Reform and Digitalisation, and Taoiseach",
+        "role": [],
+        "status": "Live"
+      }
+    ]
+  },
+  {
+    "memberCode": "Jim-O'Callaghan.D.2016-10-03",
+    "fullName": "Jim O'Callaghan",
+    "firstName": "Jim",
+    "lastName": "O'Callaghan",
+    "pId": "JimOCallaghan",
+    "party": "Fianna Fáil",
+    "committees": []
+  },
+  {
+    "memberCode": "Maeve-O'Connell.D.2024-11-29",
+    "fullName": "Maeve O'Connell",
+    "firstName": "Maeve",
+    "lastName": "O'Connell",
+    "pId": "MaeveOConnell",
+    "party": "Fine Gael",
+    "committees": [
+      {
+        "committeeID": 295,
+        "committeeName": "Joint Committee on Further and Higher Education, Research, Innovation and Science",
+        "role": {
+          "dateRange": {
+            "start": "2025-06-11 00:00:00+00:00",
+            "end": null
+          },
+          "title": "Leas-Chathaoirleach"
+        },
+        "status": "Live"
+      },
+      {
+        "committeeID": 271,
+        "committeeName": "Joint Committee on Defence and National Security",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 269,
+        "committeeName": "Select Committee on Defence and National Security",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 293,
+        "committeeName": "Select Committee on Further and Higher Education, Research, Innovation and Science",
+        "role": {
+          "dateRange": {
+            "start": "2025-06-11 00:00:00+00:00",
+            "end": null
+          },
+          "title": "Leas-Chathaoirleach"
+        },
+        "status": "Live"
+      }
+    ]
+  },
+  {
+    "memberCode": "James-O'Connor.D.2020-02-08",
+    "fullName": "James O'Connor",
+    "firstName": "James",
+    "lastName": "O'Connor",
+    "pId": "JamesOConnor",
+    "party": "Fianna Fáil",
+    "committees": [
+      {
+        "committeeID": 328,
+        "committeeName": "Joint Committee on Artificial Intelligence",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 325,
+        "committeeName": "Joint Committee on Drugs Use",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 280,
+        "committeeName": "Joint Committee on Enterprise, Tourism and Employment",
+        "role": {
+          "dateRange": {
+            "start": "2025-05-07 00:00:00+00:00",
+            "end": null
+          },
+          "title": "Cathaoirleach"
+        },
+        "status": "Live"
+      },
+      {
+        "committeeID": 247,
+        "committeeName": "Working Group of Committee Cathaoirligh",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 278,
+        "committeeName": "Select Committee on Enterprise, Tourism and Employment",
+        "role": {
+          "dateRange": {
+            "start": "2025-05-07 00:00:00+00:00",
+            "end": null
+          },
+          "title": "Cathaoirleach"
+        },
+        "status": "Live"
+      },
+      {
+        "committeeID": 326,
+        "committeeName": "Select Committee on Artificial Intelligence",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 323,
+        "committeeName": "Select Committee on Drugs Use",
+        "role": [],
+        "status": "Live"
+      }
+    ]
+  },
+  {
+    "memberCode": "Willie-O'Dea.D.1982-03-09",
+    "fullName": "Willie O'Dea",
+    "firstName": "Willie",
+    "lastName": "O'Dea",
+    "pId": "WillieODea",
+    "party": "Fianna Fáil",
+    "committees": [
+      {
+        "committeeID": 301,
+        "committeeName": "Joint Committee on Housing, Local Government and Heritage",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 325,
+        "committeeName": "Joint Committee on Drugs Use",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 237,
+        "committeeName": "Committee on Members' Interests of Dáil Éireann",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 299,
+        "committeeName": "Select Committee on Housing, Local Government and Heritage",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 323,
+        "committeeName": "Select Committee on Drugs Use",
+        "role": [],
+        "status": "Live"
+      }
+    ]
+  },
+  {
+    "memberCode": "Kieran-O'Donnell.D.2007-06-14",
+    "fullName": "Kieran O'Donnell",
+    "firstName": "Kieran",
+    "lastName": "O'Donnell",
+    "pId": "KieranODonnell",
+    "party": "Fine Gael",
+    "committees": []
+  },
+  {
+    "memberCode": "Richard-O'Donoghue.D.2020-02-08",
+    "fullName": "Richard O'Donoghue",
+    "firstName": "Richard",
+    "lastName": "O'Donoghue",
+    "pId": "RichardODonoghue",
+    "party": "Independent Ireland",
+    "committees": [
+      {
+        "committeeID": 247,
+        "committeeName": "Working Group of Committee Cathaoirligh",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 235,
+        "committeeName": "Committee on Budgetary Oversight",
+        "role": {
+          "dateRange": {
+            "start": "2025-05-07 00:00:00+00:00",
+            "end": null
+          },
+          "title": "Cathaoirleach"
+        },
+        "status": "Live"
+      }
+    ]
+  },
+  {
+    "memberCode": "Robert-O'Donoghue.D.2024-11-29",
+    "fullName": "Robert O'Donoghue",
+    "firstName": "Robert",
+    "lastName": "O'Donoghue",
+    "pId": "RobertODonoghue",
+    "party": "Labour Party",
+    "committees": [
+      {
+        "committeeID": 313,
+        "committeeName": "Joint Committee on European Union Affairs",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 311,
+        "committeeName": "Select Committee on European Union Affairs",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 241,
+        "committeeName": "Select Committee on Subsidiarity (European Union Legislative Scrutiny)",
+        "role": [],
+        "status": "Dissolved"
+      }
+    ]
+  },
+  {
+    "memberCode": "Patrick-O'Donovan.D.2011-03-09",
+    "fullName": "Patrick O'Donovan",
+    "firstName": "Patrick",
+    "lastName": "O'Donovan",
+    "pId": "PatrickODonovan",
+    "party": "Fine Gael",
+    "committees": []
+  },
+  {
+    "memberCode": "Ken-O'Flynn.D.2024-11-29",
+    "fullName": "Ken O'Flynn",
+    "firstName": "Ken",
+    "lastName": "O'Flynn",
+    "pId": "KenOFlynn",
+    "party": "Independent Ireland",
+    "committees": [
+      {
+        "committeeID": 258,
+        "committeeName": "Joint Committee on Remit Oversight",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 292,
+        "committeeName": "Joint Committee on Foreign Affairs and Trade",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 234,
+        "committeeName": "Committee on Parliamentary Privileges and Oversight (Dáil Éireann)",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 256,
+        "committeeName": "Committee on Remit Oversight (Dáil Éireann)",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 290,
+        "committeeName": "Select Committee on Foreign Affairs and Trade",
+        "role": [],
+        "status": "Live"
+      }
+    ]
+  },
+  {
+    "memberCode": "Roderic-O'Gorman.D.2020-02-08",
+    "fullName": "Roderic O'Gorman",
+    "firstName": "Roderic",
+    "lastName": "O'Gorman",
+    "pId": "RodericOGorman",
+    "party": "Green Party",
+    "committees": [
+      {
+        "committeeID": 310,
+        "committeeName": "Joint Committee on Transport",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 308,
+        "committeeName": "Select Committee on Transport",
+        "role": [],
+        "status": "Live"
+      }
+    ]
+  },
+  {
+    "memberCode": "Louis-O'Hara.D.2024-11-29",
+    "fullName": "Louis O'Hara",
+    "firstName": "Louis",
+    "lastName": "O'Hara",
+    "pId": "LouisOHara",
+    "party": "Sinn Féin",
+    "committees": [
+      {
+        "committeeID": 310,
+        "committeeName": "Joint Committee on Transport",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 322,
+        "committeeName": "Joint Committee on Infrastructure and National Development Plan Delivery",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 308,
+        "committeeName": "Select Committee on Transport",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 320,
+        "committeeName": "Select Committee on Infrastructure and National Development Plan Delivery",
+        "role": [],
+        "status": "Live"
+      }
+    ]
+  },
+  {
+    "memberCode": "Ryan-O'Meara.D.2024-11-29",
+    "fullName": "Ryan O'Meara",
+    "firstName": "Ryan",
+    "lastName": "O'Meara",
+    "pId": "RyanOMeara",
+    "party": "Fianna Fáil",
+    "committees": [
+      {
+        "committeeID": 277,
+        "committeeName": "Joint Committee on Education and Youth",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 271,
+        "committeeName": "Joint Committee on Defence and National Security",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 286,
+        "committeeName": "Joint Committee on Finance, Public Expenditure, Public Service Reform and Digitalisation, and Taoiseach",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 284,
+        "committeeName": "Select Committee on Finance, Public Expenditure, Public Service Reform and Digitalisation, and Taoiseach",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 275,
+        "committeeName": "Select Committee on Education and Youth",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 235,
+        "committeeName": "Committee on Budgetary Oversight",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 269,
+        "committeeName": "Select Committee on Defence and National Security",
+        "role": [],
+        "status": "Live"
+      }
+    ]
+  },
+  {
+    "memberCode": "Louise-O'Reilly.D.2016-10-03",
+    "fullName": "Louise O'Reilly",
+    "firstName": "Louise",
+    "lastName": "O'Reilly",
+    "pId": "LouiseOReilly",
+    "party": "Sinn Féin",
+    "committees": [
+      {
+        "committeeID": 307,
+        "committeeName": "Joint Committee on Social Protection, Rural and Community Development",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 245,
+        "committeeName": "Joint Committee on Public Petitions and the Ombudsmen",
+        "role": {
+          "dateRange": {
+            "start": "2025-05-07 00:00:00+00:00",
+            "end": null
+          },
+          "title": "Cathaoirleach"
+        },
+        "status": "Live"
+      },
+      {
+        "committeeID": 247,
+        "committeeName": "Working Group of Committee Cathaoirligh",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 252,
+        "committeeName": "Select Committee on Public Petitions and the Ombudsmen",
+        "role": {
+          "dateRange": {
+            "start": "2025-05-07 00:00:00+00:00",
+            "end": null
+          },
+          "title": "Cathaoirleach"
+        },
+        "status": "Live"
+      },
+      {
+        "committeeID": 305,
+        "committeeName": "Select Committee on Social Protection, Rural and Community Development",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 237,
+        "committeeName": "Committee on Members' Interests of Dáil Éireann",
+        "role": [],
+        "status": "Live"
+      }
+    ]
+  },
+  {
+    "memberCode": "Darren-O'Rourke.D.2020-02-08",
+    "fullName": "Darren O'Rourke",
+    "firstName": "Darren",
+    "lastName": "O'Rourke",
+    "pId": "DarrenORourke",
+    "party": "Sinn Féin",
+    "committees": [
+      {
+        "committeeID": 277,
+        "committeeName": "Joint Committee on Education and Youth",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 328,
+        "committeeName": "Joint Committee on Artificial Intelligence",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 275,
+        "committeeName": "Select Committee on Education and Youth",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 326,
+        "committeeName": "Select Committee on Artificial Intelligence",
+        "role": [],
+        "status": "Live"
+      }
+    ]
+  },
+  {
+    "memberCode": "John-Paul-O'Shea.D.2024-11-29",
+    "fullName": "John Paul O'Shea",
+    "firstName": "John Paul",
+    "lastName": "O'Shea",
+    "pId": "JohnPaulOShea",
+    "party": "Fine Gael",
+    "committees": [
+      {
+        "committeeID": 247,
+        "committeeName": "Working Group of Committee Cathaoirligh",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 307,
+        "committeeName": "Joint Committee on Social Protection, Rural and Community Development",
+        "role": {
+          "dateRange": {
+            "start": "2025-05-07 00:00:00+00:00",
+            "end": null
+          },
+          "title": "Cathaoirleach"
+        },
+        "status": "Live"
+      },
+      {
+        "committeeID": 325,
+        "committeeName": "Joint Committee on Drugs Use",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 235,
+        "committeeName": "Committee on Budgetary Oversight",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 305,
+        "committeeName": "Select Committee on Social Protection, Rural and Community Development",
+        "role": {
+          "dateRange": {
+            "start": "2025-05-07 00:00:00+00:00",
+            "end": null
+          },
+          "title": "Cathaoirleach"
+        },
+        "status": "Live"
+      },
+      {
+        "committeeID": 323,
+        "committeeName": "Select Committee on Drugs Use",
+        "role": [],
+        "status": "Live"
+      }
+    ]
+  },
+  {
+    "memberCode": "Christopher-O'Sullivan.D.2020-02-08",
+    "fullName": "Christopher O'Sullivan",
+    "firstName": "Christopher",
+    "lastName": "O'Sullivan",
+    "pId": "ChristopherOsullivan",
+    "party": "Fianna Fáil",
+    "committees": []
+  },
+  {
+    "memberCode": "Pádraig-O'Sullivan.D.2019-11-29",
+    "fullName": "Pádraig O'Sullivan",
+    "firstName": "Pádraig",
+    "lastName": "O'Sullivan",
+    "pId": "PadraigOSullivan",
+    "party": "Fianna Fáil",
+    "committees": [
+      {
+        "committeeID": 304,
+        "committeeName": "Joint Committee on Justice, Home Affairs and Migration",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 258,
+        "committeeName": "Joint Committee on Remit Oversight",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 265,
+        "committeeName": "Joint Committee on Arts, Media, Communications, Culture and Sport",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 298,
+        "committeeName": "Joint Committee on Health",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 263,
+        "committeeName": "Select Committee on Arts, Media, Communications, Culture and Sport",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 233,
+        "committeeName": "Committee on Standing Orders and Dáil Reform",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 296,
+        "committeeName": "Select Committee on Health",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 302,
+        "committeeName": "Select Committee on Justice, Home Affairs and Migration",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 256,
+        "committeeName": "Committee on Remit Oversight (Dáil Éireann)",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 234,
+        "committeeName": "Committee on Parliamentary Privileges and Oversight (Dáil Éireann)",
+        "role": [],
+        "status": "Live"
+      }
+    ]
+  },
+  {
+    "memberCode": "Liam-Quaide.D.2024-11-29",
+    "fullName": "Liam Quaide",
+    "firstName": "Liam",
+    "lastName": "Quaide",
+    "pId": "LiamQuaide",
+    "party": "Social Democrats",
+    "committees": [
+      {
+        "committeeID": 307,
+        "committeeName": "Joint Committee on Social Protection, Rural and Community Development",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 274,
+        "committeeName": "Joint Committee on Disability Matters",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 305,
+        "committeeName": "Select Committee on Social Protection, Rural and Community Development",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 272,
+        "committeeName": "Select Committee on Disability Matters",
+        "role": [],
+        "status": "Live"
+      }
+    ]
+  },
+  {
+    "memberCode": "Maurice-Quinlivan.D.2016-10-03",
+    "fullName": "Maurice Quinlivan",
+    "firstName": "Maurice",
+    "lastName": "Quinlivan",
+    "pId": "MauriceQuinlivan",
+    "party": "Sinn Féin",
+    "committees": [
+      {
+        "committeeID": 247,
+        "committeeName": "Working Group of Committee Cathaoirligh",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 274,
+        "committeeName": "Joint Committee on Disability Matters",
+        "role": {
+          "dateRange": {
+            "start": "2025-05-07 00:00:00+00:00",
+            "end": null
+          },
+          "title": "Cathaoirleach"
+        },
+        "status": "Live"
+      },
+      {
+        "committeeID": 319,
+        "committeeName": "Joint Committee on Key Issues Affecting the Traveller Community",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 272,
+        "committeeName": "Select Committee on Disability Matters",
+        "role": {
+          "dateRange": {
+            "start": "2025-05-07 00:00:00+00:00",
+            "end": null
+          },
+          "title": "Cathaoirleach"
+        },
+        "status": "Live"
+      },
+      {
+        "committeeID": 317,
+        "committeeName": "Select Committee on Key Issues Affecting the Traveller Community",
+        "role": [],
+        "status": "Live"
+      }
+    ]
+  },
+  {
+    "memberCode": "Pádraig-Rice.D.2024-11-29",
+    "fullName": "Pádraig Rice",
+    "firstName": "Pádraig",
+    "lastName": "Rice",
+    "pId": "PadraigRice",
+    "party": "Social Democrats",
+    "committees": [
+      {
+        "committeeID": 247,
+        "committeeName": "Working Group of Committee Cathaoirligh",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 298,
+        "committeeName": "Joint Committee on Health",
+        "role": {
+          "dateRange": {
+            "start": "2025-05-07 00:00:00+00:00",
+            "end": null
+          },
+          "title": "Cathaoirleach"
+        },
+        "status": "Live"
+      },
+      {
+        "committeeID": 319,
+        "committeeName": "Joint Committee on Key Issues Affecting the Traveller Community",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 241,
+        "committeeName": "Select Committee on Subsidiarity (European Union Legislative Scrutiny)",
+        "role": [],
+        "status": "Dissolved"
+      },
+      {
+        "committeeID": 296,
+        "committeeName": "Select Committee on Health",
+        "role": {
+          "dateRange": {
+            "start": "2025-05-07 00:00:00+00:00",
+            "end": null
+          },
+          "title": "Cathaoirleach"
+        },
+        "status": "Live"
+      },
+      {
+        "committeeID": 317,
+        "committeeName": "Select Committee on Key Issues Affecting the Traveller Community",
+        "role": [],
+        "status": "Live"
+      }
+    ]
+  },
+  {
+    "memberCode": "Neale-Richmond.S.2016-04-25",
+    "fullName": "Neale Richmond",
+    "firstName": "Neale",
+    "lastName": "Richmond",
+    "pId": "NealeRichmond",
+    "party": "Fine Gael",
+    "committees": []
+  },
+  {
+    "memberCode": "Peter-Roche.D.2024-11-29",
+    "fullName": "Peter Roche",
+    "firstName": "Peter",
+    "lastName": "Roche",
+    "pId": "PeterRoche",
+    "party": "Fine Gael",
+    "committees": [
+      {
+        "committeeID": 298,
+        "committeeName": "Joint Committee on Health",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 277,
+        "committeeName": "Joint Committee on Education and Youth",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 307,
+        "committeeName": "Joint Committee on Social Protection, Rural and Community Development",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 305,
+        "committeeName": "Select Committee on Social Protection, Rural and Community Development",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 296,
+        "committeeName": "Select Committee on Health",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 275,
+        "committeeName": "Select Committee on Education and Youth",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 241,
+        "committeeName": "Select Committee on Subsidiarity (European Union Legislative Scrutiny)",
+        "role": [],
+        "status": "Dissolved"
+      }
+    ]
+  },
+  {
+    "memberCode": "Eamon-Scanlon.S.2002-09-12",
+    "fullName": "Eamon Scanlon",
+    "firstName": "Eamon",
+    "lastName": "Scanlon",
+    "pId": "EamonScanlon",
+    "party": "Fianna Fáil",
+    "committees": [
+      {
+        "committeeID": 271,
+        "committeeName": "Joint Committee on Defence and National Security",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 289,
+        "committeeName": "Joint Committee on Fisheries and Maritime Affairs",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 313,
+        "committeeName": "Joint Committee on European Union Affairs",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 269,
+        "committeeName": "Select Committee on Defence and National Security",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 287,
+        "committeeName": "Select Committee on Fisheries and Maritime Affairs",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 311,
+        "committeeName": "Select Committee on European Union Affairs",
+        "role": [],
+        "status": "Live"
+      }
+    ]
+  },
+  {
+    "memberCode": "Conor-Sheehan.D.2024-11-29",
+    "fullName": "Conor Sheehan",
+    "firstName": "Conor",
+    "lastName": "Sheehan",
+    "pId": "ConorSheehan",
+    "party": "Labour Party",
+    "committees": [
+      {
+        "committeeID": 322,
+        "committeeName": "Joint Committee on Infrastructure and National Development Plan Delivery",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 320,
+        "committeeName": "Select Committee on Infrastructure and National Development Plan Delivery",
+        "role": [],
+        "status": "Live"
+      }
+    ]
+  },
+  {
+    "memberCode": "Marie-Sherlock.S.2020-03-30",
+    "fullName": "Marie Sherlock",
+    "firstName": "Marie",
+    "lastName": "Sherlock",
+    "pId": "MarieSherlock",
+    "party": "Labour Party",
+    "committees": [
+      {
+        "committeeID": 298,
+        "committeeName": "Joint Committee on Health",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 325,
+        "committeeName": "Joint Committee on Drugs Use",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 296,
+        "committeeName": "Select Committee on Health",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 323,
+        "committeeName": "Select Committee on Drugs Use",
+        "role": [],
+        "status": "Live"
+      }
+    ]
+  },
+  {
+    "memberCode": "Brendan-Smith.D.1992-12-14",
+    "fullName": "Brendan Smith",
+    "firstName": "Brendan",
+    "lastName": "Smith",
+    "pId": "BrendanSmith",
+    "party": "Fianna Fáil",
+    "committees": [
+      {
+        "committeeID": 245,
+        "committeeName": "Joint Committee on Public Petitions and the Ombudsmen",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 295,
+        "committeeName": "Joint Committee on Further and Higher Education, Research, Innovation and Science",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 252,
+        "committeeName": "Select Committee on Public Petitions and the Ombudsmen",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 293,
+        "committeeName": "Select Committee on Further and Higher Education, Research, Innovation and Science",
+        "role": [],
+        "status": "Live"
+      }
+    ]
+  },
+  {
+    "memberCode": "Duncan-Smith.D.2020-02-08",
+    "fullName": "Duncan Smith",
+    "firstName": "Duncan",
+    "lastName": "Smith",
+    "pId": "DuncanSmith",
+    "party": "Labour Party",
+    "committees": [
+      {
+        "committeeID": 292,
+        "committeeName": "Joint Committee on Foreign Affairs and Trade",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 271,
+        "committeeName": "Joint Committee on Defence and National Security",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 290,
+        "committeeName": "Select Committee on Foreign Affairs and Trade",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 269,
+        "committeeName": "Select Committee on Defence and National Security",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 232,
+        "committeeName": "Business Committee (Dáil Éireann)",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 233,
+        "committeeName": "Committee on Standing Orders and Dáil Reform",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 238,
+        "committeeName": "Committee of Selection (Dáil Éireann)",
+        "role": [],
+        "status": "Live"
+      }
+    ]
+  },
+  {
+    "memberCode": "Niamh-Smyth.D.2016-10-03",
+    "fullName": "Niamh Smyth",
+    "firstName": "Niamh",
+    "lastName": "Smyth",
+    "pId": "NiamhSmyth",
+    "party": "Fianna Fáil",
+    "committees": []
+  },
+  {
+    "memberCode": "Brian-Stanley.D.2011-03-09",
+    "fullName": "Brian Stanley",
+    "firstName": "Brian",
+    "lastName": "Stanley",
+    "pId": "BrianStanley",
+    "party": "Independent",
+    "committees": [
+      {
+        "committeeID": 271,
+        "committeeName": "Joint Committee on Defence and National Security",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 269,
+        "committeeName": "Select Committee on Defence and National Security",
+        "role": [],
+        "status": "Live"
+      }
+    ]
+  },
+  {
+    "memberCode": "Edward-Timmins.D.2024-11-29",
+    "fullName": "Edward Timmins",
+    "firstName": "Edward",
+    "lastName": "Timmins",
+    "pId": "EdwardTimmins",
+    "party": "Fine Gael",
+    "committees": [
+      {
+        "committeeID": 286,
+        "committeeName": "Joint Committee on Finance, Public Expenditure, Public Service Reform and Digitalisation, and Taoiseach",
+        "role": {
+          "dateRange": {
+            "start": "2025-05-21 00:00:00+00:00",
+            "end": null
+          },
+          "title": "Leas-Chathaoirleach"
+        },
+        "status": "Live"
+      },
+      {
+        "committeeID": 235,
+        "committeeName": "Committee on Budgetary Oversight",
+        "role": {
+          "dateRange": {
+            "start": "2025-05-27 00:00:00+00:00",
+            "end": null
+          },
+          "title": "Leas-Chathaoirleach"
+        },
+        "status": "Live"
+      },
+      {
+        "committeeID": 284,
+        "committeeName": "Select Committee on Finance, Public Expenditure, Public Service Reform and Digitalisation, and Taoiseach",
+        "role": {
+          "dateRange": {
+            "start": "2025-05-21 00:00:00+00:00",
+            "end": null
+          },
+          "title": "Leas-Chathaoirleach"
+        },
+        "status": "Live"
+      }
+    ]
+  },
+  {
+    "memberCode": "Gillian-Toole.D.2024-11-29",
+    "fullName": "Gillian Toole",
+    "firstName": "Gillian",
+    "lastName": "Toole",
+    "pId": "GillianToole",
+    "party": "Independent",
+    "committees": [
+      {
+        "committeeID": 274,
+        "committeeName": "Joint Committee on Disability Matters",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 232,
+        "committeeName": "Business Committee (Dáil Éireann)",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 233,
+        "committeeName": "Committee on Standing Orders and Dáil Reform",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 272,
+        "committeeName": "Select Committee on Disability Matters",
+        "role": [],
+        "status": "Live"
+      }
+    ]
+  },
+  {
+    "memberCode": "Robert-Troy.D.2011-03-09",
+    "fullName": "Robert Troy",
+    "firstName": "Robert",
+    "lastName": "Troy",
+    "pId": "RobertTroy",
+    "party": "Fianna Fáil",
+    "committees": []
+  },
+  {
+    "memberCode": "Peadar-Tóibín.D.2011-03-09",
+    "fullName": "Peadar Tóibín",
+    "firstName": "Peadar",
+    "lastName": "Tóibín",
+    "pId": "PeadarToibin",
+    "party": "Aontú",
+    "committees": [
+      {
+        "committeeID": 316,
+        "committeeName": "Joint Committee on the Implementation of the Good Friday Agreement ",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 322,
+        "committeeName": "Joint Committee on Infrastructure and National Development Plan Delivery",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 243,
+        "committeeName": "Comhchoiste na Gaeilge, na Gaeltachta agus Phobal Labhartha na Gaeilge",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 244,
+        "committeeName": "Roghchoiste na Gaeilge, na Gaeltachta agus Phobal Labhartha na Gaeilge",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 314,
+        "committeeName": "Select Committee on the Implementation of the Good Friday Agreement ",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 320,
+        "committeeName": "Select Committee on Infrastructure and National Development Plan Delivery",
+        "role": [],
+        "status": "Live"
+      }
+    ]
+  },
+  {
+    "memberCode": "Mark-Wall.S.2020-03-30",
+    "fullName": "Mark Wall",
+    "firstName": "Mark",
+    "lastName": "Wall",
+    "pId": "MarkWall",
+    "party": "Labour Party",
+    "committees": [
+      {
+        "committeeID": 307,
+        "committeeName": "Joint Committee on Social Protection, Rural and Community Development",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 305,
+        "committeeName": "Select Committee on Social Protection, Rural and Community Development",
+        "role": [],
+        "status": "Live"
+      }
+    ]
+  },
+  {
+    "memberCode": "Barry-Ward.S.2020-03-30",
+    "fullName": "Barry Ward",
+    "firstName": "Barry",
+    "lastName": "Ward",
+    "pId": "BarryWard",
+    "party": "Fine Gael",
+    "committees": [
+      {
+        "committeeID": 258,
+        "committeeName": "Joint Committee on Remit Oversight",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 313,
+        "committeeName": "Joint Committee on European Union Affairs",
+        "role": {
+          "dateRange": {
+            "start": "2025-05-07 00:00:00+00:00",
+            "end": null
+          },
+          "title": "Cathaoirleach"
+        },
+        "status": "Live"
+      },
+      {
+        "committeeID": 247,
+        "committeeName": "Working Group of Committee Cathaoirligh",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 319,
+        "committeeName": "Joint Committee on Key Issues Affecting the Traveller Community",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 243,
+        "committeeName": "Comhchoiste na Gaeilge, na Gaeltachta agus Phobal Labhartha na Gaeilge",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 233,
+        "committeeName": "Committee on Standing Orders and Dáil Reform",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 234,
+        "committeeName": "Committee on Parliamentary Privileges and Oversight (Dáil Éireann)",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 241,
+        "committeeName": "Select Committee on Subsidiarity (European Union Legislative Scrutiny)",
+        "role": [],
+        "status": "Dissolved"
+      },
+      {
+        "committeeID": 317,
+        "committeeName": "Select Committee on Key Issues Affecting the Traveller Community",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 244,
+        "committeeName": "Roghchoiste na Gaeilge, na Gaeltachta agus Phobal Labhartha na Gaeilge",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 256,
+        "committeeName": "Committee on Remit Oversight (Dáil Éireann)",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 311,
+        "committeeName": "Select Committee on European Union Affairs",
+        "role": {
+          "dateRange": {
+            "start": "2025-05-07 00:00:00+00:00",
+            "end": null
+          },
+          "title": "Cathaoirleach"
+        },
+        "status": "Live"
+      }
+    ]
+  },
+  {
+    "memberCode": "Charles-Ward.D.2024-11-29",
+    "fullName": "Charles Ward",
+    "firstName": "Charles",
+    "lastName": "Ward",
+    "pId": "CharlesWard",
+    "party": "100% RDR",
+    "committees": [
+      {
+        "committeeID": 268,
+        "committeeName": "Joint Committee on Children and Equality",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 289,
+        "committeeName": "Joint Committee on Fisheries and Maritime Affairs",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 266,
+        "committeeName": "Select Committee on Children and Equality",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 287,
+        "committeeName": "Select Committee on Fisheries and Maritime Affairs",
+        "role": [],
+        "status": "Live"
+      }
+    ]
+  },
+  {
+    "memberCode": "Mark-Ward.D.2019-11-29",
+    "fullName": "Mark Ward",
+    "firstName": "Mark",
+    "lastName": "Ward",
+    "pId": "MarkWard",
+    "party": "Sinn Féin",
+    "committees": [
+      {
+        "committeeID": 304,
+        "committeeName": "Joint Committee on Justice, Home Affairs and Migration",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 302,
+        "committeeName": "Select Committee on Justice, Home Affairs and Migration",
+        "role": [],
+        "status": "Live"
+      }
+    ]
+  },
+  {
+    "memberCode": "Jennifer-Whitmore.D.2020-02-08",
+    "fullName": "Jennifer Whitmore",
+    "firstName": "Jennifer",
+    "lastName": "Whitmore",
+    "pId": "JenniferWhitmore",
+    "party": "Social Democrats",
+    "committees": [
+      {
+        "committeeID": 283,
+        "committeeName": "Joint Committee on Climate, Environment and Energy",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 289,
+        "committeeName": "Joint Committee on Fisheries and Maritime Affairs",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 281,
+        "committeeName": "Select Committee on Climate, Environment and Energy",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 287,
+        "committeeName": "Select Committee on Fisheries and Maritime Affairs",
+        "role": [],
+        "status": "Live"
+      }
+    ]
+  },
+  {
+    "memberCode": "Eoin-Ó-Broin.D.2016-10-03",
+    "fullName": "Eoin Ó Broin",
+    "firstName": "Eoin",
+    "lastName": "Ó Broin",
+    "pId": "EoinOBroin",
+    "party": "Sinn Féin",
+    "committees": [
+      {
+        "committeeID": 301,
+        "committeeName": "Joint Committee on Housing, Local Government and Heritage",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 299,
+        "committeeName": "Select Committee on Housing, Local Government and Heritage",
+        "role": [],
+        "status": "Live"
+      }
+    ]
+  },
+  {
+    "memberCode": "Naoise-Ó-Cearúil.D.2024-11-29",
+    "fullName": "Naoise Ó Cearúil",
+    "firstName": "Naoise",
+    "lastName": "Ó Cearúil",
+    "pId": "NaoiseOCearuil",
+    "party": "Fianna Fáil",
+    "committees": [
+      {
+        "committeeID": 328,
+        "committeeName": "Joint Committee on Artificial Intelligence",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 243,
+        "committeeName": "Comhchoiste na Gaeilge, na Gaeltachta agus Phobal Labhartha na Gaeilge",
+        "role": {
+          "dateRange": {
+            "start": "2025-06-10 00:00:00+00:00",
+            "end": null
+          },
+          "title": "Leas-Chathaoirleach"
+        },
+        "status": "Live"
+      },
+      {
+        "committeeID": 258,
+        "committeeName": "Joint Committee on Remit Oversight",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 283,
+        "committeeName": "Joint Committee on Climate, Environment and Energy",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 326,
+        "committeeName": "Select Committee on Artificial Intelligence",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 281,
+        "committeeName": "Select Committee on Climate, Environment and Energy",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 234,
+        "committeeName": "Committee on Parliamentary Privileges and Oversight (Dáil Éireann)",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 256,
+        "committeeName": "Committee on Remit Oversight (Dáil Éireann)",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 244,
+        "committeeName": "Roghchoiste na Gaeilge, na Gaeltachta agus Phobal Labhartha na Gaeilge",
+        "role": {
+          "dateRange": {
+            "start": "2025-06-10 00:00:00+00:00",
+            "end": null
+          },
+          "title": "Leas-Chathaoirleach"
+        },
+        "status": "Live"
+      }
+    ]
+  },
+  {
+    "memberCode": "Seán-Ó-Fearghaíl.S.2000-06-09",
+    "fullName": "Seán Ó Fearghaíl",
+    "firstName": "Seán",
+    "lastName": "Ó Fearghaíl",
+    "pId": "SeanOFearghaillFF",
+    "party": "Fianna Fáil",
+    "committees": [
+      {
+        "committeeID": 268,
+        "committeeName": "Joint Committee on Children and Equality",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 292,
+        "committeeName": "Joint Committee on Foreign Affairs and Trade",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 266,
+        "committeeName": "Select Committee on Children and Equality",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 290,
+        "committeeName": "Select Committee on Foreign Affairs and Trade",
+        "role": [],
+        "status": "Live"
+      }
+    ]
+  },
+  {
+    "memberCode": "Donnchadh-Ó-Laoghaire.D.2016-10-03",
+    "fullName": "Donnchadh Ó Laoghaire",
+    "firstName": "Donnchadh",
+    "lastName": "Ó Laoghaire",
+    "pId": "DonnchadhOLaoghaire",
+    "party": "Sinn Féin",
+    "committees": [
+      {
+        "committeeID": 271,
+        "committeeName": "Joint Committee on Defence and National Security",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 292,
+        "committeeName": "Joint Committee on Foreign Affairs and Trade",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 290,
+        "committeeName": "Select Committee on Foreign Affairs and Trade",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 241,
+        "committeeName": "Select Committee on Subsidiarity (European Union Legislative Scrutiny)",
+        "role": [],
+        "status": "Dissolved"
+      },
+      {
+        "committeeID": 269,
+        "committeeName": "Select Committee on Defence and National Security",
+        "role": [],
+        "status": "Live"
+      }
+    ]
+  },
+  {
+    "memberCode": "Naoise-Ó-Muirí.D.2024-11-29",
+    "fullName": "Naoise Ó Muirí",
+    "firstName": "Naoise",
+    "lastName": "Ó Muirí",
+    "pId": "NaoiseOMuiri",
+    "party": "Fine Gael",
+    "committees": [
+      {
+        "committeeID": 283,
+        "committeeName": "Joint Committee on Climate, Environment and Energy",
+        "role": {
+          "dateRange": {
+            "start": "2025-05-07 00:00:00+00:00",
+            "end": null
+          },
+          "title": "Cathaoirleach"
+        },
+        "status": "Live"
+      },
+      {
+        "committeeID": 247,
+        "committeeName": "Working Group of Committee Cathaoirligh",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 319,
+        "committeeName": "Joint Committee on Key Issues Affecting the Traveller Community",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 243,
+        "committeeName": "Comhchoiste na Gaeilge, na Gaeltachta agus Phobal Labhartha na Gaeilge",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 281,
+        "committeeName": "Select Committee on Climate, Environment and Energy",
+        "role": {
+          "dateRange": {
+            "start": "2025-05-07 00:00:00+00:00",
+            "end": null
+          },
+          "title": "Cathaoirleach"
+        },
+        "status": "Live"
+      },
+      {
+        "committeeID": 244,
+        "committeeName": "Roghchoiste na Gaeilge, na Gaeltachta agus Phobal Labhartha na Gaeilge",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 317,
+        "committeeName": "Select Committee on Key Issues Affecting the Traveller Community",
+        "role": [],
+        "status": "Live"
+      }
+    ]
+  },
+  {
+    "memberCode": "Ruairí-Ó-Murchú.D.2020-02-08",
+    "fullName": "Ruairí Ó Murchú",
+    "firstName": "Ruairí",
+    "lastName": "Ó Murchú",
+    "pId": "RuairiOmurchu",
+    "party": "Sinn Féin",
+    "committees": [
+      {
+        "committeeID": 268,
+        "committeeName": "Joint Committee on Children and Equality",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 274,
+        "committeeName": "Joint Committee on Disability Matters",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 313,
+        "committeeName": "Joint Committee on European Union Affairs",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 266,
+        "committeeName": "Select Committee on Children and Equality",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 272,
+        "committeeName": "Select Committee on Disability Matters",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 311,
+        "committeeName": "Select Committee on European Union Affairs",
+        "role": [],
+        "status": "Live"
+      }
+    ]
+  },
+  {
+    "memberCode": "Aengus-Ó-Snodaigh.D.2002-06-06",
+    "fullName": "Aengus Ó Snodaigh",
+    "firstName": "Aengus",
+    "lastName": "Ó Snodaigh",
+    "pId": "AengusOSnodaighSF",
+    "party": "Sinn Féin",
+    "committees": [
+      {
+        "committeeID": 258,
+        "committeeName": "Joint Committee on Remit Oversight",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 243,
+        "committeeName": "Comhchoiste na Gaeilge, na Gaeltachta agus Phobal Labhartha na Gaeilge",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 265,
+        "committeeName": "Joint Committee on Arts, Media, Communications, Culture and Sport",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 233,
+        "committeeName": "Committee on Standing Orders and Dáil Reform",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 234,
+        "committeeName": "Committee on Parliamentary Privileges and Oversight (Dáil Éireann)",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 244,
+        "committeeName": "Roghchoiste na Gaeilge, na Gaeltachta agus Phobal Labhartha na Gaeilge",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 256,
+        "committeeName": "Committee on Remit Oversight (Dáil Éireann)",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 263,
+        "committeeName": "Select Committee on Arts, Media, Communications, Culture and Sport",
+        "role": [],
+        "status": "Live"
+      }
+    ]
+  },
+  {
+    "memberCode": "Fionntán-Ó-Súilleabháin.D.2024-11-29",
+    "fullName": "Fionntán Ó Súilleabháin",
+    "firstName": "Fionntán",
+    "lastName": "Ó Súilleabháin",
+    "pId": "FionntanOSuilleabhain",
+    "party": "Sinn Féin",
+    "committees": [
+      {
+        "committeeID": 295,
+        "committeeName": "Joint Committee on Further and Higher Education, Research, Innovation and Science",
+        "role": [],
+        "status": "Live"
+      },
+      {
+        "committeeID": 293,
+        "committeeName": "Select Committee on Further and Higher Education, Research, Innovation and Science",
+        "role": [],
+        "status": "Live"
+      }
+    ]
+  }
+]

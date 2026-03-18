@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>{% block title %}Oireachtas Interests Tracker{% endblock %}</title>
+  <meta name="description" content="{% block description %}Dáil Register of Members' Interests — searchable, cross-referenced with votes and committees.{% endblock %}" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="{{ depth }}static/style.css" />
+  {% block extra_head %}{% endblock %}
+</head>
+<body>
+
+<nav>
+  <div class="nav-inner">
+    <a class="nav-brand" href="{{ depth }}index.html">Oireachtas Interests</a>
+    <ul class="nav-links">
+      <li><a href="{{ depth }}explorer/index.html" {% if page == 'explorer' %}aria-current="page"{% endif %}>Explorer</a></li>
+      <li><a href="{{ depth }}radar/index.html"    {% if page == 'radar'    %}aria-current="page"{% endif %}>Conflict Radar</a></li>
+      <li><a href="{{ depth }}cro/index.html"      {% if page == 'cro'      %}aria-current="page"{% endif %}>CRO Check</a></li>
+      <li><a href="{{ depth }}about/index.html"    {% if page == 'about'    %}aria-current="page"{% endif %}>About</a></li>
+    </ul>
+  </div>
+</nav>
+
+<main>
+  <div class="page-wrap">
+    {% block content %}{% endblock %}
+  </div>
+</main>
+
+<footer>
+  <div class="footer-inner">
+    Based on the {{ year }} Dáil Register of Members' Interests (34th Dáil).
+    Data from <a href="https://data.oireachtas.ie" target="_blank" rel="noopener">data.oireachtas.ie</a>
+    and <a href="https://core.cro.ie" target="_blank" rel="noopener">CRO</a>.
+    This site presents public facts. It does not allege wrongdoing.
+  </div>
+</footer>
+
+{% block extra_scripts %}{% endblock %}
+
+</body>
+</html>

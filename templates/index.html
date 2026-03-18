@@ -1,0 +1,98 @@
+{% extends "base.html" %}
+{% set depth = "" %}
+{% set page = "home" %}
+
+{% block title %}Oireachtas Interests Tracker — Dáil Register of Members' Interests{% endblock %}
+
+{% block content %}
+
+<div class="page-header">
+  <h1>Oireachtas Interests Tracker</h1>
+  <p class="sub">
+    The Dáil Register of Members' Interests, made searchable and cross-referenced
+    with voting records and committee memberships.
+  </p>
+</div>
+
+<!-- Stats strip -->
+<div class="stats-strip">
+  <div class="stat-item">
+    <span class="stat-value">{{ stats.total_tds }}</span>
+    <span class="stat-label">TDs in register</span>
+  </div>
+  <div class="stat-item">
+    <span class="stat-value">{{ stats.flagged_tds }}</span>
+    <span class="stat-label">With conflict overlaps</span>
+  </div>
+  <div class="stat-item">
+    <span class="stat-value">{{ stats.cro_companies }}</span>
+    <span class="stat-label">Companies declared</span>
+  </div>
+  <div class="stat-item">
+    <span class="stat-value">{{ stats.data_year }}</span>
+    <span class="stat-label">Register year</span>
+  </div>
+</div>
+
+<!-- Top flagged -->
+<div class="section">
+  <div class="section-title">Most conflicts flagged</div>
+  <p class="meta">
+    TDs where declared interests overlap with committee memberships and/or voting record.
+    Overlaps are factual — they do not imply wrongdoing.
+    <a href="about/index.html">Methodology →</a>
+  </p>
+  {% if top_flagged %}
+  <ul class="flagged-list" style="margin-top:1rem;">
+    {% for td in top_flagged %}
+    <li>
+      <span>
+        <a class="flagged-name" href="tds/{{ td.slug }}/index.html">{{ td.display_name }}</a>
+        <span class="flagged-detail">{{ td.party }}, {{ td.constituency }}</span>
+      </span>
+      <span>
+        {% for s in td.interest_sectors %}
+        <span class="sector-pill">{{ s.replace('_', ' ') }}</span>
+        {% endfor %}
+      </span>
+      <span class="conflict-count" title="Total conflict overlaps">{{ td.conflict_count }} overlap{% if td.conflict_count != 1 %}s{% endif %}</span>
+    </li>
+    {% endfor %}
+  </ul>
+  <p style="margin-top:1rem;"><a href="radar/index.html">See all flagged TDs →</a></p>
+  {% else %}
+  <p class="no-data">No conflicts detected.</p>
+  {% endif %}
+</div>
+
+<!-- Sectors chart -->
+<div class="section">
+  <div class="section-title">Declared interests by sector</div>
+  <div class="chart-wrap" id="chart-sectors"></div>
+</div>
+
+<div class="section">
+  <div class="section-title">Conflict overlaps by sector</div>
+  <div class="chart-wrap" id="chart-conflicts"></div>
+</div>
+
+<!-- Quick links -->
+<div class="section">
+  <div class="section-title">Explore the data</div>
+  <ul style="list-style:none;display:flex;flex-wrap:wrap;gap:1rem;margin-top:0.5rem;">
+    <li><a href="explorer/index.html">→ Interest Explorer (filter by sector, party, type)</a></li>
+    <li><a href="radar/index.html">→ Conflict Radar (vote + committee overlaps)</a></li>
+    <li><a href="cro/index.html">→ CRO Cross-Check ({{ stats.cro_companies }} declared companies)</a></li>
+    <li><a href="about/index.html">→ About and methodology</a></li>
+  </ul>
+</div>
+
+{% endblock %}
+
+{% block extra_scripts %}
+<script>
+  window.__SECTOR_COUNTS   = {{ stats.sector_counts   | tojson }};
+  window.__CONFLICT_COUNTS = {{ stats.conflict_sector_counts | tojson }};
+</script>
+<script src="static/charts.js" defer></script>
+{% endblock %}
