@@ -81,16 +81,29 @@
   {% for c in td.committee_conflicts %}
   <div class="conflict-block">
     <div class="conflict-sector">{{ c.sector.replace('_', ' ').title() }}</div>
-    <p style="font-size:0.9rem;margin:0.4rem 0 0.2rem;">
-      <strong>Declared interest:</strong> {{ c.interest_evidence }}
-    </p>
-    <p style="font-size:0.875rem;">
-      <strong>Sits on:</strong>
-      {% for name in c.committees %}{{ name }}{% if not loop.last %}; {% endif %}{% endfor %}
-    </p>
-    <p class="meta" style="font-size:0.8rem;">
-      A TD who declares interests in the {{ c.sector.replace('_', ' ') }} sector is a member
-      of a committee that oversees that same sector.
+
+    <div class="conflict-detail-group">
+      <div class="conflict-detail-heading">Declared interest</div>
+      {% for item in c.interest_evidence | parse_interest %}
+      <div class="conflict-detail-row">
+        <span class="conflict-detail-cat">{{ item.label }}</span>
+        <span class="conflict-detail-text">{{ item.text }}</span>
+      </div>
+      {% endfor %}
+    </div>
+
+    <div class="conflict-detail-group">
+      <div class="conflict-detail-heading">Sits on</div>
+      <ul class="conflict-committee-list">
+        {% for name in c.committees %}
+        <li>{{ name }}</li>
+        {% endfor %}
+      </ul>
+    </div>
+
+    <p class="conflict-note">
+      This TD has declared interests in {{ c.sector.replace('_', ' ') }}
+      and sits on the committee responsible for overseeing this area.
     </p>
   </div>
   {% endfor %}
@@ -302,9 +315,16 @@
   {% for c in td.vote_conflicts %}
   <div class="conflict-block">
     <div class="conflict-sector">{{ c.sector.replace('_', ' ').title() }}</div>
-    <p style="font-size:0.9rem;margin:0.4rem 0 0.75rem;">
-      <strong>Declared interest:</strong> {{ c.interest_evidence }}
-    </p>
+
+    <div class="conflict-detail-group">
+      <div class="conflict-detail-heading">Declared interest</div>
+      {% for item in c.interest_evidence | parse_interest %}
+      <div class="conflict-detail-row">
+        <span class="conflict-detail-cat">{{ item.label }}</span>
+        <span class="conflict-detail-text">{{ item.text }}</span>
+      </div>
+      {% endfor %}
+    </div>
 
     {% if c.votes %}
     {% for v in c.votes %}

@@ -451,6 +451,44 @@ def build(year: int = 2025, output_dir: str = "site"):
     )
     env.globals["year"] = year
 
+    # ── Custom filters ────────────────────────────────────────────────────────
+    _CAT_LABELS = {
+        "occupations":           "Occupations",
+        "shares":                "Shares",
+        "directorships":         "Directorships",
+        "land_property":         "Land & Property",
+        "gifts":                 "Gifts",
+        "property_supplied":     "Property / Services",
+        "travel":                "Travel",
+        "remunerated_positions": "Remunerated Positions",
+        "contracts":             "Contracts",
+        "other_information":     "Other",
+    }
+
+    def parse_interest(text: str) -> list:
+        """Split pipe-separated '[category] text' evidence into a list of dicts.
+        e.g. '[occupations] Farmer | [land_property] Farmland, Co. Kerry'
+        → [{'label': 'Occupations', 'text': 'Farmer'},
+           {'label': 'Land & Property', 'text': 'Farmland, Co. Kerry'}]
+        """
+        result = []
+        for seg in (s.strip() for s in text.split(" | ") if s.strip()):
+            m = re.match(r"^\[(\w+)\]\s*(.*)", seg, re.DOTALL)
+            if m:
+                cat = m.group(1)
+                txt = m.group(2).strip()
+            else:
+                cat = ""
+                txt = seg
+            result.append({
+                "cat":   cat,
+                "label": _CAT_LABELS.get(cat, cat.replace("_", " ").title() if cat else "Interest"),
+                "text":  txt,
+            })
+        return result
+
+    env.filters["parse_interest"] = parse_interest
+
     def render(template_name: str, context: dict, dest: Path):
         dest.parent.mkdir(parents=True, exist_ok=True)
         tmpl = env.get_template(template_name)
