@@ -15,6 +15,7 @@
   --black: #000;
   --white: #fff;
   --gray:  #666;
+  --mid:   #888;
   --rule:  #ccc;
   --bg-alt: #f5f5f5;
 }
@@ -213,6 +214,45 @@ small, .meta {
 .pension-table tr:last-child th,
 .pension-table tr:last-child td {
   border-bottom: none;
+}
+
+/* ── Conflict alert (top of TD profile) ─────────────────────── */
+.conflict-alert {
+  border: 2px solid var(--black);
+  padding: 1rem 1.25rem;
+  margin-bottom: 2rem;
+  background: var(--bg-alt);
+}
+
+.conflict-alert-label {
+  font-weight: 700;
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  margin-bottom: 0.6rem;
+}
+
+.conflict-alert-row {
+  font-size: 0.9rem;
+  padding: 0.4rem 0;
+  border-top: 1px solid var(--rule);
+  line-height: 1.5;
+}
+
+.conflict-alert-sector {
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 0.78rem;
+  letter-spacing: 0.04em;
+}
+
+.conflict-alert-note {
+  margin-top: 0.6rem !important;
+  margin-bottom: 0 !important;
+  font-size: 0.8rem;
+  color: var(--gray);
+  border-top: 1px solid var(--rule);
+  padding-top: 0.5rem;
 }
 
 /* ── TD profile ─────────────────────────────────────────────── */

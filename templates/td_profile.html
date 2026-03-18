@@ -19,6 +19,27 @@
   </div>
 </div>
 
+<!-- ── ⚑ Committee Conflict Alert ──────────────────────────── -->
+{% if td.committee_conflicts %}
+<div class="conflict-alert">
+  <div class="conflict-alert-label">
+    ⚑ {{ td.committee_conflicts | length }} committee conflict{{ 's' if td.committee_conflicts | length > 1 else '' }} detected
+  </div>
+  {% for c in td.committee_conflicts %}
+  <div class="conflict-alert-row">
+    <span class="conflict-alert-sector">{{ c.sector.replace('_', ' ').title() }}</span>
+    — declared {{ c.sector.replace('_', ' ') }} interest, sits on:
+    {% for name in c.committees %}<strong>{{ name }}</strong>{% if not loop.last %}; {% endif %}{% endfor %}
+  </div>
+  {% endfor %}
+  <p class="conflict-alert-note">
+    These are factual overlaps from public records. They do not allege or imply wrongdoing —
+    the register exists precisely to make this transparent.
+    <a href="{{ depth }}about/index.html">Methodology →</a>
+  </p>
+</div>
+{% endif %}
+
 <!-- ── Declared Interests ────────────────────────────────── -->
 <div class="section">
   <div class="section-title">Declared interests ({{ year }} register)</div>
@@ -52,6 +73,29 @@
   <p class="no-data">No sector-tagged interests found in the register for this TD.</p>
   {% endif %}
 </div>
+
+<!-- ── Committee Membership Overlaps ─────────────────────── -->
+{% if td.committee_conflicts %}
+<div class="section">
+  <div class="section-title">Committee membership overlaps</div>
+  {% for c in td.committee_conflicts %}
+  <div class="conflict-block">
+    <div class="conflict-sector">{{ c.sector.replace('_', ' ').title() }}</div>
+    <p style="font-size:0.9rem;margin:0.4rem 0 0.2rem;">
+      <strong>Declared interest:</strong> {{ c.interest_evidence }}
+    </p>
+    <p style="font-size:0.875rem;">
+      <strong>Sits on:</strong>
+      {% for name in c.committees %}{{ name }}{% if not loop.last %}; {% endif %}{% endfor %}
+    </p>
+    <p class="meta" style="font-size:0.8rem;">
+      A TD who declares interests in the {{ c.sector.replace('_', ' ') }} sector is a member
+      of a committee that oversees that same sector.
+    </p>
+  </div>
+  {% endfor %}
+</div>
+{% endif %}
 
 <!-- ── Property Valuations ────────────────────────────────── -->
 {% if td.property_valuation and td.property_valuation.any_estimated %}
@@ -245,47 +289,13 @@
 </div>
 {% endif %}
 
-<!-- ── Conflict Analysis ───────────────────────────────────── -->
-{% if td.committee_conflicts or td.vote_conflicts %}
+<!-- ── Voting Record Overlaps ────────────────────────────── -->
+{% if td.vote_conflicts %}
 <div class="section">
-  <div class="section-title">Conflict analysis</div>
-
-  <div class="method-note">
-    This section shows where a TD's declared interests overlap with their committee
-    memberships or voting record. These are factual observations from public records.
-    <strong>They do not allege or imply wrongdoing.</strong>
-    TDs routinely vote on matters related to their professional backgrounds — the register
-    exists precisely to make this transparent.
-    <a href="{{ depth }}about/index.html">Methodology →</a>
-  </div>
-
-  <!-- Committee conflicts -->
-  {% if td.committee_conflicts %}
-  <h2>Committee membership overlaps</h2>
-  {% for c in td.committee_conflicts %}
-  <div class="conflict-block">
-    <div class="conflict-sector">{{ c.sector.replace('_', ' ').title() }}</div>
-    <p style="font-size:0.9rem;margin:0.4rem 0 0.2rem;">
-      <strong>Declared interest:</strong> {{ c.interest_evidence }}
-    </p>
-    <p style="font-size:0.875rem;">
-      <strong>Sits on:</strong>
-      {% for name in c.committees %}{{ name }}{% if not loop.last %}; {% endif %}{% endfor %}
-    </p>
-    <p class="meta" style="font-size:0.8rem;">
-      A TD who declares interests in the {{ c.sector.replace('_', ' ') }} sector is a member
-      of a committee that oversees that same sector.
-    </p>
-  </div>
-  {% endfor %}
-  {% endif %}
-
-  <!-- Vote conflicts -->
-  {% if td.vote_conflicts %}
-  <h2>Voting record overlaps</h2>
+  <div class="section-title">Voting record overlaps</div>
   <p class="meta" style="margin-bottom:1rem;">
     Votes where this TD's declared interests and the subject matter of legislation coincide.
-    "Alignment" notes below are indicative only — they assess the likely direction of a bill
+    "Alignment" notes are indicative only — they assess the likely direction of a bill
     relative to the TD's declared interest type. Individual assessment of each vote is needed
     before drawing any conclusion.
   </p>
@@ -341,10 +351,11 @@
 
   </div>
   {% endfor %}
-  {% endif %}
-
 </div>
-{% else %}
+{% endif %}
+
+<!-- ── No conflicts ───────────────────────────────────────── -->
+{% if not td.committee_conflicts and not td.vote_conflicts %}
 <div class="section">
   <div class="section-title">Conflict analysis</div>
   <p class="no-data">No committee or vote overlaps detected for this TD in the {{ year }} data.</p>
