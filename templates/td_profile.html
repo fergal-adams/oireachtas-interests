@@ -251,9 +251,11 @@
   <div class="section-title">Conflict analysis</div>
 
   <div class="method-note">
-    This section shows where declared interests overlap with committee memberships and voting
-    record. Overlaps are factual observations drawn from public records.
+    This section shows where a TD's declared interests overlap with their committee
+    memberships or voting record. These are factual observations from public records.
     <strong>They do not allege or imply wrongdoing.</strong>
+    TDs routinely vote on matters related to their professional backgrounds — the register
+    exists precisely to make this transparent.
     <a href="{{ depth }}about/index.html">Methodology →</a>
   </div>
 
@@ -263,9 +265,16 @@
   {% for c in td.committee_conflicts %}
   <div class="conflict-block">
     <div class="conflict-sector">{{ c.sector.replace('_', ' ').title() }}</div>
-    <div class="conflict-evidence">Declared interests: {{ c.interest_evidence }}</div>
-    <p style="font-size:0.875rem;"><strong>Committees:</strong>
+    <p style="font-size:0.9rem;margin:0.4rem 0 0.2rem;">
+      <strong>Declared interest:</strong> {{ c.interest_evidence }}
+    </p>
+    <p style="font-size:0.875rem;">
+      <strong>Sits on:</strong>
       {% for name in c.committees %}{{ name }}{% if not loop.last %}; {% endif %}{% endfor %}
+    </p>
+    <p class="meta" style="font-size:0.8rem;">
+      A TD who declares interests in the {{ c.sector.replace('_', ' ') }} sector is a member
+      of a committee that oversees that same sector.
     </p>
   </div>
   {% endfor %}
@@ -273,23 +282,63 @@
 
   <!-- Vote conflicts -->
   {% if td.vote_conflicts %}
-  <h2>Vote overlaps</h2>
+  <h2>Voting record overlaps</h2>
+  <p class="meta" style="margin-bottom:1rem;">
+    Votes where this TD's declared interests and the subject matter of legislation coincide.
+    "Alignment" notes below are indicative only — they assess the likely direction of a bill
+    relative to the TD's declared interest type. Individual assessment of each vote is needed
+    before drawing any conclusion.
+  </p>
   {% for c in td.vote_conflicts %}
   <div class="conflict-block">
     <div class="conflict-sector">{{ c.sector.replace('_', ' ').title() }}</div>
-    <div class="conflict-evidence">Declared interests: {{ c.interest_evidence }}</div>
+    <p style="font-size:0.9rem;margin:0.4rem 0 0.75rem;">
+      <strong>Declared interest:</strong> {{ c.interest_evidence }}
+    </p>
+
     {% if c.votes %}
-    <ul class="vote-list">
-      {% for v in c.votes %}
-      <li>
-        <span class="vote-date">{{ v.date }}</span>
-        <span class="vote-dir">{{ v.voted }}</span>
-        <span class="vote-title">{{ v.title }}</span>
-        <span class="vote-out">({{ v.outcome }})</span>
-      </li>
-      {% endfor %}
-    </ul>
+    {% for v in c.votes %}
+    {% set b = v.bill if v.bill is defined else {} %}
+    {% set i = v.interp if v.interp is defined else {} %}
+    <div class="vote-entry">
+
+      <!-- Bill name and metadata -->
+      <div class="vote-bill-name">
+        {{ b.clean_name if b.clean_name else v.title }}
+      </div>
+      <div class="vote-bill-meta">
+        {% if b.stage %}<span class="vote-stage-badge">{{ b.stage }}</span>{% endif %}
+        {% if b.stage_label %}<span class="meta"> — {{ b.stage_label }}</span>{% endif %}
+        {% if b.bill_type_label %} · <span class="vote-type-badge vote-type-{{ b.bill_type }}">{{ b.bill_type_label }}</span>{% endif %}
+      </div>
+
+      <!-- Vote direction and outcome -->
+      <div class="vote-result-row">
+        <span class="vote-direction vote-dir-{{ 'for' if i.direction_label == 'Voted in favour' else 'against' }}">
+          {{ i.direction_label if i.direction_label else v.voted }}
+        </span>
+        <span class="vote-outcome vote-outcome-{{ 'carried' if v.outcome == 'Carried' else 'lost' }}">
+          {{ v.outcome }}
+        </span>
+        <span class="vote-date-inline">{{ v.date }}</span>
+      </div>
+
+      <!-- Alignment note -->
+      {% if i.alignment_note %}
+      <div class="vote-alignment vote-align-{{ i.alignment }}">
+        <span class="vote-align-label">
+          {%- if i.alignment == 'aligned' %}⚑ May align with declared interest
+          {%- elif i.alignment == 'counter' %}↩ Appears contrary to declared interest
+          {%- else %}~ Alignment unclear{% endif -%}
+        </span>
+        — {{ i.alignment_note }}
+      </div>
+      {% endif %}
+
+    </div><!-- /.vote-entry -->
+    {% endfor %}
     {% endif %}
+
   </div>
   {% endfor %}
   {% endif %}

@@ -294,10 +294,109 @@ small, .meta {
 
 .vote-list li:last-child { border-bottom: none; }
 
+/* Legacy vote fields (kept for backward compat) */
 .vote-date  { color: var(--gray); flex-shrink: 0; }
 .vote-dir   { font-weight: 700; flex-shrink: 0; min-width: 2rem; }
 .vote-title { flex: 1; }
 .vote-out   { color: var(--gray); flex-shrink: 0; font-size: 0.8rem; }
+
+/* ── Enriched vote entry ─────────────────────────────────────── */
+.vote-entry {
+  border: 1px solid var(--rule);
+  padding: 0.75rem 0.875rem;
+  margin-bottom: 0.75rem;
+  border-radius: 0;
+  background: var(--white);
+}
+.vote-entry:last-child { margin-bottom: 0; }
+
+.vote-bill-name {
+  font-weight: 700;
+  font-size: 0.95rem;
+  line-height: 1.35;
+  margin-bottom: 0.25rem;
+}
+
+.vote-bill-meta {
+  font-size: 0.78rem;
+  margin-bottom: 0.5rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.25rem;
+  align-items: center;
+}
+
+.vote-stage-badge {
+  font-size: 0.72rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  padding: 0.1rem 0.35rem;
+  border: 1px solid var(--mid);
+  color: var(--mid);
+  white-space: nowrap;
+}
+
+.vote-type-badge {
+  font-size: 0.72rem;
+  font-weight: 700;
+  padding: 0.1rem 0.35rem;
+  white-space: nowrap;
+}
+.vote-type-private_members,
+.vote-type-private_motion  { border: 1px solid #555; color: #555; }
+.vote-type-government      { border: 1px solid var(--black); color: var(--black); }
+.vote-type-motion          { border: 1px solid #555; color: #555; }
+
+.vote-result-row {
+  display: flex;
+  gap: 0.6rem;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 0.5rem;
+}
+
+.vote-direction {
+  font-weight: 700;
+  font-size: 0.88rem;
+  padding: 0.15rem 0.5rem;
+  border: 2px solid;
+}
+.vote-dir-for     { border-color: var(--black); }
+.vote-dir-against { border-color: var(--black); background: var(--black); color: var(--white); }
+
+.vote-outcome {
+  font-size: 0.78rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+.vote-outcome-carried { color: var(--black); }
+.vote-outcome-lost    { color: var(--mid); }
+
+.vote-date-inline {
+  font-size: 0.78rem;
+  color: var(--gray);
+  margin-left: auto;
+}
+
+.vote-alignment {
+  font-size: 0.8rem;
+  padding: 0.4rem 0.6rem;
+  border-left: 3px solid;
+  background: var(--bg-alt);
+  line-height: 1.45;
+}
+.vote-align-aligned  { border-color: var(--black); }
+.vote-align-counter  { border-color: var(--mid); }
+.vote-align-unclear  { border-color: var(--rule); }
+
+.vote-align-label {
+  font-weight: 700;
+  font-size: 0.78rem;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
 
 /* ── Flag badge ─────────────────────────────────────────────── */
 .flag {

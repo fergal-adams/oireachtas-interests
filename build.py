@@ -43,6 +43,12 @@ try:
 except ImportError:
     _CRO_ENRICHMENT = False
 
+try:
+    from enrichment.bill_interpreter import enrich_vote_conflicts
+    _BILL_ENRICHMENT = True
+except ImportError:
+    _BILL_ENRICHMENT = False
+
 
 # ---------------------------------------------------------------------------
 # Paths
@@ -307,6 +313,10 @@ def load_data(
             # Property valuation
             "property_valuation": property_valuation,
         })
+
+    # Enrich vote conflict entries with bill parsing + alignment interpretation
+    if _BILL_ENRICHMENT:
+        enrich_vote_conflicts(merged)
 
     return merged
 
