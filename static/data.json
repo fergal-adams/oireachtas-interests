@@ -1,0 +1,1186 @@
+[
+  {
+    "name": "AHERN, Ciarán (Dublin South-West)",
+    "display_name": "Ciarán Ahern",
+    "slug": "ciaran-ahern",
+    "party": "Labour Party",
+    "constituency": "Dublin South-West",
+    "interest_sectors": [
+      "tourism_hospitality"
+    ],
+    "has_conflicts": false,
+    "conflict_count": 0,
+    "cro_flags": [],
+    "interests_text": "[travel] Housing study visit to Vienna (flights, meals, hotel): Friedrich-Ebert-Stiftung, 31/32 Parnell Sq, Dublin."
+  },
+  {
+    "name": "AIRD, William (Laois)",
+    "display_name": "William Aird",
+    "slug": "william-aird",
+    "party": "Fine Gael",
+    "constituency": "Laois",
+    "interest_sectors": [
+      "agriculture",
+      "finance"
+    ],
+    "has_conflicts": true,
+    "conflict_count": 3,
+    "cro_flags": [],
+    "interests_text": "[occupations] Farmer and public representative: Nutgrove, Portlaoise, Laois. | [shares] Glanbia Shares: Tirlán, Kilkenny: milk processing. | [land_property] Nutgrove, Raheenahoran, Pallas: farming."
+  },
+  {
+    "name": "ARDAGH, Catherine (Dublin South-Central)",
+    "display_name": "Catherine Ardagh",
+    "slug": "catherine-ardagh",
+    "party": "Fianna Fáil",
+    "constituency": "Dublin South-Central",
+    "interest_sectors": [
+      "legal"
+    ],
+    "has_conflicts": true,
+    "conflict_count": 1,
+    "cro_flags": [],
+    "interests_text": "[occupations] Solicitor/notary public: Ardagh McCabe LLP, 15b St. Agnes Road, Crumlin, Dublin 12. Other Information Provided: provision of general legal services."
+  },
+  {
+    "name": "BACIK, Ivana (Dublin Bay South)",
+    "display_name": "Ivana Bacik",
+    "slug": "ivana-bacik",
+    "party": "Labour Party",
+    "constituency": "Dublin Bay South",
+    "interest_sectors": [
+      "finance",
+      "tourism_hospitality"
+    ],
+    "has_conflicts": true,
+    "conflict_count": 1,
+    "cro_flags": [],
+    "interests_text": "[gifts] Tickets for events: Aviva Stadium, Lansdowne Rd., Ballsbridge, Dublin 4. | [travel] (1) Parliamentary Party visit to European Parliament (flights, meals, hotel): S&D Group, European Parliament, Brussels, Belgium; (2) PES Congress and Leader Meetings, Brussels and Amsterdam (flights, ..."
+  },
+  {
+    "name": "BENNETT, Cathy (Cavan-Monaghan)",
+    "display_name": "Cathy Bennett",
+    "slug": "cathy-bennett",
+    "party": "Sinn Féin",
+    "constituency": "Cavan-Monaghan",
+    "interest_sectors": [
+      "property"
+    ],
+    "has_conflicts": true,
+    "conflict_count": 1,
+    "cro_flags": [],
+    "interests_text": "[occupations] Landlord: 8 Canal View, Monaghan. Other Information Provided: HAP payment (rental) Limerick Co. Co. | [land_property] (1) 8 Canal View, Monaghan: rental; (2) 13 Westport St., Ballyshannon, Donegal: holiday home."
+  },
+  {
+    "name": "BRABAZON, Tom (Dublin Bay North)",
+    "display_name": "Tom Brabazon",
+    "slug": "tom-brabazon",
+    "party": "Fianna Fáil",
+    "constituency": "Dublin Bay North",
+    "interest_sectors": [
+      "legal"
+    ],
+    "has_conflicts": true,
+    "conflict_count": 1,
+    "cro_flags": [],
+    "interests_text": "[occupations] Solicitor: 4 Raheny S.C, Raheny, Dublin 5."
+  },
+  {
+    "name": "BRENNAN, Brian (Wicklow-Wexford)",
+    "display_name": "Brian Brennan",
+    "slug": "brian-brennan",
+    "party": "Fine Gael",
+    "constituency": "Wicklow-Wexford",
+    "interest_sectors": [
+      "tourism_hospitality"
+    ],
+    "has_conflicts": true,
+    "conflict_count": 1,
+    "cro_flags": [],
+    "interests_text": "[occupations] (1) TD: 26 Main Street, Arklow, Co. Wicklow; (2) Hospitality Consultant: Upper Gorey Hill, Gorey, Co. Wexford. | [shares] Shareholder: Negombo, Seaview Hotel, Sri Lanka. | [directorships] Director: BB International Hotel Consultant Ltd., Goreyhill Upper, Gorey, Co. Wexford: hospitality consultant."
+  },
+  {
+    "name": "BURKE, Colm (Cork North-Central)",
+    "display_name": "Colm Burke",
+    "slug": "colm-burke",
+    "party": "Fine Gael",
+    "constituency": "Cork North-Central",
+    "interest_sectors": [
+      "property"
+    ],
+    "has_conflicts": true,
+    "conflict_count": 1,
+    "cro_flags": [],
+    "interests_text": "[occupations] Lessor: (1) Washington House, 33 Washington St., Cork, ground floor, floor 2 & 3 vacant; (2) Washington House, 33 Washington St., Cork, 3rd floor. Other Information Provided: (1) rent received from Co... | [land_property] Washington House, 33 Washington St., Cork: Cork City sheriff rented ground floor until July 2025, now vacant. Floor 1 & 2 vacant. Floor 3 let to Byron Wade BL, Kate Brosnan BL. Other Information Provi... | [contracts] Ground floor of Washington House, 33 Washington St., Cork, let to city sheriff up to July 2025, now vacant. Floor 3 let to Byron Wade BL, Kate Brosnan BL: Colm Burke to Court Services: Court Services,..."
+  },
+  {
+    "name": "BURKE, Peter (Longford-Westmeath)",
+    "display_name": "Peter Burke",
+    "slug": "peter-burke",
+    "party": "Fine Gael",
+    "constituency": "Longford-Westmeath",
+    "interest_sectors": [
+      "agriculture"
+    ],
+    "has_conflicts": true,
+    "conflict_count": 1,
+    "cro_flags": [],
+    "interests_text": "[occupations] Farming: Slanestown, Mullingar & Clonmore, Mullingar. Other Information Provided: farming income, single farm payment and associated payments from Dept. of Agriculture bequeathed by my late father. | [land_property] (1) Slanestown, Mullingar: farming; (2) Clonmore, Mullingar: farming; (3) Clonmore, Mullingar: residence - vacant after passing of my mother in 2024."
+  },
+  {
+    "name": "BUTTERLY, Paula (Louth)",
+    "display_name": "Paula Butterly",
+    "slug": "paula-butterly",
+    "party": "Fine Gael",
+    "constituency": "Louth",
+    "interest_sectors": [
+      "legal"
+    ],
+    "has_conflicts": true,
+    "conflict_count": 1,
+    "cro_flags": [],
+    "interests_text": "[occupations] Barrister: CCJ, Dublin."
+  },
+  {
+    "name": "BYRNE, Joanna (Louth)",
+    "display_name": "Joanna Byrne",
+    "slug": "joanna-byrne",
+    "party": "Sinn Féin",
+    "constituency": "Louth",
+    "interest_sectors": [
+      "property"
+    ],
+    "has_conflicts": true,
+    "conflict_count": 1,
+    "cro_flags": [],
+    "interests_text": "[occupations] Landlord: Pearse Pk., Drogheda. Other Information Provided: tenancy ceased in July 2025."
+  },
+  {
+    "name": "BYRNE, Malcolm (Wicklow-Wexford)",
+    "display_name": "Malcolm Byrne",
+    "slug": "malcolm-byrne",
+    "party": "Fianna Fáil",
+    "constituency": "Wicklow-Wexford",
+    "interest_sectors": [
+      "tourism_hospitality"
+    ],
+    "has_conflicts": true,
+    "conflict_count": 1,
+    "cro_flags": [],
+    "interests_text": "[travel] (1) Travel to & from Taiwan & accommodation for five days, July 2025: Ministry of Foreign Affiars, Taiwan; (2) Travel & accom., Bath, UK, Oct. 2025: University of Bath. Other Information Provided: (1)..."
+  },
+  {
+    "name": "CAHILL, Michael (Kerry)",
+    "display_name": "Michael Cahill",
+    "slug": "michael-cahill",
+    "party": "Fianna Fáil",
+    "constituency": "Kerry",
+    "interest_sectors": [
+      "tourism_hospitality"
+    ],
+    "has_conflicts": false,
+    "conflict_count": 0,
+    "cro_flags": [],
+    "interests_text": "[land_property] (1) Rossbeigh, Glenbeigh, Co. Kerry: family home/bed and breakfast; (2) Rossbeigh, Glenbeigh, Co. Kerry: farming; (3) Droum, Glenbeigh, Co. Kerry: farming; (4) Rossbeigh, Glenbeigh, Co. Kerry: vacant ... | [travel] Flights and accommodation to Taipei: Taiwanese Government. | [contracts] Supply of accommodation: Beighwatch Guesthouse Limited, spouse 100% shareholder: Department of Children, Equality, Disability, Integration and Youth; Department of Justice, Home Affairs and Migration."
+  },
+  {
+    "name": "CAIRNS, Holly (Cork South-West)",
+    "display_name": "Holly Cairns",
+    "slug": "holly-cairns",
+    "party": "Social Democrats",
+    "constituency": "Cork South-West",
+    "interest_sectors": [
+      "agriculture"
+    ],
+    "has_conflicts": false,
+    "conflict_count": 0,
+    "cro_flags": [],
+    "interests_text": "[occupations] Farmer: Ardagh, Church Cross, Skibbereen, Co. Cork. Other Information Provided: My name and my mother's name are on the farm herd register. All farm payments and farm income are earned by my mother."
+  },
+  {
+    "name": "CALLAGHAN, Catherine (Carlow-Kilkenny)",
+    "display_name": "Catherine Callaghan",
+    "slug": "catherine-callaghan",
+    "party": "Fine Gael",
+    "constituency": "Carlow-Kilkenny",
+    "interest_sectors": [
+      "property",
+      "tourism_hospitality"
+    ],
+    "has_conflicts": true,
+    "conflict_count": 1,
+    "cro_flags": [],
+    "interests_text": "[land_property] (1) Craan, Kildavin, Co. Carlow: farmland being leased; (2) Lackabeg, Kildavin, Co. Carlow: nephew living there, no rent being paid. | [travel] (1) Cross party working trip to Taiwan - flights, and accommodation: Taiwanese Government; (2) Cross party political study trip to Paris - flights and accommodation: Ambassade d' Irlande/Embassy of Ir..."
+  },
+  {
+    "name": "CANNEY, Seán (Galway East)",
+    "display_name": "Seán Canney",
+    "slug": "sean-canney",
+    "party": "Independent",
+    "constituency": "Galway East",
+    "interest_sectors": [
+      "property"
+    ],
+    "has_conflicts": true,
+    "conflict_count": 1,
+    "cro_flags": [],
+    "interests_text": "[occupations] Landlord: private rental homes. | [directorships] Partnership: The Galway Partnership, Wolfe Tone House, Fr. Griffen Road, Galway: holding account for retail property previously disposed of. | [land_property] (1) 16 The Village, Wellpark, Galway: letting; (2) St. Jarlath’s Place, Bishop St., Tuam, Co. Galway: letting; (3) Yew Tree, The Mall, Tuam, Co. Galway: letting; (4) No. 1, The Mall, Tuam, Co. Galway:..."
+  },
+  {
+    "name": "CARRIGY, Micheál (Longford-Westmeath)",
+    "display_name": "Micheál Carrigy",
+    "slug": "micheal-carrigy",
+    "party": "Fine Gael",
+    "constituency": "Longford-Westmeath",
+    "interest_sectors": [
+      "legal",
+      "property",
+      "tourism_hospitality"
+    ],
+    "has_conflicts": true,
+    "conflict_count": 4,
+    "cro_flags": [],
+    "interests_text": "[occupations] (1) Postmaster, Ballinalee PO; (2) Lessor of premises, Ballinalee; (3) Lessor of premises: 1 New St., Longford. Other Information Provided: (1) Post Office/retail shop; (2) Takeaway - empty unit (no r... | [shares] Private P.R.S.A: New Ireland. | [directorships] Director: Co. Longford Tourism Ltd: promotion of Longford. Other Information Provided: voluntary position, no renumeration. | [land_property] (1) Ballinalee, Co. Longford: private home, post office/retail shop/takeaway/unit; (2) Ballinalee/Soran Ballinalee: land/woodland; (3) 1 New St. Longford: letting of offices. Other Information Provide..."
+  },
+  {
+    "name": "CLARKE, Sorcha (Longford-Westmeath)",
+    "display_name": "Sorcha Clarke",
+    "slug": "sorcha-clarke",
+    "party": "Sinn Féin",
+    "constituency": "Longford-Westmeath",
+    "interest_sectors": [
+      "tourism_hospitality"
+    ],
+    "has_conflicts": false,
+    "conflict_count": 0,
+    "cro_flags": [],
+    "interests_text": "[travel] (1) Flights and accommodation to Taipei: Taiwanese Govt.; (2) Flights and accommodation: www.dohaforum.org."
+  },
+  {
+    "name": "CLENDENNEN, John (Offaly)",
+    "display_name": "John Clendennen",
+    "slug": "john-clendennen",
+    "party": "Fine Gael",
+    "constituency": "Offaly",
+    "interest_sectors": [
+      "tourism_hospitality"
+    ],
+    "has_conflicts": true,
+    "conflict_count": 1,
+    "cro_flags": [],
+    "interests_text": "[shares] Delpool Ltd., Kinnitty, Co. Offaly: hospitality. | [directorships] (1) Applied Concepts Ltd: Roscrea Road, Birr, Co. Offaly: manufacturing; (2) Delpool Ltd: Kinnitty, Birr, Co. Offaly: hospitality; (3) Vintners Federations of Ireland: Castleside Drive, Dublin 14: rep..."
+  },
+  {
+    "name": "COLLINS, Michael (Cork South-West)",
+    "display_name": "Michael Collins",
+    "slug": "michael-collins",
+    "party": "Independent Ireland",
+    "constituency": "Cork South-West",
+    "interest_sectors": [
+      "agriculture"
+    ],
+    "has_conflicts": true,
+    "conflict_count": 1,
+    "cro_flags": [],
+    "interests_text": "[shares] Drinagh Co-op: Drinagh Co-op: agricultural supplies. | [land_property] (1) Ardravinna, Lowertown, Schull: farmhouse & farming; (2) Lissacaha, Schull, Co. Cork: farming; (3) Knock, Schull, Co. Cork: farming."
+  },
+  {
+    "name": "COONEY, Joe (Clare)",
+    "display_name": "Joe Cooney",
+    "slug": "joe-cooney",
+    "party": "Fine Gael",
+    "constituency": "Clare",
+    "interest_sectors": [
+      "property"
+    ],
+    "has_conflicts": true,
+    "conflict_count": 2,
+    "cro_flags": [],
+    "interests_text": "[occupations] Landlord: (1) Main Street, Scariff, Co. Clare; (2) Newmarket on Fergus, Co. Clare. | [land_property] (1) Main Street, Scariff, Co. Clare: letting; (2) Newmarket on Fergus, Co. Clare: letting."
+  },
+  {
+    "name": "CROWE, Cathal (Clare)",
+    "display_name": "Cathal Crowe",
+    "slug": "cathal-crowe",
+    "party": "Fianna Fáil",
+    "constituency": "Clare",
+    "interest_sectors": [
+      "agriculture",
+      "finance"
+    ],
+    "has_conflicts": true,
+    "conflict_count": 2,
+    "cro_flags": [],
+    "interests_text": "[occupations] Farmer: Woodcock Hill, Meelick and Heathmount, Cratloe (County Clare). | [shares] Shares: Sixmilebridge Mart, Sixmilebridge, Co. Clare: sale of livestock. Other Information Provided: I have 2 shares, each of €500 value. They are static shares and don't yield any annual dividend for... | [land_property] (1) Woodcock Hill, Meelick and Heathmount, Cratloe (County Clare): farmland; (2) Woodcock Hill, Meelick, County Clare: farmhouse. Other Information Provided: (2) farmhouse is in a poor state of repair..."
+  },
+  {
+    "name": "CUMMINS, John (Waterford)",
+    "display_name": "John Cummins",
+    "slug": "john-cummins",
+    "party": "Fine Gael",
+    "constituency": "Waterford",
+    "interest_sectors": [
+      "finance"
+    ],
+    "has_conflicts": true,
+    "conflict_count": 1,
+    "cro_flags": [],
+    "interests_text": "[shares] (1) Funds: Zurich Life Assurance PLC, Zurich House, Frascati Road, Co. Dublin: life & pensions; (2) Shares: Ryanair, Airside Business Park, Swords, Co. Dublin: aviation."
+  },
+  {
+    "name": "CURRIE, Emer (Dublin West)",
+    "display_name": "Emer Currie",
+    "slug": "emer-currie",
+    "party": "Fine Gael",
+    "constituency": "Dublin West",
+    "interest_sectors": [
+      "finance",
+      "health",
+      "media",
+      "property",
+      "tourism_hospitality"
+    ],
+    "has_conflicts": true,
+    "conflict_count": 5,
+    "cro_flags": [],
+    "interests_text": "[occupations] Medical Professional/General Practitioner: Ballygar Health Centre, Co. Galway. | [shares] (1) Shares: North West of Ireland Printing and Publishing Company, 12 John Street, Omagh BT78 IDW: newspapers, printing, design, digital media; (2) Irish Life DC Pension: Irish Life, Irish Life Centre... | [land_property] (1) Apartment, 17 Sydenham Court, Ballsbridge, D4: family use; (2) New Forge, Knockbrack, Cleggan, Connemara, Co. Galway: family use. | [travel] 3 day event in Boston College, The Connors Centre, including meals and accommodation: Irish Institute, Boston College. | [contracts] General medical services scheme HSE: HSE: Minister of Health."
+  },
+  {
+    "name": "DALY, Pa (Kerry)",
+    "display_name": "Pa Daly",
+    "slug": "pa-daly",
+    "party": "Sinn Féin",
+    "constituency": "Kerry",
+    "interest_sectors": [
+      "legal",
+      "property"
+    ],
+    "has_conflicts": true,
+    "conflict_count": 2,
+    "cro_flags": [],
+    "interests_text": "[occupations] Solicitor: 23 Rock Street, Tralee, Co. Kerry. | [land_property] (1) 23 Rock Street, Tralee, Co. Kerry: solicitors office; (2) 24 Rock Street, Tralee, Co. Kerry: let property."
+  },
+  {
+    "name": "DEVLIN, Cormac (Dún Laoghaire)",
+    "display_name": "Cormac Devlin",
+    "slug": "cormac-devlin",
+    "party": "Fianna Fáil",
+    "constituency": "Dún Laoghaire",
+    "interest_sectors": [
+      "tourism_hospitality"
+    ],
+    "has_conflicts": false,
+    "conflict_count": 0,
+    "cro_flags": [],
+    "interests_text": "[travel] Flights, meals and accommodation associated with conference at Boston College, Boston USA: Prof. Mary Murphy, Boston College, Boston, USA. Other Information Provided: invited in capacity as chair of t..."
+  },
+  {
+    "name": "DILLON, Alan (Mayo)",
+    "display_name": "Alan Dillon",
+    "slug": "alan-dillon",
+    "party": "Fine Gael",
+    "constituency": "Mayo",
+    "interest_sectors": [
+      "property"
+    ],
+    "has_conflicts": true,
+    "conflict_count": 1,
+    "cro_flags": [],
+    "interests_text": "[land_property] Carrabeag, Newport Rd., Castlebar, Co. Mayo: letting."
+  },
+  {
+    "name": "DOLAN, Albert (Galway East)",
+    "display_name": "Albert Dolan",
+    "slug": "albert-dolan",
+    "party": "Fianna Fáil",
+    "constituency": "Galway East",
+    "interest_sectors": [
+      "property"
+    ],
+    "has_conflicts": true,
+    "conflict_count": 1,
+    "cro_flags": [],
+    "interests_text": "[occupations] Residential letting of a room in my principal private residence."
+  },
+  {
+    "name": "DOOLEY, Timmy (Clare)",
+    "display_name": "Timmy Dooley",
+    "slug": "timmy-dooley",
+    "party": "Fianna Fáil",
+    "constituency": "Clare",
+    "interest_sectors": [
+      "property"
+    ],
+    "has_conflicts": true,
+    "conflict_count": 1,
+    "cro_flags": [],
+    "interests_text": "[occupations] Letting: (1) Moyville, Rathfarnham, D16; (2) Charlotte Quay, D4. | [land_property] (1) Moyville, Rathfarnham, D16: letting; (2) Charlotte Quay, D4: letting; (2) Derroran West, Mountshannon: woodland."
+  },
+  {
+    "name": "FEIGHAN, Frank (Sligo-Leitrim)",
+    "display_name": "Frank Feighan",
+    "slug": "frank-feighan",
+    "party": "Fine Gael",
+    "constituency": "Sligo-Leitrim",
+    "interest_sectors": [
+      "property"
+    ],
+    "has_conflicts": true,
+    "conflict_count": 1,
+    "cro_flags": [],
+    "interests_text": "[occupations] Landlord: McDonaghs Newsagents, Bridge St., Boyle. Other Information Provided: €400 rental per month. | [land_property] McDonaghs Newsagents: rental."
+  },
+  {
+    "name": "FITZMAURICE, Michael (Roscommon-Galway)",
+    "display_name": "Michael Fitzmaurice",
+    "slug": "michael-fitzmaurice",
+    "party": "Independent Ireland",
+    "constituency": "Roscommon-Galway",
+    "interest_sectors": [
+      "agriculture"
+    ],
+    "has_conflicts": true,
+    "conflict_count": 2,
+    "cro_flags": [],
+    "interests_text": "[occupations] Agricultural Contractor, Plant-hire, Turf-cutting, Farming, Civil Contracting: Strangefort, Williamstown, Co. Galway. | [shares] One share worth €1 in Kilcolumb Co-op Group Water Scheme. All members have an equal holding. This is a co-operative Group Water Scheme: Kilcolumb GWS., Kilcolumb, Williamstown, Co. Galway: Group Water... | [land_property] (1) Strangefort, Williamstown, Co. Galway; (2) Keelogues, Williamstown, Co. Galway: all lands are rural farmlands."
+  },
+  {
+    "name": "FOLEY, Norma (Kerry)",
+    "display_name": "Norma Foley",
+    "slug": "norma-foley",
+    "party": "Fianna Fáil",
+    "constituency": "Kerry",
+    "interest_sectors": [
+      "agriculture",
+      "finance"
+    ],
+    "has_conflicts": true,
+    "conflict_count": 2,
+    "cro_flags": [],
+    "interests_text": "[shares] (1) Davy Bes Funds: Davy House, Dublin 2: investments; (2) Shares: (i) Aviva PLC: London; (ii) Bank of Ireland: Dublin 2; (3) Investments: KBC Bank, Brussels; (4) Servisbot: Waterloo Exchange, D4: sha... | [directorships] Non-executive: Templecrowe Co-op Society, Dungloe, Co. Donegal: co-operaative society."
+  },
+  {
+    "name": "GEOGHEGAN, James (Dublin Bay South)",
+    "display_name": "James Geoghegan",
+    "slug": "james-geoghegan",
+    "party": "Fine Gael",
+    "constituency": "Dublin Bay South",
+    "interest_sectors": [
+      "finance",
+      "legal"
+    ],
+    "has_conflicts": true,
+    "conflict_count": 3,
+    "cro_flags": [],
+    "interests_text": "[occupations] Barrister: Law Library, Four Courts, Dublin 7. | [shares] Shares in unit linked managed fund: Zurich Life Assurance PLC., Zurich House, Frascati Road, A94 X9Y3: pension fund."
+  },
+  {
+    "name": "GIBNEY, Sinéad (Dublin-Rathdown)",
+    "display_name": "Sinéad Gibney",
+    "slug": "sinead-gibney",
+    "party": "Social Democrats",
+    "constituency": "Dublin-Rathdown",
+    "interest_sectors": [
+      "property"
+    ],
+    "has_conflicts": true,
+    "conflict_count": 1,
+    "cro_flags": [],
+    "interests_text": "[occupations] Part-ownershiip of family holiday home rented when not being used for short stays outside peak: Crosspatrick, Killala, Co. Mayo. Other Information Provided: property no longer being let, last booking ..."
+  },
+  {
+    "name": "GRAVES, Ann (Dublin Fingal East)",
+    "display_name": "Ann Graves",
+    "slug": "ann-graves",
+    "party": "Sinn Féin",
+    "constituency": "Dublin Fingal East",
+    "interest_sectors": [
+      "property"
+    ],
+    "has_conflicts": true,
+    "conflict_count": 1,
+    "cro_flags": [],
+    "interests_text": "[land_property] 14 O'Daly Road, Drumcondra, Dublin 9, 50% ownership in former family home: family residence. Other Information Provided: no income from rental or any other means."
+  },
+  {
+    "name": "GREALISH, Noel (Galway West)",
+    "display_name": "Noel Grealish",
+    "slug": "noel-grealish",
+    "party": "Independent",
+    "constituency": "Galway West",
+    "interest_sectors": [
+      "property"
+    ],
+    "has_conflicts": true,
+    "conflict_count": 1,
+    "cro_flags": [],
+    "interests_text": "[land_property] (1) House at Claregalway, Co. Galway: letting; (2) Apartment in Dublin: personal use."
+  },
+  {
+    "name": "GUIRKE, Johnny (Meath-West)",
+    "display_name": "Johnny Guirke",
+    "slug": "johnny-guirke",
+    "party": "Sinn Féin",
+    "constituency": "Meath-West",
+    "interest_sectors": [
+      "property"
+    ],
+    "has_conflicts": true,
+    "conflict_count": 1,
+    "cro_flags": [],
+    "interests_text": "[occupations] Landlord: Ballinlough, Dromone, Oldcastle, Co. Meath. | [land_property] 67 Cluáin Loínn, Oldcastle, Co. Meath: rental letting."
+  },
+  {
+    "name": "HEALY, Seamus (Tipperary South)",
+    "display_name": "Seamus Healy",
+    "slug": "seamus-healy",
+    "party": "Independent",
+    "constituency": "Tipperary South",
+    "interest_sectors": [
+      "finance",
+      "media",
+      "property"
+    ],
+    "has_conflicts": true,
+    "conflict_count": 2,
+    "cro_flags": [],
+    "interests_text": "[occupations] Health Service Executive (formerly South Eastern Health Board): Health Service Executive, Lacken, Dublin Road, Kilkenny. Other Information Provided: occupational pension. | [directorships] (1) Elm Park Area Childcare (voluntary): Elm Park Area Childcare, Church Road, Elm Park, Clonmel: community childcare centre; (2) Save our Acute Hospital Services Committee (voluntary): Save our Acute... | [land_property] 56 Queen Street, Clonmel, Co. Tipperary: constituency office ground floor. Other Information Provided: first floor family apartment (jointly owned)."
+  },
+  {
+    "name": "HEALY- RAE, Danny (Kerry)",
+    "display_name": "Danny Healy- Rae",
+    "slug": "danny-healy-rae",
+    "party": "Independent",
+    "constituency": "Kerry",
+    "interest_sectors": [
+      "agriculture",
+      "finance",
+      "transport"
+    ],
+    "has_conflicts": true,
+    "conflict_count": 2,
+    "cro_flags": [],
+    "interests_text": "[occupations] Public Representative, Publican, Farmer, Bus Hire: Main St., Kilgarvan, Co. Kerry. | [shares] Shares: Kerry Group plc., Princes St., Tralee, Co. Kerry: milk processing & manufacturing of farm products. | [land_property] (1) Approx. 50 acres @ Fossa, Kilgarvan; 38 Acres @ Gullaba, Kilgarvan; 3 acres @ Gortnaboul, Kilgarvan: farmland; (2) House @ Ardtully, Kilgarvan. | [contracts] Bus Éireann: Danny Healy-Rae, Main St., Kilgarvan, Co. Kerry: Bus Éireann."
+  },
+  {
+    "name": "HEALY-RAE, Michael (Kerry)",
+    "display_name": "Michael Healy-Rae",
+    "slug": "michael-healy-rae",
+    "party": "Independent",
+    "constituency": "Kerry",
+    "interest_sectors": [
+      "agriculture",
+      "finance",
+      "property",
+      "tourism_hospitality"
+    ],
+    "has_conflicts": true,
+    "conflict_count": 3,
+    "cro_flags": [],
+    "interests_text": "[occupations] (1) Postmaster: Kilgarvan, Co. Kerry; (2) Politican: Dáil Éireann, Co. Dublin; (3) Farmer: Kilgarvan, Co. Kerry; (4) Service Station Owner: Kilgarvan, Co. Kerry; (5) Plant Hire: Kilgarvan, Co. Kerry; ... | [shares] Shares: New York Times Co: media. | [directorships] Director: (1) Roughty Plant Hire Ltd., Kilgarvan, Co. Kerry: plant hire; (2) Black Cap & Co. Ltd., Kilgarvan, Co. Kerry: service station, shop & post office; (3) Michael Healy-Rae Properties Ltd: main... | [land_property] (1) Sandymount, Kilgarvan, Co. Kerry: private house; (2) Kilgarvan, Co. Kerry: 4 acres of farmland; (3) Kilgarvan, Co. Kerry: service station & yard; (4) Kilgarvan, Co. Kerry: rear of store; (5) Kilga... | [contracts] (1) Supply of accommodation: Roughty Properties Ltd: Department of Children, Equality, Disability, Integration and Youth; (2) Rental accommodation scheme: ML Healy-Rae: Kerry County Council; (3) Housi..."
+  },
+  {
+    "name": "HENEGHAN, Barry (Dublin Bay North)",
+    "display_name": "Barry Heneghan",
+    "slug": "barry-heneghan",
+    "party": "Independent",
+    "constituency": "Dublin Bay North",
+    "interest_sectors": [
+      "tourism_hospitality"
+    ],
+    "has_conflicts": false,
+    "conflict_count": 0,
+    "cro_flags": [],
+    "interests_text": "[travel] Hotel room supplied as part of invite as TD to Conradh na Gaeilge Ard Fheis: Conradh na Gaeilge. Other Information Provided: one night stay in hotel - Feb. 2025."
+  },
+  {
+    "name": "HEYDON, Martin (Kildare South)",
+    "display_name": "Martin Heydon",
+    "slug": "martin-heydon",
+    "party": "Fine Gael",
+    "constituency": "Kildare South",
+    "interest_sectors": [
+      "agriculture",
+      "finance"
+    ],
+    "has_conflicts": true,
+    "conflict_count": 1,
+    "cro_flags": [],
+    "interests_text": "[occupations] Farmer/Lessor: (1) Blackrath, Colbinstown, Co. Kildare; (2) Aghcross, Ballickmoyler, Co. Laois. | [shares] Shares: (1) CRH: building materials; (2) AIB: financial. | [land_property] (1) Blackrath, Colbinstown, Co. Kildare: farmland; (2) Aghcross, Ballickmoyler, Co. Laois: farmland."
+  },
+  {
+    "name": "KELLY, Alan (Tipperary North)",
+    "display_name": "Alan Kelly",
+    "slug": "alan-kelly",
+    "party": "Labour Party",
+    "constituency": "Tipperary North",
+    "interest_sectors": [
+      "tourism_hospitality"
+    ],
+    "has_conflicts": true,
+    "conflict_count": 1,
+    "cro_flags": [],
+    "interests_text": "[travel] Party delegate to Socialist International Council meeting (flights, accommodation): Labour Party, Aungier St., Dublin 2."
+  },
+  {
+    "name": "KENNY, Eoghan (Cork North-Central)",
+    "display_name": "Eoghan Kenny",
+    "slug": "eoghan-kenny",
+    "party": "Labour Party",
+    "constituency": "Cork North-Central",
+    "interest_sectors": [
+      "tourism_hospitality"
+    ],
+    "has_conflicts": false,
+    "conflict_count": 0,
+    "cro_flags": [],
+    "interests_text": "[travel] Party delegate to party of European Socialists, Amsterdam (flights, meals, hotel): Labour Party, Aungier St., Dublin 2."
+  },
+  {
+    "name": "KEOGH, Keira (Mayo)",
+    "display_name": "Keira Keogh",
+    "slug": "keira-keogh",
+    "party": "Fine Gael",
+    "constituency": "Mayo",
+    "interest_sectors": [
+      "finance",
+      "tourism_hospitality"
+    ],
+    "has_conflicts": true,
+    "conflict_count": 1,
+    "cro_flags": [],
+    "interests_text": "[shares] Shares in private company: The Helm Bar & Restaurant Ltd., The Quay, Westport, Co. Mayo: bar, restaurant and accommodation. Other Information Provided: I currently have .86% of the nominal share capit..."
+  },
+  {
+    "name": "LAWLESS, James (Kildare North)",
+    "display_name": "James Lawless",
+    "slug": "james-lawless",
+    "party": "Fianna Fáil",
+    "constituency": "Kildare North",
+    "interest_sectors": [
+      "property"
+    ],
+    "has_conflicts": true,
+    "conflict_count": 1,
+    "cro_flags": [],
+    "interests_text": "[occupations] Lessor: residential property, Sallins, Co. Kildare. | [land_property] 32 Sallins Pier, Sallins, Co. Kildare: letting."
+  },
+  {
+    "name": "LAWLOR, George (Wexford)",
+    "display_name": "George Lawlor",
+    "slug": "george-lawlor",
+    "party": "Labour Party",
+    "constituency": "Wexford",
+    "interest_sectors": [
+      "tourism_hospitality"
+    ],
+    "has_conflicts": true,
+    "conflict_count": 1,
+    "cro_flags": [],
+    "interests_text": "[travel] (1) Parliamentary Party visit to European Parliament - flights, meals, hotel: S&D Group, European Parliament, Brussels, Belgium; (2) German-Irish Parliamentary Dialogue, Berlin, flights, meals, hotel:..."
+  },
+  {
+    "name": "LOWRY, Michael (Tipperary North)",
+    "display_name": "Michael Lowry",
+    "slug": "michael-lowry",
+    "party": "Independent",
+    "constituency": "Tipperary North",
+    "interest_sectors": [
+      "agriculture",
+      "property"
+    ],
+    "has_conflicts": true,
+    "conflict_count": 2,
+    "cro_flags": [],
+    "interests_text": "[occupations] (1) Sale & Service, Refrigeration: Garuda T/A Streamline Enterprises, Abbey Road, Thurles, Co. Tipperary; (2) Landlord: 1 Montrose Avenue, Foxwood, Kilbarry, Co. Waterford. | [shares] Shareholder: (1) Garuda T/A Streamline Enterprises, Abbey Road, Thurles, Co. Tipperary: sale & service of refrigeration equipment, air conditioning, plant and equipment; (2) Streamline Refrigeration, ... | [land_property] (1) Glenreigh, Holycross, Thurles, Co. Tipperary: residence of 35 acres; (2) 20 acres of land joint ownership at Ashton, Marketfield, Wigan: development land; (3) 10% ownership of property site: vacan..."
+  },
+  {
+    "name": "MARTIN, Micheál (Cork South-Central)",
+    "display_name": "Micheál Martin",
+    "slug": "micheal-martin",
+    "party": "Fianna Fáil",
+    "constituency": "Cork South-Central",
+    "interest_sectors": [
+      "finance"
+    ],
+    "has_conflicts": true,
+    "conflict_count": 1,
+    "cro_flags": [],
+    "interests_text": "[land_property] 137 Evergreen Road, Turners Cross, Cork: administrative office for constituency staff. Other Information Provided: purchased with mortgage from AIB."
+  },
+  {
+    "name": "MCAULIFFE, Paul (Dublin North-West)",
+    "display_name": "Paul Mcauliffe",
+    "slug": "paul-mcauliffe",
+    "party": "Fianna Fáil",
+    "constituency": "Dublin North-West",
+    "interest_sectors": [
+      "energy",
+      "property"
+    ],
+    "has_conflicts": true,
+    "conflict_count": 3,
+    "cro_flags": [],
+    "interests_text": "[shares] Merrion Renewables: Plato Business Park, Damastown, Dublin 15: engineering. | [land_property] (1) 59 Sycamore Park, Finglas, Dublin 11 (home): (home); (2) 30 Melville Park: trustee for a property held in trust for a relative with a disability. Other Information Provided: (2) I have no benefici..."
+  },
+  {
+    "name": "MCCONALOGUE, Charlie (Donegal)",
+    "display_name": "Charlie Mcconalogue",
+    "slug": "charlie-mcconalogue",
+    "party": "Fianna Fáil",
+    "constituency": "Donegal",
+    "interest_sectors": [
+      "property"
+    ],
+    "has_conflicts": true,
+    "conflict_count": 1,
+    "cro_flags": [],
+    "interests_text": "[occupations] (1) TD and Minister of State: Oireachtas Éireann, Dublin 2; (2) Apartment rental income: Ashtown, Dublin 15."
+  },
+  {
+    "name": "MCGRATH, Mattie (Tipperary South)",
+    "display_name": "Mattie Mcgrath",
+    "slug": "mattie-mcgrath",
+    "party": "Independent",
+    "constituency": "Tipperary South",
+    "interest_sectors": [
+      "agriculture",
+      "finance",
+      "property"
+    ],
+    "has_conflicts": true,
+    "conflict_count": 2,
+    "cro_flags": [],
+    "interests_text": "[shares] 45 ordinary shares: Edmond & M McGrath Plant Hire Ltd., Newcastle, Clonmel, Co. Tipperary: plant & agricultural hire. | [directorships] (1) Executive Director: Edmond & M McGrath Plant Hire Ltd., Newcastle, Clonmel, Co. Tipperary: plant & agricultural hire; (2) Non-Executive Director: Ring a Link, Cillin Hill, Dublin Road, Kilkenny: r... | [land_property] Mountain land (farm) located at Newcastle, Co. Tipperary: mountain farmland. Other Information Provided: farmed by family member."
+  },
+  {
+    "name": "MCGRATH, Seamus (Cork South-Central)",
+    "display_name": "Seamus Mcgrath",
+    "slug": "seamus-mcgrath",
+    "party": "Fianna Fáil",
+    "constituency": "Cork South-Central",
+    "interest_sectors": [
+      "property"
+    ],
+    "has_conflicts": true,
+    "conflict_count": 2,
+    "cro_flags": [],
+    "interests_text": "[land_property] Other Information Provided: only property held is family home."
+  },
+  {
+    "name": "MCGREEHAN, Erin (Louth)",
+    "display_name": "Erin Mcgreehan",
+    "slug": "erin-mcgreehan",
+    "party": "Fianna Fáil",
+    "constituency": "Louth",
+    "interest_sectors": [
+      "construction",
+      "tourism_hospitality"
+    ],
+    "has_conflicts": true,
+    "conflict_count": 1,
+    "cro_flags": [],
+    "interests_text": "[directorships] Board member: (1) Women's Aid, Dundalk, Cambrickville, Dundalk, Co. Louth: Women's Aid Dundalk seeks to work towards the elimination of violence against women and their children in their own homes; (2... | [travel] (1) Working visit to Doha Forum, flights and accommodation: Doha Forum - Sheraton Grand Hotel, Qatar, https://dohaforum.org/; (2) Working visit to Taiwan, flights and accommodation: https://www.roc- t..."
+  },
+  {
+    "name": "MITCHELL, Denise (Dublin Bay North)",
+    "display_name": "Denise Mitchell",
+    "slug": "denise-mitchell",
+    "party": "Sinn Féin",
+    "constituency": "Dublin Bay North",
+    "interest_sectors": [
+      "transport"
+    ],
+    "has_conflicts": false,
+    "conflict_count": 0,
+    "cro_flags": [],
+    "interests_text": "[occupations] Taxi Company: Cornamagh, Athlone, Co. Westmeath."
+  },
+  {
+    "name": "MOYNIHAN, Aindrias (Cork North-West)",
+    "display_name": "Aindrias Moynihan",
+    "slug": "aindrias-moynihan",
+    "party": "Fianna Fáil",
+    "constituency": "Cork North-West",
+    "interest_sectors": [
+      "property"
+    ],
+    "has_conflicts": true,
+    "conflict_count": 1,
+    "cro_flags": [],
+    "interests_text": "[land_property] 8 Woburn Drive, Melbourn Rd., Bishopstown, Cork: residence & letting. Other Information Provided: part occupied by family and part let. | [gifts] (1) Vase: Mr. Du Jiahao, Chair of China-Ireland Friendship Group of the National Peoples Congress, Chair of Agriculture & Rural Affairs Committee; (2) Bottle of Spirit & local beer: Mr. Miroslav Plevi..."
+  },
+  {
+    "name": "MOYNIHAN, Michael (Cork North-West)",
+    "display_name": "Michael Moynihan",
+    "slug": "michael-moynihan",
+    "party": "Fianna Fáil",
+    "constituency": "Cork North-West",
+    "interest_sectors": [
+      "agriculture",
+      "property"
+    ],
+    "has_conflicts": true,
+    "conflict_count": 2,
+    "cro_flags": [],
+    "interests_text": "[occupations] (1) Suckler Farmer: Meens, Kiskeam, Mallow, Co. Cork; (2) Landlord: (i) Dromscarra, Kiskeam, Mallow, Co. Cork, P51DE03; (ii) Percival Street, Kanturk, Co. Cork, P51K2T4. | [land_property] (1) Meens, Kiskeam, Mallow, Co. Cork: farmland; (2) Reanagoshil, Newmarket, Co. Cork: farmland; (3) Dromscarra, Kiskeam, Mallow, Co. Cork: farmland; (4) Dromscarra, Kiskeam, Mallow, Co. Cork, P51DE03:..."
+  },
+  {
+    "name": "NASH, Ged (Louth)",
+    "display_name": "Ged Nash",
+    "slug": "ged-nash",
+    "party": "Labour Party",
+    "constituency": "Louth",
+    "interest_sectors": [
+      "tourism_hospitality"
+    ],
+    "has_conflicts": false,
+    "conflict_count": 0,
+    "cro_flags": [],
+    "interests_text": "[travel] (1) Parliamentary Labour Party visit to European Parliament (flights, meals, hotel): S&D Group, European Parliament, Brussels, Belgium; (2) Party delegate to party of European Socialists Congress, Ams..."
+  },
+  {
+    "name": "NEVILLE, Joe (Kildare North)",
+    "display_name": "Joe Neville",
+    "slug": "joe-neville",
+    "party": "Fine Gael",
+    "constituency": "Kildare North",
+    "interest_sectors": [
+      "energy"
+    ],
+    "has_conflicts": true,
+    "conflict_count": 1,
+    "cro_flags": [],
+    "interests_text": "[occupations] (1) TD: Dáil Éireann, Kildare St., Dublin 2; (2) Accountant: Swyft Energy, Rubicon Centre, Bishopstown, Cork. Other Information Provided: (2) finished up early in 2025."
+  },
+  {
+    "name": "NOLAN, Carol (Offaly)",
+    "display_name": "Carol Nolan",
+    "slug": "carol-nolan",
+    "party": "Independent",
+    "constituency": "Offaly",
+    "interest_sectors": [
+      "property",
+      "tourism_hospitality"
+    ],
+    "has_conflicts": true,
+    "conflict_count": 1,
+    "cro_flags": [],
+    "interests_text": "[occupations] Landlord: Lackaroe, Cadamstown, Birr, Co. Offaly. Other Information Provided: 2 bed cottage jointly owned with husband (rented property). | [land_property] Lackaroe, Cadamstown, Birr, Co. Offaly: letting, 2 bed cottage (rented), Other Information Provided: 2 bed cottage (rented) jointly owned with husband. | [travel] Women political leaders summit 2025 organised by International Parliamentary Relations and Travel in the Oireachtas, flights to and from Montenegro, accommodation 27th-29th Sept in hotel, breakfast & ..."
+  },
+  {
+    "name": "O'CONNELL, Maeve (Dublin Rathdown)",
+    "display_name": "Maeve O'Connell",
+    "slug": "maeve-o-connell",
+    "party": "Fine Gael",
+    "constituency": "Dublin Rathdown",
+    "interest_sectors": [
+      "finance"
+    ],
+    "has_conflicts": true,
+    "conflict_count": 1,
+    "cro_flags": [],
+    "interests_text": "[shares] Shares: Diageo, London, UK: premium drinks."
+  },
+  {
+    "name": "O'CONNOR, James (Cork East)",
+    "display_name": "James O'Connor",
+    "slug": "james-o-connor",
+    "party": "Fianna Fáil",
+    "constituency": "Cork East",
+    "interest_sectors": [
+      "tourism_hospitality"
+    ],
+    "has_conflicts": true,
+    "conflict_count": 1,
+    "cro_flags": [],
+    "interests_text": "[travel] Working visit to Doha to attend the Doha Forum, accommodation and flights covered: Doha Forum, Sheraton Grand Hotel, Qatar."
+  },
+  {
+    "name": "O'DEA, Willie (Limerick City)",
+    "display_name": "Willie O'Dea",
+    "slug": "willie-o-dea",
+    "party": "Fianna Fáil",
+    "constituency": "Limerick City",
+    "interest_sectors": [
+      "construction",
+      "property"
+    ],
+    "has_conflicts": true,
+    "conflict_count": 3,
+    "cro_flags": [],
+    "interests_text": "[shares] (1) Formation Group: London: property; (2) Gardenia Technologies: London: technology; (3) Vidarr Technologies: London: technology; (4) Ellipsis Entertainment: London: film; (5) Jabba Inc; USA; constru..."
+  },
+  {
+    "name": "O'DONOGHUE, Richard (Limerick County)",
+    "display_name": "Richard O'Donoghue",
+    "slug": "richard-o-donoghue",
+    "party": "Independent Ireland",
+    "constituency": "Limerick County",
+    "interest_sectors": [
+      "agriculture",
+      "construction",
+      "property"
+    ],
+    "has_conflicts": true,
+    "conflict_count": 3,
+    "cro_flags": [],
+    "interests_text": "[occupations] Building contractor, Public representative: Kilatal, Ballingarry, Co. Limerick, V94FP7A. | [shares] 100% shareholder in Richard O’Donoghue Construction Ltd.: Kilatal, Ballingarry, Co. Limerick, V94FP7A: building construction. | [directorships] Managing Director of Richard O’Donoghue Construction Ltd.: Kilatal, Ballingarry, Co. Limerick, V94FP7A: building construction. | [land_property] Coolruss, Bruree, Co. Limerick., Folio No. LK25739F: 1.08 hectares of agricultural land (approximately 2.5 acres) cut for fodder annually."
+  },
+  {
+    "name": "O'DONOGHUE, Robert (Dublin Fingal West)",
+    "display_name": "Robert O'Donoghue",
+    "slug": "robert-o-donoghue",
+    "party": "Labour Party",
+    "constituency": "Dublin Fingal West",
+    "interest_sectors": [
+      "tourism_hospitality"
+    ],
+    "has_conflicts": false,
+    "conflict_count": 0,
+    "cro_flags": [],
+    "interests_text": "[travel] (1) Parliamentary Party visit to European Parliament (flights, meals, hotel): S&D Group, European Parliament, Brussels, Belgium; (2) Party Delegate to PES EUkraine Progressive Summit Conference, Kyiv ..."
+  },
+  {
+    "name": "O'DONOVAN, Patrick (Limerick County)",
+    "display_name": "Patrick O'Donovan",
+    "slug": "patrick-o-donovan",
+    "party": "Fine Gael",
+    "constituency": "Limerick County",
+    "interest_sectors": [
+      "finance"
+    ],
+    "has_conflicts": true,
+    "conflict_count": 1,
+    "cro_flags": [],
+    "interests_text": "[shares] Shares: (1) Proctar & Gamble: Pharma Chem; (2) Telecoms. Other Information Provided: (1) & (2) valued below €13,000 but continuing to declare for enhanced and complete transparency."
+  },
+  {
+    "name": "O'FLYNN, Ken (Cork North-Central)",
+    "display_name": "Ken O'Flynn",
+    "slug": "ken-o-flynn",
+    "party": "Independent Ireland",
+    "constituency": "Cork North-Central",
+    "interest_sectors": [
+      "finance"
+    ],
+    "has_conflicts": true,
+    "conflict_count": 1,
+    "cro_flags": [],
+    "interests_text": "[shares] 5 shares: PTSB: bank."
+  },
+  {
+    "name": "O'SULLIVAN, Pádraig (Cork North-Central)",
+    "display_name": "Pádraig O'Sullivan",
+    "slug": "padraig-o-sullivan",
+    "party": "Fianna Fáil",
+    "constituency": "Cork North-Central",
+    "interest_sectors": [
+      "construction",
+      "tourism_hospitality"
+    ],
+    "has_conflicts": true,
+    "conflict_count": 2,
+    "cro_flags": [],
+    "interests_text": "[land_property] (Site): Clash Road, Little Island, Co. Cork: building a family home (currently under construction). | [travel] Flights & accommodation in Taipei (return): Taiwanese Govt."
+  },
+  {
+    "name": "QUAIDE, Liam (Cork East)",
+    "display_name": "Liam Quaide",
+    "slug": "liam-quaide",
+    "party": "Social Democrats",
+    "constituency": "Cork East",
+    "interest_sectors": [
+      "health"
+    ],
+    "has_conflicts": true,
+    "conflict_count": 1,
+    "cro_flags": [],
+    "interests_text": "[occupations] Psychologist - HSE, from 01.01.25-02.02.25: Harbour View, St. Mary's Campus, Gurranabraher, Cork. Other Information Provided: remained in post for limited timeframe to complete clinical work with pati..."
+  },
+  {
+    "name": "RICE, Pádraig (Cork South-Central)",
+    "display_name": "Pádraig Rice",
+    "slug": "padraig-rice",
+    "party": "Social Democrats",
+    "constituency": "Cork South-Central",
+    "interest_sectors": [
+      "property"
+    ],
+    "has_conflicts": true,
+    "conflict_count": 1,
+    "cro_flags": [],
+    "interests_text": "[occupations] Rental income: Cork. Other Information Provided: I rent out a room in my own home in Cork under the Rent A Room Scheme."
+  },
+  {
+    "name": "ROCHE, Peter (Galway East)",
+    "display_name": "Peter Roche",
+    "slug": "peter-roche",
+    "party": "Fine Gael",
+    "constituency": "Galway East",
+    "interest_sectors": [
+      "property"
+    ],
+    "has_conflicts": true,
+    "conflict_count": 1,
+    "cro_flags": [],
+    "interests_text": "[land_property] Moyne, Tuam, Abbeyknockmoy, Galway: letting."
+  },
+  {
+    "name": "SCANLON, Eamon (Sligo-Leitrim)",
+    "display_name": "Eamon Scanlon",
+    "slug": "eamon-scanlon",
+    "party": "Fianna Fáil",
+    "constituency": "Sligo-Leitrim",
+    "interest_sectors": [
+      "property"
+    ],
+    "has_conflicts": true,
+    "conflict_count": 1,
+    "cro_flags": [],
+    "interests_text": "[occupations] Landlord: (1) Flats 1-4, Keash Road, Ballymote, Co. Sligo; (2) Ballymote Family Resource Centre, Wolfe Tone Street & Keash Road: Ballymote, Co. Sligo F56 R282; (3) Apartment 29, The Fairways, Tubbercu... | [land_property] (1) Flats 1-4, Keash Road, Ballymote, Co. Sligo: letting; (2) Wolfe Tone Street & Keash Road, Ballymote, Co. Sligo F56 R282: letting, (Ballymote Family Resource Centre); (3) Apartment 29, The Fairways..."
+  },
+  {
+    "name": "SHEEHAN, Conor (Limerick City)",
+    "display_name": "Conor Sheehan",
+    "slug": "conor-sheehan",
+    "party": "Labour Party",
+    "constituency": "Limerick City",
+    "interest_sectors": [
+      "tourism_hospitality"
+    ],
+    "has_conflicts": false,
+    "conflict_count": 0,
+    "cro_flags": [],
+    "interests_text": "[travel] (1) Parliamentary Party visit to European Parliament (flights, meals, hotel): S&D Group, European Parliament, Brussels, Belgium; (2) Housing study visit to Vienna (flights, meals, hotel): Friedrich-Eb..."
+  },
+  {
+    "name": "SHERLOCK, Marie (Dublin Central)",
+    "display_name": "Marie Sherlock",
+    "slug": "marie-sherlock",
+    "party": "Labour Party",
+    "constituency": "Dublin Central",
+    "interest_sectors": [
+      "tourism_hospitality"
+    ],
+    "has_conflicts": false,
+    "conflict_count": 0,
+    "cro_flags": [],
+    "interests_text": "[travel] Parliamentary Party visit to European Parliament (flights, meals, hotel): S&D Group, European Parliament, Brussels, Belgium."
+  },
+  {
+    "name": "SMITH, Brendan (Cavan-Monaghan)",
+    "display_name": "Brendan Smith",
+    "slug": "brendan-smith",
+    "party": "Fianna Fáil",
+    "constituency": "Cavan-Monaghan",
+    "interest_sectors": [
+      "property"
+    ],
+    "has_conflicts": true,
+    "conflict_count": 1,
+    "cro_flags": [],
+    "interests_text": "[land_property] Apartment in Dublin which is rented."
+  },
+  {
+    "name": "TIMMINS, Edward (Wicklow)",
+    "display_name": "Edward Timmins",
+    "slug": "edward-timmins",
+    "party": "Fine Gael",
+    "constituency": "Wicklow",
+    "interest_sectors": [
+      "agriculture",
+      "property"
+    ],
+    "has_conflicts": true,
+    "conflict_count": 2,
+    "cro_flags": [],
+    "interests_text": "[occupations] Lessor: (1) 132 North Circular Road, Dublin 7; (2) Marktplatz 7, Baden Baden, Germany; (3) Apartment, Bizmarckstrasse 13, Baden, Baden, Germany; (4) Apartment, 101 Terrace Du Lac, Evian, France. | [land_property] (1) 1.75 acres, Sruhaun, Baltinglass, Co. Wicklow: agricultural land used by relation; (2) 132 North Circular Road, Dublin 7: letting; (3) Marktplatz 7, Baden Baden, Germany: letting; (4) Apartment, B..."
+  },
+  {
+    "name": "TOOLE, Gillian (Meath-East)",
+    "display_name": "Gillian Toole",
+    "slug": "gillian-toole",
+    "party": "Independent",
+    "constituency": "Meath-East",
+    "interest_sectors": [
+      "construction",
+      "finance",
+      "health",
+      "property"
+    ],
+    "has_conflicts": true,
+    "conflict_count": 4,
+    "cro_flags": [],
+    "interests_text": "[occupations] (1) Pharmacist (part-time to May 2025): (i) Lynch's Pharmacy, Kells, Co. Meath; (ii) Superpharm, West St., Drogheda, Co. Louth; (2) Landlord: (i) The Old Post Office, Dunshaughlin, Co. Meath (commerci... | [shares] Shares: (1) Greenman Investments, Crescent Hall, Dublin 2: supermarket ownership, Germany; (2) Uniphar Plc., Kingswood, Dublin 24: pharmaceutical distribution; (3) Poblano Ltd., Rathmines, D.6.: Mexic... | [directorships] (1) Executive: Ely Hill Ltd., Ratoath, Co. Meath: maintenance & repairs of property; (2) Wholefoods/Executive: Wholefoods Market, Ratoath, Co. Meath: non-trading since 2024 (end of)/farming; (3) EGG P... | [land_property] (1) Old Post Office, Dunshaughlin, Co. Meath: letting - commercial use; (2) 15 Marble Court, Dunshaughlin, Co. Meath: letting - residential; (3) 54 Esker Park, Lucan, Co. Dublin: letting - residential... | [contracts] (1) RAS Scheme, 54 Esker Park, Lucan: G. Toole, G. McGrath, Ratoath, Co. Meath: South Dublin Co. Council; (2) HAP, 55 Esker Park & 110 Bridgewater Quay: G. Toole & G. McGrath, Ratoath, Co. Meath: SDCC..."
+  },
+  {
+    "name": "TROY, Robert (Longford-Westmeath)",
+    "display_name": "Robert Troy",
+    "slug": "robert-troy",
+    "party": "Fianna Fáil",
+    "constituency": "Longford-Westmeath",
+    "interest_sectors": [
+      "finance",
+      "property"
+    ],
+    "has_conflicts": true,
+    "conflict_count": 2,
+    "cro_flags": [],
+    "interests_text": "[occupations] (1) Postmaster: Main St., Ballynacargy, Co. Westmeath; (2) Landlord: (i) 25A Rathdown Rd., D.7, (ii) 4 Mary St., Mullingar, Co. Westmeath, (iii) Main St., Ballynacargy, Co. Westmeath. Other Informatio... | [shares] (1) Prize Bonds: State Savings, An Post, GPO, Dublin 1: State Savings; (2) National Solidarity Bond: State Savings, An Post, GPO, Dublin 1: State Savings; (3) Ryanair Shares: Airside Business Pk., Swo... | [directorships] Proprietary Director: Priorfilia Ltd., Main St., Ballynacargy, Co. Westmeath: property related. Other Information Provided: resigned as a director in '25. | [land_property] (1) Main St., Ballynacargy, Co. Westmeath: residence rented, commercial unit – Post Office; (2) 4 Mary St., Mullingar, Co. Westmeath: 3 studio apartments (rented); (3) 25A Rathdown Rd., Dublin 7: 4 re..."
+  },
+  {
+    "name": "WALL, Mark (Kildare South)",
+    "display_name": "Mark Wall",
+    "slug": "mark-wall",
+    "party": "Labour Party",
+    "constituency": "Kildare South",
+    "interest_sectors": [
+      "tourism_hospitality"
+    ],
+    "has_conflicts": false,
+    "conflict_count": 0,
+    "cro_flags": [],
+    "interests_text": "[travel] Party delegate to Party of European Socialists Congress, Amsterdam (flights, meals, hotel): Labour Party, Aungier Street, Dublin 2."
+  },
+  {
+    "name": "Ó BROIN, Eoin (Dublin Mid-West)",
+    "display_name": "Eoin Ó Broin",
+    "slug": "eoin-o-broin",
+    "party": "Sinn Féin",
+    "constituency": "Dublin Mid-West",
+    "interest_sectors": [],
+    "has_conflicts": false,
+    "conflict_count": 0,
+    "cro_flags": [],
+    "interests_text": "[shares] I do not own any shares. | [land_property] I do not own any land or property. | [property_supplied] I have not held any property or service supplied to me. | [travel] I have not received any travel, accommodation, meals or entertainment."
+  },
+  {
+    "name": "Ó CEARÚIL, Naoise (Kildare North)",
+    "display_name": "Naoise Ó Cearúil",
+    "slug": "naoise-o-cearuil",
+    "party": "Fianna Fáil",
+    "constituency": "Kildare North",
+    "interest_sectors": [
+      "tourism_hospitality"
+    ],
+    "has_conflicts": false,
+    "conflict_count": 0,
+    "cro_flags": [],
+    "interests_text": "[occupations] Restricted Stock Units (RSU): Gong Ireland Limited, One Central Plaza, Dame St., Floor 7, Temple Bar, Dublin 2, D02 K7K5: Software as a Service (SaaS). Other Information Provided: The restricted stock..."
+  },
+  {
+    "name": "Ó MUIRÍ, Naoise (Dublin Bay North)",
+    "display_name": "Naoise Ó Muirí",
+    "slug": "naoise-o-muiri",
+    "party": "Fine Gael",
+    "constituency": "Dublin Bay North",
+    "interest_sectors": [
+      "finance"
+    ],
+    "has_conflicts": true,
+    "conflict_count": 1,
+    "cro_flags": [],
+    "interests_text": "[shares] Shares: Zing Technology, 86 Amiens St., Dublin D01Y6P0: information technology services."
+  }
+]

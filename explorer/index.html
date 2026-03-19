@@ -1,0 +1,2009 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Interest Explorer — Oireachtas Interests</title>
+  <meta name="description" content="Browse and filter all Dáil TDs by declared interest sector, party, and interest type." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="../static/style.css" />
+  
+<style>
+  /* Hide rows via JS filtering */
+  #explorer-table tbody tr.hidden { display: none; }
+</style>
+
+</head>
+<body>
+
+<nav>
+  <div class="nav-inner">
+    <a class="nav-brand" href="../index.html">Oireachtas Interests</a>
+    <ul class="nav-links">
+      <li><a href="../explorer/index.html" aria-current="page">Explorer</a></li>
+      <li><a href="../radar/index.html"    >Conflict Radar</a></li>
+      <li><a href="../parties/index.html"  >Parties</a></li>
+      <li><a href="../cro/index.html"      >CRO Check</a></li>
+      <li><a href="../about/index.html"    >About</a></li>
+    </ul>
+  </div>
+</nav>
+
+<main>
+  <div class="page-wrap">
+    
+
+<div class="page-header">
+  <h1>Interest Explorer</h1>
+  <p class="sub">Browse all 82 TDs by declared interests, sector, and party.</p>
+</div>
+
+<!-- Filters (progressively enhanced via explorer.js) -->
+<div class="explorer-controls">
+  <div class="control-group">
+    <label for="filter-search">Search</label>
+    <input type="text" id="filter-search" placeholder="Name or interest text…" />
+  </div>
+  <div class="control-group">
+    <label for="filter-sector">Sector</label>
+    <select id="filter-sector">
+      <option value="">All sectors</option>
+      <option value="agriculture">Agriculture</option>
+      <option value="property">Property</option>
+      <option value="finance">Finance</option>
+      <option value="legal">Legal</option>
+      <option value="tourism_hospitality">Tourism &amp; Hospitality</option>
+      <option value="transport">Transport</option>
+      <option value="construction">Construction</option>
+      <option value="energy">Energy</option>
+      <option value="health">Health</option>
+      <option value="media">Media</option>
+    </select>
+  </div>
+  <div class="control-group">
+    <label for="filter-party">Party</label>
+    <select id="filter-party">
+      <option value="">All parties</option>
+      
+      
+      <option value="Fianna Fáil">Fianna Fáil</option>
+      
+      <option value="Fine Gael">Fine Gael</option>
+      
+      <option value="Independent">Independent</option>
+      
+      <option value="Independent Ireland">Independent Ireland</option>
+      
+      <option value="Labour Party">Labour Party</option>
+      
+      <option value="Sinn Féin">Sinn Féin</option>
+      
+      <option value="Social Democrats">Social Democrats</option>
+      
+    </select>
+  </div>
+  <label class="filter-toggle">
+    <input type="checkbox" id="filter-conflicts" />
+    Conflicts only
+  </label>
+</div>
+
+<p id="explorer-count" class="meta">Showing 82 TDs</p>
+
+<div style="overflow-x:auto;">
+<table class="data-table" id="explorer-table">
+  <thead>
+    <tr>
+      <th>TD</th>
+      <th>Party</th>
+      <th>Constituency</th>
+      <th>Interest sectors</th>
+      <th>Conflicts</th>
+    </tr>
+  </thead>
+  <tbody>
+    
+    <tr
+      data-name="ciarán ahern"
+      data-party="Labour Party"
+      data-sectors="tourism_hospitality"
+      data-conflicts="no"
+      data-text="housing study visit to vienna (flights, meals, hotel): friedrich-ebert-stiftung, 31/32 parnell sq, dublin."
+    >
+      <td><a href="../tds/ciaran-ahern/index.html">Ciarán Ahern</a></td>
+      <td><span class="party-tag">Labour Party</span></td>
+      <td>Dublin South-West</td>
+      <td>
+        
+        <span class="sector-pill">tourism hospitality</span>
+        
+      </td>
+      <td>
+        
+        <span class="meta">—</span>
+        
+      </td>
+    </tr>
+    
+    <tr
+      data-name="william aird"
+      data-party="Fine Gael"
+      data-sectors="agriculture finance"
+      data-conflicts="yes"
+      data-text="farmer and public representative: nutgrove, portlaoise, laois. glanbia shares: tirlán, kilkenny: milk processing. nutgrove, raheenahoran, pallas: farming."
+    >
+      <td><a href="../tds/william-aird/index.html">William Aird</a></td>
+      <td><span class="party-tag">Fine Gael</span></td>
+      <td>Laois</td>
+      <td>
+        
+        <span class="sector-pill">agriculture</span>
+        
+        <span class="sector-pill">finance</span>
+        
+      </td>
+      <td>
+        
+        3 overlaps
+        
+      </td>
+    </tr>
+    
+    <tr
+      data-name="catherine ardagh"
+      data-party="Fianna Fáil"
+      data-sectors="legal"
+      data-conflicts="yes"
+      data-text="solicitor/notary public: ardagh mccabe llp, 15b st. agnes road, crumlin, dublin 12. other information provided: provision of general legal services."
+    >
+      <td><a href="../tds/catherine-ardagh/index.html">Catherine Ardagh</a></td>
+      <td><span class="party-tag">Fianna Fáil</span></td>
+      <td>Dublin South-Central</td>
+      <td>
+        
+        <span class="sector-pill">legal</span>
+        
+      </td>
+      <td>
+        
+        1 overlap
+        
+      </td>
+    </tr>
+    
+    <tr
+      data-name="ivana bacik"
+      data-party="Labour Party"
+      data-sectors="finance tourism_hospitality"
+      data-conflicts="yes"
+      data-text="tickets for events: aviva stadium, lansdowne rd., ballsbridge, dublin 4. (1) parliamentary party visit to european parliament (flights, meals, hotel): s&amp;d group, european parliament, brussels, belgium; (2) pes congress and leader meetings, brussels and amsterdam (flights, ..."
+    >
+      <td><a href="../tds/ivana-bacik/index.html">Ivana Bacik</a></td>
+      <td><span class="party-tag">Labour Party</span></td>
+      <td>Dublin Bay South</td>
+      <td>
+        
+        <span class="sector-pill">finance</span>
+        
+        <span class="sector-pill">tourism hospitality</span>
+        
+      </td>
+      <td>
+        
+        1 overlap
+        
+      </td>
+    </tr>
+    
+    <tr
+      data-name="cathy bennett"
+      data-party="Sinn Féin"
+      data-sectors="property"
+      data-conflicts="yes"
+      data-text="landlord: 8 canal view, monaghan. other information provided: hap payment (rental) limerick co. co. (1) 8 canal view, monaghan: rental; (2) 13 westport st., ballyshannon, donegal: holiday home."
+    >
+      <td><a href="../tds/cathy-bennett/index.html">Cathy Bennett</a></td>
+      <td><span class="party-tag">Sinn Féin</span></td>
+      <td>Cavan-Monaghan</td>
+      <td>
+        
+        <span class="sector-pill">property</span>
+        
+      </td>
+      <td>
+        
+        1 overlap
+        
+      </td>
+    </tr>
+    
+    <tr
+      data-name="tom brabazon"
+      data-party="Fianna Fáil"
+      data-sectors="legal"
+      data-conflicts="yes"
+      data-text="solicitor: 4 raheny s.c, raheny, dublin 5."
+    >
+      <td><a href="../tds/tom-brabazon/index.html">Tom Brabazon</a></td>
+      <td><span class="party-tag">Fianna Fáil</span></td>
+      <td>Dublin Bay North</td>
+      <td>
+        
+        <span class="sector-pill">legal</span>
+        
+      </td>
+      <td>
+        
+        1 overlap
+        
+      </td>
+    </tr>
+    
+    <tr
+      data-name="brian brennan"
+      data-party="Fine Gael"
+      data-sectors="tourism_hospitality"
+      data-conflicts="yes"
+      data-text="(1) td: 26 main street, arklow, co. wicklow; (2) hospitality consultant: upper gorey hill, gorey, co. wexford. shareholder: negombo, seaview hotel, sri lanka. director: bb international hotel consultant ltd., goreyhill upper, gorey, co. wexford: hospitality consultant."
+    >
+      <td><a href="../tds/brian-brennan/index.html">Brian Brennan</a></td>
+      <td><span class="party-tag">Fine Gael</span></td>
+      <td>Wicklow-Wexford</td>
+      <td>
+        
+        <span class="sector-pill">tourism hospitality</span>
+        
+      </td>
+      <td>
+        
+        1 overlap
+        
+      </td>
+    </tr>
+    
+    <tr
+      data-name="colm burke"
+      data-party="Fine Gael"
+      data-sectors="property"
+      data-conflicts="yes"
+      data-text="lessor: (1) washington house, 33 washington st., cork, ground floor, floor 2 &amp; 3 vacant; (2) washington house, 33 washington st., cork, 3rd floor. other information provided: (1) rent received from co... washington house, 33 washington st., cork: cork city sheriff rented ground floor until july 2025, now vacant. floor 1 &amp; 2 vacant. floor 3 let to byron wade bl, kate brosnan bl. other information provi... ground floor of washington house, 33 washington st., cork, let to city sheriff up to july 2025, now vacant. floor 3 let to byron wade bl, kate brosnan bl: colm burke to court services: court services,..."
+    >
+      <td><a href="../tds/colm-burke/index.html">Colm Burke</a></td>
+      <td><span class="party-tag">Fine Gael</span></td>
+      <td>Cork North-Central</td>
+      <td>
+        
+        <span class="sector-pill">property</span>
+        
+      </td>
+      <td>
+        
+        1 overlap
+        
+      </td>
+    </tr>
+    
+    <tr
+      data-name="peter burke"
+      data-party="Fine Gael"
+      data-sectors="agriculture"
+      data-conflicts="yes"
+      data-text="farming: slanestown, mullingar &amp; clonmore, mullingar. other information provided: farming income, single farm payment and associated payments from dept. of agriculture bequeathed by my late father. (1) slanestown, mullingar: farming; (2) clonmore, mullingar: farming; (3) clonmore, mullingar: residence - vacant after passing of my mother in 2024."
+    >
+      <td><a href="../tds/peter-burke/index.html">Peter Burke</a></td>
+      <td><span class="party-tag">Fine Gael</span></td>
+      <td>Longford-Westmeath</td>
+      <td>
+        
+        <span class="sector-pill">agriculture</span>
+        
+      </td>
+      <td>
+        
+        1 overlap
+        
+      </td>
+    </tr>
+    
+    <tr
+      data-name="paula butterly"
+      data-party="Fine Gael"
+      data-sectors="legal"
+      data-conflicts="yes"
+      data-text="barrister: ccj, dublin."
+    >
+      <td><a href="../tds/paula-butterly/index.html">Paula Butterly</a></td>
+      <td><span class="party-tag">Fine Gael</span></td>
+      <td>Louth</td>
+      <td>
+        
+        <span class="sector-pill">legal</span>
+        
+      </td>
+      <td>
+        
+        1 overlap
+        
+      </td>
+    </tr>
+    
+    <tr
+      data-name="joanna byrne"
+      data-party="Sinn Féin"
+      data-sectors="property"
+      data-conflicts="yes"
+      data-text="landlord: pearse pk., drogheda. other information provided: tenancy ceased in july 2025."
+    >
+      <td><a href="../tds/joanna-byrne/index.html">Joanna Byrne</a></td>
+      <td><span class="party-tag">Sinn Féin</span></td>
+      <td>Louth</td>
+      <td>
+        
+        <span class="sector-pill">property</span>
+        
+      </td>
+      <td>
+        
+        1 overlap
+        
+      </td>
+    </tr>
+    
+    <tr
+      data-name="malcolm byrne"
+      data-party="Fianna Fáil"
+      data-sectors="tourism_hospitality"
+      data-conflicts="yes"
+      data-text="(1) travel to &amp; from taiwan &amp; accommodation for five days, july 2025: ministry of foreign affiars, taiwan; (2) travel &amp; accom., bath, uk, oct. 2025: university of bath. other information provided: (1)..."
+    >
+      <td><a href="../tds/malcolm-byrne/index.html">Malcolm Byrne</a></td>
+      <td><span class="party-tag">Fianna Fáil</span></td>
+      <td>Wicklow-Wexford</td>
+      <td>
+        
+        <span class="sector-pill">tourism hospitality</span>
+        
+      </td>
+      <td>
+        
+        1 overlap
+        
+      </td>
+    </tr>
+    
+    <tr
+      data-name="michael cahill"
+      data-party="Fianna Fáil"
+      data-sectors="tourism_hospitality"
+      data-conflicts="no"
+      data-text="(1) rossbeigh, glenbeigh, co. kerry: family home/bed and breakfast; (2) rossbeigh, glenbeigh, co. kerry: farming; (3) droum, glenbeigh, co. kerry: farming; (4) rossbeigh, glenbeigh, co. kerry: vacant ... flights and accommodation to taipei: taiwanese government. supply of accommodation: beighwatch guesthouse limited, spouse 100% shareholder: department of children, equality, disability, integration and youth; department of justice, home affairs and migration."
+    >
+      <td><a href="../tds/michael-cahill/index.html">Michael Cahill</a></td>
+      <td><span class="party-tag">Fianna Fáil</span></td>
+      <td>Kerry</td>
+      <td>
+        
+        <span class="sector-pill">tourism hospitality</span>
+        
+      </td>
+      <td>
+        
+        <span class="meta">—</span>
+        
+      </td>
+    </tr>
+    
+    <tr
+      data-name="holly cairns"
+      data-party="Social Democrats"
+      data-sectors="agriculture"
+      data-conflicts="no"
+      data-text="farmer: ardagh, church cross, skibbereen, co. cork. other information provided: my name and my mother&#39;s name are on the farm herd register. all farm payments and farm income are earned by my mother."
+    >
+      <td><a href="../tds/holly-cairns/index.html">Holly Cairns</a></td>
+      <td><span class="party-tag">Social Democrats</span></td>
+      <td>Cork South-West</td>
+      <td>
+        
+        <span class="sector-pill">agriculture</span>
+        
+      </td>
+      <td>
+        
+        <span class="meta">—</span>
+        
+      </td>
+    </tr>
+    
+    <tr
+      data-name="catherine callaghan"
+      data-party="Fine Gael"
+      data-sectors="property tourism_hospitality"
+      data-conflicts="yes"
+      data-text="(1) craan, kildavin, co. carlow: farmland being leased; (2) lackabeg, kildavin, co. carlow: nephew living there, no rent being paid. (1) cross party working trip to taiwan - flights, and accommodation: taiwanese government; (2) cross party political study trip to paris - flights and accommodation: ambassade d&#39; irlande/embassy of ir..."
+    >
+      <td><a href="../tds/catherine-callaghan/index.html">Catherine Callaghan</a></td>
+      <td><span class="party-tag">Fine Gael</span></td>
+      <td>Carlow-Kilkenny</td>
+      <td>
+        
+        <span class="sector-pill">property</span>
+        
+        <span class="sector-pill">tourism hospitality</span>
+        
+      </td>
+      <td>
+        
+        1 overlap
+        
+      </td>
+    </tr>
+    
+    <tr
+      data-name="seán canney"
+      data-party="Independent"
+      data-sectors="property"
+      data-conflicts="yes"
+      data-text="landlord: private rental homes. partnership: the galway partnership, wolfe tone house, fr. griffen road, galway: holding account for retail property previously disposed of. (1) 16 the village, wellpark, galway: letting; (2) st. jarlath’s place, bishop st., tuam, co. galway: letting; (3) yew tree, the mall, tuam, co. galway: letting; (4) no. 1, the mall, tuam, co. galway:..."
+    >
+      <td><a href="../tds/sean-canney/index.html">Seán Canney</a></td>
+      <td><span class="party-tag">Independent</span></td>
+      <td>Galway East</td>
+      <td>
+        
+        <span class="sector-pill">property</span>
+        
+      </td>
+      <td>
+        
+        1 overlap
+        
+      </td>
+    </tr>
+    
+    <tr
+      data-name="micheál carrigy"
+      data-party="Fine Gael"
+      data-sectors="legal property tourism_hospitality"
+      data-conflicts="yes"
+      data-text="(1) postmaster, ballinalee po; (2) lessor of premises, ballinalee; (3) lessor of premises: 1 new st., longford. other information provided: (1) post office/retail shop; (2) takeaway - empty unit (no r... private p.r.s.a: new ireland. director: co. longford tourism ltd: promotion of longford. other information provided: voluntary position, no renumeration. (1) ballinalee, co. longford: private home, post office/retail shop/takeaway/unit; (2) ballinalee/soran ballinalee: land/woodland; (3) 1 new st. longford: letting of offices. other information provide..."
+    >
+      <td><a href="../tds/micheal-carrigy/index.html">Micheál Carrigy</a></td>
+      <td><span class="party-tag">Fine Gael</span></td>
+      <td>Longford-Westmeath</td>
+      <td>
+        
+        <span class="sector-pill">legal</span>
+        
+        <span class="sector-pill">property</span>
+        
+        <span class="sector-pill">tourism hospitality</span>
+        
+      </td>
+      <td>
+        
+        4 overlaps
+        
+      </td>
+    </tr>
+    
+    <tr
+      data-name="sorcha clarke"
+      data-party="Sinn Féin"
+      data-sectors="tourism_hospitality"
+      data-conflicts="no"
+      data-text="(1) flights and accommodation to taipei: taiwanese govt.; (2) flights and accommodation: www.dohaforum.org."
+    >
+      <td><a href="../tds/sorcha-clarke/index.html">Sorcha Clarke</a></td>
+      <td><span class="party-tag">Sinn Féin</span></td>
+      <td>Longford-Westmeath</td>
+      <td>
+        
+        <span class="sector-pill">tourism hospitality</span>
+        
+      </td>
+      <td>
+        
+        <span class="meta">—</span>
+        
+      </td>
+    </tr>
+    
+    <tr
+      data-name="john clendennen"
+      data-party="Fine Gael"
+      data-sectors="tourism_hospitality"
+      data-conflicts="yes"
+      data-text="delpool ltd., kinnitty, co. offaly: hospitality. (1) applied concepts ltd: roscrea road, birr, co. offaly: manufacturing; (2) delpool ltd: kinnitty, birr, co. offaly: hospitality; (3) vintners federations of ireland: castleside drive, dublin 14: rep..."
+    >
+      <td><a href="../tds/john-clendennen/index.html">John Clendennen</a></td>
+      <td><span class="party-tag">Fine Gael</span></td>
+      <td>Offaly</td>
+      <td>
+        
+        <span class="sector-pill">tourism hospitality</span>
+        
+      </td>
+      <td>
+        
+        1 overlap
+        
+      </td>
+    </tr>
+    
+    <tr
+      data-name="michael collins"
+      data-party="Independent Ireland"
+      data-sectors="agriculture"
+      data-conflicts="yes"
+      data-text="drinagh co-op: drinagh co-op: agricultural supplies. (1) ardravinna, lowertown, schull: farmhouse &amp; farming; (2) lissacaha, schull, co. cork: farming; (3) knock, schull, co. cork: farming."
+    >
+      <td><a href="../tds/michael-collins/index.html">Michael Collins</a></td>
+      <td><span class="party-tag">Independent Ireland</span></td>
+      <td>Cork South-West</td>
+      <td>
+        
+        <span class="sector-pill">agriculture</span>
+        
+      </td>
+      <td>
+        
+        1 overlap
+        
+      </td>
+    </tr>
+    
+    <tr
+      data-name="joe cooney"
+      data-party="Fine Gael"
+      data-sectors="property"
+      data-conflicts="yes"
+      data-text="landlord: (1) main street, scariff, co. clare; (2) newmarket on fergus, co. clare. (1) main street, scariff, co. clare: letting; (2) newmarket on fergus, co. clare: letting."
+    >
+      <td><a href="../tds/joe-cooney/index.html">Joe Cooney</a></td>
+      <td><span class="party-tag">Fine Gael</span></td>
+      <td>Clare</td>
+      <td>
+        
+        <span class="sector-pill">property</span>
+        
+      </td>
+      <td>
+        
+        2 overlaps
+        
+      </td>
+    </tr>
+    
+    <tr
+      data-name="cathal crowe"
+      data-party="Fianna Fáil"
+      data-sectors="agriculture finance"
+      data-conflicts="yes"
+      data-text="farmer: woodcock hill, meelick and heathmount, cratloe (county clare). shares: sixmilebridge mart, sixmilebridge, co. clare: sale of livestock. other information provided: i have 2 shares, each of €500 value. they are static shares and don&#39;t yield any annual dividend for... (1) woodcock hill, meelick and heathmount, cratloe (county clare): farmland; (2) woodcock hill, meelick, county clare: farmhouse. other information provided: (2) farmhouse is in a poor state of repair..."
+    >
+      <td><a href="../tds/cathal-crowe/index.html">Cathal Crowe</a></td>
+      <td><span class="party-tag">Fianna Fáil</span></td>
+      <td>Clare</td>
+      <td>
+        
+        <span class="sector-pill">agriculture</span>
+        
+        <span class="sector-pill">finance</span>
+        
+      </td>
+      <td>
+        
+        2 overlaps
+        
+      </td>
+    </tr>
+    
+    <tr
+      data-name="john cummins"
+      data-party="Fine Gael"
+      data-sectors="finance"
+      data-conflicts="yes"
+      data-text="(1) funds: zurich life assurance plc, zurich house, frascati road, co. dublin: life &amp; pensions; (2) shares: ryanair, airside business park, swords, co. dublin: aviation."
+    >
+      <td><a href="../tds/john-cummins/index.html">John Cummins</a></td>
+      <td><span class="party-tag">Fine Gael</span></td>
+      <td>Waterford</td>
+      <td>
+        
+        <span class="sector-pill">finance</span>
+        
+      </td>
+      <td>
+        
+        1 overlap
+        
+      </td>
+    </tr>
+    
+    <tr
+      data-name="emer currie"
+      data-party="Fine Gael"
+      data-sectors="finance health media property tourism_hospitality"
+      data-conflicts="yes"
+      data-text="medical professional/general practitioner: ballygar health centre, co. galway. (1) shares: north west of ireland printing and publishing company, 12 john street, omagh bt78 idw: newspapers, printing, design, digital media; (2) irish life dc pension: irish life, irish life centre... (1) apartment, 17 sydenham court, ballsbridge, d4: family use; (2) new forge, knockbrack, cleggan, connemara, co. galway: family use. 3 day event in boston college, the connors centre, including meals and accommodation: irish institute, boston college. general medical services scheme hse: hse: minister of health."
+    >
+      <td><a href="../tds/emer-currie/index.html">Emer Currie</a></td>
+      <td><span class="party-tag">Fine Gael</span></td>
+      <td>Dublin West</td>
+      <td>
+        
+        <span class="sector-pill">finance</span>
+        
+        <span class="sector-pill">health</span>
+        
+        <span class="sector-pill">media</span>
+        
+        <span class="sector-pill">property</span>
+        
+        <span class="sector-pill">tourism hospitality</span>
+        
+      </td>
+      <td>
+        
+        5 overlaps
+        
+      </td>
+    </tr>
+    
+    <tr
+      data-name="pa daly"
+      data-party="Sinn Féin"
+      data-sectors="legal property"
+      data-conflicts="yes"
+      data-text="solicitor: 23 rock street, tralee, co. kerry. (1) 23 rock street, tralee, co. kerry: solicitors office; (2) 24 rock street, tralee, co. kerry: let property."
+    >
+      <td><a href="../tds/pa-daly/index.html">Pa Daly</a></td>
+      <td><span class="party-tag">Sinn Féin</span></td>
+      <td>Kerry</td>
+      <td>
+        
+        <span class="sector-pill">legal</span>
+        
+        <span class="sector-pill">property</span>
+        
+      </td>
+      <td>
+        
+        2 overlaps
+        
+      </td>
+    </tr>
+    
+    <tr
+      data-name="cormac devlin"
+      data-party="Fianna Fáil"
+      data-sectors="tourism_hospitality"
+      data-conflicts="no"
+      data-text="flights, meals and accommodation associated with conference at boston college, boston usa: prof. mary murphy, boston college, boston, usa. other information provided: invited in capacity as chair of t..."
+    >
+      <td><a href="../tds/cormac-devlin/index.html">Cormac Devlin</a></td>
+      <td><span class="party-tag">Fianna Fáil</span></td>
+      <td>Dún Laoghaire</td>
+      <td>
+        
+        <span class="sector-pill">tourism hospitality</span>
+        
+      </td>
+      <td>
+        
+        <span class="meta">—</span>
+        
+      </td>
+    </tr>
+    
+    <tr
+      data-name="alan dillon"
+      data-party="Fine Gael"
+      data-sectors="property"
+      data-conflicts="yes"
+      data-text="carrabeag, newport rd., castlebar, co. mayo: letting."
+    >
+      <td><a href="../tds/alan-dillon/index.html">Alan Dillon</a></td>
+      <td><span class="party-tag">Fine Gael</span></td>
+      <td>Mayo</td>
+      <td>
+        
+        <span class="sector-pill">property</span>
+        
+      </td>
+      <td>
+        
+        1 overlap
+        
+      </td>
+    </tr>
+    
+    <tr
+      data-name="albert dolan"
+      data-party="Fianna Fáil"
+      data-sectors="property"
+      data-conflicts="yes"
+      data-text="residential letting of a room in my principal private residence."
+    >
+      <td><a href="../tds/albert-dolan/index.html">Albert Dolan</a></td>
+      <td><span class="party-tag">Fianna Fáil</span></td>
+      <td>Galway East</td>
+      <td>
+        
+        <span class="sector-pill">property</span>
+        
+      </td>
+      <td>
+        
+        1 overlap
+        
+      </td>
+    </tr>
+    
+    <tr
+      data-name="timmy dooley"
+      data-party="Fianna Fáil"
+      data-sectors="property"
+      data-conflicts="yes"
+      data-text="letting: (1) moyville, rathfarnham, d16; (2) charlotte quay, d4. (1) moyville, rathfarnham, d16: letting; (2) charlotte quay, d4: letting; (2) derroran west, mountshannon: woodland."
+    >
+      <td><a href="../tds/timmy-dooley/index.html">Timmy Dooley</a></td>
+      <td><span class="party-tag">Fianna Fáil</span></td>
+      <td>Clare</td>
+      <td>
+        
+        <span class="sector-pill">property</span>
+        
+      </td>
+      <td>
+        
+        1 overlap
+        
+      </td>
+    </tr>
+    
+    <tr
+      data-name="frank feighan"
+      data-party="Fine Gael"
+      data-sectors="property"
+      data-conflicts="yes"
+      data-text="landlord: mcdonaghs newsagents, bridge st., boyle. other information provided: €400 rental per month. mcdonaghs newsagents: rental."
+    >
+      <td><a href="../tds/frank-feighan/index.html">Frank Feighan</a></td>
+      <td><span class="party-tag">Fine Gael</span></td>
+      <td>Sligo-Leitrim</td>
+      <td>
+        
+        <span class="sector-pill">property</span>
+        
+      </td>
+      <td>
+        
+        1 overlap
+        
+      </td>
+    </tr>
+    
+    <tr
+      data-name="michael fitzmaurice"
+      data-party="Independent Ireland"
+      data-sectors="agriculture"
+      data-conflicts="yes"
+      data-text="agricultural contractor, plant-hire, turf-cutting, farming, civil contracting: strangefort, williamstown, co. galway. one share worth €1 in kilcolumb co-op group water scheme. all members have an equal holding. this is a co-operative group water scheme: kilcolumb gws., kilcolumb, williamstown, co. galway: group water... (1) strangefort, williamstown, co. galway; (2) keelogues, williamstown, co. galway: all lands are rural farmlands."
+    >
+      <td><a href="../tds/michael-fitzmaurice/index.html">Michael Fitzmaurice</a></td>
+      <td><span class="party-tag">Independent Ireland</span></td>
+      <td>Roscommon-Galway</td>
+      <td>
+        
+        <span class="sector-pill">agriculture</span>
+        
+      </td>
+      <td>
+        
+        2 overlaps
+        
+      </td>
+    </tr>
+    
+    <tr
+      data-name="norma foley"
+      data-party="Fianna Fáil"
+      data-sectors="agriculture finance"
+      data-conflicts="yes"
+      data-text="(1) davy bes funds: davy house, dublin 2: investments; (2) shares: (i) aviva plc: london; (ii) bank of ireland: dublin 2; (3) investments: kbc bank, brussels; (4) servisbot: waterloo exchange, d4: sha... non-executive: templecrowe co-op society, dungloe, co. donegal: co-operaative society."
+    >
+      <td><a href="../tds/norma-foley/index.html">Norma Foley</a></td>
+      <td><span class="party-tag">Fianna Fáil</span></td>
+      <td>Kerry</td>
+      <td>
+        
+        <span class="sector-pill">agriculture</span>
+        
+        <span class="sector-pill">finance</span>
+        
+      </td>
+      <td>
+        
+        2 overlaps
+        
+      </td>
+    </tr>
+    
+    <tr
+      data-name="james geoghegan"
+      data-party="Fine Gael"
+      data-sectors="finance legal"
+      data-conflicts="yes"
+      data-text="barrister: law library, four courts, dublin 7. shares in unit linked managed fund: zurich life assurance plc., zurich house, frascati road, a94 x9y3: pension fund."
+    >
+      <td><a href="../tds/james-geoghegan/index.html">James Geoghegan</a></td>
+      <td><span class="party-tag">Fine Gael</span></td>
+      <td>Dublin Bay South</td>
+      <td>
+        
+        <span class="sector-pill">finance</span>
+        
+        <span class="sector-pill">legal</span>
+        
+      </td>
+      <td>
+        
+        3 overlaps
+        
+      </td>
+    </tr>
+    
+    <tr
+      data-name="sinéad gibney"
+      data-party="Social Democrats"
+      data-sectors="property"
+      data-conflicts="yes"
+      data-text="part-ownershiip of family holiday home rented when not being used for short stays outside peak: crosspatrick, killala, co. mayo. other information provided: property no longer being let, last booking ..."
+    >
+      <td><a href="../tds/sinead-gibney/index.html">Sinéad Gibney</a></td>
+      <td><span class="party-tag">Social Democrats</span></td>
+      <td>Dublin-Rathdown</td>
+      <td>
+        
+        <span class="sector-pill">property</span>
+        
+      </td>
+      <td>
+        
+        1 overlap
+        
+      </td>
+    </tr>
+    
+    <tr
+      data-name="ann graves"
+      data-party="Sinn Féin"
+      data-sectors="property"
+      data-conflicts="yes"
+      data-text="14 o&#39;daly road, drumcondra, dublin 9, 50% ownership in former family home: family residence. other information provided: no income from rental or any other means."
+    >
+      <td><a href="../tds/ann-graves/index.html">Ann Graves</a></td>
+      <td><span class="party-tag">Sinn Féin</span></td>
+      <td>Dublin Fingal East</td>
+      <td>
+        
+        <span class="sector-pill">property</span>
+        
+      </td>
+      <td>
+        
+        1 overlap
+        
+      </td>
+    </tr>
+    
+    <tr
+      data-name="noel grealish"
+      data-party="Independent"
+      data-sectors="property"
+      data-conflicts="yes"
+      data-text="(1) house at claregalway, co. galway: letting; (2) apartment in dublin: personal use."
+    >
+      <td><a href="../tds/noel-grealish/index.html">Noel Grealish</a></td>
+      <td><span class="party-tag">Independent</span></td>
+      <td>Galway West</td>
+      <td>
+        
+        <span class="sector-pill">property</span>
+        
+      </td>
+      <td>
+        
+        1 overlap
+        
+      </td>
+    </tr>
+    
+    <tr
+      data-name="johnny guirke"
+      data-party="Sinn Féin"
+      data-sectors="property"
+      data-conflicts="yes"
+      data-text="landlord: ballinlough, dromone, oldcastle, co. meath. 67 cluáin loínn, oldcastle, co. meath: rental letting."
+    >
+      <td><a href="../tds/johnny-guirke/index.html">Johnny Guirke</a></td>
+      <td><span class="party-tag">Sinn Féin</span></td>
+      <td>Meath-West</td>
+      <td>
+        
+        <span class="sector-pill">property</span>
+        
+      </td>
+      <td>
+        
+        1 overlap
+        
+      </td>
+    </tr>
+    
+    <tr
+      data-name="seamus healy"
+      data-party="Independent"
+      data-sectors="finance media property"
+      data-conflicts="yes"
+      data-text="health service executive (formerly south eastern health board): health service executive, lacken, dublin road, kilkenny. other information provided: occupational pension. (1) elm park area childcare (voluntary): elm park area childcare, church road, elm park, clonmel: community childcare centre; (2) save our acute hospital services committee (voluntary): save our acute... 56 queen street, clonmel, co. tipperary: constituency office ground floor. other information provided: first floor family apartment (jointly owned)."
+    >
+      <td><a href="../tds/seamus-healy/index.html">Seamus Healy</a></td>
+      <td><span class="party-tag">Independent</span></td>
+      <td>Tipperary South</td>
+      <td>
+        
+        <span class="sector-pill">finance</span>
+        
+        <span class="sector-pill">media</span>
+        
+        <span class="sector-pill">property</span>
+        
+      </td>
+      <td>
+        
+        2 overlaps
+        
+      </td>
+    </tr>
+    
+    <tr
+      data-name="danny healy- rae"
+      data-party="Independent"
+      data-sectors="agriculture finance transport"
+      data-conflicts="yes"
+      data-text="public representative, publican, farmer, bus hire: main st., kilgarvan, co. kerry. shares: kerry group plc., princes st., tralee, co. kerry: milk processing &amp; manufacturing of farm products. (1) approx. 50 acres @ fossa, kilgarvan; 38 acres @ gullaba, kilgarvan; 3 acres @ gortnaboul, kilgarvan: farmland; (2) house @ ardtully, kilgarvan. bus éireann: danny healy-rae, main st., kilgarvan, co. kerry: bus éireann."
+    >
+      <td><a href="../tds/danny-healy-rae/index.html">Danny Healy- Rae</a></td>
+      <td><span class="party-tag">Independent</span></td>
+      <td>Kerry</td>
+      <td>
+        
+        <span class="sector-pill">agriculture</span>
+        
+        <span class="sector-pill">finance</span>
+        
+        <span class="sector-pill">transport</span>
+        
+      </td>
+      <td>
+        
+        2 overlaps
+        
+      </td>
+    </tr>
+    
+    <tr
+      data-name="michael healy-rae"
+      data-party="Independent"
+      data-sectors="agriculture finance property tourism_hospitality"
+      data-conflicts="yes"
+      data-text="(1) postmaster: kilgarvan, co. kerry; (2) politican: dáil éireann, co. dublin; (3) farmer: kilgarvan, co. kerry; (4) service station owner: kilgarvan, co. kerry; (5) plant hire: kilgarvan, co. kerry; ... shares: new york times co: media. director: (1) roughty plant hire ltd., kilgarvan, co. kerry: plant hire; (2) black cap &amp; co. ltd., kilgarvan, co. kerry: service station, shop &amp; post office; (3) michael healy-rae properties ltd: main... (1) sandymount, kilgarvan, co. kerry: private house; (2) kilgarvan, co. kerry: 4 acres of farmland; (3) kilgarvan, co. kerry: service station &amp; yard; (4) kilgarvan, co. kerry: rear of store; (5) kilga... (1) supply of accommodation: roughty properties ltd: department of children, equality, disability, integration and youth; (2) rental accommodation scheme: ml healy-rae: kerry county council; (3) housi..."
+    >
+      <td><a href="../tds/michael-healy-rae/index.html">Michael Healy-Rae</a></td>
+      <td><span class="party-tag">Independent</span></td>
+      <td>Kerry</td>
+      <td>
+        
+        <span class="sector-pill">agriculture</span>
+        
+        <span class="sector-pill">finance</span>
+        
+        <span class="sector-pill">property</span>
+        
+        <span class="sector-pill">tourism hospitality</span>
+        
+      </td>
+      <td>
+        
+        3 overlaps
+        
+      </td>
+    </tr>
+    
+    <tr
+      data-name="barry heneghan"
+      data-party="Independent"
+      data-sectors="tourism_hospitality"
+      data-conflicts="no"
+      data-text="hotel room supplied as part of invite as td to conradh na gaeilge ard fheis: conradh na gaeilge. other information provided: one night stay in hotel - feb. 2025."
+    >
+      <td><a href="../tds/barry-heneghan/index.html">Barry Heneghan</a></td>
+      <td><span class="party-tag">Independent</span></td>
+      <td>Dublin Bay North</td>
+      <td>
+        
+        <span class="sector-pill">tourism hospitality</span>
+        
+      </td>
+      <td>
+        
+        <span class="meta">—</span>
+        
+      </td>
+    </tr>
+    
+    <tr
+      data-name="martin heydon"
+      data-party="Fine Gael"
+      data-sectors="agriculture finance"
+      data-conflicts="yes"
+      data-text="farmer/lessor: (1) blackrath, colbinstown, co. kildare; (2) aghcross, ballickmoyler, co. laois. shares: (1) crh: building materials; (2) aib: financial. (1) blackrath, colbinstown, co. kildare: farmland; (2) aghcross, ballickmoyler, co. laois: farmland."
+    >
+      <td><a href="../tds/martin-heydon/index.html">Martin Heydon</a></td>
+      <td><span class="party-tag">Fine Gael</span></td>
+      <td>Kildare South</td>
+      <td>
+        
+        <span class="sector-pill">agriculture</span>
+        
+        <span class="sector-pill">finance</span>
+        
+      </td>
+      <td>
+        
+        1 overlap
+        
+      </td>
+    </tr>
+    
+    <tr
+      data-name="alan kelly"
+      data-party="Labour Party"
+      data-sectors="tourism_hospitality"
+      data-conflicts="yes"
+      data-text="party delegate to socialist international council meeting (flights, accommodation): labour party, aungier st., dublin 2."
+    >
+      <td><a href="../tds/alan-kelly/index.html">Alan Kelly</a></td>
+      <td><span class="party-tag">Labour Party</span></td>
+      <td>Tipperary North</td>
+      <td>
+        
+        <span class="sector-pill">tourism hospitality</span>
+        
+      </td>
+      <td>
+        
+        1 overlap
+        
+      </td>
+    </tr>
+    
+    <tr
+      data-name="eoghan kenny"
+      data-party="Labour Party"
+      data-sectors="tourism_hospitality"
+      data-conflicts="no"
+      data-text="party delegate to party of european socialists, amsterdam (flights, meals, hotel): labour party, aungier st., dublin 2."
+    >
+      <td><a href="../tds/eoghan-kenny/index.html">Eoghan Kenny</a></td>
+      <td><span class="party-tag">Labour Party</span></td>
+      <td>Cork North-Central</td>
+      <td>
+        
+        <span class="sector-pill">tourism hospitality</span>
+        
+      </td>
+      <td>
+        
+        <span class="meta">—</span>
+        
+      </td>
+    </tr>
+    
+    <tr
+      data-name="keira keogh"
+      data-party="Fine Gael"
+      data-sectors="finance tourism_hospitality"
+      data-conflicts="yes"
+      data-text="shares in private company: the helm bar &amp; restaurant ltd., the quay, westport, co. mayo: bar, restaurant and accommodation. other information provided: i currently have .86% of the nominal share capit..."
+    >
+      <td><a href="../tds/keira-keogh/index.html">Keira Keogh</a></td>
+      <td><span class="party-tag">Fine Gael</span></td>
+      <td>Mayo</td>
+      <td>
+        
+        <span class="sector-pill">finance</span>
+        
+        <span class="sector-pill">tourism hospitality</span>
+        
+      </td>
+      <td>
+        
+        1 overlap
+        
+      </td>
+    </tr>
+    
+    <tr
+      data-name="james lawless"
+      data-party="Fianna Fáil"
+      data-sectors="property"
+      data-conflicts="yes"
+      data-text="lessor: residential property, sallins, co. kildare. 32 sallins pier, sallins, co. kildare: letting."
+    >
+      <td><a href="../tds/james-lawless/index.html">James Lawless</a></td>
+      <td><span class="party-tag">Fianna Fáil</span></td>
+      <td>Kildare North</td>
+      <td>
+        
+        <span class="sector-pill">property</span>
+        
+      </td>
+      <td>
+        
+        1 overlap
+        
+      </td>
+    </tr>
+    
+    <tr
+      data-name="george lawlor"
+      data-party="Labour Party"
+      data-sectors="tourism_hospitality"
+      data-conflicts="yes"
+      data-text="(1) parliamentary party visit to european parliament - flights, meals, hotel: s&amp;d group, european parliament, brussels, belgium; (2) german-irish parliamentary dialogue, berlin, flights, meals, hotel:..."
+    >
+      <td><a href="../tds/george-lawlor/index.html">George Lawlor</a></td>
+      <td><span class="party-tag">Labour Party</span></td>
+      <td>Wexford</td>
+      <td>
+        
+        <span class="sector-pill">tourism hospitality</span>
+        
+      </td>
+      <td>
+        
+        1 overlap
+        
+      </td>
+    </tr>
+    
+    <tr
+      data-name="michael lowry"
+      data-party="Independent"
+      data-sectors="agriculture property"
+      data-conflicts="yes"
+      data-text="(1) sale &amp; service, refrigeration: garuda t/a streamline enterprises, abbey road, thurles, co. tipperary; (2) landlord: 1 montrose avenue, foxwood, kilbarry, co. waterford. shareholder: (1) garuda t/a streamline enterprises, abbey road, thurles, co. tipperary: sale &amp; service of refrigeration equipment, air conditioning, plant and equipment; (2) streamline refrigeration, ... (1) glenreigh, holycross, thurles, co. tipperary: residence of 35 acres; (2) 20 acres of land joint ownership at ashton, marketfield, wigan: development land; (3) 10% ownership of property site: vacan..."
+    >
+      <td><a href="../tds/michael-lowry/index.html">Michael Lowry</a></td>
+      <td><span class="party-tag">Independent</span></td>
+      <td>Tipperary North</td>
+      <td>
+        
+        <span class="sector-pill">agriculture</span>
+        
+        <span class="sector-pill">property</span>
+        
+      </td>
+      <td>
+        
+        2 overlaps
+        
+      </td>
+    </tr>
+    
+    <tr
+      data-name="micheál martin"
+      data-party="Fianna Fáil"
+      data-sectors="finance"
+      data-conflicts="yes"
+      data-text="137 evergreen road, turners cross, cork: administrative office for constituency staff. other information provided: purchased with mortgage from aib."
+    >
+      <td><a href="../tds/micheal-martin/index.html">Micheál Martin</a></td>
+      <td><span class="party-tag">Fianna Fáil</span></td>
+      <td>Cork South-Central</td>
+      <td>
+        
+        <span class="sector-pill">finance</span>
+        
+      </td>
+      <td>
+        
+        1 overlap
+        
+      </td>
+    </tr>
+    
+    <tr
+      data-name="paul mcauliffe"
+      data-party="Fianna Fáil"
+      data-sectors="energy property"
+      data-conflicts="yes"
+      data-text="merrion renewables: plato business park, damastown, dublin 15: engineering. (1) 59 sycamore park, finglas, dublin 11 (home): (home); (2) 30 melville park: trustee for a property held in trust for a relative with a disability. other information provided: (2) i have no benefici..."
+    >
+      <td><a href="../tds/paul-mcauliffe/index.html">Paul Mcauliffe</a></td>
+      <td><span class="party-tag">Fianna Fáil</span></td>
+      <td>Dublin North-West</td>
+      <td>
+        
+        <span class="sector-pill">energy</span>
+        
+        <span class="sector-pill">property</span>
+        
+      </td>
+      <td>
+        
+        3 overlaps
+        
+      </td>
+    </tr>
+    
+    <tr
+      data-name="charlie mcconalogue"
+      data-party="Fianna Fáil"
+      data-sectors="property"
+      data-conflicts="yes"
+      data-text="(1) td and minister of state: oireachtas éireann, dublin 2; (2) apartment rental income: ashtown, dublin 15."
+    >
+      <td><a href="../tds/charlie-mcconalogue/index.html">Charlie Mcconalogue</a></td>
+      <td><span class="party-tag">Fianna Fáil</span></td>
+      <td>Donegal</td>
+      <td>
+        
+        <span class="sector-pill">property</span>
+        
+      </td>
+      <td>
+        
+        1 overlap
+        
+      </td>
+    </tr>
+    
+    <tr
+      data-name="mattie mcgrath"
+      data-party="Independent"
+      data-sectors="agriculture finance property"
+      data-conflicts="yes"
+      data-text="45 ordinary shares: edmond &amp; m mcgrath plant hire ltd., newcastle, clonmel, co. tipperary: plant &amp; agricultural hire. (1) executive director: edmond &amp; m mcgrath plant hire ltd., newcastle, clonmel, co. tipperary: plant &amp; agricultural hire; (2) non-executive director: ring a link, cillin hill, dublin road, kilkenny: r... mountain land (farm) located at newcastle, co. tipperary: mountain farmland. other information provided: farmed by family member."
+    >
+      <td><a href="../tds/mattie-mcgrath/index.html">Mattie Mcgrath</a></td>
+      <td><span class="party-tag">Independent</span></td>
+      <td>Tipperary South</td>
+      <td>
+        
+        <span class="sector-pill">agriculture</span>
+        
+        <span class="sector-pill">finance</span>
+        
+        <span class="sector-pill">property</span>
+        
+      </td>
+      <td>
+        
+        2 overlaps
+        
+      </td>
+    </tr>
+    
+    <tr
+      data-name="seamus mcgrath"
+      data-party="Fianna Fáil"
+      data-sectors="property"
+      data-conflicts="yes"
+      data-text="other information provided: only property held is family home."
+    >
+      <td><a href="../tds/seamus-mcgrath/index.html">Seamus Mcgrath</a></td>
+      <td><span class="party-tag">Fianna Fáil</span></td>
+      <td>Cork South-Central</td>
+      <td>
+        
+        <span class="sector-pill">property</span>
+        
+      </td>
+      <td>
+        
+        2 overlaps
+        
+      </td>
+    </tr>
+    
+    <tr
+      data-name="erin mcgreehan"
+      data-party="Fianna Fáil"
+      data-sectors="construction tourism_hospitality"
+      data-conflicts="yes"
+      data-text="board member: (1) women&#39;s aid, dundalk, cambrickville, dundalk, co. louth: women&#39;s aid dundalk seeks to work towards the elimination of violence against women and their children in their own homes; (2... (1) working visit to doha forum, flights and accommodation: doha forum - sheraton grand hotel, qatar, https://dohaforum.org/; (2) working visit to taiwan, flights and accommodation: https://www.roc- t..."
+    >
+      <td><a href="../tds/erin-mcgreehan/index.html">Erin Mcgreehan</a></td>
+      <td><span class="party-tag">Fianna Fáil</span></td>
+      <td>Louth</td>
+      <td>
+        
+        <span class="sector-pill">construction</span>
+        
+        <span class="sector-pill">tourism hospitality</span>
+        
+      </td>
+      <td>
+        
+        1 overlap
+        
+      </td>
+    </tr>
+    
+    <tr
+      data-name="denise mitchell"
+      data-party="Sinn Féin"
+      data-sectors="transport"
+      data-conflicts="no"
+      data-text="taxi company: cornamagh, athlone, co. westmeath."
+    >
+      <td><a href="../tds/denise-mitchell/index.html">Denise Mitchell</a></td>
+      <td><span class="party-tag">Sinn Féin</span></td>
+      <td>Dublin Bay North</td>
+      <td>
+        
+        <span class="sector-pill">transport</span>
+        
+      </td>
+      <td>
+        
+        <span class="meta">—</span>
+        
+      </td>
+    </tr>
+    
+    <tr
+      data-name="aindrias moynihan"
+      data-party="Fianna Fáil"
+      data-sectors="property"
+      data-conflicts="yes"
+      data-text="8 woburn drive, melbourn rd., bishopstown, cork: residence &amp; letting. other information provided: part occupied by family and part let. (1) vase: mr. du jiahao, chair of china-ireland friendship group of the national peoples congress, chair of agriculture &amp; rural affairs committee; (2) bottle of spirit &amp; local beer: mr. miroslav plevi..."
+    >
+      <td><a href="../tds/aindrias-moynihan/index.html">Aindrias Moynihan</a></td>
+      <td><span class="party-tag">Fianna Fáil</span></td>
+      <td>Cork North-West</td>
+      <td>
+        
+        <span class="sector-pill">property</span>
+        
+      </td>
+      <td>
+        
+        1 overlap
+        
+      </td>
+    </tr>
+    
+    <tr
+      data-name="michael moynihan"
+      data-party="Fianna Fáil"
+      data-sectors="agriculture property"
+      data-conflicts="yes"
+      data-text="(1) suckler farmer: meens, kiskeam, mallow, co. cork; (2) landlord: (i) dromscarra, kiskeam, mallow, co. cork, p51de03; (ii) percival street, kanturk, co. cork, p51k2t4. (1) meens, kiskeam, mallow, co. cork: farmland; (2) reanagoshil, newmarket, co. cork: farmland; (3) dromscarra, kiskeam, mallow, co. cork: farmland; (4) dromscarra, kiskeam, mallow, co. cork, p51de03:..."
+    >
+      <td><a href="../tds/michael-moynihan/index.html">Michael Moynihan</a></td>
+      <td><span class="party-tag">Fianna Fáil</span></td>
+      <td>Cork North-West</td>
+      <td>
+        
+        <span class="sector-pill">agriculture</span>
+        
+        <span class="sector-pill">property</span>
+        
+      </td>
+      <td>
+        
+        2 overlaps
+        
+      </td>
+    </tr>
+    
+    <tr
+      data-name="ged nash"
+      data-party="Labour Party"
+      data-sectors="tourism_hospitality"
+      data-conflicts="no"
+      data-text="(1) parliamentary labour party visit to european parliament (flights, meals, hotel): s&amp;d group, european parliament, brussels, belgium; (2) party delegate to party of european socialists congress, ams..."
+    >
+      <td><a href="../tds/ged-nash/index.html">Ged Nash</a></td>
+      <td><span class="party-tag">Labour Party</span></td>
+      <td>Louth</td>
+      <td>
+        
+        <span class="sector-pill">tourism hospitality</span>
+        
+      </td>
+      <td>
+        
+        <span class="meta">—</span>
+        
+      </td>
+    </tr>
+    
+    <tr
+      data-name="joe neville"
+      data-party="Fine Gael"
+      data-sectors="energy"
+      data-conflicts="yes"
+      data-text="(1) td: dáil éireann, kildare st., dublin 2; (2) accountant: swyft energy, rubicon centre, bishopstown, cork. other information provided: (2) finished up early in 2025."
+    >
+      <td><a href="../tds/joe-neville/index.html">Joe Neville</a></td>
+      <td><span class="party-tag">Fine Gael</span></td>
+      <td>Kildare North</td>
+      <td>
+        
+        <span class="sector-pill">energy</span>
+        
+      </td>
+      <td>
+        
+        1 overlap
+        
+      </td>
+    </tr>
+    
+    <tr
+      data-name="carol nolan"
+      data-party="Independent"
+      data-sectors="property tourism_hospitality"
+      data-conflicts="yes"
+      data-text="landlord: lackaroe, cadamstown, birr, co. offaly. other information provided: 2 bed cottage jointly owned with husband (rented property). lackaroe, cadamstown, birr, co. offaly: letting, 2 bed cottage (rented), other information provided: 2 bed cottage (rented) jointly owned with husband. women political leaders summit 2025 organised by international parliamentary relations and travel in the oireachtas, flights to and from montenegro, accommodation 27th-29th sept in hotel, breakfast &amp; ..."
+    >
+      <td><a href="../tds/carol-nolan/index.html">Carol Nolan</a></td>
+      <td><span class="party-tag">Independent</span></td>
+      <td>Offaly</td>
+      <td>
+        
+        <span class="sector-pill">property</span>
+        
+        <span class="sector-pill">tourism hospitality</span>
+        
+      </td>
+      <td>
+        
+        1 overlap
+        
+      </td>
+    </tr>
+    
+    <tr
+      data-name="maeve o&#39;connell"
+      data-party="Fine Gael"
+      data-sectors="finance"
+      data-conflicts="yes"
+      data-text="shares: diageo, london, uk: premium drinks."
+    >
+      <td><a href="../tds/maeve-o-connell/index.html">Maeve O&#39;Connell</a></td>
+      <td><span class="party-tag">Fine Gael</span></td>
+      <td>Dublin Rathdown</td>
+      <td>
+        
+        <span class="sector-pill">finance</span>
+        
+      </td>
+      <td>
+        
+        1 overlap
+        
+      </td>
+    </tr>
+    
+    <tr
+      data-name="james o&#39;connor"
+      data-party="Fianna Fáil"
+      data-sectors="tourism_hospitality"
+      data-conflicts="yes"
+      data-text="working visit to doha to attend the doha forum, accommodation and flights covered: doha forum, sheraton grand hotel, qatar."
+    >
+      <td><a href="../tds/james-o-connor/index.html">James O&#39;Connor</a></td>
+      <td><span class="party-tag">Fianna Fáil</span></td>
+      <td>Cork East</td>
+      <td>
+        
+        <span class="sector-pill">tourism hospitality</span>
+        
+      </td>
+      <td>
+        
+        1 overlap
+        
+      </td>
+    </tr>
+    
+    <tr
+      data-name="willie o&#39;dea"
+      data-party="Fianna Fáil"
+      data-sectors="construction property"
+      data-conflicts="yes"
+      data-text="(1) formation group: london: property; (2) gardenia technologies: london: technology; (3) vidarr technologies: london: technology; (4) ellipsis entertainment: london: film; (5) jabba inc; usa; constru..."
+    >
+      <td><a href="../tds/willie-o-dea/index.html">Willie O&#39;Dea</a></td>
+      <td><span class="party-tag">Fianna Fáil</span></td>
+      <td>Limerick City</td>
+      <td>
+        
+        <span class="sector-pill">construction</span>
+        
+        <span class="sector-pill">property</span>
+        
+      </td>
+      <td>
+        
+        3 overlaps
+        
+      </td>
+    </tr>
+    
+    <tr
+      data-name="richard o&#39;donoghue"
+      data-party="Independent Ireland"
+      data-sectors="agriculture construction property"
+      data-conflicts="yes"
+      data-text="building contractor, public representative: kilatal, ballingarry, co. limerick, v94fp7a. 100% shareholder in richard o’donoghue construction ltd.: kilatal, ballingarry, co. limerick, v94fp7a: building construction. managing director of richard o’donoghue construction ltd.: kilatal, ballingarry, co. limerick, v94fp7a: building construction. coolruss, bruree, co. limerick., folio no. lk25739f: 1.08 hectares of agricultural land (approximately 2.5 acres) cut for fodder annually."
+    >
+      <td><a href="../tds/richard-o-donoghue/index.html">Richard O&#39;Donoghue</a></td>
+      <td><span class="party-tag">Independent Ireland</span></td>
+      <td>Limerick County</td>
+      <td>
+        
+        <span class="sector-pill">agriculture</span>
+        
+        <span class="sector-pill">construction</span>
+        
+        <span class="sector-pill">property</span>
+        
+      </td>
+      <td>
+        
+        3 overlaps
+        
+      </td>
+    </tr>
+    
+    <tr
+      data-name="robert o&#39;donoghue"
+      data-party="Labour Party"
+      data-sectors="tourism_hospitality"
+      data-conflicts="no"
+      data-text="(1) parliamentary party visit to european parliament (flights, meals, hotel): s&amp;d group, european parliament, brussels, belgium; (2) party delegate to pes eukraine progressive summit conference, kyiv ..."
+    >
+      <td><a href="../tds/robert-o-donoghue/index.html">Robert O&#39;Donoghue</a></td>
+      <td><span class="party-tag">Labour Party</span></td>
+      <td>Dublin Fingal West</td>
+      <td>
+        
+        <span class="sector-pill">tourism hospitality</span>
+        
+      </td>
+      <td>
+        
+        <span class="meta">—</span>
+        
+      </td>
+    </tr>
+    
+    <tr
+      data-name="patrick o&#39;donovan"
+      data-party="Fine Gael"
+      data-sectors="finance"
+      data-conflicts="yes"
+      data-text="shares: (1) proctar &amp; gamble: pharma chem; (2) telecoms. other information provided: (1) &amp; (2) valued below €13,000 but continuing to declare for enhanced and complete transparency."
+    >
+      <td><a href="../tds/patrick-o-donovan/index.html">Patrick O&#39;Donovan</a></td>
+      <td><span class="party-tag">Fine Gael</span></td>
+      <td>Limerick County</td>
+      <td>
+        
+        <span class="sector-pill">finance</span>
+        
+      </td>
+      <td>
+        
+        1 overlap
+        
+      </td>
+    </tr>
+    
+    <tr
+      data-name="ken o&#39;flynn"
+      data-party="Independent Ireland"
+      data-sectors="finance"
+      data-conflicts="yes"
+      data-text="5 shares: ptsb: bank."
+    >
+      <td><a href="../tds/ken-o-flynn/index.html">Ken O&#39;Flynn</a></td>
+      <td><span class="party-tag">Independent Ireland</span></td>
+      <td>Cork North-Central</td>
+      <td>
+        
+        <span class="sector-pill">finance</span>
+        
+      </td>
+      <td>
+        
+        1 overlap
+        
+      </td>
+    </tr>
+    
+    <tr
+      data-name="pádraig o&#39;sullivan"
+      data-party="Fianna Fáil"
+      data-sectors="construction tourism_hospitality"
+      data-conflicts="yes"
+      data-text="(site): clash road, little island, co. cork: building a family home (currently under construction). flights &amp; accommodation in taipei (return): taiwanese govt."
+    >
+      <td><a href="../tds/padraig-o-sullivan/index.html">Pádraig O&#39;Sullivan</a></td>
+      <td><span class="party-tag">Fianna Fáil</span></td>
+      <td>Cork North-Central</td>
+      <td>
+        
+        <span class="sector-pill">construction</span>
+        
+        <span class="sector-pill">tourism hospitality</span>
+        
+      </td>
+      <td>
+        
+        2 overlaps
+        
+      </td>
+    </tr>
+    
+    <tr
+      data-name="liam quaide"
+      data-party="Social Democrats"
+      data-sectors="health"
+      data-conflicts="yes"
+      data-text="psychologist - hse, from 01.01.25-02.02.25: harbour view, st. mary&#39;s campus, gurranabraher, cork. other information provided: remained in post for limited timeframe to complete clinical work with pati..."
+    >
+      <td><a href="../tds/liam-quaide/index.html">Liam Quaide</a></td>
+      <td><span class="party-tag">Social Democrats</span></td>
+      <td>Cork East</td>
+      <td>
+        
+        <span class="sector-pill">health</span>
+        
+      </td>
+      <td>
+        
+        1 overlap
+        
+      </td>
+    </tr>
+    
+    <tr
+      data-name="pádraig rice"
+      data-party="Social Democrats"
+      data-sectors="property"
+      data-conflicts="yes"
+      data-text="rental income: cork. other information provided: i rent out a room in my own home in cork under the rent a room scheme."
+    >
+      <td><a href="../tds/padraig-rice/index.html">Pádraig Rice</a></td>
+      <td><span class="party-tag">Social Democrats</span></td>
+      <td>Cork South-Central</td>
+      <td>
+        
+        <span class="sector-pill">property</span>
+        
+      </td>
+      <td>
+        
+        1 overlap
+        
+      </td>
+    </tr>
+    
+    <tr
+      data-name="peter roche"
+      data-party="Fine Gael"
+      data-sectors="property"
+      data-conflicts="yes"
+      data-text="moyne, tuam, abbeyknockmoy, galway: letting."
+    >
+      <td><a href="../tds/peter-roche/index.html">Peter Roche</a></td>
+      <td><span class="party-tag">Fine Gael</span></td>
+      <td>Galway East</td>
+      <td>
+        
+        <span class="sector-pill">property</span>
+        
+      </td>
+      <td>
+        
+        1 overlap
+        
+      </td>
+    </tr>
+    
+    <tr
+      data-name="eamon scanlon"
+      data-party="Fianna Fáil"
+      data-sectors="property"
+      data-conflicts="yes"
+      data-text="landlord: (1) flats 1-4, keash road, ballymote, co. sligo; (2) ballymote family resource centre, wolfe tone street &amp; keash road: ballymote, co. sligo f56 r282; (3) apartment 29, the fairways, tubbercu... (1) flats 1-4, keash road, ballymote, co. sligo: letting; (2) wolfe tone street &amp; keash road, ballymote, co. sligo f56 r282: letting, (ballymote family resource centre); (3) apartment 29, the fairways..."
+    >
+      <td><a href="../tds/eamon-scanlon/index.html">Eamon Scanlon</a></td>
+      <td><span class="party-tag">Fianna Fáil</span></td>
+      <td>Sligo-Leitrim</td>
+      <td>
+        
+        <span class="sector-pill">property</span>
+        
+      </td>
+      <td>
+        
+        1 overlap
+        
+      </td>
+    </tr>
+    
+    <tr
+      data-name="conor sheehan"
+      data-party="Labour Party"
+      data-sectors="tourism_hospitality"
+      data-conflicts="no"
+      data-text="(1) parliamentary party visit to european parliament (flights, meals, hotel): s&amp;d group, european parliament, brussels, belgium; (2) housing study visit to vienna (flights, meals, hotel): friedrich-eb..."
+    >
+      <td><a href="../tds/conor-sheehan/index.html">Conor Sheehan</a></td>
+      <td><span class="party-tag">Labour Party</span></td>
+      <td>Limerick City</td>
+      <td>
+        
+        <span class="sector-pill">tourism hospitality</span>
+        
+      </td>
+      <td>
+        
+        <span class="meta">—</span>
+        
+      </td>
+    </tr>
+    
+    <tr
+      data-name="marie sherlock"
+      data-party="Labour Party"
+      data-sectors="tourism_hospitality"
+      data-conflicts="no"
+      data-text="parliamentary party visit to european parliament (flights, meals, hotel): s&amp;d group, european parliament, brussels, belgium."
+    >
+      <td><a href="../tds/marie-sherlock/index.html">Marie Sherlock</a></td>
+      <td><span class="party-tag">Labour Party</span></td>
+      <td>Dublin Central</td>
+      <td>
+        
+        <span class="sector-pill">tourism hospitality</span>
+        
+      </td>
+      <td>
+        
+        <span class="meta">—</span>
+        
+      </td>
+    </tr>
+    
+    <tr
+      data-name="brendan smith"
+      data-party="Fianna Fáil"
+      data-sectors="property"
+      data-conflicts="yes"
+      data-text="apartment in dublin which is rented."
+    >
+      <td><a href="../tds/brendan-smith/index.html">Brendan Smith</a></td>
+      <td><span class="party-tag">Fianna Fáil</span></td>
+      <td>Cavan-Monaghan</td>
+      <td>
+        
+        <span class="sector-pill">property</span>
+        
+      </td>
+      <td>
+        
+        1 overlap
+        
+      </td>
+    </tr>
+    
+    <tr
+      data-name="edward timmins"
+      data-party="Fine Gael"
+      data-sectors="agriculture property"
+      data-conflicts="yes"
+      data-text="lessor: (1) 132 north circular road, dublin 7; (2) marktplatz 7, baden baden, germany; (3) apartment, bizmarckstrasse 13, baden, baden, germany; (4) apartment, 101 terrace du lac, evian, france. (1) 1.75 acres, sruhaun, baltinglass, co. wicklow: agricultural land used by relation; (2) 132 north circular road, dublin 7: letting; (3) marktplatz 7, baden baden, germany: letting; (4) apartment, b..."
+    >
+      <td><a href="../tds/edward-timmins/index.html">Edward Timmins</a></td>
+      <td><span class="party-tag">Fine Gael</span></td>
+      <td>Wicklow</td>
+      <td>
+        
+        <span class="sector-pill">agriculture</span>
+        
+        <span class="sector-pill">property</span>
+        
+      </td>
+      <td>
+        
+        2 overlaps
+        
+      </td>
+    </tr>
+    
+    <tr
+      data-name="gillian toole"
+      data-party="Independent"
+      data-sectors="construction finance health property"
+      data-conflicts="yes"
+      data-text="(1) pharmacist (part-time to may 2025): (i) lynch&#39;s pharmacy, kells, co. meath; (ii) superpharm, west st., drogheda, co. louth; (2) landlord: (i) the old post office, dunshaughlin, co. meath (commerci... shares: (1) greenman investments, crescent hall, dublin 2: supermarket ownership, germany; (2) uniphar plc., kingswood, dublin 24: pharmaceutical distribution; (3) poblano ltd., rathmines, d.6.: mexic... (1) executive: ely hill ltd., ratoath, co. meath: maintenance &amp; repairs of property; (2) wholefoods/executive: wholefoods market, ratoath, co. meath: non-trading since 2024 (end of)/farming; (3) egg p... (1) old post office, dunshaughlin, co. meath: letting - commercial use; (2) 15 marble court, dunshaughlin, co. meath: letting - residential; (3) 54 esker park, lucan, co. dublin: letting - residential... (1) ras scheme, 54 esker park, lucan: g. toole, g. mcgrath, ratoath, co. meath: south dublin co. council; (2) hap, 55 esker park &amp; 110 bridgewater quay: g. toole &amp; g. mcgrath, ratoath, co. meath: sdcc..."
+    >
+      <td><a href="../tds/gillian-toole/index.html">Gillian Toole</a></td>
+      <td><span class="party-tag">Independent</span></td>
+      <td>Meath-East</td>
+      <td>
+        
+        <span class="sector-pill">construction</span>
+        
+        <span class="sector-pill">finance</span>
+        
+        <span class="sector-pill">health</span>
+        
+        <span class="sector-pill">property</span>
+        
+      </td>
+      <td>
+        
+        4 overlaps
+        
+      </td>
+    </tr>
+    
+    <tr
+      data-name="robert troy"
+      data-party="Fianna Fáil"
+      data-sectors="finance property"
+      data-conflicts="yes"
+      data-text="(1) postmaster: main st., ballynacargy, co. westmeath; (2) landlord: (i) 25a rathdown rd., d.7, (ii) 4 mary st., mullingar, co. westmeath, (iii) main st., ballynacargy, co. westmeath. other informatio... (1) prize bonds: state savings, an post, gpo, dublin 1: state savings; (2) national solidarity bond: state savings, an post, gpo, dublin 1: state savings; (3) ryanair shares: airside business pk., swo... proprietary director: priorfilia ltd., main st., ballynacargy, co. westmeath: property related. other information provided: resigned as a director in &#39;25. (1) main st., ballynacargy, co. westmeath: residence rented, commercial unit – post office; (2) 4 mary st., mullingar, co. westmeath: 3 studio apartments (rented); (3) 25a rathdown rd., dublin 7: 4 re..."
+    >
+      <td><a href="../tds/robert-troy/index.html">Robert Troy</a></td>
+      <td><span class="party-tag">Fianna Fáil</span></td>
+      <td>Longford-Westmeath</td>
+      <td>
+        
+        <span class="sector-pill">finance</span>
+        
+        <span class="sector-pill">property</span>
+        
+      </td>
+      <td>
+        
+        2 overlaps
+        
+      </td>
+    </tr>
+    
+    <tr
+      data-name="mark wall"
+      data-party="Labour Party"
+      data-sectors="tourism_hospitality"
+      data-conflicts="no"
+      data-text="party delegate to party of european socialists congress, amsterdam (flights, meals, hotel): labour party, aungier street, dublin 2."
+    >
+      <td><a href="../tds/mark-wall/index.html">Mark Wall</a></td>
+      <td><span class="party-tag">Labour Party</span></td>
+      <td>Kildare South</td>
+      <td>
+        
+        <span class="sector-pill">tourism hospitality</span>
+        
+      </td>
+      <td>
+        
+        <span class="meta">—</span>
+        
+      </td>
+    </tr>
+    
+    <tr
+      data-name="eoin ó broin"
+      data-party="Sinn Féin"
+      data-sectors=""
+      data-conflicts="no"
+      data-text="i do not own any shares. i do not own any land or property. i have not held any property or service supplied to me. i have not received any travel, accommodation, meals or entertainment."
+    >
+      <td><a href="../tds/eoin-o-broin/index.html">Eoin Ó Broin</a></td>
+      <td><span class="party-tag">Sinn Féin</span></td>
+      <td>Dublin Mid-West</td>
+      <td>
+        
+        <span class="meta">—</span>
+        
+      </td>
+      <td>
+        
+        <span class="meta">—</span>
+        
+      </td>
+    </tr>
+    
+    <tr
+      data-name="naoise ó cearúil"
+      data-party="Fianna Fáil"
+      data-sectors="tourism_hospitality"
+      data-conflicts="no"
+      data-text="restricted stock units (rsu): gong ireland limited, one central plaza, dame st., floor 7, temple bar, dublin 2, d02 k7k5: software as a service (saas). other information provided: the restricted stock..."
+    >
+      <td><a href="../tds/naoise-o-cearuil/index.html">Naoise Ó Cearúil</a></td>
+      <td><span class="party-tag">Fianna Fáil</span></td>
+      <td>Kildare North</td>
+      <td>
+        
+        <span class="sector-pill">tourism hospitality</span>
+        
+      </td>
+      <td>
+        
+        <span class="meta">—</span>
+        
+      </td>
+    </tr>
+    
+    <tr
+      data-name="naoise ó muirí"
+      data-party="Fine Gael"
+      data-sectors="finance"
+      data-conflicts="yes"
+      data-text="shares: zing technology, 86 amiens st., dublin d01y6p0: information technology services."
+    >
+      <td><a href="../tds/naoise-o-muiri/index.html">Naoise Ó Muirí</a></td>
+      <td><span class="party-tag">Fine Gael</span></td>
+      <td>Dublin Bay North</td>
+      <td>
+        
+        <span class="sector-pill">finance</span>
+        
+      </td>
+      <td>
+        
+        1 overlap
+        
+      </td>
+    </tr>
+    
+  </tbody>
+</table>
+</div>
+
+
+  </div>
+</main>
+
+<footer>
+  <div class="footer-inner">
+    Based on the 2025 Dáil Register of Members' Interests (34th Dáil).
+    Data from <a href="https://data.oireachtas.ie" target="_blank" rel="noopener">data.oireachtas.ie</a>
+    and <a href="https://core.cro.ie" target="_blank" rel="noopener">CRO</a>.
+    This site presents public facts. It does not allege wrongdoing.
+  </div>
+</footer>
+
+
+<script src="../static/explorer.js" defer></script>
+
+
+</body>
+</html>

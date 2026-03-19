@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About — Oireachtas Interests Tracker</title>
+  <meta name="description" content="Dáil Register of Members' Interests — searchable, cross-referenced with votes and committees." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="../static/style.css" />
+  
+</head>
+<body>
+
+<nav>
+  <div class="nav-inner">
+    <a class="nav-brand" href="../index.html">Oireachtas Interests</a>
+    <ul class="nav-links">
+      <li><a href="../explorer/index.html" >Explorer</a></li>
+      <li><a href="../radar/index.html"    >Conflict Radar</a></li>
+      <li><a href="../parties/index.html"  >Parties</a></li>
+      <li><a href="../cro/index.html"      >CRO Check</a></li>
+      <li><a href="../about/index.html"    aria-current="page">About</a></li>
+    </ul>
+  </div>
+</nav>
+
+<main>
+  <div class="page-wrap">
+    
+
+<div class="page-header">
+  <h1>About this site</h1>
+  <p class="sub">Methodology, data sources, and what this site can and cannot tell you.</p>
+</div>
+
+<div class="section">
+  <div class="section-title">What is the Dáil Register of Members' Interests?</div>
+  <p>
+    Every TD in Dáil Éireann is legally required to declare financial interests that
+    could potentially influence their work as a legislator. The register is maintained by
+    the Standards in Public Office Commission (SIPO) and published annually as a PDF.
+  </p>
+  <p>
+    TDs must declare interests in nine categories: occupations, shares, directorships,
+    land and property, gifts, property or services supplied, travel facilities,
+    remunerated positions, and contracts.
+  </p>
+  <p>
+    Despite being a public document, the register is effectively invisible.
+    It is published as a PDF, with no search capability and no connection to any other
+    public data. This site changes that.
+  </p>
+</div>
+
+<div class="section">
+  <div class="section-title">How this site works</div>
+  <p>The site is built on three public data sources:</p>
+
+  <table class="data-table">
+    <thead>
+      <tr>
+        <th>Source</th>
+        <th>What it provides</th>
+        <th>Access</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Oireachtas Register of Members' Interests</td>
+        <td>All declared interests by category, for each TD</td>
+        <td><a href="https://data.oireachtas.ie/ie/oireachtas/members/registerOfMembersInterests/" target="_blank" rel="noopener">data.oireachtas.ie ↗</a></td>
+      </tr>
+      <tr>
+        <td>Oireachtas Open Data API</td>
+        <td>TD profiles, committee memberships, division (vote) records</td>
+        <td><a href="https://api.oireachtas.ie" target="_blank" rel="noopener">api.oireachtas.ie ↗</a></td>
+      </tr>
+      <tr>
+        <td>Companies Registration Office</td>
+        <td>Company records, officer lists, filing history</td>
+        <td><a href="https://core.cro.ie" target="_blank" rel="noopener">core.cro.ie ↗</a></td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<div class="section">
+  <div class="section-title">Data pipeline</div>
+  <p>
+    The register PDF is parsed using a text extraction tool (pdfplumber) that reconstructs
+    the nine declared categories for each TD. The extracted data is then processed in
+    three stages:
+  </p>
+  <ol style="margin-left:1.5rem;font-size:0.9rem;line-height:1.8;">
+    <li><strong>Interest tagging</strong>: declared text is matched against a keyword taxonomy
+        to assign sector labels (agriculture, property, finance, etc.)</li>
+    <li><strong>Conflict detection</strong>: sectors from declared interests are compared against
+        sectors from committee memberships and voted-on legislation. Overlaps are flagged.</li>
+    <li><strong>CRO cross-check</strong>: declared company names are matched against CRO records
+        to find dissolved companies, officer discrepancies, and companies not in the register.</li>
+  </ol>
+</div>
+
+<div class="section">
+  <div class="section-title">Conflict methodology</div>
+  <p>
+    A "conflict" in this site means: a TD holds a declared interest in a sector <em>and</em>
+    either sits on a committee covering that sector, or voted on legislation in that sector.
+  </p>
+  <p>
+    Sector matching is keyword-based. For example, a TD declaring "Glanbia shares" is tagged
+    as having a <em>finance</em> and <em>agriculture</em> interest; if they also sit on the
+    Agriculture Committee or voted on a farm subsidy bill, that is flagged as an overlap.
+  </p>
+  <div class="method-note">
+    <strong>Important:</strong> An overlap is not evidence of wrongdoing.
+    TDs with farming backgrounds will naturally serve on agriculture committees and vote on
+    agricultural legislation. This site presents the fact of the overlap and lets readers
+    draw their own conclusions. It does not allege corruption, bias, or any impropriety.
+  </div>
+</div>
+
+<div class="section">
+  <div class="section-title">What this site cannot tell you</div>
+  <ul style="margin-left:1.5rem;font-size:0.9rem;line-height:2;">
+    <li>The register relies on self-declaration. If a TD fails to declare something, and it
+        is not in the CRO, this site cannot detect it.</li>
+    <li>Valuations of property, shares, or other assets are not required by the register —
+        only descriptions. This site cannot determine the monetary value of declared interests.</li>
+    <li>This site covers only the 34th Dáil (from November 2024). Historical comparison
+        across Dáils will be added in a future update.</li>
+    <li>Ministers have additional disclosure obligations under the Ethics in Public Office Act.
+        Senator and Minister of State registers are not yet covered.</li>
+  </ul>
+</div>
+
+<div class="section">
+  <div class="section-title">Data freshness</div>
+  <p>
+    This site is based on the 2025 Register of Members' Interests (34th Dáil), published
+    in February 2026. Vote and committee data is drawn from the Oireachtas API and
+    covers all divisions from 29 November 2024 to the extraction date.
+  </p>
+  <p>
+    The site will be updated annually when a new register is published, and vote/committee
+    data will be refreshed periodically.
+  </p>
+</div>
+
+
+  </div>
+</main>
+
+<footer>
+  <div class="footer-inner">
+    Based on the 2025 Dáil Register of Members' Interests (34th Dáil).
+    Data from <a href="https://data.oireachtas.ie" target="_blank" rel="noopener">data.oireachtas.ie</a>
+    and <a href="https://core.cro.ie" target="_blank" rel="noopener">CRO</a>.
+    This site presents public facts. It does not allege wrongdoing.
+  </div>
+</footer>
+
+
+
+</body>
+</html>
