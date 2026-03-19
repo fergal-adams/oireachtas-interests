@@ -1,0 +1,139 @@
+{% extends "base.html" %}
+{% set depth = "../../" %}
+{% set page = "parties" %}
+
+{% block title %}{{ party.party }} — Oireachtas Interests{% endblock %}
+{% block description %}Declared interests, conflicts and voting overlaps for {{ party.party }} TDs in the {{ year }} register.{% endblock %}
+
+{% block content %}
+
+<div class="page-header">
+  <div class="td-name">{{ party.party }}</div>
+  <div class="td-meta">
+    {{ party.td_count }} TD{{ 's' if party.td_count != 1 else '' }}
+    · {{ party.with_interests }} with sector-tagged interests
+    · {{ year }} register
+  </div>
+</div>
+
+<!-- ── Summary stats ────────────────────────────────────── -->
+{% set c_tds = party.tds | selectattr('committee_conflicts') | list %}
+{% set v_tds = party.tds | selectattr('vote_conflicts') | list %}
+{% set both_tds = party.tds | selectattr('has_conflicts') | list %}
+
+<div class="stats-row" style="display:flex;gap:2rem;flex-wrap:wrap;margin-bottom:2rem;">
+  <div class="stat-block">
+    <div class="stat-num">{{ party.with_interests }}</div>
+    <div class="stat-label">TDs with declared interests</div>
+  </div>
+  <div class="stat-block">
+    <div class="stat-num">{{ c_tds | length }}</div>
+    <div class="stat-label">Committee conflicts</div>
+  </div>
+  <div class="stat-block">
+    <div class="stat-num">{{ v_tds | length }}</div>
+    <div class="stat-label">Vote conflicts</div>
+  </div>
+  <div class="stat-block">
+    <div class="stat-num">{{ both_tds | length }}</div>
+    <div class="stat-label">TDs with any conflict</div>
+  </div>
+</div>
+
+<!-- ── Interest sectors breakdown ───────────────────────── -->
+{% if party.sector_counts %}
+<div class="section">
+  <div class="section-title">Interest sectors declared</div>
+  <table class="data-table">
+    <thead>
+      <tr>
+        <th>Sector</th>
+        <th class="num">TDs</th>
+        <th class="num">With conflict</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for sector, count in party.sector_counts.items() %}
+      <tr>
+        <td>{{ sector.replace('_', ' ').title() }}</td>
+        <td class="num">{{ count }}</td>
+        <td class="num">
+          {% set c = party.conflict_sector_counts.get(sector, 0) %}
+          {% if c > 0 %}<strong>{{ c }}</strong>{% else %}—{% endif %}
+        </td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+</div>
+{% endif %}
+
+<!-- ── TDs with conflicts ────────────────────────────────── -->
+{% if both_tds %}
+<div class="section">
+  <div class="section-title">TDs with conflicts</div>
+  <table class="data-table">
+    <thead>
+      <tr>
+        <th>TD</th>
+        <th>Constituency</th>
+        <th>Sectors (interest)</th>
+        <th class="num">Committee</th>
+        <th class="num">Vote</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for td in both_tds %}
+      <tr>
+        <td><a href="{{ depth }}tds/{{ td.slug }}/index.html">{{ td.display_name }}</a></td>
+        <td>{{ td.constituency }}</td>
+        <td>
+          {% for s in td.interest_sectors %}
+          <span class="sector-tag">{{ s.replace('_', ' ') }}</span>
+          {% endfor %}
+        </td>
+        <td class="num">{{ td.committee_conflicts | length or '—' }}</td>
+        <td class="num">{{ td.vote_conflicts | length or '—' }}</td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+</div>
+{% endif %}
+
+<!-- ── All TDs (no conflicts) ───────────────────────────── -->
+{% set no_conflict_tds = party.tds | rejectattr('has_conflicts') | selectattr('interest_sectors') | list %}
+{% if no_conflict_tds %}
+<div class="section">
+  <div class="section-title">TDs with declared interests — no conflicts detected</div>
+  <table class="data-table">
+    <thead>
+      <tr>
+        <th>TD</th>
+        <th>Constituency</th>
+        <th>Sectors</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for td in no_conflict_tds %}
+      <tr>
+        <td><a href="{{ depth }}tds/{{ td.slug }}/index.html">{{ td.display_name }}</a></td>
+        <td>{{ td.constituency }}</td>
+        <td>
+          {% for s in td.interest_sectors %}
+          <span class="sector-tag">{{ s.replace('_', ' ') }}</span>
+          {% endfor %}
+        </td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+</div>
+{% endif %}
+
+<p style="margin-top:2rem;font-size:0.875rem;">
+  <a href="{{ depth }}parties/index.html">← All parties</a> &nbsp;|&nbsp;
+  <a href="{{ depth }}radar/index.html">Conflict Radar</a>
+</p>
+
+{% endblock %}

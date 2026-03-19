@@ -307,7 +307,8 @@
 <div class="section">
   <div class="section-title">Voting record overlaps</div>
   <p class="meta" style="margin-bottom:1rem;">
-    Votes where this TD's declared interests and the subject matter of legislation coincide.
+    Votes where this TD's declared interests and the subject matter of legislation coincide,
+    across both the 33rd Dáil (2020–2024) and 34th Dáil (2024–present).
     "Alignment" notes are indicative only — they assess the likely direction of a bill
     relative to the TD's declared interest type. Individual assessment of each vote is needed
     before drawing any conclusion.
@@ -325,6 +326,13 @@
       </div>
       {% endfor %}
     </div>
+
+    {% if c.total_votes and c.total_votes > c.votes | length %}
+    <p class="meta vote-count-note">
+      Showing {{ c.votes | length }} of {{ c.total_votes }} related divisions
+      (33rd &amp; 34th Dáil combined), newest first.
+    </p>
+    {% endif %}
 
     {% if c.votes %}
     {% for v in c.votes %}
@@ -351,6 +359,7 @@
           {{ v.outcome }}
         </span>
         <span class="vote-date-inline">{{ v.date }}</span>
+        {% if v.dail %}<span class="vote-dail-badge">{{ v.dail }}</span>{% endif %}
       </div>
 
       <!-- Alignment note -->

@@ -25,6 +25,7 @@ from conflict_radar.oireachtas_api import (
     fetch_members,
     fetch_votes,
     build_member_vote_index,
+    DAIL_LABELS,
 )
 
 
@@ -121,15 +122,26 @@ def run_radar(interests_path: str, year: int = 2025) -> list:
         td_interests = json.load(f)
     print(f"  Loaded {len(td_interests)} TD records from {interests_path}")
 
-    # Fetch API data
+    # Fetch API data — current Dáil plus 33rd Dáil for ~5 years of history
     members = fetch_members(year=year)
-    votes = fetch_votes(year=year)
+    votes_current = fetch_votes(year=year)
+
+    # Also pull the 33rd Dáil (2020-02-08 → 2024-11-28) unless we're already
+    # fetching it (i.e. year == 2024 means 33rd Dáil is the primary)
+    if year != 2024:
+        votes_33rd = fetch_votes(year=2024)
+        all_votes = votes_current + votes_33rd
+        print(f"  Votes: {len(votes_current)} ({DAIL_LABELS.get(year,'current')}) "
+              f"+ {len(votes_33rd)} (33rd Dáil) = {len(all_votes)} total")
+    else:
+        all_votes = votes_current
+        print(f"  Votes: {len(all_votes)} total")
 
     # Build lookup structures
     name_index = build_name_index(members)
-    vote_index = build_member_vote_index(votes)
+    vote_index = build_member_vote_index(all_votes)
 
-    print(f"  API: {len(members)} members, {len(votes)} votes")
+    print(f"  API: {len(members)} members, {len(all_votes)} votes")
 
     reports = []
     unmatched = []
@@ -206,17 +218,25 @@ def run_radar(interests_path: str, year: int = 2025) -> list:
 
         vote_conflicts = []
         for sector in sorted(vote_conflict_sectors):
-            # Keep only the most relevant votes (up to 10 per sector)
-            relevant_votes = vote_sector_map[sector][:10]
+            # Sort newest-first; keep up to 25 per sector across all Dáils
+            all_sector_votes = sorted(
+                vote_sector_map[sector],
+                key=lambda v: v["datetime"],
+                reverse=True,
+            )
+            total_votes = len(all_sector_votes)
+            relevant_votes = all_sector_votes[:25]
             vote_conflicts.append({
                 "sector": sector,
                 "interest_evidence": _interest_evidence_for_sector(interests, sector),
+                "total_votes": total_votes,
                 "votes": [
                     {
                         "date": v["datetime"][:10],
                         "title": v["debate_title"],
                         "voted": v["voted"],
                         "outcome": v["outcome"],
+                        "dail": v.get("dail", ""),
                     }
                     for v in relevant_votes
                 ],

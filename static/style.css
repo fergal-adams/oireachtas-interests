@@ -669,3 +669,61 @@ small, .meta {
   .vote-list li { flex-direction: column; gap: 0.15rem; }
   .flagged-list li { flex-direction: column; }
 }
+
+/* ── Dáil badge on vote entries ─────────────────────────────── */
+.vote-dail-badge {
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  padding: 0.1rem 0.35rem;
+  border: 1px solid var(--rule);
+  color: var(--gray);
+  display: inline-block;
+  white-space: nowrap;
+  margin-left: 0.25rem;
+}
+
+/* ── Vote count note ─────────────────────────────────────────── */
+.vote-count-note {
+  margin: 0.25rem 0 0.75rem;
+  font-size: 0.8rem;
+}
+
+/* ── Sector tag (used in party tables) ──────────────────────── */
+.sector-tag {
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  padding: 0.1rem 0.35rem;
+  border: 1px solid var(--rule);
+  display: inline-block;
+  margin: 0.1rem 0.1rem 0.1rem 0;
+  white-space: nowrap;
+  color: var(--gray);
+}
+
+/* ── Numeric column alignment ───────────────────────────────── */
+.data-table th.num,
+.data-table td.num {
+  text-align: right;
+}
+
+/* ── Stat blocks (party page summary row) ───────────────────── */
+.stat-block {
+  text-align: center;
+  padding: 0.75rem 1.25rem;
+  border: 1px solid var(--rule);
+  min-width: 110px;
+}
+
+.stat-block .stat-num {
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1.1;
+}
+
+.stat-block .stat-label {
+  font-size: 0.8rem;
+  color: var(--gray);
+  margin-top: 0.2rem;
+}

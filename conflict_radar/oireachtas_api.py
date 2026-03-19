@@ -27,6 +27,18 @@ DAIL_START_DATES = {
     2020: "2020-02-08",
 }
 
+# Map register year → Dáil session end date (None = ongoing, use today)
+DAIL_END_DATES = {
+    2025: None,           # 34th Dáil — ongoing
+    2024: "2024-11-28",   # 33rd Dáil ended the day before the 34th began
+}
+
+# Human-readable Dáil labels for display
+DAIL_LABELS = {
+    2025: "34th Dáil",
+    2024: "33rd Dáil",
+}
+
 
 def _cache_path(name: str) -> Path:
     CACHE_DIR.mkdir(exist_ok=True)
@@ -177,8 +189,11 @@ def fetch_votes(year: int = 2025, force_refresh: bool = False) -> list:
     Cached to cache/votes_{year}.json.
 
     Date range:
-      date_start = Dáil term start (e.g. 2024-11-29 for 34th Dáil)
-      date_end   = today (captures all votes available so far)
+      date_start = Dáil term start  (e.g. 2024-11-29 for 34th Dáil)
+      date_end   = DAIL_END_DATES[year] or today for ongoing Dáils
+
+    Each returned vote record includes a 'dail' field with a human-readable
+    Dáil label (e.g. "34th Dáil") for display in templates.
     """
     import datetime
 
@@ -188,9 +203,10 @@ def fetch_votes(year: int = 2025, force_refresh: bool = False) -> list:
             return json.load(f)
 
     date_start = DAIL_START_DATES.get(year, f"{year}-01-01")
-    date_end = datetime.date.today().isoformat()
+    date_end   = DAIL_END_DATES.get(year) or datetime.date.today().isoformat()
+    dail_label = DAIL_LABELS.get(year, str(year))
 
-    print(f"  Fetching votes {date_start} → {date_end} (paginated)...")
+    print(f"  Fetching votes {date_start} → {date_end} [{dail_label}] (paginated)...")
 
     raw_results = _paginate(
         f"{BASE_URL}/votes",
@@ -206,6 +222,10 @@ def fetch_votes(year: int = 2025, force_refresh: bool = False) -> list:
     votes = [_parse_vote(r) for r in raw_results]
     votes = [v for v in votes if v["voteId"]]
 
+    # Stamp each vote with its Dáil label
+    for v in votes:
+        v["dail"] = dail_label
+
     with open(cache_file, "w", encoding="utf-8") as f:
         json.dump(votes, f, indent=2, ensure_ascii=False)
     print(f"  Fetched {len(votes)} votes → cached")
@@ -215,8 +235,9 @@ def fetch_votes(year: int = 2025, force_refresh: bool = False) -> list:
 def build_member_vote_index(votes: list) -> dict:
     """
     Invert votes list into a per-member lookup.
-    Returns: { memberCode: [ {voteId, datetime, debate_title, outcome, voted} ] }
+    Returns: { memberCode: [ {voteId, datetime, debate_title, outcome, voted, dail} ] }
     where voted is 'Tá', 'Níl', or 'Staonn'.
+    Pass the combined output of multiple fetch_votes() calls to cover multiple Dáils.
     """
     index = {}
     for v in votes:
@@ -225,6 +246,7 @@ def build_member_vote_index(votes: list) -> dict:
             "datetime": v["datetime"],
             "debate_title": v["debate_title"],
             "outcome": v["outcome"],
+            "dail": v.get("dail", ""),
         }
         for code in v["ta_members"]:
             index.setdefault(code, []).append({**entry_base, "voted": "Tá"})

@@ -49,6 +49,12 @@ try:
 except ImportError:
     _BILL_ENRICHMENT = False
 
+try:
+    from enrichment.historical_votes import enrich_historical_votes
+    _HISTORICAL_VOTES = True
+except ImportError:
+    _HISTORICAL_VOTES = False
+
 
 # ---------------------------------------------------------------------------
 # Paths
@@ -314,6 +320,10 @@ def load_data(
             "property_valuation": property_valuation,
         })
 
+    # Enrich with 33rd Dáil vote history (adds older votes, stamps dail labels)
+    if _HISTORICAL_VOTES:
+        enrich_historical_votes(merged)
+
     # Enrich vote conflict entries with bill parsing + alignment interpretation
     if _BILL_ENRICHMENT:
         enrich_vote_conflicts(merged)
@@ -378,6 +388,65 @@ def compute_stats(records: list[dict]) -> dict:
         "sector_counts":          dict(sector_counts.most_common()),
         "conflict_sector_counts": dict(conflict_sector_counts.most_common()),
     }
+
+
+# ---------------------------------------------------------------------------
+# Party aggregation
+# ---------------------------------------------------------------------------
+
+def compute_party_stats(records: list) -> list:
+    """
+    Aggregate per-party stats from TD records.
+    Returns a list of party dicts sorted by TD count descending.
+    """
+    from collections import Counter, defaultdict
+
+    parties: dict = {}  # party_name → aggregated data
+
+    for r in records:
+        party = r.get("party") or "Independent"
+        if party not in parties:
+            parties[party] = {
+                "party":           party,
+                "slug":            re.sub(r"[^a-z0-9]+", "-", unidecode(party).lower()).strip("-"),
+                "td_count":        0,
+                "with_interests":  0,
+                "with_conflicts":  0,
+                "sector_counts":   Counter(),
+                "conflict_sector_counts": Counter(),
+                "tds":             [],
+            }
+        p = parties[party]
+        p["td_count"] += 1
+        if r.get("interest_sectors"):
+            p["with_interests"] += 1
+        if r.get("has_conflicts"):
+            p["with_conflicts"] += 1
+        for s in r.get("interest_sectors", []):
+            p["sector_counts"][s] += 1
+        for c in r.get("committee_conflicts", []):
+            p["conflict_sector_counts"][c["sector"]] += 1
+        for c in r.get("vote_conflicts", []):
+            p["conflict_sector_counts"][c["sector"]] += 1
+        p["tds"].append(r)
+
+    # Sort each party's TDs by conflict count desc
+    for p in parties.values():
+        p["tds"].sort(key=lambda r: -r["conflict_count"])
+        p["sector_counts"] = dict(p["sector_counts"].most_common())
+        p["conflict_sector_counts"] = dict(p["conflict_sector_counts"].most_common())
+
+    # Sort parties: government/major parties first, then by TD count
+    _ORDER = ["Fianna Fáil", "Fine Gael", "Sinn Féin", "Labour", "Social Democrats",
+              "People Before Profit", "Solidarity", "Aontú", "Green Party",
+              "Regional Independent Group", "Independent"]
+    def _party_sort_key(p):
+        try:
+            return (_ORDER.index(p["party"]), -p["td_count"])
+        except ValueError:
+            return (len(_ORDER), -p["td_count"])
+
+    return sorted(parties.values(), key=_party_sort_key)
 
 
 # ---------------------------------------------------------------------------
@@ -510,6 +579,17 @@ def build(year: int = 2025, output_dir: str = "site"):
     render("radar.html",    {"stats": stats, "records": records},                             out / "radar" / "index.html")
     render("cro.html",      {"stats": stats, "cro_records": cro_records},                     out / "cro" / "index.html")
     render("about.html",    {"stats": stats},                                                 out / "about" / "index.html")
+
+    # ---------- Party pages ----------
+    party_stats = compute_party_stats(records)
+    render("parties.html", {"stats": stats, "parties": party_stats}, out / "parties" / "index.html")
+    for p in party_stats:
+        render(
+            "party.html",
+            {"stats": stats, "party": p},
+            out / "parties" / p["slug"] / "index.html",
+        )
+    print(f"  {len(party_stats)} party pages written")
     print("  Index pages written")
 
     # ---------- data.json ----------

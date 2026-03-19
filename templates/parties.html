@@ -1,0 +1,67 @@
+{% extends "base.html" %}
+{% set depth = "../" %}
+{% set page = "parties" %}
+
+{% block title %}Parties — Oireachtas Interests{% endblock %}
+{% block description %}Conflict of interest data aggregated by party — which parties have the most declared interests and voting overlaps.{% endblock %}
+
+{% block content %}
+
+<div class="page-header">
+  <div class="td-name">Parties</div>
+  <div class="td-meta">Interests and conflicts aggregated by party — {{ year }} register</div>
+</div>
+
+<p class="meta" style="margin-bottom:1.5rem;">
+  Based on {{ stats.total_tds }} TDs with declared interests in the {{ year }} register.
+  Figures show TDs <em>with at least one sector-tagged interest</em> — TDs with no
+  recognisable interests are excluded from the denominator.
+</p>
+
+<table class="data-table">
+  <thead>
+    <tr>
+      <th>Party</th>
+      <th class="num">TDs<br><span class="meta">with interests</span></th>
+      <th class="num">Committee<br>conflicts</th>
+      <th class="num">Vote<br>conflicts</th>
+      <th>Top interest sectors</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for p in parties %}
+    <tr>
+      <td>
+        <a href="{{ depth }}parties/{{ p.slug }}/index.html">{{ p.party }}</a>
+      </td>
+      <td class="num">
+        {{ p.with_interests }}
+        {% if p.with_interests < p.td_count %}
+        <span class="meta">({{ p.td_count }} total)</span>
+        {% endif %}
+      </td>
+      <td class="num">
+        {% set c_count = p.tds | selectattr('committee_conflicts') | list | length %}
+        {% if c_count > 0 %}<strong>{{ c_count }}</strong>{% else %}—{% endif %}
+      </td>
+      <td class="num">
+        {% set v_count = p.tds | selectattr('vote_conflicts') | list | length %}
+        {% if v_count > 0 %}<strong>{{ v_count }}</strong>{% else %}—{% endif %}
+      </td>
+      <td>
+        {% for sector, count in p.sector_counts.items() %}{% if loop.index <= 4 %}
+        <span class="sector-tag">{{ sector.replace('_', ' ') }} ({{ count }})</span>
+        {% endif %}{% endfor %}
+      </td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+
+<p class="meta" style="margin-top:1.5rem;">
+  A "conflict" is an overlap between a declared interest sector and committee membership
+  or a Dáil division — it does not allege wrongdoing.
+  <a href="{{ depth }}about/index.html">Methodology →</a>
+</p>
+
+{% endblock %}
