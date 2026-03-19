@@ -19,16 +19,21 @@
   </div>
 </div>
 
-<!-- ── ⚑ Committee Conflict Alert ──────────────────────────── -->
-{% if td.committee_conflicts %}
+<!-- ── ⚑ Committee Conflict Alert (financial/mixed only) ───── -->
+{% set financial_conflicts = td.committee_conflicts | selectattr('conflict_class', 'ne', 'professional') | list %}
+{% if financial_conflicts %}
 <div class="conflict-alert">
   <div class="conflict-alert-label">
-    ⚑ {{ td.committee_conflicts | length }} committee conflict{{ 's' if td.committee_conflicts | length > 1 else '' }} detected
+    ⚑ {{ financial_conflicts | length }} committee conflict{{ 's' if financial_conflicts | length > 1 else '' }} detected
   </div>
-  {% for c in td.committee_conflicts %}
+  {% for c in financial_conflicts %}
   <div class="conflict-alert-row">
     <span class="conflict-alert-sector">{{ c.sector.replace('_', ' ').title() }}</span>
-    — declared {{ c.sector.replace('_', ' ') }} interest, sits on:
+    {% if c.conflict_class == 'mixed' %}
+    — declared financial and professional {{ c.sector.replace('_', ' ') }} interest, sits on:
+    {% else %}
+    — declared financial {{ c.sector.replace('_', ' ') }} interest, sits on:
+    {% endif %}
     {% for name in c.committees %}<strong>{{ name }}</strong>{% if not loop.last %}; {% endif %}{% endfor %}
   </div>
   {% endfor %}
@@ -79,8 +84,17 @@
 <div class="section">
   <div class="section-title">Committee membership overlaps</div>
   {% for c in td.committee_conflicts %}
-  <div class="conflict-block">
-    <div class="conflict-sector">{{ c.sector.replace('_', ' ').title() }}</div>
+  <div class="conflict-block conflict-block--{{ c.conflict_class }}">
+    <div class="conflict-sector">
+      {{ c.sector.replace('_', ' ').title() }}
+      {% if c.conflict_class == 'professional' %}
+      <span class="conflict-type-badge conflict-type-professional">Expertise overlap</span>
+      {% elif c.conflict_class == 'mixed' %}
+      <span class="conflict-type-badge conflict-type-mixed">Financial &amp; professional</span>
+      {% else %}
+      <span class="conflict-type-badge conflict-type-financial">Financial interest</span>
+      {% endif %}
+    </div>
 
     <div class="conflict-detail-group">
       <div class="conflict-detail-heading">Declared interest</div>
@@ -102,8 +116,19 @@
     </div>
 
     <p class="conflict-note">
-      This TD has declared interests in {{ c.sector.replace('_', ' ') }}
+      {% if c.conflict_class == 'professional' %}
+      This TD's professional background relates to {{ c.sector.replace('_', ' ') }},
+      the same area this committee oversees. This is noted for transparency — it may
+      reflect appropriate expertise rather than a financial conflict of interest.
+      {% elif c.conflict_class == 'mixed' %}
+      This TD has both professional expertise and declared financial interests in
+      {{ c.sector.replace('_', ' ') }}, and sits on the committee overseeing this area.
+      The financial element (ownership of assets that legislation can affect) is a
+      material conflict regardless of professional background.
+      {% else %}
+      This TD has declared financial interests in {{ c.sector.replace('_', ' ') }}
       and sits on the committee responsible for overseeing this area.
+      {% endif %}
     </p>
   </div>
   {% endfor %}

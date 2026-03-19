@@ -727,3 +727,42 @@ small, .meta {
   color: var(--gray);
   margin-top: 0.2rem;
 }
+
+/* ── Conflict type badges ────────────────────────────────────── */
+.conflict-type-badge {
+  font-size: 0.68rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-weight: 700;
+  padding: 0.1rem 0.4rem;
+  margin-left: 0.5rem;
+  display: inline-block;
+  vertical-align: middle;
+  border: 1px solid currentColor;
+}
+
+.conflict-type-financial {
+  color: var(--black);
+  border-color: var(--black);
+}
+
+.conflict-type-mixed {
+  color: var(--black);
+  border-color: var(--black);
+}
+
+.conflict-type-professional {
+  color: var(--gray);
+  border-color: var(--rule);
+  font-weight: 400;
+}
+
+/* Professional-only blocks are visually de-emphasised */
+.conflict-block--professional {
+  border-color: var(--rule);
+  opacity: 0.85;
+}
+
+.conflict-block--professional .conflict-sector {
+  color: var(--gray);
+}

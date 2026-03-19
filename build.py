@@ -130,6 +130,73 @@ CATEGORY_LABELS = {
 }
 
 
+# ---------------------------------------------------------------------------
+# Conflict classification
+# ---------------------------------------------------------------------------
+
+# Categories that indicate a *financial* stake (owns something affected by legislation)
+_FINANCIAL_CATS = frozenset({
+    "shares",
+    "land_property",
+    "directorships",
+    "contracts",
+    "property_supplied",   # property/services supplied to public bodies
+})
+
+# Categories that indicate a *professional* background (who they are, not what they own)
+_PROFESSIONAL_CATS = frozenset({
+    "occupations",
+})
+
+# remunerated_positions is ambiguous: could be a consultancy fee (financial) or a
+# professional role (professional). We treat it as neither — it doesn't determine
+# the classification on its own, but doesn't override financial evidence either.
+
+
+def _cats_in_evidence(interest_evidence: str) -> frozenset:
+    """Extract the set of category keys present in a pipe-separated evidence string."""
+    cats = set()
+    for seg in interest_evidence.split(" | "):
+        m = re.match(r"^\[(\w+)\]", seg.strip())
+        if m:
+            cats.add(m.group(1))
+    return frozenset(cats)
+
+
+def classify_conflict(interest_evidence: str) -> str:
+    """
+    Classify a committee or vote conflict by the nature of the declared interest.
+
+    Returns:
+        'financial'    — interest stems from owning shares, land, a company, etc.
+        'professional' — interest stems from occupation/expertise only
+        'mixed'        — both financial and professional elements present
+
+    Mixed is treated as 'financial' for display purposes: having a financial
+    stake is not neutralised by also being a professional in the field.
+
+    Edge cases:
+        A farmer who declares both 'occupations' (I am a farmer) AND
+        'land_property' (I own farmland) gets 'mixed' — both are true, and the
+        land ownership is a genuine financial conflict regardless.
+
+        A GP who only declares 'occupations' gets 'professional' — serving on
+        the Health committee reflects expertise, not a financial stake.
+    """
+    cats = _cats_in_evidence(interest_evidence)
+    has_financial    = bool(cats & _FINANCIAL_CATS)
+    has_professional = bool(cats & _PROFESSIONAL_CATS)
+
+    if has_financial and has_professional:
+        return "mixed"
+    if has_financial:
+        return "financial"
+    if has_professional:
+        return "professional"
+    # Fallback (e.g. only remunerated_positions, gifts, etc.) — treat as financial
+    return "financial"
+
+
 def extract_categories(interests_summary: dict) -> dict:
     """
     Reconstruct per-category interests from the sector-grouped interests_summary.
@@ -266,10 +333,21 @@ def load_data(
         const = constituency(td["name"])
         categories = extract_categories(td.get("interests_summary", {}))
 
-        # Conflict counts
-        n_committee = len(td.get("committee_conflicts", []))
+        # Classify each committee conflict as financial / professional / mixed
+        committee_conflicts = []
+        for c in td.get("committee_conflicts", []):
+            conflict_class = classify_conflict(c.get("interest_evidence", ""))
+            committee_conflicts.append({**c, "conflict_class": conflict_class})
+
+        # Conflict counts: financial/mixed = genuine; professional = expertise overlap
+        n_financial_committee = sum(
+            1 for c in committee_conflicts if c["conflict_class"] != "professional"
+        )
         n_vote = len(td.get("vote_conflicts", []))
-        has_conflicts = n_committee > 0 or n_vote > 0
+        # has_conflicts flags financial conflicts; professional-only is noted separately
+        has_conflicts = n_financial_committee > 0 or n_vote > 0
+        # total count used for sorting / stats
+        n_committee = len(committee_conflicts)
 
         # Pension data (if available)
         pension = None
@@ -308,10 +386,13 @@ def load_data(
             "interests_by_cat":    categories,      # reconstructed per-category
             "interests_summary":   td.get("interests_summary", {}),
             # Conflicts
-            "committee_conflicts": td.get("committee_conflicts", []),
-            "vote_conflicts":      td.get("vote_conflicts", []),
-            "has_conflicts":       has_conflicts,
-            "conflict_count":      n_committee + n_vote,
+            "committee_conflicts":    committee_conflicts,
+            "vote_conflicts":         td.get("vote_conflicts", []),
+            "has_conflicts":          has_conflicts,
+            "conflict_count":         n_financial_committee + n_vote,
+            "has_expertise_overlaps": any(
+                c["conflict_class"] == "professional" for c in committee_conflicts
+            ),
             # CRO
             "cro": cro,
             # Pension
@@ -375,7 +456,9 @@ def compute_stats(records: list[dict]) -> dict:
         for s in r["interest_sectors"]:
             sector_counts[s] += 1
         for c in r["committee_conflicts"]:
-            conflict_sector_counts[c["sector"]] += 1
+            # Only count financial/mixed committee conflicts in the conflict stats
+            if c.get("conflict_class", "financial") != "professional":
+                conflict_sector_counts[c["sector"]] += 1
         for c in r["vote_conflicts"]:
             conflict_sector_counts[c["sector"]] += 1
 
