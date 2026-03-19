@@ -131,6 +131,79 @@ CATEGORY_LABELS = {
 
 
 # ---------------------------------------------------------------------------
+# Negative declaration filtering
+# ---------------------------------------------------------------------------
+
+# The register allows TDs to explicitly state they have NO interest in a category,
+# e.g. "I do not own any land or property", "I have not received any travel...".
+# The sector tagger matches keywords in these phrases (e.g. "land", "shares"),
+# producing false conflicts. We detect and suppress these.
+
+# Negative declarations in the Irish register always open with specific phrases.
+# We only match at the START of a segment (after stripping category prefix),
+# to avoid false positives like "I have no beneficial interest" embedded in
+# a real property declaration (e.g. a trustee noting they hold no equity).
+_NEGATIVE_START = re.compile(
+    r"""
+    ^
+    (\[[^\]]+\]\s*)?   # optional [category] prefix
+    (
+        i\ do\ not |
+        i\ have\ not |
+        i\ have\ never |
+        i\ hold\ no |
+        i\ have\ no |
+        i\ have\ received\ no |
+        not\ received |
+        not\ held |
+        none\ to\ declare |
+        nothing\ to\ declare |
+        not\ applicable |
+        n/a |
+        nil$
+    )
+    """,
+    re.IGNORECASE | re.VERBOSE,
+)
+
+
+def _is_negative_segment(segment: str) -> bool:
+    """
+    Return True if this interest-evidence segment is a standalone negative declaration.
+    Only checks the opening of the segment — embedded negations like
+    "I have no beneficial interest in..." are NOT treated as negative declarations.
+    """
+    return bool(_NEGATIVE_START.match(segment.strip()))
+
+
+def _filter_negative_evidence(evidence: str) -> str:
+    """
+    Remove negative-declaration segments from a pipe-separated evidence string.
+    Returns the cleaned string, or '' if all segments were negative.
+    """
+    segments = [s.strip() for s in evidence.split(" | ") if s.strip()]
+    positive = [s for s in segments if not _is_negative_segment(s)]
+    return " | ".join(positive)
+
+
+def _clean_conflicts(conflicts: list) -> list:
+    """
+    Filter a list of conflict dicts (committee or vote conflicts):
+      - Remove segments that are negative declarations from interest_evidence
+      - Drop the entire conflict entry if all evidence was negative
+    """
+    cleaned = []
+    for c in conflicts:
+        raw_evidence = c.get("interest_evidence", "")
+        clean_evidence = _filter_negative_evidence(raw_evidence)
+        if not clean_evidence and raw_evidence:
+            # All evidence was negative → entire conflict is a false positive
+            continue
+        cleaned.append({**c, "interest_evidence": clean_evidence})
+    return cleaned
+
+
+# ---------------------------------------------------------------------------
 # Conflict classification
 # ---------------------------------------------------------------------------
 
@@ -333,9 +406,24 @@ def load_data(
         const = constituency(td["name"])
         categories = extract_categories(td.get("interests_summary", {}))
 
-        # Classify each committee conflict as financial / professional / mixed
+        # ── Strip negative declarations from conflicts ──────────────────────
+        # TDs sometimes explicitly state "I do not own any shares / land / etc."
+        # in each category. The sector tagger matches keywords in these negations
+        # producing false conflicts. Clean them before any further processing.
+        raw_committee = _clean_conflicts(td.get("committee_conflicts", []))
+        raw_vote = _clean_conflicts(td.get("vote_conflicts", []))
+
+        # Also clean interest_sectors: drop sectors whose evidence is entirely negative
+        clean_sectors = []
+        for sector in td.get("interest_sectors", []):
+            raw_ev = (td.get("interests_summary") or {}).get(sector, "")
+            if raw_ev and not _filter_negative_evidence(raw_ev):
+                continue  # all evidence is negations → drop this sector
+            clean_sectors.append(sector)
+
+        # ── Classify each committee conflict as financial / professional / mixed ─
         committee_conflicts = []
-        for c in td.get("committee_conflicts", []):
+        for c in raw_committee:
             conflict_class = classify_conflict(c.get("interest_evidence", ""))
             committee_conflicts.append({**c, "conflict_class": conflict_class})
 
@@ -343,7 +431,7 @@ def load_data(
         n_financial_committee = sum(
             1 for c in committee_conflicts if c["conflict_class"] != "professional"
         )
-        n_vote = len(td.get("vote_conflicts", []))
+        n_vote = len(raw_vote)
         # has_conflicts flags financial conflicts; professional-only is noted separately
         has_conflicts = n_financial_committee > 0 or n_vote > 0
         # total count used for sorting / stats
@@ -381,13 +469,13 @@ def load_data(
             "constituency":    const,
             "memberCode":      td.get("memberCode", ""),
             "matched_to_api":  td.get("matched_to_api", False),
-            # Interests (sector-tagged)
-            "interest_sectors":    td.get("interest_sectors", []),
+            # Interests (sector-tagged, negative declarations stripped)
+            "interest_sectors":    clean_sectors,
             "interests_by_cat":    categories,      # reconstructed per-category
             "interests_summary":   td.get("interests_summary", {}),
             # Conflicts
             "committee_conflicts":    committee_conflicts,
-            "vote_conflicts":         td.get("vote_conflicts", []),
+            "vote_conflicts":         raw_vote,
             "has_conflicts":          has_conflicts,
             "conflict_count":         n_financial_committee + n_vote,
             "has_expertise_overlaps": any(
