@@ -1,0 +1,4609 @@
+{
+  "total": 1197,
+  "fetched": 50,
+  "records": [
+    {
+      "id": 79,
+      "url": "lobbying.ie/return/137559/msd",
+      "lobbyist_name": "MSD",
+      "date_published": "2026-02-09 10:35:00.000000",
+      "specific_details": "Cancer Outcomes in Ireland",
+      "intended_results": "To discuss the ‘Cancer Dashboard for Ireland’ developed by the Swedish Institute for Health Economics (IHE) with support from MSD which provides analysis of the state of cancer care in Ireland with focus on early detection, timely diagnosis, and equitable access to effective treatment.",
+      "any_dpo_or_former_dpo": "No",
+      "isFormerDPO": false,
+      "dpo_entries": [
+        {
+          "person_name": "Roderic O'Gorman",
+          "job_title": "TD",
+          "public_body": "Dáil Éireann, the Oireachtas"
+        },
+        {
+          "person_name": "Teresa Costello",
+          "job_title": "Senator",
+          "public_body": "Seanad"
+        },
+        {
+          "person_name": "Sandra Broderick",
+          "job_title": "Regional Executive Officer",
+          "public_body": "Health Service Executive"
+        },
+        {
+          "person_name": "Evanne Ní Chuilinn",
+          "job_title": "Senator",
+          "public_body": "Seanad"
+        },
+        {
+          "person_name": "Barry Heneghan",
+          "job_title": "TD",
+          "public_body": "Dáil Éireann, the Oireachtas"
+        },
+        {
+          "person_name": "Gillian Toole",
+          "job_title": "TD",
+          "public_body": "Dáil Éireann, the Oireachtas"
+        },
+        {
+          "person_name": "Noel McCarthy",
+          "job_title": "TD",
+          "public_body": "Dáil Éireann, the Oireachtas"
+        },
+        {
+          "person_name": "Malcolm Byrne",
+          "job_title": "TD",
+          "public_body": "Dáil Éireann, the Oireachtas"
+        },
+        {
+          "person_name": "Darren O'Rourke",
+          "job_title": "TD",
+          "public_body": "Dáil Éireann, the Oireachtas"
+        },
+        {
+          "person_name": "Erin McGreehan",
+          "job_title": "TD",
+          "public_body": "Dáil Éireann, the Oireachtas"
+        }
+      ],
+      "lobbying_activities": [
+        "Email",
+        "Event / Reception"
+      ]
+    },
+    {
+      "id": 105676,
+      "url": "lobbying.ie/return/132776/dbi-advisory--services-company-limited-by-guarantee",
+      "lobbyist_name": "DBI Advisory & Services Company Limited By Guarantee",
+      "date_published": "2025-12-23 17:20:00.000000",
+      "specific_details": "AI adoption and digital transition",
+      "intended_results": "To submit proposals for supports for digital transition and AI adoption, and reforms of government AI policies, and to request a meeting with the Oireachtas Joint Committee on AI.",
+      "any_dpo_or_former_dpo": "Yes",
+      "isFormerDPO": true,
+      "dpo_entries": [
+        {
+          "person_name": "Malcolm Byrne",
+          "job_title": "TD",
+          "public_body": "Dáil Éireann, the Oireachtas"
+        }
+      ],
+      "lobbying_activities": [
+        "Email to submit proposals for supports for digital transition and AI adoption, and reforms of government AI policies, and to request a meeting with the Oireachtas Joint Committee on AI. - Email"
+      ]
+    },
+    {
+      "id": 105674,
+      "url": "lobbying.ie/return/132774/dbi-advisory--services-company-limited-by-guarantee",
+      "lobbyist_name": "DBI Advisory & Services Company Limited By Guarantee",
+      "date_published": "2025-12-23 16:57:00.000000",
+      "specific_details": "Funding and supports for digital businesses.",
+      "intended_results": "To seek additional funding, supports and provisions for businesses, including Budget measures, competitiveness initiatives, AI adoption, Grow Digital Voucher reform, and related public funding.",
+      "any_dpo_or_former_dpo": "Yes",
+      "isFormerDPO": true,
+      "dpo_entries": [
+        {
+          "person_name": "Peter Burke",
+          "job_title": "Minister",
+          "public_body": "Department of Enterprise, Trade and Employment"
+        },
+        {
+          "person_name": "Laura Mannion",
+          "job_title": "Special Advisor",
+          "public_body": "Department of Enterprise, Trade and Employment"
+        },
+        {
+          "person_name": "Jean Carberry",
+          "job_title": "Assistant Secretary",
+          "public_body": "Department of Enterprise, Trade and Employment"
+        },
+        {
+          "person_name": "James Lawless",
+          "job_title": "Minister",
+          "public_body": "Department of Further and Higher Education, Research, Innovation and Science"
+        },
+        {
+          "person_name": "Harry McCann",
+          "job_title": "Special Adviser",
+          "public_body": "Department of Further and Higher Education, Research, Innovation and Science"
+        },
+        {
+          "person_name": "Dermot Coates",
+          "job_title": "Chief Economist",
+          "public_body": "Department of Enterprise, Trade and Employment"
+        },
+        {
+          "person_name": "Emer Higgins",
+          "job_title": "Minister of State",
+          "public_body": "Department of Public Expenditure, NDP Delivery and Reform"
+        },
+        {
+          "person_name": "Malcolm Byrne",
+          "job_title": "TD",
+          "public_body": "Dáil Éireann, the Oireachtas"
+        },
+        {
+          "person_name": "Paschal Donohoe",
+          "job_title": "Minister",
+          "public_body": "Department of Finance"
+        },
+        {
+          "person_name": "Niamh Smyth",
+          "job_title": "Minister of State",
+          "public_body": "Department of Enterprise, Trade and Employment"
+        },
+        {
+          "person_name": "Naoise O'Cearúil",
+          "job_title": "TD",
+          "public_body": "Dáil Éireann, the Oireachtas"
+        },
+        {
+          "person_name": "Neale Richmond",
+          "job_title": "Minister of State",
+          "public_body": "Department of Foreign Affairs"
+        },
+        {
+          "person_name": "John Lahart",
+          "job_title": "TD",
+          "public_body": "Dáil Éireann, the Oireachtas"
+        },
+        {
+          "person_name": "Emer Currie",
+          "job_title": "TD",
+          "public_body": "Dáil Éireann, the Oireachtas"
+        },
+        {
+          "person_name": "Ryan O'Meara",
+          "job_title": "TD",
+          "public_body": "Dáil Éireann, the Oireachtas"
+        },
+        {
+          "person_name": "Shane Moynihan",
+          "job_title": "TD",
+          "public_body": "Dáil Éireann, the Oireachtas"
+        },
+        {
+          "person_name": "Brendan Smith",
+          "job_title": "TD",
+          "public_body": "Dáil Éireann, the Oireachtas"
+        },
+        {
+          "person_name": "Dee Ryan",
+          "job_title": "Senator",
+          "public_body": "Seanad"
+        },
+        {
+          "person_name": "Joe Flaherty",
+          "job_title": "Senator",
+          "public_body": "Seanad"
+        },
+        {
+          "person_name": "Margaret Murphy O'Mahony",
+          "job_title": "Senator",
+          "public_body": "Seanad"
+        },
+        {
+          "person_name": "Mark Daly",
+          "job_title": "Senator",
+          "public_body": "Seanad"
+        },
+        {
+          "person_name": "Alan Dillon",
+          "job_title": "Minister of State",
+          "public_body": "Department of Enterprise, Trade and Employment"
+        },
+        {
+          "person_name": "Jenny McCormack",
+          "job_title": "Special Adviser",
+          "public_body": "Department of Enterprise, Trade and Employment"
+        },
+        {
+          "person_name": "Dr. Des Hogan",
+          "job_title": "Data Protection Commissioner",
+          "public_body": "Data Protection Commission"
+        },
+        {
+          "person_name": "Dale Sunderland",
+          "job_title": "Data Protection Commissioner",
+          "public_body": "Data Protection Commission"
+        }
+      ],
+      "lobbying_activities": [
+        "Multiple email communications regarding proposals, seeking support and requesting meetings to discuss items for inclusion in Budget 2026 relating to competitiveness initiatives, AI adoption, Grow Digital Voucher reform, and related public funding for businesses. - Email",
+        "Various meetings with officials to discuss proposals and to seek support for Digital Business Ireland's pre-budget submission, and supports for innovation, education, digital upskilling, and regulatory guidance for businesses. - Meeting"
+      ]
+    },
+    {
+      "id": 105658,
+      "url": "lobbying.ie/return/132674/independent-broadcasters-of-ireland",
+      "lobbyist_name": "Independent Broadcasters of Ireland",
+      "date_published": "2025-12-23 11:02:00.000000",
+      "specific_details": "Advocating for fair, proportionate and accessible funding for the public service content on independent radio stations in the Budget and in policy discussions. Seeking level playing field.",
+      "intended_results": "Inclusion of accessible funding for independent radio sector in Budget, as well as measures to ensure existing funding could be accessed. Fair share of Sound and Vision funding to be allocated to independent radio.::Measures to ensure a level playing field in regulatory and legislative terms for independent stations and fair application of State Aid in the media landscape, as well as unrestricted and prominent access for listeners to radio in vehicles or on devices or platforms. ::Budget allocation for accessible funding for investment in capital and maintenance of emergency communications transmission equipment.::Attendance invited for event aimed at highlighting need to protect prominent access for radio, and arrangement of meetings and highlighting IBI policy priorities",
+      "any_dpo_or_former_dpo": "No",
+      "isFormerDPO": false,
+      "dpo_entries": [
+        {
+          "person_name": "Simon Harris",
+          "job_title": "Tánaiste and Minister",
+          "public_body": "Department of Defence"
+        },
+        {
+          "person_name": "Jack Chambers",
+          "job_title": "Minister",
+          "public_body": "Department of Public Expenditure, NDP Delivery and Reform"
+        },
+        {
+          "person_name": "Paschal Donohoe",
+          "job_title": "Minister",
+          "public_body": "Department of Finance"
+        },
+        {
+          "person_name": "Caroline O'Loughlin",
+          "job_title": "Head of Unit",
+          "public_body": "Department of Arts, Heritage and the Gaeltacht"
+        },
+        {
+          "person_name": "Theresa Newman",
+          "job_title": "Special Adviser",
+          "public_body": "Department of Tourism, Culture, Arts, Gaeltacht, Sport and Media"
+        },
+        {
+          "person_name": "Ronan O'Domhnaill",
+          "job_title": "Director",
+          "public_body": "Department of Arts, Heritage, Regional, Rural & Gaeltacht Affairs"
+        },
+        {
+          "person_name": "Aoife MacEvilly",
+          "job_title": "Commissioner",
+          "public_body": "Coimisiún na Meán"
+        },
+        {
+          "person_name": "Niamh Hodnett",
+          "job_title": "Online Safety Commissioner",
+          "public_body": "Coimisiún na Meán"
+        },
+        {
+          "person_name": "Sinead Crowley",
+          "job_title": "Director",
+          "public_body": "Department of Arts, Heritage and the Gaeltacht"
+        },
+        {
+          "person_name": "Clare Diamond",
+          "job_title": "Director",
+          "public_body": "Department of Arts, Heritage and the Gaeltacht"
+        },
+        {
+          "person_name": "Holly Cairns",
+          "job_title": "TD",
+          "public_body": "Dáil Éireann, the Oireachtas"
+        },
+        {
+          "person_name": "Malcolm Byrne",
+          "job_title": "TD",
+          "public_body": "Dáil Éireann, the Oireachtas"
+        },
+        {
+          "person_name": "Carol Nolan",
+          "job_title": "TD",
+          "public_body": "Dáil Éireann, the Oireachtas"
+        },
+        {
+          "person_name": "Brian Brennan",
+          "job_title": "TD",
+          "public_body": "Dáil Éireann, the Oireachtas"
+        },
+        {
+          "person_name": "Mark Duffy",
+          "job_title": "Senator",
+          "public_body": "Seanad"
+        },
+        {
+          "person_name": "Michael McNamara",
+          "job_title": "MEP",
+          "public_body": "European Parliament"
+        },
+        {
+          "person_name": "Aodhán Ó Ríordáin",
+          "job_title": "MEP",
+          "public_body": "European Parliament"
+        },
+        {
+          "person_name": "Barry Cowen",
+          "job_title": "MEP",
+          "public_body": "European Parliament"
+        },
+        {
+          "person_name": "Barry Andrews",
+          "job_title": "MEP",
+          "public_body": "European Parliament"
+        },
+        {
+          "person_name": "Seán Kelly",
+          "job_title": "MEP",
+          "public_body": "European Parliament"
+        },
+        {
+          "person_name": "Lynn Boylan",
+          "job_title": "MEP",
+          "public_body": "European Parliament"
+        },
+        {
+          "person_name": "Cynthia Ní Mhurchú",
+          "job_title": "MEP",
+          "public_body": "European Parliament"
+        },
+        {
+          "person_name": "Alison Comyn",
+          "job_title": "Senator",
+          "public_body": "Seanad"
+        },
+        {
+          "person_name": "Micheál Martin",
+          "job_title": "Taoiseach",
+          "public_body": "Dáil Éireann, the Oireachtas"
+        },
+        {
+          "person_name": "Michael McNamara",
+          "job_title": "MEP",
+          "public_body": "European Parliament"
+        },
+        {
+          "person_name": "Regina Doherty",
+          "job_title": "MEP",
+          "public_body": "European Parliament"
+        },
+        {
+          "person_name": "Michael Collins",
+          "job_title": "TD",
+          "public_body": "Dáil Éireann, the Oireachtas"
+        },
+        {
+          "person_name": "Seán Canney",
+          "job_title": "Minister of State",
+          "public_body": "Department of Transport"
+        },
+        {
+          "person_name": "Robert O'Donoghue",
+          "job_title": "TD",
+          "public_body": "Dáil Éireann, the Oireachtas"
+        },
+        {
+          "person_name": "Matt Carthy",
+          "job_title": "TD",
+          "public_body": "Dáil Éireann, the Oireachtas"
+        },
+        {
+          "person_name": "Aengus Ó Snodaigh",
+          "job_title": "TD",
+          "public_body": "Dáil Éireann, the Oireachtas"
+        },
+        {
+          "person_name": "Billy Kelleher",
+          "job_title": "MEP",
+          "public_body": "European Parliament"
+        },
+        {
+          "person_name": "Regina Doherty",
+          "job_title": "MEP",
+          "public_body": "European Parliament"
+        },
+        {
+          "person_name": "Kathleen Funchion",
+          "job_title": "MEP",
+          "public_body": "European Parliament"
+        },
+        {
+          "person_name": "Nina Carberry",
+          "job_title": "MEP",
+          "public_body": "European Parliament"
+        },
+        {
+          "person_name": "Peter 'Chap' Cleere",
+          "job_title": "TD",
+          "public_body": "Dáil Éireann, the Oireachtas"
+        },
+        {
+          "person_name": "Ciaran Mullooly",
+          "job_title": "MEP",
+          "public_body": "European Parliament"
+        },
+        {
+          "person_name": "Patrick O'Donovan",
+          "job_title": "Minister",
+          "public_body": "Department of Culture, Heritage and the Gaeltacht"
+        }
+      ],
+      "lobbying_activities": [
+        "Emails to TDs, MEPs and Senators, Government Ministers, Members of Oireachtas Media Committee, Department of Media officials and officials of Coimisiún na Meán and Comreg.  Re policy and budget proposals.  Seeking meetings and support and communicating our position on regulatory and policy issues.  Thanking stakeholders for engagement. - Email",
+        "Informal meetings at events/awards functions. - Informal communication",
+        "Letters to Government Ministers, Department of Media officials, and officials of officials of Coimisiún na Meán and Comreg and Comreg.  Re policy and budget proposals and seeking information on policy decisions. - Letter",
+        "Meetings with officials in the Department of Media and officials of Coimisiún na Meán on policy proposals and initiatives. - Virtual Meeting",
+        "Meetings with officials in the Department of Media, Minister for Media, and officials of officials of Coimisiún na Meán.  To explain our proposals, concerns and objectives and the value our sector brings. - Meeting",
+        "Messages on social media re IBI matters and relevant  information and outreach. - Social Media"
+      ]
+    },
+    {
+      "id": 105650,
+      "url": "lobbying.ie/return/132626/milltown-partners-group-limited",
+      "lobbyist_name": "Milltown Partners Group Limited",
+      "date_published": "2025-12-19 09:27:00.000000",
+      "specific_details": "Arranged meetings for Intuit with these DPOs to discuss Irish SME uptake of AI",
+      "intended_results": "Intended outcome: Increase understanding of SME adoption of AI",
+      "any_dpo_or_former_dpo": "No",
+      "isFormerDPO": false,
+      "dpo_entries": [
+        {
+          "person_name": "Wendy Gray",
+          "job_title": "Assistant Secretaries or Equivalent Grades",
+          "public_body": "Department of Enterprise, Trade and Employment"
+        },
+        {
+          "person_name": "Malcolm Byrne",
+          "job_title": "TD",
+          "public_body": "Dáil Éireann, the Oireachtas"
+        },
+        {
+          "person_name": "James Geoghegan",
+          "job_title": "TD",
+          "public_body": "Dáil Éireann, the Oireachtas"
+        }
+      ],
+      "lobbying_activities": [
+        "Arranged meetings for Intuit with these DPOs to discuss Irish SME uptake of AI - Meeting"
+      ]
+    },
+    {
+      "id": 105525,
+      "url": "lobbying.ie/return/132361/national-traveller-mabs",
+      "lobbyist_name": "National Traveller MABS",
+      "date_published": "2025-11-28 10:58:00.000000",
+      "specific_details": "NTMABS joined with other organisations to send a joint letter to the Oireachtas Climate Committee outlining our concerns regarding the lack of civil society organisations being called as witnesses for their session on energy affordability.",
+      "intended_results": "That the Committee invite representatives nominated by the co-signing organisations to take part in thesession on energy affordability on December 10th.",
+      "any_dpo_or_former_dpo": "No",
+      "isFormerDPO": false,
+      "dpo_entries": [
+        {
+          "person_name": "Naoise Ó Muirí",
+          "job_title": "TD",
+          "public_body": "Dáil Éireann, the Oireachtas"
+        },
+        {
+          "person_name": "Naoise O'Cearúil",
+          "job_title": "TD",
+          "public_body": "Dáil Éireann, the Oireachtas"
+        },
+        {
+          "person_name": "Ciarán Ahern",
+          "job_title": "TD",
+          "public_body": "Dáil Éireann, the Oireachtas"
+        },
+        {
+          "person_name": "Malcolm Byrne",
+          "job_title": "TD",
+          "public_body": "Dáil Éireann, the Oireachtas"
+        },
+        {
+          "person_name": "John Clendennen",
+          "job_title": "TD",
+          "public_body": "Dáil Éireann, the Oireachtas"
+        },
+        {
+          "person_name": "Réada Cronin",
+          "job_title": "TD",
+          "public_body": "Dáil Éireann, the Oireachtas"
+        },
+        {
+          "person_name": "Pa Daly",
+          "job_title": "TD",
+          "public_body": "Dáil Éireann, the Oireachtas"
+        },
+        {
+          "person_name": "Barry Heneghan",
+          "job_title": "TD",
+          "public_body": "Dáil Éireann, the Oireachtas"
+        },
+        {
+          "person_name": "Jennifer Whitmore",
+          "job_title": "TD",
+          "public_body": "Dáil Éireann, the Oireachtas"
+        },
+        {
+          "person_name": "Lorraine Clifford-Lee",
+          "job_title": "Senator",
+          "public_body": "Seanad"
+        },
+        {
+          "person_name": "Mark Duffy",
+          "job_title": "Senator",
+          "public_body": "Seanad"
+        },
+        {
+          "person_name": "Alice-Mary Higgins",
+          "job_title": "Senator",
+          "public_body": "Seanad"
+        },
+        {
+          "person_name": "Noel O'Donovan",
+          "job_title": "Senator",
+          "public_body": "Seanad"
+        }
+      ],
+      "lobbying_activities": [
+        "1 letter was sent via email to the Oireachtas Committee Members and clerk co-signed by NTMABS and Friends of the Earth, Irish Rural Link, National Women’s Council, INOU, Irish Cancer Society, Community Work Ireland, Polio Survivors Ireland, Irish Green Building Council, Disability Federation of Ireland, Society of St Vincent de Paul, Social Justice Ireland,Centre for Environmental Justice, Community Law and Mediation. - Email"
+      ]
+    },
+    {
+      "id": 103837,
+      "url": "lobbying.ie/return/117718/st-michaels-house-group",
+      "lobbyist_name": "St Michael's House Group",
+      "date_published": "2025-10-15 14:53:00.000000",
+      "specific_details": "Pre-Budget Communication to the Seanad, Ministers and TD's highlighting the issues facing people with intellectual disabilities and their families, and the critical sustainability issues that are facing the organisations providing supports for these individuals - this includes St Michael's House.",
+      "intended_results": "In Budget 2025, it is essential that the Government commits to fully resourcing and implementing the Action Plan for Disability Services 2024-2026.",
+      "any_dpo_or_former_dpo": "No",
+      "isFormerDPO": false,
+      "dpo_entries": [
+        {
+          "person_name": "Jack Chambers",
+          "job_title": "TD",
+          "public_body": "Dáil Éireann, the Oireachtas"
+        },
+        {
+          "person_name": "Paschal Donohoe",
+          "job_title": "TD",
+          "public_body": "Dáil Éireann, the Oireachtas"
+        },
+        {
+          "person_name": "Catherine Martin",
+          "job_title": "TD",
+          "public_body": "Dáil Éireann, the Oireachtas"
+        },
+        {
+          "person_name": "Mary Lou McDonald",
+          "job_title": "TD",
+          "public_body": "Dáil Éireann, the Oireachtas"
+        },
+        {
+          "person_name": "Darragh O'Brien",
+          "job_title": "TD",
+          "public_body": "Dáil Éireann, the Oireachtas"
+        },
+        {
+          "person_name": "Eamon Ryan",
+          "job_title": "TD",
+          "public_body": "Dáil Éireann, the Oireachtas"
+        },
+        {
+          "person_name": "Roderic O'Gorman",
+          "job_title": "TD",
+          "public_body": "Dáil Éireann, the Oireachtas"
+        },
+        {
+          "person_name": "Aidan Davitt",
+          "job_title": "Senator",
+          "public_body": "Seanad"
+        },
+        {
+          "person_name": "Aisling Dolan",
+          "job_title": "Senator",
+          "public_body": "Seanad"
+        },
+        {
+          "person_name": "Alice-Mary Higgins",
+          "job_title": "Senator",
+          "public_body": "Seanad"
+        },
+        {
+          "person_name": "Annie Hoey",
+          "job_title": "Senator",
+          "public_body": "Seanad"
+        },
+        {
+          "person_name": "Barry Ward",
+          "job_title": "Senator",
+          "public_body": "Seanad"
+        },
+        {
+          "person_name": "Catherine Ardagh",
+          "job_title": "Senator",
+          "public_body": "Seanad"
+        },
+        {
+          "person_name": "David Norris",
+          "job_title": "Senator",
+          "public_body": "Seanad"
+        },
+        {
+          "person_name": "Denis O'Donovan",
+          "job_title": "Senator",
+          "public_body": "Seanad"
+        },
+        {
+          "person_name": "Diarmuid Wilson",
+          "job_title": "Senator",
+          "public_body": "Seanad"
+        },
+        {
+          "person_name": "Eileen Flynn",
+          "job_title": "Senator",
+          "public_body": "Seanad"
+        },
+        {
+          "person_name": "Emer Currie",
+          "job_title": "Senator",
+          "public_body": "Seanad"
+        },
+        {
+          "person_name": "Erin McGreehan",
+          "job_title": "Senator",
+          "public_body": "Seanad"
+        },
+        {
+          "person_name": "Eugene Murphy",
+          "job_title": "Senator",
+          "public_body": "Seanad"
+        },
+        {
+          "person_name": "Fintan Warfield",
+          "job_title": "Senator",
+          "public_body": "Seanad"
+        },
+        {
+          "person_name": "Fiona O'Loughlin",
+          "job_title": "Senator",
+          "public_body": "Seanad"
+        },
+        {
+          "person_name": "Frances Black",
+          "job_title": "Senator",
+          "public_body": "Seanad"
+        },
+        {
+          "person_name": "Garret Ahearn",
+          "job_title": "Senator",
+          "public_body": "Seanad"
+        },
+        {
+          "person_name": "Garrett Ahern",
+          "job_title": "Senator",
+          "public_body": "Seanad"
+        },
+        {
+          "person_name": "Gerard Craughwell",
+          "job_title": "Senator",
+          "public_body": "Seanad"
+        },
+        {
+          "person_name": "Gerry Horkan",
+          "job_title": "Senator",
+          "public_body": "Seanad"
+        },
+        {
+          "person_name": "Jerry Buttimer",
+          "job_title": "Senator",
+          "public_body": "Seanad"
+        },
+        {
+          "person_name": "Joe O'Reilly",
+          "job_title": "Senator",
+          "public_body": "Seanad"
+        },
+        {
+          "person_name": "John Cummins",
+          "job_title": "Senator",
+          "public_body": "Seanad"
+        },
+        {
+          "person_name": "John McGahon",
+          "job_title": "Senator",
+          "public_body": "Seanad"
+        },
+        {
+          "person_name": "Lisa Chambers",
+          "job_title": "Senator",
+          "public_body": "Seanad"
+        },
+        {
+          "person_name": "Lorraine Clifford-Lee",
+          "job_title": "Senator",
+          "public_body": "Seanad"
+        },
+        {
+          "person_name": "Lynn Boylan",
+          "job_title": "Senator",
+          "public_body": "Seanad"
+        },
+        {
+          "person_name": "Lynn Ruane",
+          "job_title": "Senator",
+          "public_body": "Seanad"
+        },
+        {
+          "person_name": "Mal O'Hara",
+          "job_title": "Senator",
+          "public_body": "Seanad"
+        },
+        {
+          "person_name": "Malcolm Byrne",
+          "job_title": "Senator",
+          "public_body": "Seanad"
+        },
+        {
+          "person_name": "Maria Byrne",
+          "job_title": "Senator",
+          "public_body": "Seanad"
+        },
+        {
+          "person_name": "Mark Daly",
+          "job_title": "Senator",
+          "public_body": "Seanad"
+        },
+        {
+          "person_name": "Mark Wall",
+          "job_title": "Senator",
+          "public_body": "Seanad"
+        },
+        {
+          "person_name": "Martin Conway",
+          "job_title": "Senator",
+          "public_body": "Seanad"
+        },
+        {
+          "person_name": "Mary Fitzpatrick",
+          "job_title": "Senator",
+          "public_body": "Seanad"
+        },
+        {
+          "person_name": "Mary Seery Kearney",
+          "job_title": "Senator",
+          "public_body": "Seanad"
+        },
+        {
+          "person_name": "Michael Carrighy",
+          "job_title": "Senator",
+          "public_body": "Seanad"
+        },
+        {
+          "person_name": "Michael McDowell",
+          "job_title": "Senator",
+          "public_body": "Seanad"
+        },
+        {
+          "person_name": "Micheál Carrigy",
+          "job_title": "Senator",
+          "public_body": "Seanad"
+        },
+        {
+          "person_name": "Ned O'Sullivan",
+          "job_title": "Senator",
+          "public_body": "Seanad"
+        },
+        {
+          "person_name": "Niall Blaney",
+          "job_title": "Senator",
+          "public_body": "Seanad"
+        },
+        {
+          "person_name": "Niall Ó Donnghaile",
+          "job_title": "Senator",
+          "public_body": "Seanad"
+        },
+        {
+          "person_name": "Niall Ó Donnghaile",
+          "job_title": "Senator",
+          "public_body": "Seanad"
+        },
+        {
+          "person_name": "Nikki Bradley",
+          "job_title": "Senator",
+          "public_body": "Seanad"
+        },
+        {
+          "person_name": "Ollie Crowe",
+          "job_title": "Senator",
+          "public_body": "Seanad"
+        },
+        {
+          "person_name": "Paddy Burke",
+          "job_title": "Senator",
+          "public_body": "Seanad"
+        },
+        {
+          "person_name": "Pat Casey",
+          "job_title": "Senator",
+          "public_body": "Seanad"
+        },
+        {
+          "person_name": "Paul Daly",
+          "job_title": "Senator",
+          "public_body": "Seanad"
+        },
+        {
+          "person_name": "Paul Gavan",
+          "job_title": "Senator",
+          "public_body": "Seanad"
+        },
+        {
+          "person_name": "Pauline O'Reilly",
+          "job_title": "Senator",
+          "public_body": "Seanad"
+        },
+        {
+          "person_name": "Pippa Hackett",
+          "job_title": "Senator",
+          "public_body": "Seanad"
+        },
+        {
+          "person_name": "Rebecca Moynihan",
+          "job_title": "Senator",
+          "public_body": "Seanad"
+        },
+        {
+          "person_name": "Regina Doherty",
+          "job_title": "Senator",
+          "public_body": "Seanad"
+        },
+        {
+          "person_name": "Robbie Gallagher",
+          "job_title": "Senator",
+          "public_body": "Seanad"
+        },
+        {
+          "person_name": "Róisín Garvey",
+          "job_title": "Senator",
+          "public_body": "Seanad"
+        },
+        {
+          "person_name": "Rónán Mullen",
+          "job_title": "Senator",
+          "public_body": "Seanad"
+        },
+        {
+          "person_name": "Seán Kyne",
+          "job_title": "Senator",
+          "public_body": "Seanad"
+        },
+        {
+          "person_name": "Shane Cassells",
+          "job_title": "Senator",
+          "public_body": "Seanad"
+        },
+        {
+          "person_name": "Sharon Keogan",
+          "job_title": "Senator",
+          "public_body": "Seanad"
+        },
+        {
+          "person_name": "Tim Lombard",
+          "job_title": "Senator",
+          "public_body": "Seanad"
+        },
+        {
+          "person_name": "Timmy Dooley",
+          "job_title": "Senator",
+          "public_body": "Seanad"
+        },
+        {
+          "person_name": "Tom Clonan",
+          "job_title": "Senator",
+          "public_body": "Seanad"
+        },
+        {
+          "person_name": "Victor Boyhan",
+          "job_title": "Senator",
+          "public_body": "Seanad"
+        },
+        {
+          "person_name": "Vincent P Martin",
+          "job_title": "Senator",
+          "public_body": "Seanad"
+        }
+      ],
+      "lobbying_activities": [
+        "Letters were sent to all Senators, TD's and Ministers. - Letter"
+      ]
+    },
+    {
+      "id": 104438,
+      "url": "lobbying.ie/return/129782/wind-energy-ireland",
+      "lobbyist_name": "Wind Energy Ireland",
+      "date_published": "2025-09-22 10:29:00.000000",
+      "specific_details": "Ireland's national Designated Maritime Area Plan",
+      "intended_results": "Providing sufficient resources to enable the successful completion of the national Designated Maritime Area Plan on time.",
+      "any_dpo_or_former_dpo": "No",
+      "isFormerDPO": false,
+      "dpo_entries": [
+        {
+          "person_name": "Barry Andrews",
+          "job_title": "MEP",
+          "public_body": "European Parliament"
+        },
+        {
+          "person_name": "Naoise Ó Muirí",
+          "job_title": "TD",
+          "public_body": "Dáil Éireann, the Oireachtas"
+        },
+        {
+          "person_name": "Malcolm Byrne",
+          "job_title": "TD",
+          "public_body": "Dáil Éireann, the Oireachtas"
+        },
+        {
+          "person_name": "Conor D McGuinness",
+          "job_title": "TD",
+          "public_body": "Dáil Éireann, the Oireachtas"
+        },
+        {
+          "person_name": "Padráig Mac Lochlainn",
+          "job_title": "TD",
+          "public_body": "Dáil Éireann, the Oireachtas"
+        },
+        {
+          "person_name": "Darren O'Rourke",
+          "job_title": "TD",
+          "public_body": "Dáil Éireann, the Oireachtas"
+        },
+        {
+          "person_name": "Aine Doyle",
+          "job_title": "Special Adviser",
+          "public_body": "Department of Climate, Energy and the Environment"
+        },
+        {
+          "person_name": "Darragh O'Brien",
+          "job_title": "Minister",
+          "public_body": "Department of Climate, Energy and the Environment"
+        }
+      ],
+      "lobbying_activities": [
+        "Meeting"
+      ]
+    },
+    {
+      "id": 104437,
+      "url": "lobbying.ie/return/129779/wind-energy-ireland",
+      "lobbyist_name": "Wind Energy Ireland",
+      "date_published": "2025-09-22 10:27:00.000000",
+      "specific_details": "Offshore Wind Action Plan",
+      "intended_results": "Support for the recommendations set out in the Wind Energy Ireland Offshore Wind Action Plan, available online here: https://windenergyireland.com/images/files/web-offshore-wind-strategy-may-2025-12-page-a4-260525-am.pdf",
+      "any_dpo_or_former_dpo": "No",
+      "isFormerDPO": false,
+      "dpo_entries": [
+        {
+          "person_name": "Darragh O'Brien",
+          "job_title": "Minister",
+          "public_body": "Department of Climate, Energy and the Environment"
+        },
+        {
+          "person_name": "Matt Collins",
+          "job_title": "Assistant Secretary",
+          "public_body": "Department of Climate, Energy and the Environment"
+        },
+        {
+          "person_name": "Aine Doyle",
+          "job_title": "Special Adviser",
+          "public_body": "Department of Climate, Energy and the Environment"
+        },
+        {
+          "person_name": "Siobhan Russell",
+          "job_title": "Adviser to Minister",
+          "public_body": "Department of Transport"
+        },
+        {
+          "person_name": "Pat McParland",
+          "job_title": "Deputy Chief of Staff",
+          "public_body": "Department of the Taoiseach"
+        },
+        {
+          "person_name": "Deirdre Gillane",
+          "job_title": "Chief of Staff",
+          "public_body": "Department of the Taoiseach"
+        },
+        {
+          "person_name": "Peter Burke",
+          "job_title": "Minister",
+          "public_body": "Department of Enterprise, Trade and Employment"
+        },
+        {
+          "person_name": "Laura Mannion",
+          "job_title": "Special Advisor",
+          "public_body": "Department of Enterprise, Trade and Employment"
+        },
+        {
+          "person_name": "Timmy Dooley",
+          "job_title": "Minister of State",
+          "public_body": "Department of Climate, Energy and the Environment"
+        },
+        {
+          "person_name": "Naoise Ó Muirí",
+          "job_title": "TD",
+          "public_body": "Dáil Éireann, the Oireachtas"
+        },
+        {
+          "person_name": "Ciarán Ahern",
+          "job_title": "TD",
+          "public_body": "Dáil Éireann, the Oireachtas"
+        },
+        {
+          "person_name": "Malcolm Byrne",
+          "job_title": "TD",
+          "public_body": "Dáil Éireann, the Oireachtas"
+        },
+        {
+          "person_name": "John Clendennen",
+          "job_title": "TD",
+          "public_body": "Dáil Éireann, the Oireachtas"
+        },
+        {
+          "person_name": "Réada Cronin",
+          "job_title": "TD",
+          "public_body": "Dáil Éireann, the Oireachtas"
+        },
+        {
+          "person_name": "Pa Daly",
+          "job_title": "TD",
+          "public_body": "Dáil Éireann, the Oireachtas"
+        },
+        {
+          "person_name": "Barry Heneghan",
+          "job_title": "TD",
+          "public_body": "Dáil Éireann, the Oireachtas"
+        },
+        {
+          "person_name": "Jennifer Whitmore",
+          "job_title": "TD",
+          "public_body": "Dáil Éireann, the Oireachtas"
+        },
+        {
+          "person_name": "Naoise O'Cearúil",
+          "job_title": "TD",
+          "public_body": "Dáil Éireann, the Oireachtas"
+        },
+        {
+          "person_name": "Lorraine Clifford-Lee",
+          "job_title": "Senator",
+          "public_body": "Seanad"
+        },
+        {
+          "person_name": "Mark Duffy",
+          "job_title": "Senator",
+          "public_body": "Seanad"
+        },
+        {
+          "person_name": "Alice-Mary Higgins",
+          "job_title": "Senator",
+          "public_body": "Seanad"
+        },
+        {
+          "person_name": "Malcolm Noonan",
+          "job_title": "Senator",
+          "public_body": "Seanad"
+        },
+        {
+          "person_name": "Noel O'Donovan",
+          "job_title": "Senator",
+          "public_body": "Seanad"
+        }
+      ],
+      "lobbying_activities": [
+        "Email",
+        "Meeting",
+        "Phone call"
+      ]
+    },
+    {
+      "id": 104452,
+      "url": "lobbying.ie/return/129838/wind-energy-ireland",
+      "lobbyist_name": "Wind Energy Ireland",
+      "date_published": "2025-09-22 10:25:00.000000",
+      "specific_details": "Acclerating delivery of on and offshore wind energy.",
+      "intended_results": "Implement the new Planning and Development Act. ::Resourcing and support for the the implementation of the renewable energy targets set out in the National Planning Framework.::Priority for renewable energy projects in the planning system and more resources for ACP and relevant statutory agencies.::Provide political support for the reinforcement of our electricity grid as set out in EirGrid’s Shaping Our Electricity Future.::Accelerate the construction of the North-South Interconnector and other key grid infrastructure projects. ::Provide support for energy storage as a key enabler of renewable electricity and a zero-carbon power system and implement the national energy storage strategy.",
+      "any_dpo_or_former_dpo": "No",
+      "isFormerDPO": false,
+      "dpo_entries": [
+        {
+          "person_name": "Barry Andrews",
+          "job_title": "MEP",
+          "public_body": "European Parliament"
+        },
+        {
+          "person_name": "Naoise Ó Muirí",
+          "job_title": "TD",
+          "public_body": "Dáil Éireann, the Oireachtas"
+        },
+        {
+          "person_name": "Malcolm Byrne",
+          "job_title": "TD",
+          "public_body": "Dáil Éireann, the Oireachtas"
+        },
+        {
+          "person_name": "Padráig Mac Lochlainn",
+          "job_title": "TD",
+          "public_body": "Dáil Éireann, the Oireachtas"
+        },
+        {
+          "person_name": "Conor D McGuinness",
+          "job_title": "TD",
+          "public_body": "Dáil Éireann, the Oireachtas"
+        },
+        {
+          "person_name": "Darren O'Rourke",
+          "job_title": "TD",
+          "public_body": "Dáil Éireann, the Oireachtas"
+        }
+      ],
+      "lobbying_activities": [
+        "Email",
+        "Meeting"
+      ]
+    },
+    {
+      "id": 105270,
+      "url": "lobbying.ie/return/131961/tg4",
+      "lobbyist_name": "TG4",
+      "date_published": "2025-09-21 21:08:00.000000",
+      "specific_details": "Ag lorg tacaíocht bhreise do  TG4",
+      "intended_results": "Tacaíocht bhreise do  TG4",
+      "any_dpo_or_former_dpo": "No",
+      "isFormerDPO": false,
+      "dpo_entries": [
+        {
+          "person_name": "Aoife MacEvilly",
+          "job_title": "Commissioner",
+          "public_body": "Coimisiún na Meán"
+        },
+        {
+          "person_name": "Sinéad Gibney",
+          "job_title": "TD",
+          "public_body": "Dáil Éireann, the Oireachtas"
+        },
+        {
+          "person_name": "Cynthia Ní Mhurchú",
+          "job_title": "MEP",
+          "public_body": "European Parliament"
+        },
+        {
+          "person_name": "Conor D McGuinness",
+          "job_title": "TD",
+          "public_body": "Dáil Éireann, the Oireachtas"
+        },
+        {
+          "person_name": "Joanna Byrne",
+          "job_title": "TD",
+          "public_body": "Dáil Éireann, the Oireachtas"
+        },
+        {
+          "person_name": "Aengus Ó Snodaigh",
+          "job_title": "TD",
+          "public_body": "Dáil Éireann, the Oireachtas"
+        },
+        {
+          "person_name": "Dara Calleary",
+          "job_title": "TD",
+          "public_body": "Dáil Éireann, the Oireachtas"
+        },
+        {
+          "person_name": "Naoise O'Cearúil",
+          "job_title": "TD",
+          "public_body": "Dáil Éireann, the Oireachtas"
+        },
+        {
+          "person_name": "Lorraine Clifford-Lee",
+          "job_title": "Senator",
+          "public_body": "Seanad"
+        },
+        {
+          "person_name": "Aindrias Moynihan",
+          "job_title": "TD",
+          "public_body": "Dáil Éireann, the Oireachtas"
+        },
+        {
+          "person_name": "Shane Moynihan",
+          "job_title": "TD",
+          "public_body": "Dáil Éireann, the Oireachtas"
+        },
+        {
+          "person_name": "Peter 'Chap' Cleere",
+          "job_title": "TD",
+          "public_body": "Dáil Éireann, the Oireachtas"
+        },
+        {
+          "person_name": "Malcolm Byrne",
+          "job_title": "TD",
+          "public_body": "Dáil Éireann, the Oireachtas"
+        },
+        {
+          "person_name": "Pádraig O'Sullivan",
+          "job_title": "TD",
+          "public_body": "Dáil Éireann, the Oireachtas"
+        },
+        {
+          "person_name": "Eileen Lynch",
+          "job_title": "Senator",
+          "public_body": "Seanad"
+        },
+        {
+          "person_name": "Manus Boyle",
+          "job_title": "Senator",
+          "public_body": "Seanad"
+        },
+        {
+          "person_name": "Joe Neville",
+          "job_title": "TD",
+          "public_body": "Dáil Éireann, the Oireachtas"
+        },
+        {
+          "person_name": "Cathal Byrne",
+          "job_title": "Senator",
+          "public_body": "Seanad"
+        },
+        {
+          "person_name": "Naoise Ó Muirí",
+          "job_title": "TD",
+          "public_body": "Dáil Éireann, the Oireachtas"
+        },
+        {
+          "person_name": "Seán Kyne",
+          "job_title": "Senator",
+          "public_body": "Seanad"
+        },
+        {
+          "person_name": "Frank Feighan",
+          "job_title": "TD",
+          "public_body": "Dáil Éireann, the Oireachtas"
+        },
+        {
+          "person_name": "Garret Kelleher",
+          "job_title": "Senator",
+          "public_body": "Seanad"
+        },
+        {
+          "person_name": "Evanne Ní Chuilinn",
+          "job_title": "Senator",
+          "public_body": "Seanad"
+        },
+        {
+          "person_name": "Alan Kelly",
+          "job_title": "TD",
+          "public_body": "Dáil Éireann, the Oireachtas"
+        },
+        {
+          "person_name": "Tríona Quill",
+          "job_title": "Assistant Secretary",
+          "public_body": "Department of Tourism, Culture, Arts, Gaeltacht, Sport and Media"
+        },
+        {
+          "person_name": "Feargal Ó Coigligh",
+          "job_title": "Secretary General",
+          "public_body": "Department of Tourism, Culture, Arts, Gaeltacht, Sport and Media"
+        },
+        {
+          "person_name": "Patrick O’Donovan",
+          "job_title": "Minister",
+          "public_body": "Department of Tourism, Culture, Arts, Gaeltacht, Sport and Media"
+        }
+      ],
+      "lobbying_activities": [
+        "Aoife McEvilly Coimisiún na Meán cuairt ar TG4 ar 30/5/2025, plé ar mhaoiniú ilbhliaintiúil do TG4 agus ceist Moladh 7.1 do cheannas eagarthóireacht neamhspleách ar Nuacht TG4. Chruinniú le Deirdre Ní Choistín Ard Stiúrthóir. - Meeting",
+        "Cruinniú  i TG4 ar 9/7/2025 leis an Ard Stiúrthóir Deirdre Ní Choistín, ard bainistíocht TG4 agus Cathaoirleach TG4  leis an Aire Patrick O'Donovan, Ard Rúnaí Feargal Ó Coigligh agus Rúnaí Cúnta Tríona Quill. Pléadh tosaíochtaí straitéiseacha TG4 do 2026, ach go háirithe maoiniú leordhóthanach agus ilbhliaintiúíl TG4, Neamhspleáchas nuachta agus infheicfheacht agus infhaighteacht ábhair TG4 ar ardáin 3ú páirtí. - Meeting",
+        "Cruinniú ar 15/7/2025  faoi thosaíochtaí straitéise TG4 do 2026: i láthair bhí Deirdre Ní Choistín Ard Stiúrthóir TG4, Trevor Ó Clochartaigh TG4, Lís Ní Dhálaigh TG4 agus  Aengus Ó Snodaigh, Joanna Byrne, Conor D. McGuinness agus Shona Ó Raghallaigh - Meeting",
+        "Cruinniú ar 15/7/2025  faoi thosaíochtaí straitéise TG4 do 2026: i láthair bhí Deirdre Ní Choistín Ard Stiúrthóir TG4, Trevor Ó Clochartaigh TG4, Lís Ní Dhálaigh TG4 agus  An tAire Dara Calleary, Padraig O'Sullivan, Malcolm Byrne, Aindrias Ó Muineacháin, Peter Chap Cleere, Naoise Ó Cearúil, Séin Ó Muineacháin agus Lorraine Clifford Lee - Meeting",
+        "Cruinniú ar 15/7/2025  faoi thosaíochtaí straitéise TG4 do 2026: i láthair bhí Deirdre Ní Choistín Ard Stiúrthóir TG4, Trevor Ó Clochartaigh TG4, Lís Ní Dhálaigh TG4 agus  John Connolly - Meeting",
+        "Cruinniú ar 15/7/2025  faoi thosaíochtaí straitéise TG4 do 2026: i láthair bhí Deirdre Ní Choistín Ard Stiúrthóir TG4, Trevor Ó Clochartaigh TG4, Lís Ní Dhálaigh TG4 agus Sean Kyne, Evanne Ní Chuilinn, Naoise Ó Muirí, Garret Kelleher, Joe Neville, Cathal Byrne, Manus Boyle, Frank Feighan agus Eileen Lynch - Meeting",
+        "Cruinniú ar 15/7/2025  faoi thosaíochtaí straitéise TG4 do 2026: i láthair bhí Deirdre Ní Choistín Ard Stiúrthóir TG4, Trevor Ó Clochartaigh TG4, Lís Ní Dhálaigh TG4 agus Sinéad Gibney - Meeting",
+        "Rphoist ar 1/7/2025  agus ar 14/7/25  ó Trevor Ó Clochartaigh chuig Aengus Ó Snodaigh ag iarraidh cruinniú réamhbhuiséad a shocrú ag lorg tacaíocht breise do TG4. - Email",
+        "Rphoist ar 1/7/2025  agus ar 14/7/25 ó Trevor Ó Clochartaigh chuig Seán Kyne ag iarraidh cruinniú réamhbhuiséad a shocrú ag lorg tacaíocht breise do TG4. - Email",
+        "Rphoist ar 1/7/2025 ó Trevor Ó Clochartaigh chuig Marie Sherlock ag iarraidh cruinniú réamhbhuiséad a shocrú ag lorg tacaíocht breise do TG4. - Email",
+        "Rphoist ar 1/7/2025 ó Trevor Ó Clochartaigh chuig Pádraig O  Sullivan  ag iarraidh cruinniú réamhbhuiséad a shocrú ag lorg tacaíocht breise do TG4. - Email",
+        "Rphoist ar 1/7/2025 ó Trevor Ó Clochartaigh chuig Sinéad Gibney  ag iarraidh cruinniú réamhbhuiséad a shocrú ag lorg tacaíocht breise do TG4. - Email",
+        "Rphoist ar 9/7/2025 ó Trevor Ó Clochartaigh chuig Lorraine Clifford Lee ag iarraidh cruinniú réamhbhuiséad a shocrú ag lorg tacaíocht breise do TG4. - Email",
+        "Rphost seolta ó Ard Stiúrthóir TG4 Deirdre Ní Choistín ar 20/8/25 chuig  Evanne Ní Chuilinn ag leanúint ón lá stocaireachta lena tacaíocht a lorg tosaíochtaí straitéise TG4 2026, go háirithe maoiniú ilbhliaintiúil ag teacht le forálacha EMFA agus ceannas eagarthóireachta neamshspleách do Nuacht TG4 - Email",
+        "Rphost seolta ó Ard Stiúrthóir TG4 Deirdre Ní Choistín ar 20/8/25 chuig  Garret Kelleher ag leanúint ón lá stocaireachta lena tacaíocht a lorg tosaíochtaí straitéise TG4 2026, go háirithe maoiniú ilbhliaintiúil ag teacht le forálacha EMFA agus ceannas eagarthóireachta neamshspleách do Nuacht TG4 - Email",
+        "Rphost seolta ó Ard Stiúrthóir TG4 Deirdre Ní Choistín ar 20/8/25 chuig Aindrias Ó Muineacháin ag leanúint ón lá stocaireachta lena tacaíocht a lorg tosaíochtaí straitéise TG4 2026, go háirithe maoiniú ilbhliaintiúil ag teacht le forálacha EMFA agus ceannas eagarthóireachta neamshspleách do Nuacht TG4 - Email",
+        "Rphost seolta ó Ard Stiúrthóir TG4 Deirdre Ní Choistín ar 20/8/25 chuig Cathal Byrne ag leanúint ón lá stocaireachta lena tacaíocht a lorg tosaíochtaí straitéise TG4 2026, go háirithe maoiniú ilbhliaintiúil ag teacht le forálacha EMFA agus ceannas eagarthóireachta neamshspleách do Nuacht TG4 - Email",
+        "Rphost seolta ó Ard Stiúrthóir TG4 Deirdre Ní Choistín ar 20/8/25 chuig Eileen Lynch ag leanúint ón lá stocaireachta lena tacaíocht a lorg tosaíochtaí straitéise TG4 2026, go háirithe maoiniú ilbhliaintiúil ag teacht le forálacha EMFA agus ceannas eagarthóireachta neamshspleách do Nuacht TG4 - Email",
+        "Rphost seolta ó Ard Stiúrthóir TG4 Deirdre Ní Choistín ar 20/8/25 chuig Frank Feighan ag leanúint ón lá stocaireachta lena tacaíocht a lorg tosaíochtaí straitéise TG4 2026, go háirithe maoiniú ilbhliaintiúil ag teacht le forálacha EMFA agus ceannas eagarthóireachta neamshspleách do Nuacht TG4 - Email",
+        "Rphost seolta ó Ard Stiúrthóir TG4 Deirdre Ní Choistín ar 20/8/25 chuig Joe Neville ag leanúint ón lá stocaireachta lena tacaíocht a lorg tosaíochtaí straitéise TG4 2026, go háirithe maoiniú ilbhliaintiúil ag teacht le forálacha EMFA agus ceannas eagarthóireachta neamshspleách do Nuacht TG4 - Email",
+        "Rphost seolta ó Ard Stiúrthóir TG4 Deirdre Ní Choistín ar 20/8/25 chuig Lorraine Clifford Lee ag leanúint ón lá stocaireachta lena tacaíocht a lorg tosaíochtaí straitéise TG4 2026, go háirithe maoiniú ilbhliaintiúil ag teacht le forálacha EMFA agus ceannas eagarthóireachta neamshspleách do Nuacht TG4 - Email",
+        "Rphost seolta ó Ard Stiúrthóir TG4 Deirdre Ní Choistín ar 20/8/25 chuig Malcolm Byrne ag leanúint ón lá stocaireachta lena tacaíocht a lorg tosaíochtaí straitéise TG4 2026, go háirithe maoiniú ilbhliaintiúil ag teacht le forálacha EMFA agus ceannas eagarthóireachta neamshspleách do Nuacht TG4 - Email",
+        "Rphost seolta ó Ard Stiúrthóir TG4 Deirdre Ní Choistín ar 20/8/25 chuig Manus Boyle  ag leanúint ón lá stocaireachta lena tacaíocht a lorg tosaíochtaí straitéise TG4 2026, go háirithe maoiniú ilbhliaintiúil ag teacht le forálacha EMFA agus ceannas eagarthóireachta neamshspleách do Nuacht TG4 - Email",
+        "Rphost seolta ó Ard Stiúrthóir TG4 Deirdre Ní Choistín ar 20/8/25 chuig Naoise Ó Cearúil ag leanúint ón lá stocaireachta lena tacaíocht a lorg tosaíochtaí straitéise TG4 2026, go háirithe maoiniú ilbhliaintiúil ag teacht le forálacha EMFA agus ceannas eagarthóireachta neamshspleách do Nuacht TG4 - Email",
+        "Rphost seolta ó Ard Stiúrthóir TG4 Deirdre Ní Choistín ar 20/8/25 chuig Naoise Ó Muirí ag leanúint ón lá stocaireachta lena tacaíocht a lorg tosaíochtaí straitéise TG4 2026, go háirithe maoiniú ilbhliaintiúil ag teacht le forálacha EMFA agus ceannas eagarthóireachta neamshspleách do Nuacht TG4 - Email",
+        "Rphost seolta ó Ard Stiúrthóir TG4 Deirdre Ní Choistín ar 20/8/25 chuig Peter Chap Cleere ag leanúint ón lá stocaireachta lena tacaíocht a lorg tosaíochtaí straitéise TG4 2026, go háirithe maoiniú ilbhliaintiúil ag teacht le forálacha EMFA agus ceannas eagarthóireachta neamshspleách do Nuacht TG4 - Email",
+        "Rphost seolta ó Ard Stiúrthóir TG4 Deirdre Ní Choistín ar 20/8/25 chuig Pádraig O Sullivan ag leanúint ón lá stocaireachta lena tacaíocht a lorg tosaíochtaí straitéise TG4 2026, go háirithe maoiniú ilbhliaintiúil ag teacht le forálacha EMFA agus ceannas eagarthóireachta neamshspleách do Nuacht TG4 - Email",
+        "Rphost seolta ó Ard Stiúrthóir TG4 Deirdre Ní Choistín ar 20/8/25 chuig Seán Kyne ag leanúint ón lá stocaireachta lena tacaíocht a lorg tosaíochtaí straitéise TG4 2026, go háirithe maoiniú ilbhliaintiúil ag teacht le forálacha EMFA agus ceannas eagarthóireachta neamshspleách do Nuacht TG4 - Email",
+        "Rphost seolta ó Ard Stiúrthóir TG4 Deirdre Ní Choistín ar 20/8/25 chuig Shayne Moynihan ag leanúint ón lá stocaireachta lena tacaíocht a lorg tosaíochtaí straitéise TG4 2026, go háirithe maoiniú ilbhliaintiúil ag teacht le forálacha EMFA agus ceannas eagarthóireachta neamshspleách do Nuacht TG4 - Email",
+        "Rphost seolta ó Ard Stiúrthóir TG4 Deirdre Ní Choistín ar 20/8/25 chuig an Ard-Rúnaí Feargal Ó Coigligh le litir tacaíochta ó Noel Curran Ard-Stiúrthóir an EBU do mhaoiniú ilbhliaintiúil do TG4 chomh maith le cóip de na tosaíochtaí straitéise TG4 do 2026 a pléadh ag an gcruinniú leis an Aire ar an 9 ú Iúil - Email",
+        "Rphost seolta ó Ard Stiúrthóir TG4 Deirdre Ní Choistín ar 20/8/25 chuig an Rúnaí Cúnta Tríona Quill  le litir tacaíochta ó Noel Curran Ard-Stiúrthóir an EBU do mhaoiniú ilbhliaintiúil do TG4 chomh maith le cóip de na tosaíochtaí straitéise TG4 do 2026 a pléadh ag an gcruinniú leis an Aire ar an 9 ú Iúil - Email",
+        "Rphost seolta ó Ard Stiúrthóir TG4 Deirdre Ní Choistín ar 21/8/25 chuig Aengus Ó Snodaigh ag leanúint ón lá stocaireachta lena tacaíocht a lorg tosaíochtaí straitéise TG4 2026, go háirithe maoiniú ilbhliaintiúil ag teacht le forálacha EMFA agus ceannas eagarthóireachta neamshspleách do Nuacht TG4 - Email",
+        "Rphost seolta ó Ard Stiúrthóir TG4 Deirdre Ní Choistín ar 21/8/25 chuig Cathaoirleach  Comhchoiste um Ealaíona, na Meáin, Cultúr agus Spóirt Alan Kelly  le litir tacaíochta ó Noel Curran Ard-Stiúrthóir an EBU do mhaoiniú ilbhliaintiúil do TG4 - Email",
+        "Rphost seolta ó Ard Stiúrthóir TG4 Deirdre Ní Choistín ar 21/8/25 chuig Conor D. McGuinness  ag leanúint ón lá stocaireachta lena tacaíocht a lorg tosaíochtaí straitéise TG4 2026, go háirithe maoiniú ilbhliaintiúil ag teacht le forálacha EMFA agus ceannas eagarthóireachta neamshspleách do Nuacht TG4 - Email",
+        "Rphost seolta ó Ard Stiúrthóir TG4 Deirdre Ní Choistín ar 21/8/25 chuig Cynthia Ní Mhurchú  le tosaíochtaí  TG4 do  2026, go háirithe maoiniú ilbhliaintiúil ag teacht le forálacha EMFA agus ceannas eagarthóireachta neamshspleách do Nuacht TG4 - Email",
+        "Rphost seolta ó Ard Stiúrthóir TG4 Deirdre Ní Choistín ar 21/8/25 chuig Joanna Byrne ag leanúint ón lá stocaireachta lena tacaíocht a lorg tosaíochtaí straitéise TG4 2026, go háirithe maoiniú ilbhliaintiúil ag teacht le forálacha EMFA agus ceannas eagarthóireachta neamshspleách do Nuacht TG4 - Email",
+        "Rphost seolta ó Ard Stiúrthóir TG4 Deirdre Ní Choistín ar 21/8/25 chuig Noeleen Fagan Oifig an Aire Dara Calleary ag leanúint ón lá stocaireachta lena tacaíocht a lorg tosaíochtaí straitéise TG4 2026, go háirithe maoiniú ilbhliaintiúil ag teacht le forálacha EMFA agus ceannas eagarthóireachta neamshspleách do Nuacht TG4 - Email",
+        "Rphost seolta ó Ard Stiúrthóir TG4 Deirdre Ní Choistín ar 21/8/25 chuig Shonagh O Raghallaigh ag leanúint ón lá stocaireachta lena tacaíocht a lorg tosaíochtaí straitéise TG4 2026, go háirithe maoiniú ilbhliaintiúil ag teacht le forálacha EMFA agus ceannas eagarthóireachta neamshspleách do Nuacht TG4 - Email",
+        "Rphost seolta ó Ard Stiúrthóir TG4 Deirdre Ní Choistín ar 21/8/25 chuig Sinéad Gibney le tosaíochtaí  TG4 do  2026, go háirithe maoiniú ilbhliaintiúil ag teacht le forálacha EMFA agus ceannas eagarthóireachta neamshspleách do Nuacht TG4 - Email"
+      ]
+    },
+    {
+      "id": 105267,
+      "url": "lobbying.ie/return/131958/red-flag-consulting-limited",
+      "lobbyist_name": "Red Flag Consulting Limited",
+      "date_published": "2025-09-21 20:58:00.000000",
+      "specific_details": "Irish Paper Packaging Circularity Alliance Pre-Budget Submission and Meeting Outreach",
+      "intended_results": "Highlighting the aims contained within the pre-budget submission and seeking a meeting to discuss",
+      "any_dpo_or_former_dpo": "No",
+      "isFormerDPO": false,
+      "dpo_entries": [
+        {
+          "person_name": "Paschal Donohoe",
+          "job_title": "TD",
+          "public_body": "Dáil Éireann, the Oireachtas"
+        },
+        {
+          "person_name": "Fiona O'Connor",
+          "job_title": "Special Adviser",
+          "public_body": "Department of Finance"
+        },
+        {
+          "person_name": "Deborah Sweeney",
+          "job_title": "Special Adviser",
+          "public_body": "Department of Finance"
+        },
+        {
+          "person_name": "Pearse Doherty",
+          "job_title": "TD",
+          "public_body": "Dáil Éireann, the Oireachtas"
+        },
+        {
+          "person_name": "Cian O'Callaghan",
+          "job_title": "TD",
+          "public_body": "Dáil Éireann, the Oireachtas"
+        },
+        {
+          "person_name": "Alan Dillon",
+          "job_title": "Minister of State",
+          "public_body": "Department of Climate, Energy and the Environment"
+        },
+        {
+          "person_name": "Darragh O'Brien",
+          "job_title": "Minister",
+          "public_body": "Department of Climate, Energy and the Environment"
+        },
+        {
+          "person_name": "Naoise Ó Muirí",
+          "job_title": "TD",
+          "public_body": "Dáil Éireann, the Oireachtas"
+        },
+        {
+          "person_name": "Naoise O'Cearúil",
+          "job_title": "TD",
+          "public_body": "Dáil Éireann, the Oireachtas"
+        },
+        {
+          "person_name": "Pa Daly",
+          "job_title": "TD",
+          "public_body": "Dáil Éireann, the Oireachtas"
+        },
+        {
+          "person_name": "Réada Cronin",
+          "job_title": "TD",
+          "public_body": "Dáil Éireann, the Oireachtas"
+        },
+        {
+          "person_name": "Jennifer Whitmore",
+          "job_title": "TD",
+          "public_body": "Dáil Éireann, the Oireachtas"
+        },
+        {
+          "person_name": "Ciarán Ahern",
+          "job_title": "TD",
+          "public_body": "Dáil Éireann, the Oireachtas"
+        },
+        {
+          "person_name": "John Clendennen",
+          "job_title": "TD",
+          "public_body": "Dáil Éireann, the Oireachtas"
+        },
+        {
+          "person_name": "Malcolm Byrne",
+          "job_title": "TD",
+          "public_body": "Dáil Éireann, the Oireachtas"
+        },
+        {
+          "person_name": "Barry Heneghan",
+          "job_title": "TD",
+          "public_body": "Dáil Éireann, the Oireachtas"
+        },
+        {
+          "person_name": "Lorraine Clifford-Lee",
+          "job_title": "Senator",
+          "public_body": "Seanad"
+        },
+        {
+          "person_name": "Mark Duffy",
+          "job_title": "Senator",
+          "public_body": "Seanad"
+        },
+        {
+          "person_name": "Alice-Mary Higgins",
+          "job_title": "Senator",
+          "public_body": "Seanad"
+        },
+        {
+          "person_name": "Malcolm Noonan",
+          "job_title": "Senator",
+          "public_body": "Seanad"
+        },
+        {
+          "person_name": "Noel O'Donovan",
+          "job_title": "Senator",
+          "public_body": "Seanad"
+        }
+      ],
+      "lobbying_activities": [
+        "Email"
+      ]
+    },
+    {
+      "id": 105133,
+      "url": "lobbying.ie/return/131823/football-association-of-ireland",
+      "lobbyist_name": "Football Association of Ireland",
+      "date_published": "2025-09-21 19:41:00.000000",
+      "specific_details": "A meeting with Malcolm Byrne TD on 28 May 2025",
+      "intended_results": "To discuss multi-sport facilities and explore the barriers to entry to funding streams for football organisations.",
+      "any_dpo_or_former_dpo": "No",
+      "isFormerDPO": false,
+      "dpo_entries": [
+        {
+          "person_name": "Malcolm Byrne",
+          "job_title": "TD",
+          "public_body": "Dáil Éireann, the Oireachtas"
+        }
+      ],
+      "lobbying_activities": [
+        "A meeting on 28 May 2025 - Meeting"
+      ]
+    },
+    {
+      "id": 105235,
+      "url": "lobbying.ie/return/131926/statkraft-ireland-limited",
+      "lobbyist_name": "Statkraft Ireland Limited",
+      "date_published": "2025-09-21 19:27:00.000000",
+      "specific_details": "Meeting Request and Introduction",
+      "intended_results": "To secure a meeting with newly appointed members of the Oireachtas Climate, Environment and Energy Committee; to brief them on Statkraft activities; to promote the renewable energy sector",
+      "any_dpo_or_former_dpo": "No",
+      "isFormerDPO": false,
+      "dpo_entries": [
+        {
+          "person_name": "John Clendennen",
+          "job_title": "TD",
+          "public_body": "Dáil Éireann, the Oireachtas"
+        },
+        {
+          "person_name": "Barry Heneghan",
+          "job_title": "TD",
+          "public_body": "Dáil Éireann, the Oireachtas"
+        },
+        {
+          "person_name": "Malcolm Byrne",
+          "job_title": "TD",
+          "public_body": "Dáil Éireann, the Oireachtas"
+        },
+        {
+          "person_name": "Naoise O'Cearúil",
+          "job_title": "TD",
+          "public_body": "Dáil Éireann, the Oireachtas"
+        },
+        {
+          "person_name": "Réada Cronin",
+          "job_title": "TD",
+          "public_body": "Dáil Éireann, the Oireachtas"
+        },
+        {
+          "person_name": "Jennifer Whitmore",
+          "job_title": "TD",
+          "public_body": "Dáil Éireann, the Oireachtas"
+        },
+        {
+          "person_name": "Noel O'Donovan",
+          "job_title": "Senator",
+          "public_body": "Seanad"
+        },
+        {
+          "person_name": "Malcolm Noonan",
+          "job_title": "Senator",
+          "public_body": "Seanad"
+        },
+        {
+          "person_name": "Alice-Mary Higgins",
+          "job_title": "Senator",
+          "public_body": "Seanad"
+        },
+        {
+          "person_name": "Lorraine Clifford-Lee",
+          "job_title": "Senator",
+          "public_body": "Seanad"
+        },
+        {
+          "person_name": "Mark Duffy",
+          "job_title": "Senator",
+          "public_body": "Seanad"
+        }
+      ],
+      "lobbying_activities": [
+        "Meeting Request and Introduction - Email"
+      ]
+    },
+    {
+      "id": 105233,
+      "url": "lobbying.ie/return/131924/grow-remote-ireland-clg",
+      "lobbyist_name": "Grow Remote Ireland CLG",
+      "date_published": "2025-09-21 19:21:00.000000",
+      "specific_details": "Meeting with Constituency elected representatives to discuss our mission, vision and areas we would like support",
+      "intended_results": "Advise on best how to proceed to ensure we are speaking to the right people. Our elected representatives understanding our vision for Ireland and what needs to happen to make that happen.",
+      "any_dpo_or_former_dpo": "No",
+      "isFormerDPO": false,
+      "dpo_entries": [
+        {
+          "person_name": "Albert Dolan",
+          "job_title": "TD",
+          "public_body": "Dáil Éireann, the Oireachtas"
+        },
+        {
+          "person_name": "Claire Kerrane",
+          "job_title": "TD",
+          "public_body": "Dáil Éireann, the Oireachtas"
+        },
+        {
+          "person_name": "Grace Boland",
+          "job_title": "TD",
+          "public_body": "Dáil Éireann, the Oireachtas"
+        },
+        {
+          "person_name": "Louis O'Hara",
+          "job_title": "TD",
+          "public_body": "Dáil Éireann, the Oireachtas"
+        },
+        {
+          "person_name": "Malcolm Byrne",
+          "job_title": "TD",
+          "public_body": "Dáil Éireann, the Oireachtas"
+        },
+        {
+          "person_name": "Seán Canney",
+          "job_title": "TD",
+          "public_body": "Dáil Éireann, the Oireachtas"
+        },
+        {
+          "person_name": "Peter Roche",
+          "job_title": "TD",
+          "public_body": "Dáil Éireann, the Oireachtas"
+        },
+        {
+          "person_name": "Robert O'Donoghue",
+          "job_title": "TD",
+          "public_body": "Dáil Éireann, the Oireachtas"
+        },
+        {
+          "person_name": "Emer Currie",
+          "job_title": "TD",
+          "public_body": "Dáil Éireann, the Oireachtas"
+        },
+        {
+          "person_name": "Gareth Scahill",
+          "job_title": "Senator",
+          "public_body": "Seanad"
+        }
+      ],
+      "lobbying_activities": [
+        "the location was either in the elected representative constituency office, leinster house or an online meeting - Meeting"
+      ]
+    },
+    {
+      "id": 105218,
+      "url": "lobbying.ie/return/131909/openai-ireland-ltd",
+      "lobbyist_name": "OpenAI Ireland Ltd.",
+      "date_published": "2025-09-21 18:16:00.000000",
+      "specific_details": "Discussion around how AI can foster innovation, productivity, and inclusive growth across Ireland.",
+      "intended_results": "To build relationships with stakeholders and to exchange views on the opportunities and challenges associated with AI deployment, and to highlight the benefits to economic growth, positive use-cases for AI adoption, and innovation supporting European and Irish policy frameworks. Discussion around enhancing Ireland's tech leadership through AI.",
+      "any_dpo_or_former_dpo": "No",
+      "isFormerDPO": false,
+      "dpo_entries": [
+        {
+          "person_name": "Malcolm Byrne",
+          "job_title": "TD",
+          "public_body": "Dáil Éireann, the Oireachtas"
+        },
+        {
+          "person_name": "Helen Dixon",
+          "job_title": "Data Protection Commissioner",
+          "public_body": "The Office of the Data Protection Commissioner"
+        }
+      ],
+      "lobbying_activities": [
+        "Event / Reception"
+      ]
+    },
+    {
+      "id": 105211,
+      "url": "lobbying.ie/return/131902/openai-ireland-ltd",
+      "lobbyist_name": "OpenAI Ireland Ltd.",
+      "date_published": "2025-09-21 18:13:00.000000",
+      "specific_details": "Engagement with Malcolm Byrne, TD and Naoise O'Cearúil, TD regarding the ongoing work of the Oireachtas AI Committee, and discussion of Ireland's potential as a leader in AI adoption and innovation.",
+      "intended_results": "To learn about the role of the committee and future scope of work in delivering on Ireland's AI ambitions. To advocate for AI as a key accelerator of economic growth and to discuss policy frameworks for ensuring that innovation and adoption are supported, and Ireland's role as a potential convenor of regulatory and AI thought leadership.",
+      "any_dpo_or_former_dpo": "No",
+      "isFormerDPO": false,
+      "dpo_entries": [
+        {
+          "person_name": "Malcolm Byrne",
+          "job_title": "TD",
+          "public_body": "Dáil Éireann, the Oireachtas"
+        },
+        {
+          "person_name": "Naoise O'Cearúil",
+          "job_title": "TD",
+          "public_body": "Dáil Éireann, the Oireachtas"
+        }
+      ],
+      "lobbying_activities": [
+        "Meeting"
+      ]
+    },
+    {
+      "id": 105183,
+      "url": "lobbying.ie/return/131874/newsbrands-ireland",
+      "lobbyist_name": "NewsBrands Ireland",
+      "date_published": "2025-09-21 15:25:00.000000",
+      "specific_details": "Broadcasting (Amendment) Bill",
+      "intended_results": "Submission to Oireachtas Committee on Communications, Arts, Media, Culture and Sport as part of pre-leg scrutiny of the Broadcasting (Amendment) Bill to highlight news publishers' perspective.",
+      "any_dpo_or_former_dpo": "No",
+      "isFormerDPO": false,
+      "dpo_entries": [
+        {
+          "person_name": "Alan Kelly",
+          "job_title": "TD",
+          "public_body": "Dáil Éireann, the Oireachtas"
+        },
+        {
+          "person_name": "Malcolm Byrne",
+          "job_title": "TD",
+          "public_body": "Dáil Éireann, the Oireachtas"
+        },
+        {
+          "person_name": "Alison Comyn",
+          "job_title": "Senator",
+          "public_body": "Seanad"
+        },
+        {
+          "person_name": "Brian Brennan",
+          "job_title": "TD",
+          "public_body": "Dáil Éireann, the Oireachtas"
+        },
+        {
+          "person_name": "Joanna Byrne",
+          "job_title": "TD",
+          "public_body": "Dáil Éireann, the Oireachtas"
+        },
+        {
+          "person_name": "Micheál Carrigy",
+          "job_title": "TD",
+          "public_body": "Dáil Éireann, the Oireachtas"
+        },
+        {
+          "person_name": "Peter 'Chap' Cleere",
+          "job_title": "TD",
+          "public_body": "Dáil Éireann, the Oireachtas"
+        },
+        {
+          "person_name": "Sinéad Gibney",
+          "job_title": "TD",
+          "public_body": "Dáil Éireann, the Oireachtas"
+        },
+        {
+          "person_name": "Aengus Ó Snodaigh",
+          "job_title": "TD",
+          "public_body": "Dáil Éireann, the Oireachtas"
+        }
+      ],
+      "lobbying_activities": [
+        "Submission"
+      ]
+    },
+    {
+      "id": 103847,
+      "url": "lobbying.ie/return/126891/cormac-mckay",
+      "lobbyist_name": "Cormac McKay",
+      "date_published": "2025-09-21 14:41:00.000000",
+      "specific_details": "Annual National Household Travel Survey",
+      "intended_results": "To reconsider proceeding with this outdated method, https://www.etenders.gov.ie/epps/cft/prepareViewCfTWS.do?resourceId=5530425 I propose leveraging anonymized mobile phone GPS tracking data combined with AI-driven analysis to create a more robust, scalable, and real-time solution for transport planning and management. ::Educate TDs on the near-future possibilities with AI traffic management, as mentioned during the media debate about Metrolink, highlighted by Dermot Desmond at an AI conference in Belfast https://www.irishtimes.com/ireland/dublin/2025/08/05/dublins-planned-metrolink-will-be-obsolete-because-of-artificial-intelligence-says-dermot-desmond/",
+      "any_dpo_or_former_dpo": "No",
+      "isFormerDPO": false,
+      "dpo_entries": [
+        {
+          "person_name": "Seán Fleming",
+          "job_title": "TD",
+          "public_body": "Dáil Éireann, the Oireachtas"
+        },
+        {
+          "person_name": "Shay Brennan",
+          "job_title": "TD",
+          "public_body": "Dáil Éireann, the Oireachtas"
+        },
+        {
+          "person_name": "John Clendennen",
+          "job_title": "TD",
+          "public_body": "Dáil Éireann, the Oireachtas"
+        },
+        {
+          "person_name": "Réada Cronin",
+          "job_title": "TD",
+          "public_body": "Dáil Éireann, the Oireachtas"
+        },
+        {
+          "person_name": "Tony McCormack",
+          "job_title": "TD",
+          "public_body": "Dáil Éireann, the Oireachtas"
+        },
+        {
+          "person_name": "Joe Neville",
+          "job_title": "TD",
+          "public_body": "Dáil Éireann, the Oireachtas"
+        },
+        {
+          "person_name": "Louis O'Hara",
+          "job_title": "TD",
+          "public_body": "Dáil Éireann, the Oireachtas"
+        },
+        {
+          "person_name": "Conor Sheehan",
+          "job_title": "TD",
+          "public_body": "Dáil Éireann, the Oireachtas"
+        },
+        {
+          "person_name": "Peadar Tóibín",
+          "job_title": "TD",
+          "public_body": "Dáil Éireann, the Oireachtas"
+        },
+        {
+          "person_name": "Cathal Byrne",
+          "job_title": "Senator",
+          "public_body": "Seanad"
+        },
+        {
+          "person_name": "Ollie Crowe",
+          "job_title": "Senator",
+          "public_body": "Seanad"
+        },
+        {
+          "person_name": "Aidan Davitt",
+          "job_title": "Senator",
+          "public_body": "Seanad"
+        },
+        {
+          "person_name": "Eileen Flynn",
+          "job_title": "Senator",
+          "public_body": "Seanad"
+        },
+        {
+          "person_name": "Patricia Stephenson",
+          "job_title": "Senator",
+          "public_body": "Seanad"
+        },
+        {
+          "person_name": "Malcolm Byrne",
+          "job_title": "Senator",
+          "public_body": "Seanad"
+        },
+        {
+          "person_name": "James Geoghegan",
+          "job_title": "TD",
+          "public_body": "Dáil Éireann, the Oireachtas"
+        },
+        {
+          "person_name": "Sinéad Gibney",
+          "job_title": "TD",
+          "public_body": "Dáil Éireann, the Oireachtas"
+        },
+        {
+          "person_name": "Paul Murphy",
+          "job_title": "TD",
+          "public_body": "Dáil Éireann, the Oireachtas"
+        },
+        {
+          "person_name": "Johnny Mythen",
+          "job_title": "TD",
+          "public_body": "Dáil Éireann, the Oireachtas"
+        },
+        {
+          "person_name": "James O'Connor",
+          "job_title": "TD",
+          "public_body": "Dáil Éireann, the Oireachtas"
+        },
+        {
+          "person_name": "Darren O'Rourke",
+          "job_title": "TD",
+          "public_body": "Dáil Éireann, the Oireachtas"
+        },
+        {
+          "person_name": "Naoise O'Cearúil",
+          "job_title": "TD",
+          "public_body": "Dáil Éireann, the Oireachtas"
+        },
+        {
+          "person_name": "Laura Harmon",
+          "job_title": "Senator",
+          "public_body": "Seanad"
+        },
+        {
+          "person_name": "Noel O'Donovan",
+          "job_title": "Senator",
+          "public_body": "Seanad"
+        },
+        {
+          "person_name": "Lynn Ruane",
+          "job_title": "Senator",
+          "public_body": "Seanad"
+        },
+        {
+          "person_name": "Dee Ryan",
+          "job_title": "Senator",
+          "public_body": "Seanad"
+        },
+        {
+          "person_name": "Gareth Scahill",
+          "job_title": "Senator",
+          "public_body": "Seanad"
+        },
+        {
+          "person_name": "John Brady",
+          "job_title": "TD",
+          "public_body": "Dáil Éireann, the Oireachtas"
+        },
+        {
+          "person_name": "Catherine Ardagh",
+          "job_title": "Senator",
+          "public_body": "Seanad"
+        },
+        {
+          "person_name": "Cathy Bennett",
+          "job_title": "TD",
+          "public_body": "Dáil Éireann, the Oireachtas"
+        },
+        {
+          "person_name": "Grace Boland",
+          "job_title": "TD",
+          "public_body": "Dáil Éireann, the Oireachtas"
+        },
+        {
+          "person_name": "Joanna Byrne",
+          "job_title": "TD",
+          "public_body": "Dáil Éireann, the Oireachtas"
+        },
+        {
+          "person_name": "Catherine Connolly",
+          "job_title": "TD",
+          "public_body": "Dáil Éireann, the Oireachtas"
+        },
+        {
+          "person_name": "Albert Dolan",
+          "job_title": "TD",
+          "public_body": "Dáil Éireann, the Oireachtas"
+        },
+        {
+          "person_name": "Aidan Farrelly",
+          "job_title": "TD",
+          "public_body": "Dáil Éireann, the Oireachtas"
+        },
+        {
+          "person_name": "James Geoghegan",
+          "job_title": "TD",
+          "public_body": "Dáil Éireann, the Oireachtas"
+        },
+        {
+          "person_name": "Eoghan Kenny",
+          "job_title": "TD",
+          "public_body": "Dáil Éireann, the Oireachtas"
+        },
+        {
+          "person_name": "Paul McAuliffe",
+          "job_title": "TD",
+          "public_body": "Dáil Éireann, the Oireachtas"
+        },
+        {
+          "person_name": "Seamus McGrath",
+          "job_title": "TD",
+          "public_body": "Dáil Éireann, the Oireachtas"
+        },
+        {
+          "person_name": "Joe Neville",
+          "job_title": "TD",
+          "public_body": "Dáil Éireann, the Oireachtas"
+        },
+        {
+          "person_name": "Michael Murphy",
+          "job_title": "TD",
+          "public_body": "Dáil Éireann, the Oireachtas"
+        },
+        {
+          "person_name": "Cathal Crowe",
+          "job_title": "TD",
+          "public_body": "Dáil Éireann, the Oireachtas"
+        },
+        {
+          "person_name": "Emer Currie",
+          "job_title": "TD",
+          "public_body": "Dáil Éireann, the Oireachtas"
+        },
+        {
+          "person_name": "Pa Daly",
+          "job_title": "TD",
+          "public_body": "Dáil Éireann, the Oireachtas"
+        },
+        {
+          "person_name": "Shane Moynihan",
+          "job_title": "TD",
+          "public_body": "Dáil Éireann, the Oireachtas"
+        },
+        {
+          "person_name": "Roderic O'Gorman",
+          "job_title": "TD",
+          "public_body": "Dáil Éireann, the Oireachtas"
+        },
+        {
+          "person_name": "Louis O'Hara",
+          "job_title": "TD",
+          "public_body": "Dáil Éireann, the Oireachtas"
+        },
+        {
+          "person_name": "Lorraine Clifford-Lee",
+          "job_title": "Senator",
+          "public_body": "Seanad"
+        },
+        {
+          "person_name": "Joanne Collins",
+          "job_title": "Senator",
+          "public_body": "Seanad"
+        },
+        {
+          "person_name": "Nessa Cosgrove",
+          "job_title": "Senator",
+          "public_body": "Seanad"
+        },
+        {
+          "person_name": "Mark Duffy",
+          "job_title": "Senator",
+          "public_body": "Seanad"
+        },
+        {
+          "person_name": "Imelda Goldsboro",
+          "job_title": "Senator",
+          "public_body": "Seanad"
+        }
+      ],
+      "lobbying_activities": [
+        "Committee on Transport and Committee on Climate, Environment and EnergyCommittee on Infrastructure and National Development Plan DeliveryCommittee on Artificial Intelligence - Email",
+        "To appear before the new AI, Transport and Infrastructure committees. - Phone call"
+      ]
+    },
+    {
+      "id": 104112,
+      "url": "lobbying.ie/return/128674/chambers-ireland",
+      "lobbyist_name": "Chambers Ireland",
+      "date_published": "2025-09-21 10:30:00.000000",
+      "specific_details": "Implementation of an AI Regulatory Sandbox.",
+      "intended_results": "Provide SMEs and start-ups with a controlled environment to test emerging technologies and streamline compliance pathways.",
+      "any_dpo_or_former_dpo": "No",
+      "isFormerDPO": false,
+      "dpo_entries": [
+        {
+          "person_name": "Jean Carberry",
+          "job_title": "Assistant Secretary",
+          "public_body": "Department of Enterprise, Trade and Employment"
+        },
+        {
+          "person_name": "Malcolm Byrne",
+          "job_title": "TD",
+          "public_body": "Dáil Éireann, the Oireachtas"
+        }
+      ],
+      "lobbying_activities": [
+        "https://chambers.ie/wp-content/uploads/2025/08/Position-Paper-on-Digital-Simplification-22-August-25.pdf - Email",
+        "https://chambers.ie/wp-content/uploads/2025/08/Position-Paper-on-Digital-Simplification-22-August-25.pdf - Letter",
+        "https://chambers.ie/wp-content/uploads/2025/08/Position-Paper-on-Digital-Simplification-22-August-25.pdf - Meeting"
+      ]
+    },
+    {
+      "id": 104115,
+      "url": "lobbying.ie/return/128677/chambers-ireland",
+      "lobbyist_name": "Chambers Ireland",
+      "date_published": "2025-09-21 10:17:00.000000",
+      "specific_details": "Establishment of a centralised digital compliance portal for SMEs.",
+      "intended_results": "Consolidate reporting and risk obligations across EU digital legislation to reduce duplication and administrative overhead.",
+      "any_dpo_or_former_dpo": "No",
+      "isFormerDPO": false,
+      "dpo_entries": [
+        {
+          "person_name": "Jean Carberry",
+          "job_title": "Assistant Secretary",
+          "public_body": "Department of Enterprise, Trade and Employment"
+        },
+        {
+          "person_name": "Malcolm Byrne",
+          "job_title": "TD",
+          "public_body": "Dáil Éireann, the Oireachtas"
+        }
+      ],
+      "lobbying_activities": [
+        "https://chambers.ie/wp-content/uploads/2025/08/Position-Paper-on-Digital-Simplification-22-August-25.pdf - Email",
+        "https://chambers.ie/wp-content/uploads/2025/08/Position-Paper-on-Digital-Simplification-22-August-25.pdf - Letter",
+        "https://chambers.ie/wp-content/uploads/2025/08/Position-Paper-on-Digital-Simplification-22-August-25.pdf - Meeting"
+      ]
+    },
+    {
+      "id": 104114,
+      "url": "lobbying.ie/return/128676/chambers-ireland",
+      "lobbyist_name": "Chambers Ireland",
+      "date_published": "2025-09-21 10:17:00.000000",
+      "specific_details": "Complexity and fragmentation of digital regulation across EU laws (AI Act, GDPR, Data Governance Act).",
+      "intended_results": "Advocate for regulatory simplification and harmonisation to reduce compliance burdens and support innovation.",
+      "any_dpo_or_former_dpo": "No",
+      "isFormerDPO": false,
+      "dpo_entries": [
+        {
+          "person_name": "Jean Carberry",
+          "job_title": "Assistant Secretary",
+          "public_body": "Department of Enterprise, Trade and Employment"
+        },
+        {
+          "person_name": "Malcolm Byrne",
+          "job_title": "TD",
+          "public_body": "Dáil Éireann, the Oireachtas"
+        }
+      ],
+      "lobbying_activities": [
+        "https://chambers.ie/wp-content/uploads/2025/08/Position-Paper-on-Digital-Simplification-22-August-25.pdf - Email",
+        "https://chambers.ie/wp-content/uploads/2025/08/Position-Paper-on-Digital-Simplification-22-August-25.pdf - Letter",
+        "https://chambers.ie/wp-content/uploads/2025/08/Position-Paper-on-Digital-Simplification-22-August-25.pdf - Meeting"
+      ]
+    },
+    {
+      "id": 104119,
+      "url": "lobbying.ie/return/128681/chambers-ireland",
+      "lobbyist_name": "Chambers Ireland",
+      "date_published": "2025-09-21 09:57:00.000000",
+      "specific_details": "Need for clear national guidelines on AI and data governance.",
+      "intended_results": "Publish guidance clarifying interactions between GDPR, AI Act, and sectoral laws, with toolkits and training for SMEs.",
+      "any_dpo_or_former_dpo": "No",
+      "isFormerDPO": false,
+      "dpo_entries": [
+        {
+          "person_name": "Jean Carberry",
+          "job_title": "Assistant Secretary",
+          "public_body": "Department of Enterprise, Trade and Employment"
+        },
+        {
+          "person_name": "Malcolm Byrne",
+          "job_title": "TD",
+          "public_body": "Dáil Éireann, the Oireachtas"
+        }
+      ],
+      "lobbying_activities": [
+        "https://chambers.ie/wp-content/uploads/2025/08/Position-Paper-on-Digital-Simplification-22-August-25.pdf - Email",
+        "https://chambers.ie/wp-content/uploads/2025/08/Position-Paper-on-Digital-Simplification-22-August-25.pdf - Letter",
+        "https://chambers.ie/wp-content/uploads/2025/08/Position-Paper-on-Digital-Simplification-22-August-25.pdf - Meeting"
+      ]
+    },
+    {
+      "id": 104122,
+      "url": "lobbying.ie/return/128684/chambers-ireland",
+      "lobbyist_name": "Chambers Ireland",
+      "date_published": "2025-09-21 09:55:00.000000",
+      "specific_details": "Proposal for a scale enterprise fund to support AI and digital start-ups.",
+      "intended_results": "Ringfence funding to help indigenous businesses scale and innovate in emerging tech sectors.",
+      "any_dpo_or_former_dpo": "No",
+      "isFormerDPO": false,
+      "dpo_entries": [
+        {
+          "person_name": "Jean Carberry",
+          "job_title": "Assistant Secretary",
+          "public_body": "Department of Enterprise, Trade and Employment"
+        },
+        {
+          "person_name": "Malcolm Byrne",
+          "job_title": "TD",
+          "public_body": "Dáil Éireann, the Oireachtas"
+        }
+      ],
+      "lobbying_activities": [
+        "https://chambers.ie/wp-content/uploads/2025/08/Position-Paper-on-Digital-Simplification-22-August-25.pdf - Email",
+        "https://chambers.ie/wp-content/uploads/2025/08/Position-Paper-on-Digital-Simplification-22-August-25.pdf - Letter",
+        "https://chambers.ie/wp-content/uploads/2025/08/Position-Paper-on-Digital-Simplification-22-August-25.pdf - Meeting"
+      ]
+    },
+    {
+      "id": 104130,
+      "url": "lobbying.ie/return/128693/chambers-ireland",
+      "lobbyist_name": "Chambers Ireland",
+      "date_published": "2025-09-21 09:48:00.000000",
+      "specific_details": "Use of the National Training Fund under the proposed amendment to the National Training Fund Act to support intensive language training for people seeking international protection.",
+      "intended_results": "Promote social inclusion and employability through targeted language programmes funded by the National Training Fund.",
+      "any_dpo_or_former_dpo": "No",
+      "isFormerDPO": false,
+      "dpo_entries": [
+        {
+          "person_name": "James Lawless",
+          "job_title": "Minister",
+          "public_body": "Department of Further and Higher Education, Research, Innovation and Science"
+        },
+        {
+          "person_name": "Malcolm Byrne",
+          "job_title": "TD",
+          "public_body": "Dáil Éireann, the Oireachtas"
+        }
+      ],
+      "lobbying_activities": [
+        "Letter"
+      ]
+    },
+    {
+      "id": 105110,
+      "url": "lobbying.ie/return/131791/rare-diseases-ireland",
+      "lobbyist_name": "Rare Diseases Ireland",
+      "date_published": "2025-09-20 21:13:00.000000",
+      "specific_details": "Seeking to highlight rare diseases during Ireland's EU Presidency in 2026 with an official event during the presidency",
+      "intended_results": "Inclusion of rare diseases as a priority for Ireland to showcase during Ireland's EU Presidency in 2026.",
+      "any_dpo_or_former_dpo": "No",
+      "isFormerDPO": false,
+      "dpo_entries": [
+        {
+          "person_name": "Jennifer Carroll MacNeill",
+          "job_title": "Minister",
+          "public_body": "Department of Health"
+        },
+        {
+          "person_name": "Stephen Foley",
+          "job_title": "Special Adviser",
+          "public_body": "Department of Health"
+        },
+        {
+          "person_name": "Muiris O’Connor",
+          "job_title": "Assistant Secretary",
+          "public_body": "Department of Health"
+        },
+        {
+          "person_name": "Simon Harris",
+          "job_title": "Tánaiste and Minister",
+          "public_body": "Department of Foreign Affairs"
+        },
+        {
+          "person_name": "Thomas Byrne",
+          "job_title": "Minister of State",
+          "public_body": "Department of the Taoiseach"
+        },
+        {
+          "person_name": "James Lawless",
+          "job_title": "Minister",
+          "public_body": "Department of Further and Higher Education, Research, Innovation and Science"
+        },
+        {
+          "person_name": "Peter Burke",
+          "job_title": "Minister",
+          "public_body": "Department of Enterprise, Trade and Employment"
+        },
+        {
+          "person_name": "Catherine Ardagh",
+          "job_title": "TD",
+          "public_body": "Dáil Éireann, the Oireachtas"
+        },
+        {
+          "person_name": "John Connolly",
+          "job_title": "TD",
+          "public_body": "Dáil Éireann, the Oireachtas"
+        },
+        {
+          "person_name": "Ryan O'Meara",
+          "job_title": "TD",
+          "public_body": "Dáil Éireann, the Oireachtas"
+        },
+        {
+          "person_name": "Malcolm Byrne",
+          "job_title": "TD",
+          "public_body": "Dáil Éireann, the Oireachtas"
+        },
+        {
+          "person_name": "Réada Cronin",
+          "job_title": "TD",
+          "public_body": "Dáil Éireann, the Oireachtas"
+        },
+        {
+          "person_name": "Shane Moynihan",
+          "job_title": "TD",
+          "public_body": "Dáil Éireann, the Oireachtas"
+        },
+        {
+          "person_name": "Erin McGreehan",
+          "job_title": "TD",
+          "public_body": "Dáil Éireann, the Oireachtas"
+        },
+        {
+          "person_name": "Michael Cahill",
+          "job_title": "TD",
+          "public_body": "Dáil Éireann, the Oireachtas"
+        },
+        {
+          "person_name": "Pádraig O'Sullivan",
+          "job_title": "TD",
+          "public_body": "Dáil Éireann, the Oireachtas"
+        },
+        {
+          "person_name": "Paul Daly",
+          "job_title": "Senator",
+          "public_body": "Seanad"
+        },
+        {
+          "person_name": "Maria Byrne",
+          "job_title": "Senator",
+          "public_body": "Seanad"
+        },
+        {
+          "person_name": "Anne Rabbitte",
+          "job_title": "Senator",
+          "public_body": "Seanad"
+        },
+        {
+          "person_name": "Teresa Costello",
+          "job_title": "Senator",
+          "public_body": "Seanad"
+        },
+        {
+          "person_name": "Mark Ward",
+          "job_title": "TD",
+          "public_body": "Dáil Éireann, the Oireachtas"
+        },
+        {
+          "person_name": "Martin Daly",
+          "job_title": "TD",
+          "public_body": "Dáil Éireann, the Oireachtas"
+        },
+        {
+          "person_name": "John Lahart",
+          "job_title": "TD",
+          "public_body": "Dáil Éireann, the Oireachtas"
+        },
+        {
+          "person_name": "Eileen Lynch",
+          "job_title": "Senator",
+          "public_body": "Seanad"
+        },
+        {
+          "person_name": "Eamon Scanlon",
+          "job_title": "TD",
+          "public_body": "Dáil Éireann, the Oireachtas"
+        },
+        {
+          "person_name": "Seamus McGrath",
+          "job_title": "TD",
+          "public_body": "Dáil Éireann, the Oireachtas"
+        },
+        {
+          "person_name": "Ollie Crowe",
+          "job_title": "Senator",
+          "public_body": "Seanad"
+        },
+        {
+          "person_name": "Margaret Murphy O'Mahony",
+          "job_title": "Senator",
+          "public_body": "Seanad"
+        },
+        {
+          "person_name": "Danny Healy-Rae",
+          "job_title": "TD",
+          "public_body": "Dáil Éireann, the Oireachtas"
+        },
+        {
+          "person_name": "Eileen Flynn",
+          "job_title": "Senator",
+          "public_body": "Seanad"
+        },
+        {
+          "person_name": "Pauline Tully",
+          "job_title": "Senator",
+          "public_body": "Seanad"
+        },
+        {
+          "person_name": "Colm Burke",
+          "job_title": "TD",
+          "public_body": "Dáil Éireann, the Oireachtas"
+        },
+        {
+          "person_name": "Brendan Smith",
+          "job_title": "TD",
+          "public_body": "Dáil Éireann, the Oireachtas"
+        },
+        {
+          "person_name": "Eoin Hayes",
+          "job_title": "TD",
+          "public_body": "Dáil Éireann, the Oireachtas"
+        },
+        {
+          "person_name": "Kiera Keogh",
+          "job_title": "TD",
+          "public_body": "Dáil Éireann, the Oireachtas"
+        }
+      ],
+      "lobbying_activities": [
+        "1 hour meeting of Oireachtas All Party Group on Rare Diseases meeting to discuss importance and reasoning for highlighting rare diseases during EU Presidency - Meeting",
+        "Invitation to selected TDs & Senators to join a meeting discussing plans to request official rare disease event during EU Presidency. - Email",
+        "Letter sent to Ministers for Health requesting official event highlighting rare diseases during EU Presidency - copied to Tánaiste, Minister for Foreign Affairs and Trade, Minister of State at the Department of the Taoiseach, Minister for Further and Higher Education, Research, Innovation and Science, Minister for Enterprise, Tourism and Employment - Letter"
+      ]
+    },
+    {
+      "id": 105088,
+      "url": "lobbying.ie/return/131762/google-ireland-limited",
+      "lobbyist_name": "Google Ireland Limited",
+      "date_published": "2025-09-20 19:11:00.000000",
+      "specific_details": "Digital simplification and regulatory cohesion",
+      "intended_results": "To raise the importance of regulatory alignment, simplification and competitiveness at national and EU levels.",
+      "any_dpo_or_former_dpo": "Yes",
+      "isFormerDPO": true,
+      "dpo_entries": [
+        {
+          "person_name": "Jean Carberry",
+          "job_title": "Assistant Secretary",
+          "public_body": "Department of Enterprise, Trade and Employment"
+        },
+        {
+          "person_name": "John Shaw",
+          "job_title": "Assistant Secretary",
+          "public_body": "Department of the Taoiseach"
+        },
+        {
+          "person_name": "Malcolm Byrne",
+          "job_title": "TD",
+          "public_body": "Dáil Éireann, the Oireachtas"
+        },
+        {
+          "person_name": "Micheál Martin",
+          "job_title": "Taoiseach",
+          "public_body": "Dáil Éireann, the Oireachtas"
+        },
+        {
+          "person_name": "Patrick Neary",
+          "job_title": "Assistant Secretary",
+          "public_body": "Department of Environment, Climate and Communications"
+        }
+      ],
+      "lobbying_activities": [
+        "Meeting"
+      ]
+    },
+    {
+      "id": 105090,
+      "url": "lobbying.ie/return/131764/google-ireland-limited",
+      "lobbyist_name": "Google Ireland Limited",
+      "date_published": "2025-09-20 19:08:00.000000",
+      "specific_details": "Responsible use and regulation of AI",
+      "intended_results": "To share Google’s perspectives on the responsible use and regulation of artificial intelligence technologies at a national and EU level.",
+      "any_dpo_or_former_dpo": "Yes",
+      "isFormerDPO": true,
+      "dpo_entries": [
+        {
+          "person_name": "Declan Hughes",
+          "job_title": "Secretary General",
+          "public_body": "Department of Enterprise, Trade and Employment"
+        },
+        {
+          "person_name": "James Geoghegan",
+          "job_title": "TD",
+          "public_body": "Dáil Éireann, the Oireachtas"
+        },
+        {
+          "person_name": "James O'Connor",
+          "job_title": "TD",
+          "public_body": "Dáil Éireann, the Oireachtas"
+        },
+        {
+          "person_name": "Shane Moynihan",
+          "job_title": "TD",
+          "public_body": "Dáil Éireann, the Oireachtas"
+        },
+        {
+          "person_name": "Jean Carberry",
+          "job_title": "Assistant Secretary",
+          "public_body": "Department of Enterprise, Trade and Employment"
+        },
+        {
+          "person_name": "Maeve von Heynitz",
+          "job_title": "Director General",
+          "public_body": "Department of Foreign Affairs"
+        },
+        {
+          "person_name": "Malcolm Byrne",
+          "job_title": "TD",
+          "public_body": "Dáil Éireann, the Oireachtas"
+        },
+        {
+          "person_name": "Niamh Smyth",
+          "job_title": "Minister of State",
+          "public_body": "Department of Enterprise, Trade and Employment"
+        }
+      ],
+      "lobbying_activities": [
+        "Email",
+        "Meeting"
+      ]
+    },
+    {
+      "id": 105071,
+      "url": "lobbying.ie/return/131745/meta-platforms-ireland-ltd",
+      "lobbyist_name": "Meta Platforms Ireland Ltd",
+      "date_published": "2025-09-20 17:11:00.000000",
+      "specific_details": "To explain Meta’s position on app-store age verification.",
+      "intended_results": "To discuss Ireland’s support of age verification at an EU level.",
+      "any_dpo_or_former_dpo": "No",
+      "isFormerDPO": false,
+      "dpo_entries": [
+        {
+          "person_name": "Regina Doherty",
+          "job_title": "MEP",
+          "public_body": "European Parliament"
+        },
+        {
+          "person_name": "Nina Carberry",
+          "job_title": "MEP",
+          "public_body": "European Parliament"
+        },
+        {
+          "person_name": "Maria Walsh",
+          "job_title": "MEP",
+          "public_body": "European Parliament"
+        },
+        {
+          "person_name": "Seán Kelly",
+          "job_title": "MEP",
+          "public_body": "European Parliament"
+        },
+        {
+          "person_name": "Micheál Martin",
+          "job_title": "An Taoiseach",
+          "public_body": "Department of the Taoiseach"
+        },
+        {
+          "person_name": "Simon Harris",
+          "job_title": "Tánaiste and Minister",
+          "public_body": "Department of Foreign Affairs"
+        },
+        {
+          "person_name": "Patrick O'Donovan",
+          "job_title": "Minister of State",
+          "public_body": "Department of Tourism, Culture, Arts, Gaeltacht, Sport and Media"
+        },
+        {
+          "person_name": "Malcolm Byrne",
+          "job_title": "TD",
+          "public_body": "Dáil Éireann, the Oireachtas"
+        },
+        {
+          "person_name": "Ryan O'Meara",
+          "job_title": "TD",
+          "public_body": "Dáil Éireann, the Oireachtas"
+        }
+      ],
+      "lobbying_activities": [
+        "Email",
+        "Meeting"
+      ]
+    },
+    {
+      "id": 105049,
+      "url": "lobbying.ie/return/131723/dbi-advisory--services-company-limited-by-guarantee",
+      "lobbyist_name": "DBI Advisory & Services Company Limited By Guarantee",
+      "date_published": "2025-09-20 13:39:00.000000",
+      "specific_details": "Pre-budget submission 2026",
+      "intended_results": "Seek support for pre-budget submission",
+      "any_dpo_or_former_dpo": "Yes",
+      "isFormerDPO": true,
+      "dpo_entries": [
+        {
+          "person_name": "Emer Higgins",
+          "job_title": "Minister of State",
+          "public_body": "Department of Public Expenditure, NDP Delivery and Reform"
+        },
+        {
+          "person_name": "Peter Burke",
+          "job_title": "Minister",
+          "public_body": "Department of Enterprise, Trade and Employment"
+        },
+        {
+          "person_name": "Jack Chambers",
+          "job_title": "Minister",
+          "public_body": "Department of Public Expenditure, NDP Delivery and Reform"
+        },
+        {
+          "person_name": "Alan Dillon",
+          "job_title": "Minister of State",
+          "public_body": "Department of Climate, Energy and the Environment"
+        },
+        {
+          "person_name": "Jim O'Callaghan",
+          "job_title": "Minister",
+          "public_body": "Department of Justice"
+        },
+        {
+          "person_name": "James Lawless",
+          "job_title": "Minister",
+          "public_body": "Department of Further and Higher Education, Research, Innovation and Science"
+        },
+        {
+          "person_name": "Marian Harkin",
+          "job_title": "Minister of State",
+          "public_body": "Department of Further and Higher Education, Research, Innovation and Science"
+        },
+        {
+          "person_name": "Clare Costello",
+          "job_title": "Assistant Secretary",
+          "public_body": "Department of Finance"
+        },
+        {
+          "person_name": "Grace Boland",
+          "job_title": "TD",
+          "public_body": "Dáil Éireann, the Oireachtas"
+        },
+        {
+          "person_name": "Kiera Keogh",
+          "job_title": "TD",
+          "public_body": "Dáil Éireann, the Oireachtas"
+        },
+        {
+          "person_name": "Malcolm Byrne",
+          "job_title": "TD",
+          "public_body": "Dáil Éireann, the Oireachtas"
+        },
+        {
+          "person_name": "Naoise O'Cearúil",
+          "job_title": "TD",
+          "public_body": "Dáil Éireann, the Oireachtas"
+        },
+        {
+          "person_name": "James O'Connor",
+          "job_title": "TD",
+          "public_body": "Dáil Éireann, the Oireachtas"
+        },
+        {
+          "person_name": "James Geoghegan",
+          "job_title": "TD",
+          "public_body": "Dáil Éireann, the Oireachtas"
+        },
+        {
+          "person_name": "Noel O'Donovan",
+          "job_title": "Senator",
+          "public_body": "Seanad"
+        },
+        {
+          "person_name": "Dee Ryan",
+          "job_title": "Senator",
+          "public_body": "Seanad"
+        },
+        {
+          "person_name": "Gareth Scahill",
+          "job_title": "Senator",
+          "public_body": "Seanad"
+        },
+        {
+          "person_name": "Paul Donnelly",
+          "job_title": "TD",
+          "public_body": "Dáil Éireann, the Oireachtas"
+        },
+        {
+          "person_name": "Rose Conway-Walsh",
+          "job_title": "TD",
+          "public_body": "Dáil Éireann, the Oireachtas"
+        },
+        {
+          "person_name": "Shay Brennan",
+          "job_title": "TD",
+          "public_body": "Dáil Éireann, the Oireachtas"
+        },
+        {
+          "person_name": "Emer Currie",
+          "job_title": "TD",
+          "public_body": "Dáil Éireann, the Oireachtas"
+        },
+        {
+          "person_name": "Barry Heneghan",
+          "job_title": "TD",
+          "public_body": "Dáil Éireann, the Oireachtas"
+        }
+      ],
+      "lobbying_activities": [
+        "Email"
+      ]
+    },
+    {
+      "id": 104930,
+      "url": "lobbying.ie/return/131603/irish-council-for-civil-liberties",
+      "lobbyist_name": "Irish Council for Civil Liberties",
+      "date_published": "2025-09-20 13:37:00.000000",
+      "specific_details": "ICCL Event on Democracy",
+      "intended_results": "Invitation to speak at an ICCL organised event 'Democracy Under Attack'.",
+      "any_dpo_or_former_dpo": "No",
+      "isFormerDPO": false,
+      "dpo_entries": [
+        {
+          "person_name": "Patricia Stephenson",
+          "job_title": "Senator",
+          "public_body": "Seanad"
+        },
+        {
+          "person_name": "Malcolm Byrne",
+          "job_title": "TD",
+          "public_body": "Dáil Éireann, the Oireachtas"
+        },
+        {
+          "person_name": "Thomas Byrne",
+          "job_title": "TD",
+          "public_body": "Dáil Éireann, the Oireachtas"
+        },
+        {
+          "person_name": "Sinéad Gibney",
+          "job_title": "TD",
+          "public_body": "Dáil Éireann, the Oireachtas"
+        }
+      ],
+      "lobbying_activities": [
+        "Email correspondence with selected TDs and Senator Patricia Stephenson in May 2025. - Email",
+        "Senator Patricia Stephenson spoke at ICCL organised event on 11 June 2025. - Event / Reception"
+      ]
+    },
+    {
+      "id": 104988,
+      "url": "lobbying.ie/return/131662/irish-council-for-civil-liberties",
+      "lobbyist_name": "Irish Council for Civil Liberties",
+      "date_published": "2025-09-20 13:34:00.000000",
+      "specific_details": "Joint Committee on Artificial Intelligence",
+      "intended_results": "Recommondations on what ICCL believes the committee should be considering.",
+      "any_dpo_or_former_dpo": "No",
+      "isFormerDPO": false,
+      "dpo_entries": [
+        {
+          "person_name": "Malcolm Byrne",
+          "job_title": "TD",
+          "public_body": "Dáil Éireann, the Oireachtas"
+        }
+      ],
+      "lobbying_activities": [
+        "Email to Chair of the new Joint Committee on Artificial Intelligence, Malcolm Byrne TD. - Email"
+      ]
+    },
+    {
+      "id": 103964,
+      "url": "lobbying.ie/return/128223/the-irish-farmers-association---ifa",
+      "lobbyist_name": "The Irish Farmers' Association - IFA",
+      "date_published": "2025-09-19 22:40:00.000000",
+      "specific_details": "VAT & Taxation on Farm Inputs",
+      "intended_results": "To propose the retention of Flat Rate Addition scheme (FRA) for all agricultural sectors.::To propose the implementation of a  0% VAT rate on non-oral animal medicines and vaccines as early as possible.::To propose that the Accelerated Capital Allowance (ACA) is extended to facilitate additional investment in slurry storage and equipment on farms. Accelerated capital allowances for animal health monitoring systems, automatic calf feeders, additional milking points and hoof-care equipment are needed.::To propose Zero VAT / Accelerated capital allowances for investments to improve on-farm efficiency and/or support transition to net zero emissions.::To propose the Accelerated Capital Allowance for farm safety equipment is positive and should be revised annually and extended to include new safety equipment.::To highlight that VAT is currently charged on Carbon Tax. This is double taxation and needs to be removed.::To propose that the reduced excise duty level on agri diesel must be maintai",
+      "any_dpo_or_former_dpo": "No",
+      "isFormerDPO": false,
+      "dpo_entries": [
+        {
+          "person_name": "Brian Brennan",
+          "job_title": "TD",
+          "public_body": "Dáil Éireann, the Oireachtas"
+        },
+        {
+          "person_name": "Brian Purcell",
+          "job_title": "Special Adviser",
+          "public_body": "Department of Agriculture and the Marine"
+        },
+        {
+          "person_name": "Christopher O'Sullivan",
+          "job_title": "Minister of State",
+          "public_body": "Department of Housing, Local Government and Heritage"
+        },
+        {
+          "person_name": "Emer Higgins",
+          "job_title": "Minister of State",
+          "public_body": "Department of Public Expenditure, NDP Delivery and Reform"
+        },
+        {
+          "person_name": "Helen McEntee",
+          "job_title": "Minister",
+          "public_body": "Department of Education"
+        },
+        {
+          "person_name": "Jennifer Carroll MacNeill",
+          "job_title": "Minister",
+          "public_body": "Department of Health"
+        },
+        {
+          "person_name": "Malcolm Byrne",
+          "job_title": "TD",
+          "public_body": "Dáil Éireann, the Oireachtas"
+        },
+        {
+          "person_name": "Martin Heydon",
+          "job_title": "Minister",
+          "public_body": "Department of Agriculture, Food and the Marine"
+        },
+        {
+          "person_name": "Michael Healy-Rae",
+          "job_title": "Minister of State",
+          "public_body": "Department of Agriculture, Food and the Marine"
+        },
+        {
+          "person_name": "Michael Moynihan",
+          "job_title": "Minister of State",
+          "public_body": "Department of Education"
+        },
+        {
+          "person_name": "Noel Grealish",
+          "job_title": "Minister of State",
+          "public_body": "Department of Agriculture, Food and the Marine"
+        },
+        {
+          "person_name": "Paschal Donohoe",
+          "job_title": "Minister",
+          "public_body": "Department of Finance"
+        },
+        {
+          "person_name": "Peter Burke",
+          "job_title": "Minister",
+          "public_body": "Department of Enterprise, Trade and Employment"
+        },
+        {
+          "person_name": "Seán Canney",
+          "job_title": "Minister of State",
+          "public_body": "Department of Transport"
+        },
+        {
+          "person_name": "James Browne",
+          "job_title": "Minister",
+          "public_body": "Department of Housing, Local Government and Heritage"
+        }
+      ],
+      "lobbying_activities": [
+        "Email",
+        "Meeting",
+        "Social Media"
+      ]
+    },
+    {
+      "id": 103998,
+      "url": "lobbying.ie/return/128279/the-irish-farmers-association---ifa",
+      "lobbyist_name": "The Irish Farmers' Association - IFA",
+      "date_published": "2025-09-19 22:38:00.000000",
+      "specific_details": "Ireland's Climate Targets 2026 - 2030",
+      "intended_results": "To accept an invitation to discuss the key barriers that may prevent Ireland from meeting its 2026 - 2030 climate change targets.::To emphasise the challenges for Agriculture and the potential solutions to ensure sustainable progress.",
+      "any_dpo_or_former_dpo": "No",
+      "isFormerDPO": false,
+      "dpo_entries": [
+        {
+          "person_name": "Alice-Mary Higgins",
+          "job_title": "Senator",
+          "public_body": "Seanad"
+        },
+        {
+          "person_name": "Barry Heneghan",
+          "job_title": "TD",
+          "public_body": "Dáil Éireann, the Oireachtas"
+        },
+        {
+          "person_name": "Ciarán Ahern",
+          "job_title": "TD",
+          "public_body": "Dáil Éireann, the Oireachtas"
+        },
+        {
+          "person_name": "Jennifer Whitmore",
+          "job_title": "TD",
+          "public_body": "Dáil Éireann, the Oireachtas"
+        },
+        {
+          "person_name": "John Clendennen",
+          "job_title": "TD",
+          "public_body": "Dáil Éireann, the Oireachtas"
+        },
+        {
+          "person_name": "Lorraine Clifford-Lee",
+          "job_title": "Senator",
+          "public_body": "Seanad"
+        },
+        {
+          "person_name": "Malcolm Byrne",
+          "job_title": "TD",
+          "public_body": "Dáil Éireann, the Oireachtas"
+        },
+        {
+          "person_name": "Malcolm Noonan",
+          "job_title": "Senator",
+          "public_body": "Seanad"
+        },
+        {
+          "person_name": "Mark Duffy",
+          "job_title": "Senator",
+          "public_body": "Seanad"
+        },
+        {
+          "person_name": "Naoise Ó Muirí",
+          "job_title": "TD",
+          "public_body": "Dáil Éireann, the Oireachtas"
+        },
+        {
+          "person_name": "Naoise O'Cearúil",
+          "job_title": "TD",
+          "public_body": "Dáil Éireann, the Oireachtas"
+        },
+        {
+          "person_name": "Noel O'Donovan",
+          "job_title": "Senator",
+          "public_body": "Seanad"
+        },
+        {
+          "person_name": "Pa Daly",
+          "job_title": "TD",
+          "public_body": "Dáil Éireann, the Oireachtas"
+        },
+        {
+          "person_name": "Réada Cronin",
+          "job_title": "TD",
+          "public_body": "Dáil Éireann, the Oireachtas"
+        }
+      ],
+      "lobbying_activities": [
+        "Informal communication",
+        "Letter",
+        "Phone call"
+      ]
+    },
+    {
+      "id": 103932,
+      "url": "lobbying.ie/return/128137/the-irish-farmers-association---ifa",
+      "lobbyist_name": "The Irish Farmers' Association - IFA",
+      "date_published": "2025-09-19 22:33:00.000000",
+      "specific_details": "Common Agricultural Policy (CAP)",
+      "intended_results": "To ensure that members of the Oireachtas are aware of and highlight the priorities in IFA's General Election Manifesto (2024) and IFA's Spring Lobbying priorities.::To ensure that the Minister for Agriculture, Food, and the Marine takes on board the key priorities as highlighted by IFA.",
+      "any_dpo_or_former_dpo": "No",
+      "isFormerDPO": false,
+      "dpo_entries": [
+        {
+          "person_name": "Malcolm Byrne",
+          "job_title": "TD",
+          "public_body": "Dáil Éireann, the Oireachtas"
+        },
+        {
+          "person_name": "Martin Kenny",
+          "job_title": "TD",
+          "public_body": "Dáil Éireann, the Oireachtas"
+        },
+        {
+          "person_name": "Matt Carthy",
+          "job_title": "TD",
+          "public_body": "Dáil Éireann, the Oireachtas"
+        },
+        {
+          "person_name": "Michael Collins",
+          "job_title": "TD",
+          "public_body": "Dáil Éireann, the Oireachtas"
+        },
+        {
+          "person_name": "Paraic Brady",
+          "job_title": "Senator",
+          "public_body": "Seanad"
+        },
+        {
+          "person_name": "Peter 'Chap' Cleere",
+          "job_title": "TD",
+          "public_body": "Dáil Éireann, the Oireachtas"
+        },
+        {
+          "person_name": "Ryan O'Meara",
+          "job_title": "TD",
+          "public_body": "Dáil Éireann, the Oireachtas"
+        },
+        {
+          "person_name": "William Aird",
+          "job_title": "TD",
+          "public_body": "Dáil Éireann, the Oireachtas"
+        },
+        {
+          "person_name": "Martin Heydon",
+          "job_title": "Minister",
+          "public_body": "Department of Agriculture, Food and the Marine"
+        },
+        {
+          "person_name": "Richard O'Donoghue",
+          "job_title": "TD",
+          "public_body": "Dáil Éireann, the Oireachtas"
+        },
+        {
+          "person_name": "Niall Collins",
+          "job_title": "Minister of State",
+          "public_body": "Department of Justice"
+        },
+        {
+          "person_name": "Billy Kelleher",
+          "job_title": "MEP",
+          "public_body": "European Parliament"
+        }
+      ],
+      "lobbying_activities": [
+        "Event / Reception",
+        "Informal communication",
+        "Informal communication",
+        "Meeting"
+      ]
+    },
+    {
+      "id": 103963,
+      "url": "lobbying.ie/return/128222/the-irish-farmers-association---ifa",
+      "lobbyist_name": "The Irish Farmers' Association - IFA",
+      "date_published": "2025-09-19 22:20:00.000000",
+      "specific_details": "Stock Relief - Agri taxation",
+      "intended_results": "To propose that general stock relief of 25% should be temporarily increased to 50% until 31st December 2026 to prevent tax issues for farmers in a year of high costs and poor cashflow.",
+      "any_dpo_or_former_dpo": "No",
+      "isFormerDPO": false,
+      "dpo_entries": [
+        {
+          "person_name": "Brian Brennan",
+          "job_title": "TD",
+          "public_body": "Dáil Éireann, the Oireachtas"
+        },
+        {
+          "person_name": "Brian Purcell",
+          "job_title": "Special Adviser",
+          "public_body": "Department of Agriculture and the Marine"
+        },
+        {
+          "person_name": "Christopher O'Sullivan",
+          "job_title": "Minister of State",
+          "public_body": "Department of Housing, Local Government and Heritage"
+        },
+        {
+          "person_name": "Emer Higgins",
+          "job_title": "Minister of State",
+          "public_body": "Department of Public Expenditure, NDP Delivery and Reform"
+        },
+        {
+          "person_name": "Helen McEntee",
+          "job_title": "Minister",
+          "public_body": "Department of Education"
+        },
+        {
+          "person_name": "Jennifer Carroll MacNeill",
+          "job_title": "Minister",
+          "public_body": "Department of Health"
+        },
+        {
+          "person_name": "Malcolm Byrne",
+          "job_title": "TD",
+          "public_body": "Dáil Éireann, the Oireachtas"
+        },
+        {
+          "person_name": "Martin Heydon",
+          "job_title": "Minister",
+          "public_body": "Department of Agriculture, Food and the Marine"
+        },
+        {
+          "person_name": "Michael Healy-Rae",
+          "job_title": "Minister of State",
+          "public_body": "Department of Agriculture, Food and the Marine"
+        },
+        {
+          "person_name": "Michael Moynihan",
+          "job_title": "Minister of State",
+          "public_body": "Department of Education"
+        },
+        {
+          "person_name": "Noel Grealish",
+          "job_title": "Minister of State",
+          "public_body": "Department of Agriculture, Food and the Marine"
+        },
+        {
+          "person_name": "Paschal Donohoe",
+          "job_title": "Minister",
+          "public_body": "Department of Finance"
+        },
+        {
+          "person_name": "Peter Burke",
+          "job_title": "Minister",
+          "public_body": "Department of Enterprise, Trade and Employment"
+        },
+        {
+          "person_name": "Seán Canney",
+          "job_title": "Minister of State",
+          "public_body": "Department of Transport"
+        },
+        {
+          "person_name": "James Browne",
+          "job_title": "Minister",
+          "public_body": "Department of Housing, Local Government and Heritage"
+        }
+      ],
+      "lobbying_activities": [
+        "Email",
+        "Meeting",
+        "Social Media"
+      ]
+    },
+    {
+      "id": 103931,
+      "url": "lobbying.ie/return/128123/the-irish-farmers-association---ifa",
+      "lobbyist_name": "The Irish Farmers' Association - IFA",
+      "date_published": "2025-09-19 22:16:00.000000",
+      "specific_details": "Mercosur Trade Deal",
+      "intended_results": "That the Government and MEPs must honour their commitments to stand up for farmers and defend their interests by opposing the current Mercosur trade deal.::To discuss farmers' concerns with the Minister for Foreign Affairs::To reiterate strong opposition to the Mercosur agreement in its current form. The beef industry in Ireland supports 90,000 farmers and around 25,000 jobs and is critical to the rural economy. There are very strong concerns about the impact the EU-Mercosur trade agreement would have on the viability of some 90,000 families.::That, while it is often argued that an additional 99,000t of beef from the Mercosur block countries would represent only 1-2% of the EU beef market, this statistic is in fact very misleading. The high value EU steak market (fillet, striploin, and cube) will be targeted by Mercosur beef exporters and will impact EU producers' ability to achieve a positive return on the carcass. 30% of the value of the carcass is contained within the yield of high ",
+      "any_dpo_or_former_dpo": "No",
+      "isFormerDPO": false,
+      "dpo_entries": [
+        {
+          "person_name": "Aindrias Moynihan",
+          "job_title": "TD",
+          "public_body": "Dáil Éireann, the Oireachtas"
+        },
+        {
+          "person_name": "Alan Dillon",
+          "job_title": "Minister of State",
+          "public_body": "Department of Jobs, Enterprise and Innovation"
+        },
+        {
+          "person_name": "Billy Kelleher",
+          "job_title": "MEP",
+          "public_body": "European Parliament"
+        },
+        {
+          "person_name": "Brendan Smith",
+          "job_title": "TD",
+          "public_body": "Dáil Éireann, the Oireachtas"
+        },
+        {
+          "person_name": "Brian Brennan",
+          "job_title": "TD",
+          "public_body": "Dáil Éireann, the Oireachtas"
+        },
+        {
+          "person_name": "Cathal Byrne",
+          "job_title": "Senator",
+          "public_body": "Seanad"
+        },
+        {
+          "person_name": "Cathy Bennett",
+          "job_title": "TD",
+          "public_body": "Dáil Éireann, the Oireachtas"
+        },
+        {
+          "person_name": "Charlie McConalogue",
+          "job_title": "TD",
+          "public_body": "Dáil Éireann, the Oireachtas"
+        },
+        {
+          "person_name": "Christopher O'Sullivan",
+          "job_title": "TD",
+          "public_body": "Dáil Éireann, the Oireachtas"
+        },
+        {
+          "person_name": "Claire Kerrane",
+          "job_title": "TD",
+          "public_body": "Dáil Éireann, the Oireachtas"
+        },
+        {
+          "person_name": "Colm Burke",
+          "job_title": "TD",
+          "public_body": "Dáil Éireann, the Oireachtas"
+        },
+        {
+          "person_name": "Conor Sheehan",
+          "job_title": "TD",
+          "public_body": "Dáil Éireann, the Oireachtas"
+        },
+        {
+          "person_name": "Cynthia Ní Mhurchú",
+          "job_title": "MEP",
+          "public_body": "European Parliament"
+        },
+        {
+          "person_name": "Dara Calleary",
+          "job_title": "Minister",
+          "public_body": "Department of Social Protection"
+        },
+        {
+          "person_name": "David Maxwell",
+          "job_title": "TD",
+          "public_body": "Dáil Éireann, the Oireachtas"
+        },
+        {
+          "person_name": "Eamon Scanlon",
+          "job_title": "TD",
+          "public_body": "Dáil Éireann, the Oireachtas"
+        },
+        {
+          "person_name": "Eileen Lynch",
+          "job_title": "Senator",
+          "public_body": "Seanad"
+        },
+        {
+          "person_name": "Eoghan Kenny",
+          "job_title": "TD",
+          "public_body": "Dáil Éireann, the Oireachtas"
+        },
+        {
+          "person_name": "Fionntán Ó Súilleabháin",
+          "job_title": "TD",
+          "public_body": "Dáil Éireann, the Oireachtas"
+        },
+        {
+          "person_name": "Garret Ahearn",
+          "job_title": "Senator",
+          "public_body": "Seanad"
+        },
+        {
+          "person_name": "George Lawlor",
+          "job_title": "TD",
+          "public_body": "Dáil Éireann, the Oireachtas"
+        },
+        {
+          "person_name": "Jennifer Murnane O'Connor",
+          "job_title": "Minister of State",
+          "public_body": "Department of Health"
+        },
+        {
+          "person_name": "Jerry Buttimer",
+          "job_title": "Senator",
+          "public_body": "Seanad"
+        },
+        {
+          "person_name": "Joe Cooney",
+          "job_title": "TD",
+          "public_body": "Dáil Éireann, the Oireachtas"
+        },
+        {
+          "person_name": "John Cummins",
+          "job_title": "Minister of State",
+          "public_body": "Department of Housing, Local Government and Heritage"
+        },
+        {
+          "person_name": "John Paul O'Shea",
+          "job_title": "TD",
+          "public_body": "Dáil Éireann, the Oireachtas"
+        },
+        {
+          "person_name": "Johnny Mythen",
+          "job_title": "TD",
+          "public_body": "Dáil Éireann, the Oireachtas"
+        },
+        {
+          "person_name": "Kieran O'Donnell",
+          "job_title": "Minister of State",
+          "public_body": "Department of Housing, Local Government and Heritage"
+        },
+        {
+          "person_name": "Malcolm Byrne",
+          "job_title": "TD",
+          "public_body": "Dáil Éireann, the Oireachtas"
+        },
+        {
+          "person_name": "Malcolm Noonan",
+          "job_title": "TD",
+          "public_body": "Dáil Éireann, the Oireachtas"
+        },
+        {
+          "person_name": "Maria Byrne",
+          "job_title": "Senator",
+          "public_body": "Seanad"
+        },
+        {
+          "person_name": "Martin Daly",
+          "job_title": "TD",
+          "public_body": "Dáil Éireann, the Oireachtas"
+        },
+        {
+          "person_name": "Mary Butler",
+          "job_title": "Government Chief Whip and Minister",
+          "public_body": "Department of the Taoiseach"
+        },
+        {
+          "person_name": "Michael Cahill",
+          "job_title": "TD",
+          "public_body": "Dáil Éireann, the Oireachtas"
+        },
+        {
+          "person_name": "Michael Collins",
+          "job_title": "TD",
+          "public_body": "Dáil Éireann, the Oireachtas"
+        },
+        {
+          "person_name": "Michael Moynihan",
+          "job_title": "TD",
+          "public_body": "Dáil Éireann, the Oireachtas"
+        },
+        {
+          "person_name": "Niall Collins",
+          "job_title": "Minister of State",
+          "public_body": "Department of Justice and Equality"
+        },
+        {
+          "person_name": "Noel McCarthy",
+          "job_title": "TD",
+          "public_body": "Dáil Éireann, the Oireachtas"
+        },
+        {
+          "person_name": "Noel O'Donovan",
+          "job_title": "Senator",
+          "public_body": "Seanad"
+        },
+        {
+          "person_name": "Padráig Mac Lochlainn",
+          "job_title": "TD",
+          "public_body": "Dáil Éireann, the Oireachtas"
+        },
+        {
+          "person_name": "Pádraig O'Sullivan",
+          "job_title": "TD",
+          "public_body": "Dáil Éireann, the Oireachtas"
+        },
+        {
+          "person_name": "Paraic Brady",
+          "job_title": "Senator",
+          "public_body": "Seanad"
+        },
+        {
+          "person_name": "Patrick O'Donovan",
+          "job_title": "Minister of State",
+          "public_body": "Department of Tourism, Culture, Arts, Gaeltacht, Sport and Media"
+        },
+        {
+          "person_name": "Patrick O'Donovan",
+          "job_title": "Minister of State",
+          "public_body": "Department of Public Expenditure and Reform"
+        },
+        {
+          "person_name": "Paul Daly",
+          "job_title": "Senator",
+          "public_body": "Seanad"
+        },
+        {
+          "person_name": "Pearse Doherty",
+          "job_title": "TD",
+          "public_body": "Dáil Éireann, the Oireachtas"
+        },
+        {
+          "person_name": "Peter Burke",
+          "job_title": "TD",
+          "public_body": "Dáil Éireann, the Oireachtas"
+        },
+        {
+          "person_name": "Richard O'Donoghue",
+          "job_title": "TD",
+          "public_body": "Dáil Éireann, the Oireachtas"
+        },
+        {
+          "person_name": "Robbie Gallagher",
+          "job_title": "Senator",
+          "public_body": "Seanad"
+        },
+        {
+          "person_name": "Ryan O'Meara",
+          "job_title": "TD",
+          "public_body": "Dáil Éireann, the Oireachtas"
+        },
+        {
+          "person_name": "Sarah O'Reilly",
+          "job_title": "Senator",
+          "public_body": "Seanad"
+        },
+        {
+          "person_name": "Seamus McGrath",
+          "job_title": "TD",
+          "public_body": "Dáil Éireann, the Oireachtas"
+        },
+        {
+          "person_name": "Seán Fleming",
+          "job_title": "TD",
+          "public_body": "Dáil Éireann, the Oireachtas"
+        },
+        {
+          "person_name": "Simon Harris",
+          "job_title": "Tánaiste and Minister",
+          "public_body": "Department of Foreign Affairs"
+        },
+        {
+          "person_name": "Sorca Clarke",
+          "job_title": "TD",
+          "public_body": "Dáil Éireann, the Oireachtas"
+        },
+        {
+          "person_name": "Thomas Byrne",
+          "job_title": "Minister of State",
+          "public_body": "Department of the Taoiseach"
+        },
+        {
+          "person_name": "Verona Murphy",
+          "job_title": "TD",
+          "public_body": "Dáil Éireann, the Oireachtas"
+        },
+        {
+          "person_name": "William Aird",
+          "job_title": "TD",
+          "public_body": "Dáil Éireann, the Oireachtas"
+        },
+        {
+          "person_name": "Willie O'Dea",
+          "job_title": "TD",
+          "public_body": "Dáil Éireann, the Oireachtas"
+        },
+        {
+          "person_name": "Colm Burke",
+          "job_title": "Minister of State",
+          "public_body": "Department of Health"
+        },
+        {
+          "person_name": "Simon Harris",
+          "job_title": "Tánaiste and Minister",
+          "public_body": "Department of Foreign Affairs"
+        },
+        {
+          "person_name": "Jack O'Donnell",
+          "job_title": "Special Advisor to the Tanaiste",
+          "public_body": "Department of Foreign Affairs"
+        },
+        {
+          "person_name": "Hugh O’Connell",
+          "job_title": "Deputy Government Press Secretary",
+          "public_body": "Department of the Taoiseach"
+        }
+      ],
+      "lobbying_activities": [
+        "Email",
+        "Informal communication",
+        "Letter",
+        "Meeting",
+        "Phone call",
+        "Social Media"
+      ]
+    },
+    {
+      "id": 103973,
+      "url": "lobbying.ie/return/128235/the-irish-farmers-association---ifa",
+      "lobbyist_name": "The Irish Farmers' Association - IFA",
+      "date_published": "2025-09-19 22:08:00.000000",
+      "specific_details": "Energy From Farms - Small-Scale Renewable Electricity Support Scheme (SRESS)",
+      "intended_results": "To propose that a dedicated farmer category is established within SRESS to reflect the distinct constraints faced by the agricultural sector and increase the level of feed-in tariffs to make farm-based projects financially viable and attractive.::To propose an increase in SRESS fixed tariff rates for wind and solar as they are insufficient to support any meaningful uptake::To propose that a higher SRESS fixed tariff rate is established for anaerobic digestion and biomass projects reflecting the much higher cost of production for this form of renewable energy::To propose that the application and approval process is simplified, reducing administrative hurdles and making the scheme more accessible to farmers.::To propose that targeted technical support and advisory services are provided to help farmers manage planning, regulatory, and operational aspects of project development.::To propose that the community benefit fund requirement is reviewed and adjusted to ensure it is proportionate a",
+      "any_dpo_or_former_dpo": "No",
+      "isFormerDPO": false,
+      "dpo_entries": [
+        {
+          "person_name": "Brian Brennan",
+          "job_title": "TD",
+          "public_body": "Dáil Éireann, the Oireachtas"
+        },
+        {
+          "person_name": "Brian Purcell",
+          "job_title": "Special Adviser",
+          "public_body": "Department of Agriculture and the Marine"
+        },
+        {
+          "person_name": "Christopher O'Sullivan",
+          "job_title": "Minister of State",
+          "public_body": "Department of Housing, Local Government and Heritage"
+        },
+        {
+          "person_name": "Emer Higgins",
+          "job_title": "Minister of State",
+          "public_body": "Department of Public Expenditure, NDP Delivery and Reform"
+        },
+        {
+          "person_name": "Helen McEntee",
+          "job_title": "Minister",
+          "public_body": "Department of Education"
+        },
+        {
+          "person_name": "Jennifer Carroll MacNeill",
+          "job_title": "Minister",
+          "public_body": "Department of Health"
+        },
+        {
+          "person_name": "Malcolm Byrne",
+          "job_title": "TD",
+          "public_body": "Dáil Éireann, the Oireachtas"
+        },
+        {
+          "person_name": "Martin Heydon",
+          "job_title": "Minister",
+          "public_body": "Department of Agriculture, Food and the Marine"
+        },
+        {
+          "person_name": "Michael Healy-Rae",
+          "job_title": "Minister of State",
+          "public_body": "Department of Agriculture, Food and the Marine"
+        },
+        {
+          "person_name": "Michael Moynihan",
+          "job_title": "Minister of State",
+          "public_body": "Department of Education"
+        },
+        {
+          "person_name": "Noel Grealish",
+          "job_title": "Minister of State",
+          "public_body": "Department of Agriculture, Food and the Marine"
+        },
+        {
+          "person_name": "Paschal Donohoe",
+          "job_title": "Minister",
+          "public_body": "Department of Finance"
+        },
+        {
+          "person_name": "Peter Burke",
+          "job_title": "Minister",
+          "public_body": "Department of Enterprise, Trade and Employment"
+        },
+        {
+          "person_name": "Seán Canney",
+          "job_title": "Minister of State",
+          "public_body": "Department of Transport"
+        },
+        {
+          "person_name": "James Browne",
+          "job_title": "Minister",
+          "public_body": "Department of Housing, Local Government and Heritage"
+        }
+      ],
+      "lobbying_activities": [
+        "Email",
+        "Meeting",
+        "Social Media"
+      ]
+    },
+    {
+      "id": 103965,
+      "url": "lobbying.ie/return/128224/the-irish-farmers-association---ifa",
+      "lobbyist_name": "The Irish Farmers' Association - IFA",
+      "date_published": "2025-09-19 22:06:00.000000",
+      "specific_details": "Taxation Measures to Support Climate Action",
+      "intended_results": "To propose that all farm equipment, which contributes to increased emission efficiency, such as LESS equipment or capital investment in developing bioeconomy supply chains, should qualify for accelerated capital allowances and be exempt from VAT.::To propose reduced excise duty on Hydrated vegetable oil fuel (HVO)::To propose that, if any percentage of the farm is dedicated to farm forestry, it should be defined as agricultural land and the CAT Agricultural Relief applied to the whole farm.::To propose that farm forestry is treated in a similar manner in relation to the Consanguinity and Young Trained Farmers Stamp Duty Reliefs as it is with CAT Agricultural Relief, where it is defined as agricultural land.::To propose that, where a non-farmer buys forestry, the normal commercial rate of stamp duty should apply to the full value of land and timber. This is required to ensure forestry remains primarily in the hands of genuine farmers.::To propose that the calculations used to determine ",
+      "any_dpo_or_former_dpo": "No",
+      "isFormerDPO": false,
+      "dpo_entries": [
+        {
+          "person_name": "Brian Purcell",
+          "job_title": "Special Adviser",
+          "public_body": "Department of Agriculture and the Marine"
+        },
+        {
+          "person_name": "Martin Heydon",
+          "job_title": "Minister",
+          "public_body": "Department of Agriculture, Food and the Marine"
+        },
+        {
+          "person_name": "Brian Brennan",
+          "job_title": "TD",
+          "public_body": "Dáil Éireann, the Oireachtas"
+        },
+        {
+          "person_name": "Malcolm Byrne",
+          "job_title": "TD",
+          "public_body": "Dáil Éireann, the Oireachtas"
+        },
+        {
+          "person_name": "Christopher O'Sullivan",
+          "job_title": "Minister of State",
+          "public_body": "Department of Housing, Planning,Community and Local Government"
+        },
+        {
+          "person_name": "Emer Higgins",
+          "job_title": "Minister of State",
+          "public_body": "Department of Public Expenditure, NDP Delivery and Reform"
+        },
+        {
+          "person_name": "Helen McEntee",
+          "job_title": "Minister",
+          "public_body": "Department of Education"
+        },
+        {
+          "person_name": "Noel Grealish",
+          "job_title": "Minister of State",
+          "public_body": "Department of Agriculture, Food and the Marine"
+        },
+        {
+          "person_name": "Peter Burke",
+          "job_title": "Minister",
+          "public_body": "Department of Enterprise, Trade and Employment"
+        },
+        {
+          "person_name": "James Browne",
+          "job_title": "Minister",
+          "public_body": "Department of Housing, Local Government and Heritage"
+        },
+        {
+          "person_name": "Jennifer Carroll MacNeill",
+          "job_title": "Minister",
+          "public_body": "Department of Health"
+        },
+        {
+          "person_name": "Malcolm Byrne",
+          "job_title": "TD",
+          "public_body": "Dáil Éireann, the Oireachtas"
+        },
+        {
+          "person_name": "Michael Healy-Rae",
+          "job_title": "Minister of State",
+          "public_body": "Department of Agriculture, Food and the Marine"
+        },
+        {
+          "person_name": "Michael Moynihan",
+          "job_title": "Minister of State",
+          "public_body": "Department of Education"
+        },
+        {
+          "person_name": "Paschal Donohoe",
+          "job_title": "Minister",
+          "public_body": "Department of Finance"
+        },
+        {
+          "person_name": "Seán Canney",
+          "job_title": "Minister of State",
+          "public_body": "Department of Transport"
+        }
+      ],
+      "lobbying_activities": [
+        "Letter",
+        "Meeting",
+        "Submission"
+      ]
+    },
+    {
+      "id": 103956,
+      "url": "lobbying.ie/return/128215/the-irish-farmers-association---ifa",
+      "lobbyist_name": "The Irish Farmers' Association - IFA",
+      "date_published": "2025-09-19 22:05:00.000000",
+      "specific_details": "Uisce Éireann's Non-Domestic Tariff Framework (NDTF) (Water Charges)",
+      "intended_results": "To propose that the Commission for Regulation of Utilities change direction on the proposed charge increases and recognise the challenges facing the sector and introduce further transitional arrangements for farmers to minimise tariff increases.::To propose that the standard charge per connection is reviewed for farmers with multiple connections and associated water charges are linked to a Water Point Reference Number (WPRN) and not each individual connection.",
+      "any_dpo_or_former_dpo": "No",
+      "isFormerDPO": false,
+      "dpo_entries": [
+        {
+          "person_name": "Brian Brennan",
+          "job_title": "TD",
+          "public_body": "Dáil Éireann, the Oireachtas"
+        },
+        {
+          "person_name": "Brian Purcell",
+          "job_title": "Special Adviser",
+          "public_body": "Department of Agriculture and the Marine"
+        },
+        {
+          "person_name": "Christopher O'Sullivan",
+          "job_title": "Minister of State",
+          "public_body": "Department of Housing, Local Government and Heritage"
+        },
+        {
+          "person_name": "Emer Higgins",
+          "job_title": "Minister of State",
+          "public_body": "Department of Public Expenditure, NDP Delivery and Reform"
+        },
+        {
+          "person_name": "Helen McEntee",
+          "job_title": "Minister",
+          "public_body": "Department of Education"
+        },
+        {
+          "person_name": "Jennifer Carroll MacNeill",
+          "job_title": "Minister",
+          "public_body": "Department of Health"
+        },
+        {
+          "person_name": "Malcolm Byrne",
+          "job_title": "TD",
+          "public_body": "Dáil Éireann, the Oireachtas"
+        },
+        {
+          "person_name": "Martin Heydon",
+          "job_title": "Minister",
+          "public_body": "Department of Agriculture, Food and the Marine"
+        },
+        {
+          "person_name": "Michael Healy-Rae",
+          "job_title": "Minister of State",
+          "public_body": "Department of Agriculture, Food and the Marine"
+        },
+        {
+          "person_name": "Michael Moynihan",
+          "job_title": "Minister of State",
+          "public_body": "Department of Education"
+        },
+        {
+          "person_name": "Noel Grealish",
+          "job_title": "Minister of State",
+          "public_body": "Department of Agriculture, Food and the Marine"
+        },
+        {
+          "person_name": "Paschal Donohoe",
+          "job_title": "Minister",
+          "public_body": "Department of Finance"
+        },
+        {
+          "person_name": "Peter Burke",
+          "job_title": "Minister",
+          "public_body": "Department of Enterprise, Trade and Employment"
+        },
+        {
+          "person_name": "Seán Canney",
+          "job_title": "Minister of State",
+          "public_body": "Department of Transport"
+        },
+        {
+          "person_name": "James Browne",
+          "job_title": "Minister",
+          "public_body": "Department of Housing, Local Government and Heritage"
+        }
+      ],
+      "lobbying_activities": [
+        "Email",
+        "Meeting",
+        "Social Media"
+      ]
+    },
+    {
+      "id": 103957,
+      "url": "lobbying.ie/return/128216/the-irish-farmers-association---ifa",
+      "lobbyist_name": "The Irish Farmers' Association - IFA",
+      "date_published": "2025-09-19 22:02:00.000000",
+      "specific_details": "Agri Taxation - Extended Producer Responsibility (EPR) Scheme (tyres)",
+      "intended_results": "To propose that the current derogation on a levy on agricultural tyres must remain in place until market imbalance issues are addressed and a practical disposal system for existing waste tyres on farms is put in place.",
+      "any_dpo_or_former_dpo": "No",
+      "isFormerDPO": false,
+      "dpo_entries": [
+        {
+          "person_name": "Brian Purcell",
+          "job_title": "Special Adviser",
+          "public_body": "Department of Agriculture and the Marine"
+        },
+        {
+          "person_name": "Martin Heydon",
+          "job_title": "Minister",
+          "public_body": "Department of Agriculture, Food and the Marine"
+        },
+        {
+          "person_name": "Brian Brennan",
+          "job_title": "TD",
+          "public_body": "Dáil Éireann, the Oireachtas"
+        },
+        {
+          "person_name": "Christopher O’Sullivan",
+          "job_title": "Minister of State",
+          "public_body": "Department of Housing, Local Government and Heritage"
+        },
+        {
+          "person_name": "Emer Higgins",
+          "job_title": "Minister of State",
+          "public_body": "Department of Public Expenditure, NDP Delivery and Reform"
+        },
+        {
+          "person_name": "Helen McEntee",
+          "job_title": "Minister",
+          "public_body": "Department of Education"
+        },
+        {
+          "person_name": "Noel Grealish",
+          "job_title": "Minister of State",
+          "public_body": "Department of Agriculture, Food and the Marine"
+        },
+        {
+          "person_name": "Peter Burke",
+          "job_title": "Minister",
+          "public_body": "Department of Enterprise, Trade and Employment"
+        },
+        {
+          "person_name": "James Browne",
+          "job_title": "Minister",
+          "public_body": "Department of Housing, Local Government and Heritage"
+        },
+        {
+          "person_name": "Jennifer Carroll MacNeill",
+          "job_title": "Minister",
+          "public_body": "Department of Health"
+        },
+        {
+          "person_name": "Malcolm Byrne",
+          "job_title": "TD",
+          "public_body": "Dáil Éireann, the Oireachtas"
+        },
+        {
+          "person_name": "Michael Healy-Rae",
+          "job_title": "Minister of State",
+          "public_body": "Department of Agriculture, Food and the Marine"
+        },
+        {
+          "person_name": "Paschal Donohoe",
+          "job_title": "Minister",
+          "public_body": "Department of Finance"
+        },
+        {
+          "person_name": "Seán Canney",
+          "job_title": "Minister of State",
+          "public_body": "Department of Transport"
+        },
+        {
+          "person_name": "Michael Moynihan",
+          "job_title": "Minister of State",
+          "public_body": "Department of Education"
+        }
+      ],
+      "lobbying_activities": [
+        "Letter",
+        "Submission"
+      ]
+    },
+    {
+      "id": 103979,
+      "url": "lobbying.ie/return/128244/the-irish-farmers-association---ifa",
+      "lobbyist_name": "The Irish Farmers' Association - IFA",
+      "date_published": "2025-09-19 22:00:00.000000",
+      "specific_details": "Proposals for an Improved ACRES Scheme - Scoring",
+      "intended_results": "To propose::A review of the scoring / payment system should apply. The DAFM need to acknowledge that past agri-environmental scheme criteria may have impacted current scoring (e.g. minimum stocking rates), and whether relating to late scoring submissions; minimal invasive species; turbary activity and/or dumping, ACRES applicants should not be penalised for the actions / non-actions of third parties.::Force majeure, proportionality, and fairness should apply. Similar to BISS, there should also be a period from which parcel scores/plans could be amended without penalty.::• Farmers should be advised the date that their lands are being scored, and provided with the opportunity, should they so wish, to accompany the planner/consultant during the scoring exercise to enable information sharing and corrective action to be relayed in a timelier fashion than having to wait a significant period as occurred with ACRES. More broadly, an agreed timeline is required for the provision of parcel scori",
+      "any_dpo_or_former_dpo": "No",
+      "isFormerDPO": false,
+      "dpo_entries": [
+        {
+          "person_name": "Brian Brennan",
+          "job_title": "TD",
+          "public_body": "Dáil Éireann, the Oireachtas"
+        },
+        {
+          "person_name": "Brian Purcell",
+          "job_title": "Special Adviser",
+          "public_body": "Department of Agriculture and the Marine"
+        },
+        {
+          "person_name": "Christopher O'Sullivan",
+          "job_title": "Minister of State",
+          "public_body": "Department of Housing, Local Government and Heritage"
+        },
+        {
+          "person_name": "Emer Higgins",
+          "job_title": "Minister of State",
+          "public_body": "Department of Public Expenditure, NDP Delivery and Reform"
+        },
+        {
+          "person_name": "Helen McEntee",
+          "job_title": "Minister",
+          "public_body": "Department of Education"
+        },
+        {
+          "person_name": "James Browne",
+          "job_title": "Minister",
+          "public_body": "Department of Housing, Local Government and Heritage"
+        },
+        {
+          "person_name": "Jennifer Carroll MacNeill",
+          "job_title": "Minister",
+          "public_body": "Department of Health"
+        },
+        {
+          "person_name": "Malcolm Byrne",
+          "job_title": "TD",
+          "public_body": "Dáil Éireann, the Oireachtas"
+        },
+        {
+          "person_name": "Martin Heydon",
+          "job_title": "Minister",
+          "public_body": "Department of Agriculture, Food and the Marine"
+        },
+        {
+          "person_name": "Michael Healy-Rae",
+          "job_title": "Minister of State",
+          "public_body": "Department of Agriculture, Food and the Marine"
+        },
+        {
+          "person_name": "Michael Moynihan",
+          "job_title": "Minister of State",
+          "public_body": "Department of Education"
+        },
+        {
+          "person_name": "Noel Grealish",
+          "job_title": "Minister of State",
+          "public_body": "Department of Agriculture, Food and the Marine"
+        },
+        {
+          "person_name": "Paschal Donohoe",
+          "job_title": "Minister",
+          "public_body": "Department of Finance"
+        },
+        {
+          "person_name": "Peter Burke",
+          "job_title": "Minister",
+          "public_body": "Department of Enterprise, Trade and Employment"
+        },
+        {
+          "person_name": "Seán Canney",
+          "job_title": "Minister of State",
+          "public_body": "Department of Transport"
+        }
+      ],
+      "lobbying_activities": [
+        "Email",
+        "Meeting",
+        "Social Media"
+      ]
+    },
+    {
+      "id": 103972,
+      "url": "lobbying.ie/return/128234/the-irish-farmers-association---ifa",
+      "lobbyist_name": "The Irish Farmers' Association - IFA",
+      "date_published": "2025-09-19 21:59:00.000000",
+      "specific_details": "Farmer Owned & Operated/ABP Type 9 Biogas Plant - Energy from Farms",
+      "intended_results": "To propose the introduction of a minimum 50% capital grant for the development of farmer owned and operated farm scale biogas plants with finance to be provided through the Infrastructure, Climate and Nature Fund (ICNF)",
+      "any_dpo_or_former_dpo": "No",
+      "isFormerDPO": false,
+      "dpo_entries": [
+        {
+          "person_name": "Brian Brennan",
+          "job_title": "TD",
+          "public_body": "Dáil Éireann, the Oireachtas"
+        },
+        {
+          "person_name": "Brian Purcell",
+          "job_title": "Special Adviser",
+          "public_body": "Department of Agriculture and the Marine"
+        },
+        {
+          "person_name": "Christopher O'Sullivan",
+          "job_title": "Minister of State",
+          "public_body": "Department of Housing, Local Government and Heritage"
+        },
+        {
+          "person_name": "Emer Higgins",
+          "job_title": "Minister of State",
+          "public_body": "Department of Public Expenditure, NDP Delivery and Reform"
+        },
+        {
+          "person_name": "Helen McEntee",
+          "job_title": "Minister",
+          "public_body": "Department of Education"
+        },
+        {
+          "person_name": "Jennifer Carroll MacNeill",
+          "job_title": "Minister",
+          "public_body": "Department of Health"
+        },
+        {
+          "person_name": "Malcolm Byrne",
+          "job_title": "TD",
+          "public_body": "Dáil Éireann, the Oireachtas"
+        },
+        {
+          "person_name": "Martin Heydon",
+          "job_title": "Minister",
+          "public_body": "Department of Agriculture, Food and the Marine"
+        },
+        {
+          "person_name": "Michael Healy-Rae",
+          "job_title": "Minister of State",
+          "public_body": "Department of Agriculture, Food and the Marine"
+        },
+        {
+          "person_name": "Michael Moynihan",
+          "job_title": "Minister of State",
+          "public_body": "Department of Education"
+        },
+        {
+          "person_name": "Noel Grealish",
+          "job_title": "Minister of State",
+          "public_body": "Department of Agriculture, Food and the Marine"
+        },
+        {
+          "person_name": "Paschal Donohoe",
+          "job_title": "Minister",
+          "public_body": "Department of Finance"
+        },
+        {
+          "person_name": "Peter Burke",
+          "job_title": "Minister",
+          "public_body": "Department of Enterprise, Trade and Employment"
+        },
+        {
+          "person_name": "Seán Canney",
+          "job_title": "Minister of State",
+          "public_body": "Department of Transport"
+        },
+        {
+          "person_name": "James Browne",
+          "job_title": "Minister",
+          "public_body": "Department of Housing, Local Government and Heritage"
+        }
+      ],
+      "lobbying_activities": [
+        "Email",
+        "Meeting",
+        "Social Media"
+      ]
+    },
+    {
+      "id": 103974,
+      "url": "lobbying.ie/return/128237/the-irish-farmers-association---ifa",
+      "lobbyist_name": "The Irish Farmers' Association - IFA",
+      "date_published": "2025-09-19 21:56:00.000000",
+      "specific_details": "Support Scheme for Renewable Heat (SSRH) - Energy From Farms",
+      "intended_results": "To propose that the budget for this programme is maintained and enhanced over the next few years.::To propose that the Sustainable Energy Authority of Ireland (SEAI) better promotes the scheme to increase the uptake of the SSRH in the agriculture sector.::To propose that the biogas operational support under the scheme be reviewed and the tariff rates significantly increased, as their current low rate has resulted in no uptake of the biogas operation support under the SSRH",
+      "any_dpo_or_former_dpo": "No",
+      "isFormerDPO": false,
+      "dpo_entries": [
+        {
+          "person_name": "Brian Brennan",
+          "job_title": "TD",
+          "public_body": "Dáil Éireann, the Oireachtas"
+        },
+        {
+          "person_name": "Brian Purcell",
+          "job_title": "Special Adviser",
+          "public_body": "Department of Agriculture and the Marine"
+        },
+        {
+          "person_name": "Christopher O'Sullivan",
+          "job_title": "Minister of State",
+          "public_body": "Department of Housing, Local Government and Heritage"
+        },
+        {
+          "person_name": "Emer Higgins",
+          "job_title": "Minister of State",
+          "public_body": "Department of Public Expenditure, NDP Delivery and Reform"
+        },
+        {
+          "person_name": "Helen McEntee",
+          "job_title": "Minister",
+          "public_body": "Department of Education"
+        },
+        {
+          "person_name": "Jennifer Carroll MacNeill",
+          "job_title": "Minister",
+          "public_body": "Department of Health"
+        },
+        {
+          "person_name": "Malcolm Byrne",
+          "job_title": "TD",
+          "public_body": "Dáil Éireann, the Oireachtas"
+        },
+        {
+          "person_name": "Martin Heydon",
+          "job_title": "Minister",
+          "public_body": "Department of Agriculture, Food and the Marine"
+        },
+        {
+          "person_name": "Michael Healy-Rae",
+          "job_title": "Minister of State",
+          "public_body": "Department of Agriculture, Food and the Marine"
+        },
+        {
+          "person_name": "Michael Moynihan",
+          "job_title": "Minister of State",
+          "public_body": "Department of Education"
+        },
+        {
+          "person_name": "Noel Grealish",
+          "job_title": "Minister of State",
+          "public_body": "Department of Agriculture, Food and the Marine"
+        },
+        {
+          "person_name": "Paschal Donohoe",
+          "job_title": "Minister",
+          "public_body": "Department of Finance"
+        },
+        {
+          "person_name": "Peter Burke",
+          "job_title": "Minister",
+          "public_body": "Department of Enterprise, Trade and Employment"
+        },
+        {
+          "person_name": "Seán Canney",
+          "job_title": "Minister of State",
+          "public_body": "Department of Transport"
+        },
+        {
+          "person_name": "James Browne",
+          "job_title": "Minister",
+          "public_body": "Department of Housing, Local Government and Heritage"
+        },
+        {
+          "person_name": "Alan Dillon",
+          "job_title": "Minister of State",
+          "public_body": "Department of Climate, Energy and the Environment"
+        },
+        {
+          "person_name": "Alan Dillon",
+          "job_title": "Minister of State",
+          "public_body": "Department of Climate, Energy and the Environment"
+        },
+        {
+          "person_name": "Jenny McCormack",
+          "job_title": "Special Adviser",
+          "public_body": "Department of Climate, Energy and the Environment"
+        }
+      ],
+      "lobbying_activities": [
+        "Email",
+        "Meeting",
+        "Social Media"
+      ]
+    },
+    {
+      "id": 103980,
+      "url": "lobbying.ie/return/128249/the-irish-farmers-association---ifa",
+      "lobbyist_name": "The Irish Farmers' Association - IFA",
+      "date_published": "2025-09-19 21:54:00.000000",
+      "specific_details": "Proposals for an Improved ACRES Scheme - General Actions",
+      "intended_results": "That a wide selection of on-farm actions should be provided for participants to select the most suited for their individual operation. The Riparian Buffer Zone & Grass Margin measure should be included as an option for ACRES CoOperation as it is currently for ACRES General applicants.::As budgets (and budgets predications allow), raise the maximum core payment from €7,000 to €10,000. This would incentivise additional ecosystem services and should not require a new IT system re-build to implement.::Where 2 or more actions are implemented in parallel on individual parcels/locations (e.g. new hedge alongside riparian buffer margin), one fence should satisfy.::Greater flexibility around individual measure completion deadlines (at least to Year 4), most particularly where adverse weather conditions and/or input supply constraints are clearly evident in the weeks leading up to completion deadlines. Planting requirements should span the lifetime of the scheme to allow national suppliers build",
+      "any_dpo_or_former_dpo": "No",
+      "isFormerDPO": false,
+      "dpo_entries": [
+        {
+          "person_name": "Brian Brennan",
+          "job_title": "TD",
+          "public_body": "Dáil Éireann, the Oireachtas"
+        },
+        {
+          "person_name": "Brian Purcell",
+          "job_title": "Special Adviser",
+          "public_body": "Department of Agriculture and the Marine"
+        },
+        {
+          "person_name": "Christopher O'Sullivan",
+          "job_title": "Minister of State",
+          "public_body": "Department of Housing, Local Government and Heritage"
+        },
+        {
+          "person_name": "Emer Higgins",
+          "job_title": "Minister of State",
+          "public_body": "Department of Public Expenditure, NDP Delivery and Reform"
+        },
+        {
+          "person_name": "Helen McEntee",
+          "job_title": "Minister",
+          "public_body": "Department of Education"
+        },
+        {
+          "person_name": "James Browne",
+          "job_title": "Minister",
+          "public_body": "Department of Housing, Local Government and Heritage"
+        },
+        {
+          "person_name": "Jennifer Carroll MacNeill",
+          "job_title": "Minister",
+          "public_body": "Department of Health"
+        },
+        {
+          "person_name": "Malcolm Byrne",
+          "job_title": "TD",
+          "public_body": "Dáil Éireann, the Oireachtas"
+        },
+        {
+          "person_name": "Martin Heydon",
+          "job_title": "Minister",
+          "public_body": "Department of Agriculture, Food and the Marine"
+        },
+        {
+          "person_name": "Michael Healy-Rae",
+          "job_title": "Minister of State",
+          "public_body": "Department of Agriculture, Food and the Marine"
+        },
+        {
+          "person_name": "Michael Moynihan",
+          "job_title": "Minister of State",
+          "public_body": "Department of Education"
+        },
+        {
+          "person_name": "Noel Grealish",
+          "job_title": "Minister of State",
+          "public_body": "Department of Agriculture, Food and the Marine"
+        },
+        {
+          "person_name": "Paschal Donohoe",
+          "job_title": "Minister",
+          "public_body": "Department of Finance"
+        },
+        {
+          "person_name": "Peter Burke",
+          "job_title": "Minister",
+          "public_body": "Department of Enterprise, Trade and Employment"
+        },
+        {
+          "person_name": "Seán Canney",
+          "job_title": "Minister of State",
+          "public_body": "Department of Transport"
+        }
+      ],
+      "lobbying_activities": [
+        "Email",
+        "Meeting",
+        "Social Media"
+      ]
+    },
+    {
+      "id": 103970,
+      "url": "lobbying.ie/return/128232/the-irish-farmers-association---ifa",
+      "lobbyist_name": "The Irish Farmers' Association - IFA",
+      "date_published": "2025-09-19 21:53:00.000000",
+      "specific_details": "Energy From Farms",
+      "intended_results": "To propose the introduction of a min 50% capital grant for development of farmer owned farm scale biogas plants – financed through Infrastructure and Climate and Nature Fund (ICNF) and or/feed in tariff.::To propose the immediate introduction of Renewable Heat Obligation (RHO).::To propose the introduction of renewable energy finance scheme that provides state-supported low-cost finance.::To propose the establishment of a dedicated farmer category within the Small-scale Renewable Electricity Support Scheme (SRESS).::To propose that a budget is maintained and enhanced over in the Support Scheme for Renewable Heat (SSRH).::To propose Capital Gain Tax (CAT) / Capital Acquisitions Tax (CAT) reliefs for solar panels should also include wind farms.::To propose maintaining all existing taxation reliefs and exemptions for farmers involved in AD and any other renewable activities.::To propose a Solar- incentive to allow farmers to install systems beyond their own usage and export surplus electr",
+      "any_dpo_or_former_dpo": "No",
+      "isFormerDPO": false,
+      "dpo_entries": [
+        {
+          "person_name": "Brian Brennan",
+          "job_title": "TD",
+          "public_body": "Dáil Éireann, the Oireachtas"
+        },
+        {
+          "person_name": "Brian Purcell",
+          "job_title": "Special Adviser",
+          "public_body": "Department of Agriculture and the Marine"
+        },
+        {
+          "person_name": "Christopher O'Sullivan",
+          "job_title": "Minister of State",
+          "public_body": "Department of Housing, Local Government and Heritage"
+        },
+        {
+          "person_name": "Emer Higgins",
+          "job_title": "Minister of State",
+          "public_body": "Department of Public Expenditure, NDP Delivery and Reform"
+        },
+        {
+          "person_name": "Helen McEntee",
+          "job_title": "Minister",
+          "public_body": "Department of Education"
+        },
+        {
+          "person_name": "Jennifer Carroll MacNeill",
+          "job_title": "Minister",
+          "public_body": "Department of Health"
+        },
+        {
+          "person_name": "Malcolm Byrne",
+          "job_title": "TD",
+          "public_body": "Dáil Éireann, the Oireachtas"
+        },
+        {
+          "person_name": "Martin Heydon",
+          "job_title": "Minister",
+          "public_body": "Department of Agriculture, Food and the Marine"
+        },
+        {
+          "person_name": "Michael Healy-Rae",
+          "job_title": "Minister of State",
+          "public_body": "Department of Agriculture, Food and the Marine"
+        },
+        {
+          "person_name": "Michael Moynihan",
+          "job_title": "Minister of State",
+          "public_body": "Department of Education"
+        },
+        {
+          "person_name": "Noel Grealish",
+          "job_title": "Minister of State",
+          "public_body": "Department of Agriculture, Food and the Marine"
+        },
+        {
+          "person_name": "Paschal Donohoe",
+          "job_title": "Minister",
+          "public_body": "Department of Finance"
+        },
+        {
+          "person_name": "Peter Burke",
+          "job_title": "Minister",
+          "public_body": "Department of Enterprise, Trade and Employment"
+        },
+        {
+          "person_name": "Seán Canney",
+          "job_title": "Minister of State",
+          "public_body": "Department of Transport"
+        },
+        {
+          "person_name": "James Browne",
+          "job_title": "Minister",
+          "public_body": "Department of Housing, Local Government and Heritage"
+        }
+      ],
+      "lobbying_activities": [
+        "Email",
+        "Meeting",
+        "Social Media"
+      ]
+    },
+    {
+      "id": 103967,
+      "url": "lobbying.ie/return/128226/the-irish-farmers-association---ifa",
+      "lobbyist_name": "The Irish Farmers' Association - IFA",
+      "date_published": "2025-09-19 21:51:00.000000",
+      "specific_details": "Fair Deal & Older People in Rural Areas",
+      "intended_results": "Fair Deal Reform::To propose reducing the 5-year land/business transfer clause to 3 years to allow more farmers to benefit from the Fair Deal Scheme.::To propose that land leased under Fair Deal should be classed as “actively farmed” to meet succession criteria.::To propose increasing the ancillary state support loan payback to a minimum of 5 years to allow sufficient time to repay the costs.::To propose increasing cash asset disregard for a single person from €36,000 to €44,000 and for a couple from €72,000 to €88,000::To propose reducing the assessment period for the family home under Fair Deal from 3 years to 2 years, with a maximum contribution of 15% of the home's value (7.5% per year), instead of the current cap of 22.5%.::To propose that income from leased farmland should be excluded or at least partially disregarded in the Fair Deal financial assessment.::Home Support Scheme::To propose immediately introducing a statutory, universal Home Support Scheme, with specific rural adap",
+      "any_dpo_or_former_dpo": "No",
+      "isFormerDPO": false,
+      "dpo_entries": [
+        {
+          "person_name": "Brian Brennan",
+          "job_title": "TD",
+          "public_body": "Dáil Éireann, the Oireachtas"
+        },
+        {
+          "person_name": "Brian Purcell",
+          "job_title": "Special Adviser",
+          "public_body": "Department of Agriculture and the Marine"
+        },
+        {
+          "person_name": "Christopher O'Sullivan",
+          "job_title": "Minister of State",
+          "public_body": "Department of Housing, Local Government and Heritage"
+        },
+        {
+          "person_name": "Edward Timmins",
+          "job_title": "TD",
+          "public_body": "Dáil Éireann, the Oireachtas"
+        },
+        {
+          "person_name": "Emer Higgins",
+          "job_title": "Minister of State",
+          "public_body": "Department of Public Expenditure, NDP Delivery and Reform"
+        },
+        {
+          "person_name": "Helen McEntee",
+          "job_title": "Minister",
+          "public_body": "Department of Education"
+        },
+        {
+          "person_name": "Jennifer Carroll MacNeill",
+          "job_title": "Minister",
+          "public_body": "Department of Health"
+        },
+        {
+          "person_name": "Malcolm Byrne",
+          "job_title": "TD",
+          "public_body": "Dáil Éireann, the Oireachtas"
+        },
+        {
+          "person_name": "Martin Heydon",
+          "job_title": "Minister",
+          "public_body": "Department of Agriculture, Food and the Marine"
+        },
+        {
+          "person_name": "Michael Healy-Rae",
+          "job_title": "Minister of State",
+          "public_body": "Department of Agriculture, Food and the Marine"
+        },
+        {
+          "person_name": "Michael Moynihan",
+          "job_title": "Minister of State",
+          "public_body": "Department of Education"
+        },
+        {
+          "person_name": "Noel Grealish",
+          "job_title": "Minister of State",
+          "public_body": "Department of Agriculture, Food and the Marine"
+        },
+        {
+          "person_name": "Paschal Donohoe",
+          "job_title": "Minister",
+          "public_body": "Department of Finance"
+        },
+        {
+          "person_name": "Peter Burke",
+          "job_title": "Minister",
+          "public_body": "Department of Enterprise, Trade and Employment"
+        },
+        {
+          "person_name": "Seán Canney",
+          "job_title": "Minister of State",
+          "public_body": "Department of Transport"
+        },
+        {
+          "person_name": "James Browne",
+          "job_title": "Minister",
+          "public_body": "Department of Housing, Local Government and Heritage"
+        }
+      ],
+      "lobbying_activities": [
+        "Email",
+        "Meeting",
+        "Social Media"
+      ]
+    },
+    {
+      "id": 103966,
+      "url": "lobbying.ie/return/128225/the-irish-farmers-association---ifa",
+      "lobbyist_name": "The Irish Farmers' Association - IFA",
+      "date_published": "2025-09-19 21:50:00.000000",
+      "specific_details": "Farm Assist Scheme Reform",
+      "intended_results": "Pension Contributions::To propose that credited social insurance contributions for Farm Assist recipients are provided, as is done for Jobseeker's Allowance/Benefit.::Backdating Credits Pre-2007::To propose extending PRSI credit entitlements to farmers who were ineligible before 2007.::Capital Assessment Disregard::To propose raising the disregard threshold from €20,000 to €50,000, aligning with other schemes and reflecting modern farm asset values.::Machinery Depreciation Rate::To propose standardising depreciation at 10% to better reflect asset lifecycles in the means test.::Farm Scheme Income Disregard::To propose excluding income from farm schemes and direct payments to accurately reflect income needs.::Pension Age Eligibility::To propose extending eligibility beyond pension age, particularly for those with limited or no pension entitlement.::Three-Year Income Averaging::To propose allowing a rolling three-year income test option for long-term recipients to smooth out income volati",
+      "any_dpo_or_former_dpo": "No",
+      "isFormerDPO": false,
+      "dpo_entries": [
+        {
+          "person_name": "Brian Brennan",
+          "job_title": "TD",
+          "public_body": "Dáil Éireann, the Oireachtas"
+        },
+        {
+          "person_name": "Brian Purcell",
+          "job_title": "Special Adviser",
+          "public_body": "Department of Agriculture and the Marine"
+        },
+        {
+          "person_name": "Christopher O'Sullivan",
+          "job_title": "Minister of State",
+          "public_body": "Department of Housing, Local Government and Heritage"
+        },
+        {
+          "person_name": "Emer Higgins",
+          "job_title": "Minister of State",
+          "public_body": "Department of Public Expenditure, NDP Delivery and Reform"
+        },
+        {
+          "person_name": "Helen McEntee",
+          "job_title": "Minister",
+          "public_body": "Department of Education"
+        },
+        {
+          "person_name": "Jennifer Carroll MacNeill",
+          "job_title": "Minister",
+          "public_body": "Department of Health"
+        },
+        {
+          "person_name": "Malcolm Byrne",
+          "job_title": "TD",
+          "public_body": "Dáil Éireann, the Oireachtas"
+        },
+        {
+          "person_name": "Martin Heydon",
+          "job_title": "Minister",
+          "public_body": "Department of Agriculture, Food and the Marine"
+        },
+        {
+          "person_name": "Michael Healy-Rae",
+          "job_title": "Minister of State",
+          "public_body": "Department of Agriculture, Food and the Marine"
+        },
+        {
+          "person_name": "Michael Moynihan",
+          "job_title": "Minister of State",
+          "public_body": "Department of Education"
+        },
+        {
+          "person_name": "Noel Grealish",
+          "job_title": "Minister of State",
+          "public_body": "Department of Agriculture, Food and the Marine"
+        },
+        {
+          "person_name": "Paschal Donohoe",
+          "job_title": "Minister",
+          "public_body": "Department of Finance"
+        },
+        {
+          "person_name": "Peter Burke",
+          "job_title": "Minister",
+          "public_body": "Department of Enterprise, Trade and Employment"
+        },
+        {
+          "person_name": "Seán Canney",
+          "job_title": "Minister of State",
+          "public_body": "Department of Transport"
+        },
+        {
+          "person_name": "James Browne",
+          "job_title": "Minister",
+          "public_body": "Department of Housing, Local Government and Heritage"
+        }
+      ],
+      "lobbying_activities": [
+        "Email",
+        "Meeting",
+        "Social Media"
+      ]
+    },
+    {
+      "id": 103962,
+      "url": "lobbying.ie/return/128221/the-irish-farmers-association---ifa",
+      "lobbyist_name": "The Irish Farmers' Association - IFA",
+      "date_published": "2025-09-19 21:49:00.000000",
+      "specific_details": "Agri Taxation - Capital Gains Tax (CGT)",
+      "intended_results": "To propose that Indexation relief should be restored and extended to include periods of ownership post 2002.::Farm Restructuring Relief (CGT)::To propose that tax relief is extended for another three years. An applicant for Farm Restructuring CGT Relief should be given approval for this relief in advance of a sale or exchange taking place.::Capital Gains Tax (CGT) Entrepreneur Relief::To propose that if a landowner wishes to sell land to a long-term tenant, then the CGT Entrepreneur relief of 10% should apply to incentivise supporting the genuine farmer and giving the long-term tenant preferred status.::To propose that agricultural land that is subject to Compulsory Purchase Order (CPO) should not be categorised as ‘development' land and should still qualify for CGT Entrepreneur relief. Farmers cannot be disadvantaged by the State's decision to initiate a CPO::To propose that the lifetime limit of €1m on the CGT Entrepreneur relief should be increased in Budget 2026. The enhancement of",
+      "any_dpo_or_former_dpo": "No",
+      "isFormerDPO": false,
+      "dpo_entries": [
+        {
+          "person_name": "Barry Cowen",
+          "job_title": "MEP",
+          "public_body": "European Parliament"
+        },
+        {
+          "person_name": "Brian Purcell",
+          "job_title": "Special Adviser",
+          "public_body": "Department of Agriculture and the Marine"
+        },
+        {
+          "person_name": "Martin Heydon",
+          "job_title": "Minister",
+          "public_body": "Department of Agriculture, Food and the Marine"
+        },
+        {
+          "person_name": "Brian Brennan",
+          "job_title": "TD",
+          "public_body": "Dáil Éireann, the Oireachtas"
+        },
+        {
+          "person_name": "Malcolm Byrne",
+          "job_title": "TD",
+          "public_body": "Dáil Éireann, the Oireachtas"
+        },
+        {
+          "person_name": "Christopher O'Sullivan",
+          "job_title": "Minister of State",
+          "public_body": "Department of Housing, Planning,Community and Local Government"
+        },
+        {
+          "person_name": "Emer Higgins",
+          "job_title": "Minister of State",
+          "public_body": "Department of Public Expenditure, NDP Delivery and Reform"
+        },
+        {
+          "person_name": "Helen McEntee",
+          "job_title": "Minister",
+          "public_body": "Department of Education"
+        },
+        {
+          "person_name": "Noel Grealish",
+          "job_title": "Minister of State",
+          "public_body": "Department of Agriculture, Food and the Marine"
+        },
+        {
+          "person_name": "Peter Burke",
+          "job_title": "Minister",
+          "public_body": "Department of Enterprise, Trade and Employment"
+        },
+        {
+          "person_name": "James Browne",
+          "job_title": "Minister",
+          "public_body": "Department of Housing, Local Government and Heritage"
+        },
+        {
+          "person_name": "Jennifer Carroll MacNeill",
+          "job_title": "Minister",
+          "public_body": "Department of Health"
+        },
+        {
+          "person_name": "Michael Healy-Rae",
+          "job_title": "Minister of State",
+          "public_body": "Department of Agriculture, Food and the Marine"
+        },
+        {
+          "person_name": "Michael Moynihan",
+          "job_title": "Minister of State",
+          "public_body": "Department of Education"
+        },
+        {
+          "person_name": "Paschal Donohoe",
+          "job_title": "Minister",
+          "public_body": "Department of Finance"
+        },
+        {
+          "person_name": "Seán Canney",
+          "job_title": "Minister of State",
+          "public_body": "Department of Transport"
+        }
+      ],
+      "lobbying_activities": [
+        "Email",
+        "Letter",
+        "Meeting"
+      ]
+    },
+    {
+      "id": 103960,
+      "url": "lobbying.ie/return/128219/the-irish-farmers-association---ifa",
+      "lobbyist_name": "The Irish Farmers' Association - IFA",
+      "date_published": "2025-09-19 21:47:00.000000",
+      "specific_details": "Agricultural/Business Relief Capital Acquisition Tax (CAT) Values",
+      "intended_results": "To support the Programme for Government commitment to reviewing the thresholds for CAT. As land values have increased, IFA supports the increase of the Category A threshold (parent and child) from the current rate of €400,000 to €500,000.::To propose due to changing demographics and family structures, the Favourite Nephew/Niece relief should be extended to a Favourite Successor Relief, allowing the farm to be gifted to someone in a better position to continue farming the land. The movement from Category B/C threshold to Category A would allow for a lower tax liability, protecting the farm's sustainability and promoting generation renewal. This would align with a qualifying successor criterion under the Fair Deal Successor Scheme.::To propose that no age limit requirements should be imposed on farmers seeking relief when transferring land between generations.",
+      "any_dpo_or_former_dpo": "No",
+      "isFormerDPO": false,
+      "dpo_entries": [
+        {
+          "person_name": "Barry Cowen",
+          "job_title": "MEP",
+          "public_body": "European Parliament"
+        },
+        {
+          "person_name": "Brian Brennan",
+          "job_title": "TD",
+          "public_body": "Dáil Éireann, the Oireachtas"
+        },
+        {
+          "person_name": "Brian Purcell",
+          "job_title": "Special Adviser",
+          "public_body": "Department of Agriculture and the Marine"
+        },
+        {
+          "person_name": "Christopher O'Sullivan",
+          "job_title": "Minister of State",
+          "public_body": "Department of Housing, Local Government and Heritage"
+        },
+        {
+          "person_name": "Emer Higgins",
+          "job_title": "Minister of State",
+          "public_body": "Department of Public Expenditure, NDP Delivery and Reform"
+        },
+        {
+          "person_name": "Helen McEntee",
+          "job_title": "Minister",
+          "public_body": "Department of Education"
+        },
+        {
+          "person_name": "Jennifer Carroll MacNeill",
+          "job_title": "Minister",
+          "public_body": "Department of Health"
+        },
+        {
+          "person_name": "Malcolm Byrne",
+          "job_title": "TD",
+          "public_body": "Dáil Éireann, the Oireachtas"
+        },
+        {
+          "person_name": "Martin Heydon",
+          "job_title": "Minister",
+          "public_body": "Department of Agriculture, Food and the Marine"
+        },
+        {
+          "person_name": "Michael Healy-Rae",
+          "job_title": "Minister of State",
+          "public_body": "Department of Agriculture, Food and the Marine"
+        },
+        {
+          "person_name": "Michael Moynihan",
+          "job_title": "Minister of State",
+          "public_body": "Department of Education"
+        },
+        {
+          "person_name": "Noel Grealish",
+          "job_title": "Minister of State",
+          "public_body": "Department of Agriculture, Food and the Marine"
+        },
+        {
+          "person_name": "Paschal Donohoe",
+          "job_title": "Minister",
+          "public_body": "Department of Finance"
+        },
+        {
+          "person_name": "Peter Burke",
+          "job_title": "Minister",
+          "public_body": "Department of Enterprise, Trade and Employment"
+        },
+        {
+          "person_name": "Seán Canney",
+          "job_title": "Minister of State",
+          "public_body": "Department of Transport"
+        },
+        {
+          "person_name": "James Browne",
+          "job_title": "Minister",
+          "public_body": "Department of Housing, Local Government and Heritage"
+        }
+      ],
+      "lobbying_activities": [
+        "Email",
+        "Meeting",
+        "Social Media"
+      ]
+    }
+  ]
+}

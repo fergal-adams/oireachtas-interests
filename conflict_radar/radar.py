@@ -20,7 +20,7 @@ except ImportError:
     def unidecode(s):
         return s
 
-from conflict_radar.sector_tags import tag_interests, tag_committee, tag_vote
+from conflict_radar.sector_tags import tag_interests, tag_committee, tag_vote, vote_is_restrict
 from conflict_radar.oireachtas_api import (
     fetch_members,
     fetch_votes,
@@ -225,11 +225,26 @@ def run_radar(interests_path: str, year: int = 2025) -> list:
                 reverse=True,
             )
             total_votes = len(all_sector_votes)
-            relevant_votes = all_sector_votes[:25]
+
+            # Filter to votes that are ALIGNED with the TD's financial interest:
+            #   restrict bill → Níl = aligned (opposing a burden on their sector)
+            #   pro-sector bill → Tá = aligned (backing a benefit to their sector)
+            aligned_votes = []
+            for v in all_sector_votes:
+                restrict = vote_is_restrict(v["debate_title"], sector)
+                aligned = (v["voted"] == "Níl") if restrict else (v["voted"] == "Tá")
+                if aligned:
+                    aligned_votes.append(v)
+
+            if not aligned_votes:
+                continue  # no aligned votes for this sector — skip entirely
+
+            relevant_votes = aligned_votes[:25]
             vote_conflicts.append({
                 "sector": sector,
                 "interest_evidence": _interest_evidence_for_sector(interests, sector),
                 "total_votes": total_votes,
+                "aligned_votes": len(aligned_votes),
                 "votes": [
                     {
                         "date": v["datetime"][:10],

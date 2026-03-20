@@ -766,3 +766,109 @@ small, .meta {
 .conflict-block--professional .conflict-sector {
   color: var(--gray);
 }
+
+/* ── Section count badge ─────────────────────────────────────── */
+.section-title .section-count {
+  font-size: 0.75rem;
+  font-weight: 400;
+  color: var(--gray);
+  margin-left: 0.5rem;
+  text-transform: none;
+  letter-spacing: 0;
+}
+
+/* ── Lobbying alert (sector-aligned) ────────────────────────── */
+.lobby-alert {
+  border: 2px solid var(--black);
+  padding: 1rem 1.25rem;
+  margin-bottom: 1.5rem;
+  background: var(--bg-alt);
+}
+
+.lobby-alert-label {
+  font-weight: 700;
+  font-size: 0.95rem;
+  margin-bottom: 0.25rem;
+}
+
+.lobby-sector-block {
+  margin-top: 0.75rem;
+  padding-top: 0.75rem;
+  border-top: 1px solid var(--rule);
+}
+
+.lobby-sector-name {
+  font-weight: 700;
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-bottom: 0.4rem;
+}
+
+.lobby-contact-row {
+  display: grid;
+  grid-template-columns: 200px 90px 1fr;
+  gap: 0.5rem 0.75rem;
+  padding: 0.25rem 0;
+  border-top: 1px solid var(--rule);
+  font-size: 0.83rem;
+  line-height: 1.4;
+}
+
+.lobby-contact-org  { font-weight: 600; }
+.lobby-contact-date { color: var(--gray); white-space: nowrap; }
+.lobby-contact-detail { color: var(--gray); }
+
+/* ── Lobbying subsections ─────────────────────────────────────── */
+.lobby-subsection {
+  margin-top: 1.25rem;
+}
+
+.lobby-subsection-title {
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--gray);
+  border-bottom: 1px solid var(--rule);
+  padding-bottom: 0.3rem;
+  margin-bottom: 0.6rem;
+}
+
+.lobby-top-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.lobby-top-list li {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  padding: 0.25rem 0;
+  border-bottom: 1px solid var(--rule);
+  font-size: 0.875rem;
+}
+
+.lobby-top-list li:last-child { border-bottom: none; }
+.lobby-top-count { color: var(--gray); font-size: 0.8rem; }
+
+.lobby-recent-row {
+  display: grid;
+  grid-template-columns: 200px 90px 1fr;
+  gap: 0.5rem 0.75rem;
+  padding: 0.3rem 0;
+  border-bottom: 1px solid var(--rule);
+  font-size: 0.83rem;
+  line-height: 1.4;
+}
+
+.lobby-recent-row:last-child { border-bottom: none; }
+.lobby-recent-org  { font-weight: 600; }
+.lobby-recent-date { color: var(--gray); white-space: nowrap; }
+.lobby-recent-detail { color: var(--gray); }
+
+@media (max-width: 600px) {
+  .lobby-contact-row,
+  .lobby-recent-row { grid-template-columns: 1fr; }
+  .lobby-contact-date, .lobby-recent-date { display: none; }
+}

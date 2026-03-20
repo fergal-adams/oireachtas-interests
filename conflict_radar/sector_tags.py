@@ -127,6 +127,59 @@ SECTORS = {
     },
 }
 
+# ---------------------------------------------------------------------------
+# Vote alignment: keywords that mark a bill as RESTRICTING / BURDENING the
+# sector's interests.  If a bill title matches these, a Níl vote is
+# "aligned" with the TD's financial interest (they opposed the burden).
+# For all other bills the default is Tá = aligned (they backed the sector).
+# ---------------------------------------------------------------------------
+
+RESTRICT_VOTE_KEYWORDS = {
+    "property": [
+        # Bills/motions that impose burdens on landlords or favour tenants/social housing
+        "building energy rating", "ber standards",
+        "emergency action on housing", "housing emergency", "emergency measures",
+        "social housing", "tenant in situ", "vacant council",
+        "eviction ban", "rent freeze", "rent cap",
+        "homeless",
+    ],
+    "agriculture": [
+        # Bills restricting farming/rural activities
+        "ban on fox hunting", "fox hunting",
+        "pesticide restriction", "nitrates directive",
+    ],
+    "finance": [
+        # Motions/bills that restrict financial interests or mandate divestment
+        "ending the central bank", "divestment", "disinvestment",
+    ],
+    "energy": [
+        # Motions demanding lower energy costs cut into energy-sector profits
+        "energy costs: motion",
+    ],
+    "media": [
+        # Regulation of media platforms and algorithm recommendations
+        "online safety", "recommender algorithm",
+    ],
+    # health, legal, construction, transport: no clear restrict signals in
+    # current data — default (Tá = aligned) applies for all their vote titles.
+}
+
+
+def vote_is_restrict(debate_title: str, sector: str) -> bool:
+    """
+    Return True if the bill title suggests it RESTRICTS or BURDENS the sector's
+    declared interests (so a Níl vote would be aligned with those interests).
+    """
+    kws = RESTRICT_VOTE_KEYWORDS.get(sector, [])
+    if not kws:
+        return False
+    t = debate_title.lower()
+    for kw in kws:
+        if kw in t:
+            return True
+    return False
+
+
 # Debate titles that are purely procedural — exclude from conflict matching
 PROCEDURAL_TITLES = {
     "adjournment",

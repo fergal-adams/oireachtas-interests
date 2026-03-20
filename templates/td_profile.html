@@ -416,6 +416,76 @@
 </div>
 {% endif %}
 
+<!-- ── Lobbying contacts ──────────────────────────────────── -->
+{% if td.lobbying and td.lobbying.total %}
+{% set lob = td.lobbying %}
+<div class="section">
+  <div class="section-title">
+    Lobbying contacts
+    <span class="section-count">{{ lob.total }} on record</span>
+  </div>
+
+  <p class="meta" style="margin-bottom:1rem;">
+    Organisations that have filed lobbying returns listing this TD as a contacted official,
+    from the <a href="https://www.lobbying.ie" target="_blank" rel="noopener">Register of Lobbying</a>
+    via <a href="https://lobbyieng.com/officials/{{ lob.lobby_slug }}" target="_blank" rel="noopener">lobbyieng.com ↗</a>.
+    Showing most recent {{ lob.recent | length }} of {{ lob.total }} total contacts.
+  </p>
+
+  {% if lob.sector_contacts %}
+  <div class="lobby-alert">
+    <div class="lobby-alert-label">⚑ Sector-aligned lobbying detected</div>
+    <p class="meta" style="margin:0.4rem 0 0.75rem;">
+      The following lobbying returns relate to sectors where this TD has declared financial interests.
+    </p>
+    {% for sector, contacts in lob.sector_contacts.items() %}
+    <div class="lobby-sector-block">
+      <div class="lobby-sector-name">{{ sector.replace('_', ' ').title() }}</div>
+      {% for c in contacts[:5] %}
+      <div class="lobby-contact-row">
+        <span class="lobby-contact-org">{{ c.lobbyist }}</span>
+        <span class="lobby-contact-date">{{ c.date }}</span>
+        <span class="lobby-contact-detail">{{ c.details }}</span>
+      </div>
+      {% endfor %}
+      {% if contacts | length > 5 %}
+      <p class="meta">…and {{ contacts | length - 5 }} more in this sector</p>
+      {% endif %}
+    </div>
+    {% endfor %}
+  </div>
+  {% endif %}
+
+  {% if lob.top_lobbyists %}
+  <div class="lobby-subsection">
+    <div class="lobby-subsection-title">Most frequent lobbyists (from recent {{ lob.recent | length }} contacts)</div>
+    <ul class="lobby-top-list">
+      {% for item in lob.top_lobbyists %}
+      <li>
+        <span class="lobby-top-name">{{ item.name }}</span>
+        <span class="lobby-top-count">{{ item.count }}×</span>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+  {% endif %}
+
+  {% if lob.recent %}
+  <div class="lobby-subsection">
+    <div class="lobby-subsection-title">Most recent contacts</div>
+    {% for r in lob.recent %}
+    <div class="lobby-recent-row">
+      <span class="lobby-recent-org">{{ r.lobbyist }}</span>
+      <span class="lobby-recent-date">{{ r.date }}</span>
+      <span class="lobby-recent-detail">{{ r.details }}</span>
+    </div>
+    {% endfor %}
+  </div>
+  {% endif %}
+
+</div>
+{% endif %}
+
 <!-- ── Back link ──────────────────────────────────────────── -->
 <p style="margin-top:2rem;font-size:0.875rem;">
   <a href="{{ depth }}index.html">← Home</a> &nbsp;|&nbsp;

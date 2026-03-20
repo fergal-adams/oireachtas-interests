@@ -55,6 +55,12 @@ try:
 except ImportError:
     _HISTORICAL_VOTES = False
 
+try:
+    from enrichment.lobbying import enrich_lobbying
+    _LOBBYING = True
+except ImportError:
+    _LOBBYING = False
+
 
 # ---------------------------------------------------------------------------
 # Paths
@@ -496,6 +502,10 @@ def load_data(
     # Enrich vote conflict entries with bill parsing + alignment interpretation
     if _BILL_ENRICHMENT:
         enrich_vote_conflicts(merged)
+
+    # Enrich with lobbying contact data from lobbyieng.com
+    if _LOBBYING:
+        enrich_lobbying(merged)
 
     return merged
 
