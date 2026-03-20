@@ -24,7 +24,7 @@
       "finance"
     ],
     "has_conflicts": true,
-    "conflict_count": 3,
+    "conflict_count": 2,
     "cro_flags": [],
     "interests_text": "[occupations] Farmer and public representative: Nutgrove, Portlaoise, Laois. | [shares] Glanbia Shares: Tirlán, Kilkenny: milk processing. | [land_property] Nutgrove, Raheenahoran, Pallas: farming."
   },
@@ -53,7 +53,7 @@
       "tourism_hospitality"
     ],
     "has_conflicts": true,
-    "conflict_count": 1,
+    "conflict_count": 2,
     "cro_flags": [],
     "interests_text": "[gifts] Tickets for events: Aviva Stadium, Lansdowne Rd., Ballsbridge, Dublin 4. | [travel] (1) Parliamentary Party visit to European Parliament (flights, meals, hotel): S&D Group, European Parliament, Brussels, Belgium; (2) PES Congress and Leader Meetings, Brussels and Amsterdam (flights, ..."
   },
@@ -192,8 +192,8 @@
     "interest_sectors": [
       "agriculture"
     ],
-    "has_conflicts": false,
-    "conflict_count": 0,
+    "has_conflicts": true,
+    "conflict_count": 1,
     "cro_flags": [],
     "interests_text": "[occupations] Farmer: Ardagh, Church Cross, Skibbereen, Co. Cork. Other Information Provided: My name and my mother's name are on the farm herd register. All farm payments and farm income are earned by my mother."
   },
@@ -309,7 +309,7 @@
       "finance"
     ],
     "has_conflicts": true,
-    "conflict_count": 2,
+    "conflict_count": 1,
     "cro_flags": [],
     "interests_text": "[occupations] Farmer: Woodcock Hill, Meelick and Heathmount, Cratloe (County Clare). | [shares] Shares: Sixmilebridge Mart, Sixmilebridge, Co. Clare: sale of livestock. Other Information Provided: I have 2 shares, each of €500 value. They are static shares and don't yield any annual dividend for... | [land_property] (1) Woodcock Hill, Meelick and Heathmount, Cratloe (County Clare): farmland; (2) Woodcock Hill, Meelick, County Clare: farmhouse. Other Information Provided: (2) farmhouse is in a poor state of repair..."
   },
@@ -322,8 +322,8 @@
     "interest_sectors": [
       "finance"
     ],
-    "has_conflicts": true,
-    "conflict_count": 1,
+    "has_conflicts": false,
+    "conflict_count": 0,
     "cro_flags": [],
     "interests_text": "[shares] (1) Funds: Zurich Life Assurance PLC, Zurich House, Frascati Road, Co. Dublin: life & pensions; (2) Shares: Ryanair, Airside Business Park, Swords, Co. Dublin: aviation."
   },
@@ -341,7 +341,7 @@
       "tourism_hospitality"
     ],
     "has_conflicts": true,
-    "conflict_count": 5,
+    "conflict_count": 4,
     "cro_flags": [],
     "interests_text": "[occupations] Medical Professional/General Practitioner: Ballygar Health Centre, Co. Galway. | [shares] (1) Shares: North West of Ireland Printing and Publishing Company, 12 John Street, Omagh BT78 IDW: newspapers, printing, design, digital media; (2) Irish Life DC Pension: Irish Life, Irish Life Centre... | [land_property] (1) Apartment, 17 Sydenham Court, Ballsbridge, D4: family use; (2) New Forge, Knockbrack, Cleggan, Connemara, Co. Galway: family use. | [travel] 3 day event in Boston College, The Connors Centre, including meals and accommodation: Irish Institute, Boston College. | [contracts] General medical services scheme HSE: HSE: Minister of Health."
   },
@@ -369,8 +369,8 @@
     "interest_sectors": [
       "tourism_hospitality"
     ],
-    "has_conflicts": false,
-    "conflict_count": 0,
+    "has_conflicts": true,
+    "conflict_count": 1,
     "cro_flags": [],
     "interests_text": "[travel] Flights, meals and accommodation associated with conference at Boston College, Boston USA: Prof. Mary Murphy, Boston College, Boston, USA. Other Information Provided: invited in capacity as chair of t..."
   },
@@ -470,7 +470,7 @@
       "legal"
     ],
     "has_conflicts": true,
-    "conflict_count": 3,
+    "conflict_count": 2,
     "cro_flags": [],
     "interests_text": "[occupations] Barrister: Law Library, Four Courts, Dublin 7. | [shares] Shares in unit linked managed fund: Zurich Life Assurance PLC., Zurich House, Frascati Road, A94 X9Y3: pension fund."
   },
@@ -646,8 +646,8 @@
       "finance",
       "tourism_hospitality"
     ],
-    "has_conflicts": true,
-    "conflict_count": 1,
+    "has_conflicts": false,
+    "conflict_count": 0,
     "cro_flags": [],
     "interests_text": "[shares] Shares in private company: The Helm Bar & Restaurant Ltd., The Quay, Westport, Co. Mayo: bar, restaurant and accommodation. Other Information Provided: I currently have .86% of the nominal share capit..."
   },
@@ -703,8 +703,8 @@
     "interest_sectors": [
       "finance"
     ],
-    "has_conflicts": true,
-    "conflict_count": 1,
+    "has_conflicts": false,
+    "conflict_count": 0,
     "cro_flags": [],
     "interests_text": "[land_property] 137 Evergreen Road, Turners Cross, Cork: administrative office for constituency staff. Other Information Provided: purchased with mortgage from AIB."
   },
@@ -834,8 +834,8 @@
     "interest_sectors": [
       "tourism_hospitality"
     ],
-    "has_conflicts": false,
-    "conflict_count": 0,
+    "has_conflicts": true,
+    "conflict_count": 1,
     "cro_flags": [],
     "interests_text": "[travel] (1) Parliamentary Labour Party visit to European Parliament (flights, meals, hotel): S&D Group, European Parliament, Brussels, Belgium; (2) Party delegate to party of European Socialists Congress, Ams..."
   },
@@ -864,7 +864,7 @@
       "tourism_hospitality"
     ],
     "has_conflicts": true,
-    "conflict_count": 1,
+    "conflict_count": 2,
     "cro_flags": [],
     "interests_text": "[occupations] Landlord: Lackaroe, Cadamstown, Birr, Co. Offaly. Other Information Provided: 2 bed cottage jointly owned with husband (rented property). | [land_property] Lackaroe, Cadamstown, Birr, Co. Offaly: letting, 2 bed cottage (rented), Other Information Provided: 2 bed cottage (rented) jointly owned with husband. | [travel] Women political leaders summit 2025 organised by International Parliamentary Relations and Travel in the Oireachtas, flights to and from Montenegro, accommodation 27th-29th Sept in hotel, breakfast & ..."
   },
@@ -877,8 +877,8 @@
     "interest_sectors": [
       "finance"
     ],
-    "has_conflicts": true,
-    "conflict_count": 1,
+    "has_conflicts": false,
+    "conflict_count": 0,
     "cro_flags": [],
     "interests_text": "[shares] Shares: Diageo, London, UK: premium drinks."
   },
@@ -892,7 +892,7 @@
       "tourism_hospitality"
     ],
     "has_conflicts": true,
-    "conflict_count": 1,
+    "conflict_count": 2,
     "cro_flags": [],
     "interests_text": "[travel] Working visit to Doha to attend the Doha Forum, accommodation and flights covered: Doha Forum, Sheraton Grand Hotel, Qatar."
   },
@@ -980,7 +980,7 @@
       "tourism_hospitality"
     ],
     "has_conflicts": true,
-    "conflict_count": 2,
+    "conflict_count": 3,
     "cro_flags": [],
     "interests_text": "[land_property] (Site): Clash Road, Little Island, Co. Cork: building a family home (currently under construction). | [travel] Flights & accommodation in Taipei (return): Taiwanese Govt."
   },
@@ -1125,7 +1125,7 @@
       "property"
     ],
     "has_conflicts": true,
-    "conflict_count": 2,
+    "conflict_count": 1,
     "cro_flags": [],
     "interests_text": "[occupations] (1) Postmaster: Main St., Ballynacargy, Co. Westmeath; (2) Landlord: (i) 25A Rathdown Rd., D.7, (ii) 4 Mary St., Mullingar, Co. Westmeath, (iii) Main St., Ballynacargy, Co. Westmeath. Other Informatio... | [shares] (1) Prize Bonds: State Savings, An Post, GPO, Dublin 1: State Savings; (2) National Solidarity Bond: State Savings, An Post, GPO, Dublin 1: State Savings; (3) Ryanair Shares: Airside Business Pk., Swo... | [directorships] Proprietary Director: Priorfilia Ltd., Main St., Ballynacargy, Co. Westmeath: property related. Other Information Provided: resigned as a director in '25. | [land_property] (1) Main St., Ballynacargy, Co. Westmeath: residence rented, commercial unit – Post Office; (2) 4 Mary St., Mullingar, Co. Westmeath: 3 studio apartments (rented); (3) 25A Rathdown Rd., Dublin 7: 4 re..."
   },
@@ -1178,8 +1178,8 @@
     "interest_sectors": [
       "finance"
     ],
-    "has_conflicts": true,
-    "conflict_count": 1,
+    "has_conflicts": false,
+    "conflict_count": 0,
     "cro_flags": [],
     "interests_text": "[shares] Shares: Zing Technology, 86 Amiens St., Dublin D01Y6P0: information technology services."
   }
